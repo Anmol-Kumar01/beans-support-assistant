@@ -46,7 +46,21 @@ You also need three free API keys (step 4): **Groq**, **Google AI Studio** and *
 
 ---
 
+## One-command setup
+
+With the prerequisites installed, this clones the project, sets everything up and starts the app:
+
+```bash
+git clone https://github.com/Anmol-Kumar01/beans-support-assistant.git
+cd beans-support-assistant
+./scripts/setup.sh
+```
+
+When it asks, paste the contents of your `.env` file, then press Enter and Ctrl-D. If you have the file already, pass it instead: `./scripts/setup.sh path/to/env`. The script runs steps 2–8 below, checks your keys before loading anything, and opens the app at **http://localhost:8001**. The first run takes about 10 minutes, mostly loading the knowledge base. It's safe to run again; add `--no-start` to set up without starting the server.
+
 ## Quick start (first time on a new machine)
+
+The same steps, one at a time.
 
 Run every command from the project folder unless a step says otherwise. Altogether it takes about 15 minutes.
 
@@ -181,6 +195,7 @@ Open **http://localhost:5173**. The dev server forwards `/v1` calls to port 8001
 
 | Command | What it does |
 |---|---|
+| `./scripts/setup.sh` | Set up everything and start the app (safe to repeat) |
 | `./scripts/setup_db.sh` | Start or create the database and apply new migrations (safe to repeat) |
 | `./scripts/setup_db.sh --status` | Show the container and applied migrations |
 | `./scripts/setup_db.sh --stop` | Stop the database; data is kept |
@@ -221,6 +236,7 @@ app/
   hub.py                 loads and deduplicates data_sources/ for the Explore pages
 frontend/src/            React UI: App.jsx, components/, pages/, styles.css
 data_sources/            Beans content (articles, tutorials, release notes, API collection, product info)
+scripts/setup.sh         one-command setup of everything (calls setup_db.sh)
 scripts/setup_db.sh      one-command database setup
 evals/                   eval framework (golden set, metrics, judge, reports)
 design/                  UI designs and logos
