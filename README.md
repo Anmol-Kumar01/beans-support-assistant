@@ -1,4 +1,4 @@
-# Beans In & Out Bot
+# Beans Support Assistant
 
 A support assistant and knowledge hub for **Beans Route** and **Beans.ai**. Ask a question in plain English and it answers from Beans' own help articles, tutorials, training videos, release notes, API reference and product information, with numbered links to every source it used. The **Explore Beans** pages present the same content for browsing: products, APIs, maps, integrations, tutorials and release notes.
 
@@ -88,7 +88,6 @@ Open `.env` and replace the `your-…-key` placeholders:
 | `LLM_ANSWER_API_KEY`, `LLM_SMALL_API_KEY` | Writing answers (Groq) | https://console.groq.com/keys |
 | `LLM_JUDGE_API_KEY`, `EMBEDDING_API_KEY` | Search embeddings and eval judging (Gemini). The same key works for both. | https://aistudio.google.com/apikey |
 | `RERANKER_API_KEY` | Reranking search results (Jina) | https://jina.ai/api-dashboard |
-| `LANGSMITH_API_KEY` | *Optional:* exporting the old bot's traces for evals | https://smith.langchain.com |
 | `BOT_USER_NAME` | *Optional:* your name in the sidebar | — |
 
 `.env` is git-ignored. **Never put real keys in `.env.example`**, because that file is committed.
@@ -202,7 +201,7 @@ Every setting lives in `.env`. `.env.example` lists them all, with comments and 
 |---|---|---|
 | Models | `LLM_ANSWER_*`, `LLM_SMALL_*`, `LLM_JUDGE_*`, `EMBEDDING_*`, `RERANKER_*` | To switch a model or provider, change its `*_BASE_URL`, `*_MODEL` and `*_API_KEY`, then run the startup check. See `docs/models.md`. |
 | Database | `POSTGRES_*`, `DATABASE_URL` | The defaults match the Docker database the setup script creates. |
-| Answers | `BOT_RAG_TOP_K`, `BOT_RAG_MIN_RERANK_SCORE`, … | Search and threshold tuning. `BOT_CHAT_BACKEND=legacy` proxies the old Node bot instead. |
+| Answers | `BOT_RAG_TOP_K`, `BOT_RAG_MIN_RERANK_SCORE`, … | Search and threshold tuning. |
 | Evals | `EVAL_*` | Concurrency, trace export, PII scrubbing. |
 
 **Changing the database schema:** add a new numbered file, for example `app/db/migrations/002_add_x.sql`, then run `./scripts/setup_db.sh`. Never edit a migration that has already been applied: the runner checks each file's checksum and stops if one changed.
@@ -220,11 +219,10 @@ app/
   llm/                   one client for all LLM calls + shared retry and rate limiting
   retrieval/             embedding (Gemini) and reranker (Jina/Cohere) clients
   hub.py                 loads and deduplicates data_sources/ for the Explore pages
-  legacy_proxy.py        optional: forward questions to the old Node bot
 frontend/src/            React UI: App.jsx, components/, pages/, styles.css
 data_sources/            Beans content (articles, tutorials, release notes, API collection, product info)
 scripts/setup_db.sh      one-command database setup
-evals/                   eval framework (golden set, targets, metrics, judge, reports)
+evals/                   eval framework (golden set, metrics, judge, reports)
 design/                  UI designs and logos
 docs/models.md           which model serves which role, and why
 ```
@@ -234,12 +232,11 @@ docs/models.md           which model serves which role, and why
 ```bash
 .venv/bin/python -m evals validate evals/datasets/golden.jsonl                  # check a dataset
 .venv/bin/python -m evals scrub <file.jsonl>                                     # remove personal data first
-.venv/bin/python -m evals run --target new --dataset evals/datasets/golden.jsonl # score this bot
-.venv/bin/python -m evals run --target legacy-traces --dataset …                 # score the old bot (from LangSmith traces)
+.venv/bin/python -m evals run --dataset evals/datasets/golden.jsonl             # score this bot
 .venv/bin/python -m evals compare evals/reports/<baseline> evals/reports/<candidate>
 ```
 
-For `--target new`, start the server first and set `EVAL_NEW_BOT_BASE_URL=http://localhost:8001` in `.env` (the default is port 8000). Reports are written to `evals/reports/<run_id>/report.md`.
+Start the server before `evals run`. It scores the server at `http://localhost:8001` (set `EVAL_SERVER_URL` to change it). Reports are written to `evals/reports/<run_id>/report.md`.
 
 ## Troubleshooting
 

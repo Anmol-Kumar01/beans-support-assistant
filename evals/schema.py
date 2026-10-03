@@ -2,8 +2,8 @@
 
 Document IDs use the form ``{source_type}:{external_id}``, e.g. ``zendesk:10022296840087``,
 ``youtube:WjYQ9b751ns``, ``release_note:creating-preset-filters``,
-``trainn:adding-driver-beansroute``. The same IDs are used by the current bot's catalog and
-by the new bot's ``source_documents.document_id``, so both are scored against one label set.
+``trainn:adding-driver-beansroute``. The same IDs are used by the catalog (evals/catalog.py)
+and by ``source_documents.document_id`` in the database, so both share one label set.
 """
 
 import json
@@ -47,7 +47,7 @@ DEFAULT_BEHAVIOR: dict[QuestionType, ExpectedBehavior] = {
     QuestionType.GENERAL_CONVERSATION: ExpectedBehavior.CHAT,
 }
 
-Origin = Literal["bot_log", "langsmith", "support_ticket", "feedback", "synthetic"]
+Origin = Literal["bot_log", "trace", "support_ticket", "feedback", "synthetic"]
 
 
 class EvalQuestion(BaseModel):
@@ -63,7 +63,7 @@ class EvalQuestion(BaseModel):
     # Tool-routing label (Section 11). None = not labelled; [] = no tool expected.
     expected_tools: list[str] | None = None
     # Named test identity (tenant + role) the runner authenticates as. Pending the tenant
-    # model decision (Section 27); unused by the current bot.
+    # model decision (Section 27).
     persona: str | None = None
     origin: Origin = "synthetic"
     tags: list[str] = Field(default_factory=list)

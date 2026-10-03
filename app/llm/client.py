@@ -14,7 +14,6 @@ Groq, Cerebras, Gemini, Ollama, vLLM, or a paid provider are swapped in through 
 import asyncio
 import copy
 import json
-import os
 import re
 import time
 from dataclasses import dataclass, field
@@ -92,10 +91,6 @@ def openai_compatible_client(
         api_key=key, base_url=settings.base_url, timeout=settings.timeout_s,
         max_retries=0, http_client=http_client,
     )
-    if os.getenv("LANGSMITH_TRACING", "").lower() == "true":
-        from langsmith.wrappers import wrap_openai
-
-        client = wrap_openai(client)
     return client
 
 

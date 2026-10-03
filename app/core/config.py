@@ -33,29 +33,15 @@ class AppSettings(BaseSettings):
         validation_alias=AliasChoices("DATABASE_URL", "BOT_DATABASE_URL"),
     )
 
-    # --- Temporary backend: the current Node.js bot (until the Phase 2 pipeline exists) ---
-    legacy_base_url: str = "http://localhost:3000"
-    legacy_timeout_s: float = 90.0
-    # Source JSON folders, used to turn the bot's links into numbered source cards.
-    legacy_sources_dir: Path = Path("data_sources")
-    # Replies containing one of these are reported as evidence_status = "not_found".
-    not_found_phrases: list[str] = [
-        "i couldn't find this in the beans documentation",
-        "i don't know how to answer the query",
-    ]
-
     # --- Chat API ---
     max_message_chars: int = 2000  # Section 15, abuse protection
     source_excerpt_chars: int = 240
     # Run the model startup check (app/core/startup_check.py) when the server starts.
-    # Off while the server only proxies the current bot, which uses none of these models.
     startup_check: bool = False
     # Name shown in the UI until auth (Section 15) provides the signed-in user.
     user_name: str = "Guest"
 
     # --- Answer pipeline (app/rag, ingestion in app/ingest) ---
-    # "rag" answers from the knowledge base in PostgreSQL; "legacy" proxies the old Node bot.
-    chat_backend: Literal["rag", "legacy"] = "rag"
     # Training-video transcripts. Empty = no videos.
     video_sources_dir: Path | None = Path("data_sources/Video Jsons")
     rag_dense_k: int = 30          # Section 8: dense candidates

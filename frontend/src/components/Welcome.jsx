@@ -8,7 +8,7 @@ const CARDS = [
   { title: "Troubleshooting", text: "Find solutions to common issues", icon: CircleHelp, tone: "blue", prefill: "I need help with a problem: " },
 ];
 
-// Real questions from the current bot's logs (wording cleaned up) that the knowledge base
+// Real user questions from support chat logs (wording cleaned up) that the knowledge base
 // answers well. "How do drivers clock out?" is the most asked but has no help article yet.
 const SUGGESTIONS = [
   "How do I use Lasso?",

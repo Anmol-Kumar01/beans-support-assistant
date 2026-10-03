@@ -2,11 +2,9 @@
 
   python -m evals validate evals/datasets/golden.jsonl
   python -m evals scrub evals/datasets/drafts/from_logs.jsonl --out evals/datasets/drafts/from_logs.jsonl
-  python -m evals export-langsmith --project <langsmith project> [--since 2025-07-01]
-  python -m evals run --target legacy-traces --dataset evals/datasets/golden.jsonl   # baseline
-  python -m evals run --target new --dataset evals/datasets/golden.jsonl [--limit 20] [--no-judge]
+  python -m evals run --dataset evals/datasets/golden.jsonl [--limit 20] [--no-judge]
   python -m evals compare evals/reports/<baseline_run> evals/reports/<candidate_run>
-  python -m evals draft-from-logs ../beans-support-bot/Logging ... --out evals/datasets/drafts/from_logs.jsonl
+  python -m evals draft-from-logs <log dir> ... --out evals/datasets/drafts/from_logs.jsonl
 
 The judge is the LLM_JUDGE_* role (app/core/config.py). No OpenAI key is needed.
 """
@@ -31,10 +29,10 @@ def _scrubber(settings: EvalSettings):
 
     vocab = None
     try:
-        catalog = Catalog.from_legacy_dir(settings.legacy_sources_dir)
+        catalog = Catalog.from_dir(settings.sources_dir)
         vocab = vocabulary_from_texts(d.text for d in catalog.documents.values())
     except FileNotFoundError:
-        log.warning("knowledge base not found at %s; name review will be noisier", settings.legacy_sources_dir)
+        log.warning("knowledge base not found at %s; name review will be noisier", settings.sources_dir)
     return Scrubber.from_files(settings.pii_names_file, vocab)
 
 
@@ -50,7 +48,7 @@ def _cmd_validate(args) -> int:
 
     settings = get_settings()
     qs = load_questions(Path(args.dataset), include_drafts=True)
-    catalog = Catalog.from_legacy_dir(settings.legacy_sources_dir)
+    catalog = Catalog.from_dir(settings.sources_dir)
     unknown = [(q.id, s) for q in qs for s in q.expected_source_ids if s not in catalog.documents]
     for qid, sid in unknown:
         print(f"{qid}: unknown source id {sid}")
@@ -68,8 +66,8 @@ def _cmd_validate(args) -> int:
 
 def _cmd_run(args) -> int:
     from app.core.config import get_model_settings
-    from evals.catalog import Catalog
     from evals.runner import run_eval
+    from evals.targets.chat_server import ChatServerTarget
     from evals.schema import load_questions
 
     settings = get_settings()
@@ -96,35 +94,10 @@ def _cmd_run(args) -> int:
         if judge is None:
             return 2
 
-    if args.target == "legacy":
-        from evals.targets.legacy_node import LegacyNodeTarget
-
-        target = LegacyNodeTarget(
-            settings.legacy_base_url,
-            Catalog.from_legacy_dir(settings.legacy_sources_dir),
-            settings.legacy_timeout_s,
-            settings.judge_max_evidence_chars_per_doc,
-        )
-    elif args.target == "legacy-traces":
-        from evals.targets.legacy_traces import LegacyTracesTarget
-
-        path = Path(args.traces) if args.traces else settings.legacy_traces_path
-        if not path.is_file():
-            print(f"no trace export at {path}; run `python -m evals export-langsmith` first", file=sys.stderr)
-            return 1
-        target = LegacyTracesTarget(
-            path,
-            Catalog.from_legacy_dir(settings.legacy_sources_dir),
-            settings.judge_max_evidence_chars_per_doc,
-            _scrubber(settings),
-        )
-    else:
-        from evals.targets.new_bot import NewBotTarget
-
-        token = settings.new_bot_token.get_secret_value() if settings.new_bot_token else None
-        target = NewBotTarget(
-            settings.new_bot_base_url, settings.new_bot_chat_path, token, settings.new_bot_timeout_s
-        )
+    token = settings.server_token.get_secret_value() if settings.server_token else None
+    target = ChatServerTarget(
+        settings.server_url, settings.server_chat_path, token, settings.server_timeout_s
+    )
     run_dir = asyncio.run(run_eval(qs, target, judge, settings, Path(args.dataset), args.name, models))
     print((run_dir / "report.md").read_text())
     print(f"results: {run_dir}")
@@ -167,24 +140,6 @@ def _cmd_scrub(args) -> int:
     return 0
 
 
-def _cmd_export(args) -> int:
-    from datetime import datetime
-
-    from evals.tools.export_langsmith import export_runs
-
-    settings = get_settings()
-    project = args.project or settings.langsmith_project
-    if not project:
-        print("set --project or EVAL_LANGSMITH_PROJECT", file=sys.stderr)
-        return 1
-    out = Path(args.out) if args.out else settings.legacy_traces_path
-    since = datetime.fromisoformat(args.since) if args.since else None
-    key = settings.langsmith_api_key.get_secret_value() if settings.langsmith_api_key else None
-    roots, llms = export_runs(project, out, _scrubber(settings), since=since, limit=args.limit, api_key=key)
-    print(f"wrote {roots} root runs and {llms} LLM runs to {out}")
-    return 0
-
-
 def _cmd_compare(args) -> int:
     from evals.compare import compare_summaries, render_comparison
 
@@ -213,11 +168,8 @@ def main(argv: list[str] | None = None) -> int:
     v.add_argument("dataset")
     v.set_defaults(fn=_cmd_validate)
 
-    r = sub.add_parser("run", help="run a dataset against a bot")
-    r.add_argument("--target", choices=["legacy-traces", "legacy", "new"], required=True,
-                   help="legacy-traces = current bot from exported LangSmith traces (baseline)")
+    r = sub.add_parser("run", help="run a dataset against the chat server")
     r.add_argument("--dataset", required=True)
-    r.add_argument("--traces", help="trace export for legacy-traces (default EVAL_LEGACY_TRACES_PATH)")
     r.add_argument("--skip-checks", action="store_true", help="skip the judge startup check")
     r.add_argument("--allow-pii", action="store_true", help="run even if questions contain personal data")
     r.add_argument("--limit", type=int)
@@ -237,13 +189,6 @@ def main(argv: list[str] | None = None) -> int:
     s.add_argument("--out", help="output file (default: overwrite the input)")
     s.add_argument("--names-file", help="known names to redact, one per line")
     s.set_defaults(fn=_cmd_scrub)
-
-    e = sub.add_parser("export-langsmith", help="export the current bot's runs for --target legacy-traces")
-    e.add_argument("--project", help="LangSmith project (default EVAL_LANGSMITH_PROJECT)")
-    e.add_argument("--out", help="output JSONL (default EVAL_LEGACY_TRACES_PATH)")
-    e.add_argument("--since", help="ISO date, e.g. 2025-07-01")
-    e.add_argument("--limit", type=int)
-    e.set_defaults(fn=_cmd_export)
 
     d = sub.add_parser("draft-from-logs", help="extract unlabelled questions from bot logs")
     d.add_argument("log_dirs", nargs="+")

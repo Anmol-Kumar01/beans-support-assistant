@@ -28,7 +28,7 @@ def _git_sha() -> str | None:
 
 
 def _safe_settings(settings: EvalSettings) -> dict:
-    return json.loads(settings.model_dump_json(exclude={"new_bot_token", "langsmith_api_key"}))
+    return json.loads(settings.model_dump_json(exclude={"server_token"}))
 
 
 def _reported_models(results: list[QuestionResult]) -> dict[str, list[str]]:

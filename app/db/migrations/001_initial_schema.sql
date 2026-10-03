@@ -133,7 +133,7 @@ CREATE TABLE messages (
     output_tokens      integer,
     cost_usd           numeric(12, 6),
     latency_ms         jsonb,             -- per-stage timings (Section 19)
-    trace_id           text,              -- LangSmith trace
+    trace_id           text,              -- tracing ID, if tracing is enabled
     created_at         timestamptz NOT NULL DEFAULT now()
 );
 CREATE INDEX messages_conversation_idx ON messages (conversation_id, created_at);
@@ -151,7 +151,7 @@ CREATE TABLE feedback (
     UNIQUE (message_id, user_id)
 );
 
--- Created now for completeness; written by data tools in Phase 3.
+-- Written by the structured-data tools (Phase 3).
 CREATE TABLE tool_audit_log (
     id                 bigserial PRIMARY KEY,
     tenant_id          text NOT NULL,
@@ -189,7 +189,7 @@ CREATE TABLE eval_questions (
 
 CREATE TABLE eval_runs (
     run_id             text PRIMARY KEY,
-    target             text NOT NULL,     -- legacy_node | new_bot
+    target             text NOT NULL,     -- eval target name, e.g. chat_server
     dataset_sha256     text NOT NULL,
     manifest           jsonb NOT NULL,    -- config snapshot, git sha, judge model
     summary            jsonb NOT NULL,

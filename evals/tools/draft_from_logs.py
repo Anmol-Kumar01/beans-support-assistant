@@ -1,8 +1,8 @@
-"""Extract user questions from the current bot's winston logs into an unlabelled draft set.
+"""Extract user questions from winston chat logs into an unlabelled draft set.
 
 Drafts have ``labelled: false`` and are skipped by the runner until a person sets the
-question type, expected sources, and reference answer. The bot's own answers are
-deliberately not copied into drafts, so labels are not anchored on the baseline.
+question type, expected sources, and reference answer. The logged answers are
+deliberately not copied into drafts, so labels are not anchored on them.
 Personal data is scrubbed (evals/tools/scrub_pii.py) before anything is written.
 """
 

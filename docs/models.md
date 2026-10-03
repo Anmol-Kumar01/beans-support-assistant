@@ -36,8 +36,6 @@ Keys (all free):
 | Google AI Studio | `LLM_JUDGE_API_KEY`, `EMBEDDING_API_KEY` | https://aistudio.google.com/apikey |
 | Jina | `RERANKER_API_KEY` | https://jina.ai/api-dashboard |
 
-`LANGSMITH_API_KEY` is only needed to export the current bot's traces (`python -m evals export-langsmith`).
-
 ### Startup check
 
 ```bash
@@ -52,7 +50,7 @@ The check covers each part:
 - **Reranker:** a relevant passage outranks an irrelevant one.
 - **Judge vs. answer:** it warns if the judge and `answer` are the same model.
 
-`python -m evals run` checks the judge the same way before it starts. The API server runs the full check at startup when `BOT_STARTUP_CHECK=true`; it is off while the server only proxies the current bot.
+`python -m evals run` checks the judge the same way before it starts. The API server runs the full check at startup when `BOT_STARTUP_CHECK=true` (off by default).
 
 ## Free-tier limits
 
@@ -116,5 +114,5 @@ Keep embeddings and reranking hosted unless you have a GPU. On this project's 14
 ## What every run records
 
 - **Eval runs:** `manifest.json → models` records the model for each role. That covers the configured roles (URL, model, thinking, embedding size), the judge used, the models the target reported, and whether the judge graded its own model's answers. Each judge verdict also stores the model that produced it.
-- **The new bot:** it reports `debug.models` in its final SSE event (contract in `evals/targets/new_bot.py`).
+- **The chat server:** it reports `debug.models` in its final SSE event (contract in `evals/targets/chat_server.py`).
 - **Embeddings:** every vector is stored with `embedding_config`, `embedding_model`, `embedding_version` (as reported by the API) and `dimensions`.

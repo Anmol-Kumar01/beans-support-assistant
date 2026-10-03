@@ -1,5 +1,5 @@
-"""Target for the new FastAPI bot. This module defines the streaming contract the Phase 2
-API must implement (response body per Section 10, plus an eval-only ``debug`` block).
+"""Target for this project's chat server (app/). This module defines the streaming contract
+the API implements (response body per Section 10, plus an eval-only ``debug`` block).
 
 Request: ``POST {base_url}{chat_path}`` with ``Authorization: Bearer <token>`` and
 ``{"message": str, "conversation_id": str}``. Tenant and user come from the token only.
@@ -74,8 +74,8 @@ def citations_from_final(answer: str, sources: list[dict]) -> list[Citation]:
     return citations
 
 
-class NewBotTarget(Target):
-    name = "new_bot"
+class ChatServerTarget(Target):
+    name = "chat_server"
 
     def __init__(
         self,

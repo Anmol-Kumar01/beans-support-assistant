@@ -13,8 +13,8 @@ def _write(folder: Path, name: str, data: dict) -> None:
 
 
 @pytest.fixture
-def legacy_dir(tmp_path: Path) -> Path:
-    root = tmp_path / "beans-support-bot"
+def sources_dir(tmp_path: Path) -> Path:
+    root = tmp_path / "data_sources"
     _write(root / "Article Jsons", "111.json", {
         "id": 111,
         "title": "Drivers: Work Schedule and Time Off Requests",
@@ -53,14 +53,14 @@ def legacy_dir(tmp_path: Path) -> Path:
 
 
 @pytest.fixture
-def catalog(legacy_dir: Path) -> Catalog:
-    return Catalog.from_legacy_dir(legacy_dir)
+def catalog(sources_dir: Path) -> Catalog:
+    return Catalog.from_dir(sources_dir)
 
 
 @pytest.fixture
-def settings(tmp_path: Path, legacy_dir: Path) -> EvalSettings:
+def settings(tmp_path: Path, sources_dir: Path) -> EvalSettings:
     return EvalSettings(
         _env_file=None,
-        legacy_sources_dir=legacy_dir,
+        sources_dir=sources_dir,
         reports_dir=tmp_path / "reports",
     )

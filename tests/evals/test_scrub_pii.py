@@ -37,8 +37,8 @@ def test_scrub_question_tags_and_keeps_notes():
     assert out["tags"] == ["logdir:Logging", "pii:scrubbed"]
 
 
-def test_scrub_file_and_validate_gate(tmp_path, capsys, monkeypatch, legacy_dir):
-    monkeypatch.setenv("EVAL_LEGACY_SOURCES_DIR", str(legacy_dir))
+def test_scrub_file_and_validate_gate(tmp_path, capsys, monkeypatch, sources_dir):
+    monkeypatch.setenv("EVAL_SOURCES_DIR", str(sources_dir))
     from evals.config import get_settings
 
     get_settings.cache_clear()

@@ -6,7 +6,7 @@ Sources (all deduplicated by app/hub.py where it applies):
   release_note   release notes                 data_sources/release-notes.json
   api_reference  Route API endpoints           data_sources/*postman_collection*.json
   beans_content  products, maps, pricing, …   data_sources/beans_content.json
-  youtube        training-video transcripts    BOT_VIDEO_SOURCES_DIR (old bot's Video Jsons)
+  youtube        training-video transcripts    BOT_VIDEO_SOURCES_DIR (data_sources/Video Jsons)
 
 document_id = '{source_type}:{external_id}', the IDs the eval set uses.
 """

@@ -21,7 +21,6 @@ from collections.abc import AsyncIterator
 from psycopg_pool import AsyncConnectionPool
 
 from app.core.config import AppSettings, ModelSettings
-from app.legacy_proxy import BackendError
 from app.llm.client import LLMClient
 from app.llm.retry import ProviderError
 from app.rag import prompts
@@ -32,6 +31,10 @@ log = logging.getLogger("app.rag")
 _MARKERS = re.compile(r"\[(\d{1,3}(?:\s*,\s*\d{1,3})*)\]")
 _REPEAT = re.compile(r"(\[\d+\])(?:\s*\1)+")
 TENANT, USER = "local", "local-user"  # until auth (Section 15) provides real identities
+
+
+class BackendError(Exception):
+    """A failure the user should see as a readable message."""
 
 
 def _conversation_uuid(value: str) -> uuid.UUID:

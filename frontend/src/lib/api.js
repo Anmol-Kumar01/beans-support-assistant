@@ -1,4 +1,4 @@
-// API client for the FastAPI server. Chat uses the SSE contract in evals/targets/new_bot.py.
+// API client for the FastAPI server. Chat uses the SSE contract in evals/targets/chat_server.py.
 
 export async function getHealth() {
   const res = await fetch("/v1/health");

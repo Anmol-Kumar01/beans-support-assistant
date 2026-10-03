@@ -59,7 +59,7 @@ def render_report(manifest: dict, summary: dict, results: list[QuestionResult]) 
         "",
         "N/A means the target does not report the signal or no question in the slice applies.",
         "",
-        "| Metric | Gated (Phase 2 types) | All |",
+        "| Metric | Gated types | All |",
         "|---|---|---|",
     ]
     lines += [f"| {label} | {fmt(g.get(k), kind)} | {fmt(a.get(k), kind)} |" for k, label, kind in HEADLINE]

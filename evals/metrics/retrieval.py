@@ -1,5 +1,5 @@
-"""Document-level retrieval metrics. Chunks are collapsed to their parent document so the
-current bot (whole documents) and the new bot (chunks) are compared on the same basis."""
+"""Document-level retrieval metrics. Chunks are collapsed to their parent document so
+results are compared against the golden set's document-level labels."""
 
 from evals.schema import RetrievedItem
 

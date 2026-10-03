@@ -91,7 +91,7 @@ def test_run_eval_end_to_end(settings, tmp_path):
 
     summary = json.loads((run_dir / "summary.json").read_text())
     g = summary["gated"]
-    assert g["n"] == 3  # structured_data is not in the Phase 2 gate
+    assert g["n"] == 3  # structured_data is not a gated type
     assert g["retrieval_recall_at_10"] == 1.0 and g["retrieval_mrr"] == 0.5
     assert g["answer_correctness"] == 1.0 and g["groundedness"] == 1.0 and g["citation_precision"] == 1.0
     assert g["not_found_accuracy"] == 1.0 and g["adversarial_pass_rate"] == 1.0
@@ -103,7 +103,7 @@ def test_run_eval_end_to_end(settings, tmp_path):
     assert summary["judge_cost_usd"] == pytest.approx(0.004)
 
     manifest = json.loads((run_dir / "manifest.json").read_text())
-    assert "new_bot_token" not in manifest["settings"]
+    assert "server_token" not in manifest["settings"]
     assert manifest["models"]["judge"] == {"model": "fake-judge"}
     assert manifest["models"]["configured"]["judge"]["model"] == models.judge.model
     assert manifest["models"]["configured"]["embedding"]["dim"] == models.embedding.dim

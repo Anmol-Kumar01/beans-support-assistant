@@ -4,8 +4,8 @@ the knowledge-base source list, and feedback.
 Run with ``uvicorn app.api.main:create_app --factory --port 8001`` after
 ``npm run build`` in frontend/ (or use ``npm run dev`` there, which proxies /v1 here).
 
-``POST /v1/chat/stream`` implements the SSE contract in ``evals/targets/new_bot.py``, so
-the eval runner can score this server with ``--target new`` as well. Auth and tenant
+``POST /v1/chat/stream`` implements the SSE contract in ``evals/targets/chat_server.py``, so
+the eval runner (``python -m evals run``) can score this server. Auth and tenant
 context (Section 15) are not in place yet; this server is for local and internal use only.
 """
 
@@ -27,18 +27,18 @@ from pydantic import BaseModel, Field
 
 from app.core.config import AppSettings, get_settings
 from app.hub import find_postman_collection, load_hub
-from app.legacy_proxy import BackendError, LegacyBackend
-from evals.catalog import Catalog
+from app.rag.backend import BackendError
 
 log = logging.getLogger("app.api")
 WEB_DIR = Path(__file__).resolve().parents[2] / "frontend" / "dist"
 
 
 class ChatBackend(Protocol):
-    """RagBackend streams (``stream_answer``); LegacyBackend answers in one piece (``ask``)."""
+    """RagBackend, or a test double with the same methods."""
 
     def describe(self) -> dict: ...
     async def aclose(self) -> None: ...
+    def stream_answer(self, message: str, conversation_id: str) -> AsyncIterator[tuple[str, dict]]: ...
 
 
 class ChatRequest(BaseModel):
@@ -59,19 +59,11 @@ def _sse(event: str, data: dict) -> str:
 
 def create_app(settings: AppSettings | None = None, backend: ChatBackend | None = None) -> FastAPI:
     settings = settings or get_settings()
-    if backend is None and settings.chat_backend == "rag":
+    if backend is None:
         from app.core.config import get_model_settings
         from app.rag.backend import RagBackend
 
         backend = RagBackend(settings, get_model_settings())
-    if backend is None:
-        backend = LegacyBackend(
-            base_url=settings.legacy_base_url,
-            catalog=Catalog.from_legacy_dir(settings.legacy_sources_dir),
-            timeout_s=settings.legacy_timeout_s,
-            not_found_phrases=settings.not_found_phrases,
-            excerpt_chars=settings.source_excerpt_chars,
-        )
     recent: OrderedDict[str, dict] = OrderedDict()
     hub = load_hub(settings.data_sources_dir, settings.hub_include_account_tutorials)
 
@@ -92,7 +84,7 @@ def create_app(settings: AppSettings | None = None, backend: ChatBackend | None 
         yield
         await backend.aclose()
 
-    app = FastAPI(title="Beans In & Out Bot", lifespan=lifespan)
+    app = FastAPI(title="Beans Support Assistant", lifespan=lifespan)
     if (WEB_DIR / "assets").is_dir():
         app.mount("/assets", StaticFiles(directory=WEB_DIR / "assets"), name="assets")
 
@@ -166,22 +158,11 @@ def create_app(settings: AppSettings | None = None, backend: ChatBackend | None 
             start = time.perf_counter()
             final = None
             try:
-                if hasattr(backend, "stream_answer"):
-                    async for event, data in backend.stream_answer(message, conversation_id):
-                        if event == "final":
-                            final = data
-                        else:
-                            yield _sse(event, data)
-                else:  # legacy proxy: the whole answer arrives as one token event
-                    result = await backend.ask(message, conversation_id)
-                    final = {
-                        "answer": result.answer,
-                        "sources": result.sources,
-                        "evidence_status": result.evidence_status,
-                        "conversation_id": conversation_id,
-                        "message_id": str(uuid.uuid4()),
-                    }
-                    yield _sse("token", {"text": result.answer})
+                async for event, data in backend.stream_answer(message, conversation_id):
+                    if event == "final":
+                        final = data
+                    else:
+                        yield _sse(event, data)
             except BackendError as exc:
                 yield _sse("error", {"message": str(exc)})
                 return
