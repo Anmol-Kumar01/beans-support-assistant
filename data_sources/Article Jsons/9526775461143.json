@@ -1,0 +1,50 @@
+{
+    "id": 9526775461143,
+    "title": "Managers: Correcting Location Pins in Archive",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9526775461143.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9526775461143-Managers-Correcting-Location-Pins-in-Archive",
+        "author_id": 7501352909335,
+        "created_at": "2022-10-13T15:22:21Z",
+        "updated_at": "2023-04-07T10:38:48Z"
+    },
+    "body": "From the Dispatch Console: 1.  Click “Archive.” 2.  Choose the search criteria (e.g., date, route name, tracking number, etc.).   3.  Click “Search.”  4.  Click on the desired route number to open the detailed view.  5.  From the manifest choose the stop/address to be corrected by clicking on the row.  The pin on the map will show the address info.   6.  Zoom in on the map to see the location (mint) and stop close (red) pins.  Click the “Satellite” button.  7.  Drag the location pin to the stop close pin and click “Save.”      NOTE:  When you move a pin location in archive and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app.",
+    "images": [
+        {
+            "alt": "4FD54F8E-B9B1-4CE0-96FC-486FABD8894A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526657741463"
+        },
+        {
+            "alt": "CCA8FF99-A34B-4542-B6F0-546FE528DF89_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526638241047"
+        },
+        {
+            "alt": "2C0B9FE0-5DF6-4C1E-AAA8-C50D276DA5DE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526662127127"
+        },
+        {
+            "alt": "5DBAABFC-5189-4EC1-87AA-1EE38B11246D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526675462423"
+        },
+        {
+            "alt": "B904921B-1CCD-40B2-80DE-818CC44CB59E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526718317847"
+        },
+        {
+            "alt": "6FA60577-6BFF-45FF-A0DD-06AF73CEF9CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526681687831"
+        },
+        {
+            "alt": "6109A7C1-64DB-4EF4-A685-9578DBCB97F8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526723338903"
+        },
+        {
+            "alt": "68AB5C9B-B886-4814-959C-A601E7389D14_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526762699415"
+        },
+        {
+            "alt": "2EBEE199-546E-4B80-90B3-DCD534B44A6B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9526737927063"
+        }
+    ]
+}

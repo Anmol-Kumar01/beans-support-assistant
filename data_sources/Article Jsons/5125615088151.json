@@ -1,0 +1,74 @@
+{
+    "id": 5125615088151,
+    "title": "Managers: Upload a Manifest FXG",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/5125615088151.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/5125615088151-Managers-Upload-a-Manifest-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-30T17:24:45Z",
+        "updated_at": "2024-03-07T18:12:53Z"
+    },
+    "body": "1.  From your FCC download the Excel (.xls) file of the Delivery Manifest for the route to be uploaded. 2.  From the Dispatch Console on the Routes page under “Things That You Can Do,” click “Upload Manifest.”  3.  Open the downloaded delivery manifest.  4.  Select “Create a new route,” assign a route number*, driver, warehouse, and click “Add New Route.” The new route will now populate in your Routes list. (*suggestion: add a letter to the route number to indicate an uploaded route as opposed to a synced route)  5.  Confirm the route number and click \"next.\"  5.  Scroll to the bottom of the screen and click “Upload.” Stops will now populate in the newly created route.      From the Mobile App: 1.  From your FCC download the Excel (.xls) file of the Delivery Manifest for the route to be uploaded. 2.  On the Dispatch tab, click the blue circle with the cloud icon.  3.  Click “Choose Files” and then click on the downloaded manifest.             4.  Select “Create a new route,” assign a route number*, driver, warehouse, and click “Add New Route.” The new route will now populate in your Routes list. (*suggestion: add a letter to the route number to indicate an uploaded route as opposed to a synced route)                   5.  Scroll to the bottom of the screen and click “Upload.”  Stops will now populate in the newly created route.                            Video - How to Upload a FXG Manifest - Mobile App",
+    "images": [
+        {
+            "alt": "6D19F705-AF33-48F8-91B3-41D6C6C6448C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890761073303"
+        },
+        {
+            "alt": "0A6B08B9-256D-412A-9542-83C952525E92_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400844183"
+        },
+        {
+            "alt": "CF3D5D3D-F500-4684-8033-1EF256A1CD50_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519383484311"
+        },
+        {
+            "alt": "E8B71F30-C699-4E67-87F0-62C3FD5F7D95_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400852631"
+        },
+        {
+            "alt": "1EBFF8D4-3D5E-458D-A572-B67536BCBDEB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400855575"
+        },
+        {
+            "alt": "B77556C9-FDBC-4C6C-93BA-88DCE84157B1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400856599"
+        },
+        {
+            "alt": "FA2166A7-A581-42B0-AF91-6A42417B4B2F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400859031"
+        },
+        {
+            "alt": "91BD6A3D-AE0F-4985-85AD-B249B3E528A8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400861847"
+        },
+        {
+            "alt": "047CAC7A-C55F-4305-8B2E-C3703E7678C7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519383498263"
+        },
+        {
+            "alt": "2A8C07C1-8CD5-4AD1-AD65-4F23B3CB56EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519383501079"
+        },
+        {
+            "alt": "3D5B3D37-7C60-468A-AD30-D6ED399274E3_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519383502359"
+        },
+        {
+            "alt": "14C6455A-1C45-450F-B4A5-8D70C94FCA23_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400869271"
+        },
+        {
+            "alt": "51A26331-D5A9-4ADD-BC56-054B7608DB3C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400870423"
+        },
+        {
+            "alt": "D9527C97-0720-41B8-B2D3-A55B553E9AEE_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519400871575"
+        },
+        {
+            "alt": "9D5DDF7B-DC3D-4C5C-8DB6-FA772E95D726_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/16519383510167"
+        }
+    ]
+}

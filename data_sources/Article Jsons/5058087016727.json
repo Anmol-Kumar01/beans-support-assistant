@@ -1,0 +1,78 @@
+{
+    "id": 5058087016727,
+    "title": "Drivers: How to enable Proof of Delivery (POD) - iOS",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/5058087016727.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/5058087016727-Drivers-How-to-enable-Proof-of-Delivery-POD-iOS",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-27T22:42:16Z",
+        "updated_at": "2023-05-03T19:51:16Z"
+    },
+    "body": "From the Mobile App: 1.  Click the Settings tab.  2.  Change the POD setting from “If Needed” to “Full.”  Go back to the Deliver tab.            3.  On the map, click the pin for the stop you are delivering.  On the address card at the bottom of the screen, you will see a checkmark and an “X.” For a successful delivery: click the checkmark to open the POD screen.  From the dropdown lists, select the delivery code and the package location. Take a photo of the delivery.                       If needed, add notes, collect signature and type in customer name by clicking “Consignee Name” to open your keyboard.            Click “Save.”  You will then return to the map screen where you can click “Next” to move to your next stop.  For a failed delivery: click the “X”  From the dropdown list, select the delivery code.            If needed, take a photo and add notes.  Click “Save.”  You will then return to the map screen where you can click “Next” to move to your next stop.  At the end of the day, your BC can generate a digital Proof of Delivery Report in the Dispatch Console.",
+    "images": [
+        {
+            "alt": "2DCF85A5-5BCB-47EF-A72A-9853F9C44F33_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331549593751"
+        },
+        {
+            "alt": "DB669288-1F7E-40E7-A0C1-8162DABBB73F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331614029847"
+        },
+        {
+            "alt": "56CCD52D-9D02-484E-B64B-CD2C18DC0469_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331625206551"
+        },
+        {
+            "alt": "7D1E00F6-6E1C-48A7-8E59-2A13A1D9266A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331692035991"
+        },
+        {
+            "alt": "91A64088-B045-4327-97CE-EB6620A28F91_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331819702679"
+        },
+        {
+            "alt": "7EC39F86-AC91-4521-BAEA-9FA97F792BB2_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332409800855"
+        },
+        {
+            "alt": "IMG_2589.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332639963671"
+        },
+        {
+            "alt": "B9059686-F8BD-4C91-89A3-DD450692D3FE_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331936584983"
+        },
+        {
+            "alt": "9F437607-4CBF-4731-8A0E-15D6B77272A0_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14331965707159"
+        },
+        {
+            "alt": "E50A8F8E-18BF-49D2-887E-28A761ED690F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332284064151"
+        },
+        {
+            "alt": "609EC38B-74B8-472A-8B82-05D017F62A28_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332343878295"
+        },
+        {
+            "alt": "DAD25218-F8F8-4997-ADE7-A1FDE8F22472_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332754256023"
+        },
+        {
+            "alt": "E295FCE2-005E-4375-B6F6-7D49F0940296_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332758511255"
+        },
+        {
+            "alt": "A59336C6-325D-41AB-8830-BCBC27442682_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332805265047"
+        },
+        {
+            "alt": "49770D52-63AA-44E3-9667-29DB852513F0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332877005591"
+        },
+        {
+            "alt": "CACFC939-9C72-4D90-98E5-813C69A1E117_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14332979534615"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "id": 14080566940311,
+    "title": "Step 2: Verify your Assignee Code",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/14080566940311.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/14080566940311-Step-2-Verify-your-Assignee-Code",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-21T23:00:24Z",
+        "updated_at": "2024-05-01T15:16:26Z"
+    },
+    "body": "1.  Ask your manager to locate your assignee code in the Dispatch Console by clicking Settings > Drivers and Dispatchers.  Each user in the account has a unique assignee code which is an alpha-numeric code followed by a dash and then 3 more characters.   2.  Locate your Assignee Code in your Beans Route App: Settings > Profile.  The assignee code under “company info” should match the one in your user profile on the Drivers and Dispatchers page.  3.  If the assignee code does not match, you can manually type in the correct code or ask your manager to send you a new invite link by selecting your name in the list and clicking \"Notify Drivers.\"  The text message you receive will have the assignee code which you can then copy and paste into the \"company info\" line in your mobile app.",
+    "images": [
+        {
+            "alt": "A9EE0A6B-0909-4AB9-BDA0-F63D6A6A9A9A.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22022464650519"
+        },
+        {
+            "alt": "EA743799-A69D-4A6D-B794-1F9C30536316_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14559854828183"
+        },
+        {
+            "alt": "9DA5B897-1ABF-405B-A4CF-4662BD34491A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22022464663191"
+        },
+        {
+            "alt": "4FBC4D16-8A6F-48C1-8E50-5F14F16B71D7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22022441609751"
+        }
+    ]
+}

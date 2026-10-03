@@ -1,0 +1,50 @@
+{
+    "id": 4994310442135,
+    "title": "Managers: How to Move Location Pins in Dispatch",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4994310442135.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4994310442135-Managers-How-to-Move-Location-Pins-in-Dispatch",
+        "author_id": 417316688474,
+        "created_at": "2022-03-24T19:06:25Z",
+        "updated_at": "2024-07-24T20:48:52Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the Routes page, click on the box with the desired route number to open the detailed page of the route.  2.  On the map, zoom in to the location of the pin you want to move.  3. Click on the pin until the address information appears.  4.  Move the pin to the desired location.  Click “Save.”  From the Mobile App: 1.  Click on the Dispatch tab.  2.  On the Routes page, click on the box with desired route number to open the detail page for the route.  3.  On the map, zoom in to the location of the pin you want to move.  4.  Hard press on the pin until the address information appears.  5.  Move the pin to the desired location.  Click “Save.”  NOTE:  If you move a pin location in dispatch and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app.",
+    "images": [
+        {
+            "alt": "BC9AD478-F4B7-4088-8EE6-0C5A1120D802_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25144423729815"
+        },
+        {
+            "alt": "0E9A788E-AB49-4C31-95F5-098B37438EF1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25144423732119"
+        },
+        {
+            "alt": "A7D7324B-54A0-4D1A-A6EC-D7C140402FFE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25144423733399"
+        },
+        {
+            "alt": "83C64E64-E361-4E60-9953-A0A32B19E803_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25144416080279"
+        },
+        {
+            "alt": "82CD5AF8-75B3-4945-AF54-F471C929D1CE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057328502551"
+        },
+        {
+            "alt": "78463575-7477-41AD-8AD9-27BD9768D529_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057368858135"
+        },
+        {
+            "alt": "20750900-BA20-46FA-AC95-2FB09E18C62F_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057400185623"
+        },
+        {
+            "alt": "47AD9C62-5954-4A96-B0E3-266BDC22EE25_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057409719831"
+        },
+        {
+            "alt": "116A0507-2717-4F72-A7F5-25713652486B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057402804631"
+        }
+    ]
+}

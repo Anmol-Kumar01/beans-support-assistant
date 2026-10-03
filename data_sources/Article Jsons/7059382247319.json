@@ -1,0 +1,30 @@
+{
+    "id": 7059382247319,
+    "title": "Managers: Are Drivers Enrolled in Safety",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/7059382247319.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/7059382247319-Managers-Are-Drivers-Enrolled-in-Safety",
+        "author_id": 417316688474,
+        "created_at": "2022-06-27T15:33:17Z",
+        "updated_at": "2023-10-24T21:24:39Z"
+    },
+    "body": "If you have enabled Safety Training through Beans Route, you can check to see how many drivers are enrolled and confirm who is enrolled in the program.  From the Mobile App: To see how many drivers are enrolled: 1.  From the Dispatch tab, click the Menu Bars on the top right of the screen and choose Settings > Preferences > Safety.               To see who is enrolled: 2.  Click the Menu Bars on the top right of the screen and choose Settings > Drivers and Dispatchers.  The driver list will indicate which drivers are enrolled in safety.                 Video:  How to see if Drivers are enrolled in Safety",
+    "images": [
+        {
+            "alt": "198D4FAD-EDD7-4B1A-A80E-61252E6190CA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7059307488407/198D4FAD-EDD7-4B1A-A80E-61252E6190CA_1_201_a.jpeg"
+        },
+        {
+            "alt": "A31CF8AF-A2FC-4BAF-BC88-13CDD4926EB5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7059311126679/A31CF8AF-A2FC-4BAF-BC88-13CDD4926EB5_1_201_a.jpeg"
+        },
+        {
+            "alt": "2462B765-7BD3-4A4F-9BA1-A0A2537D9A0E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7059336519575/2462B765-7BD3-4A4F-9BA1-A0A2537D9A0E_1_201_a.jpeg"
+        },
+        {
+            "alt": "2540C194-5BD4-4112-93EA-5A7203BE30F0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7059376959639/2540C194-5BD4-4112-93EA-5A7203BE30F0_1_201_a.jpeg"
+        }
+    ]
+}

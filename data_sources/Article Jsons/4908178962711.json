@@ -1,0 +1,38 @@
+{
+    "id": 4908178962711,
+    "title": "Managers: Add or Remove Seats ",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4908178962711.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4908178962711-Managers-Add-or-Remove-Seats",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-21T15:05:04Z",
+        "updated_at": "2023-02-13T21:35:06Z"
+    },
+    "body": "1.  From the Dispatch Console, navigate to Settings > Preferences > Subscriptions    2.  Add the number of seats to purchase or remove.  Click “Change Seats”    From the Mobile App: 1.  Click the Dispatch Tab.  Click the Menu Bars on the top right of the screen.    2.  Click: Settings > Preferences > Subscriptions. .           3.  Add the number of seats to purchase or remove.  Click \"Change Seats.\"  Video:  Add or Remove Seats",
+    "images": [
+        {
+            "alt": "E73F0A06-503D-4E71-A07A-C79BD0675804_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908011395991/E73F0A06-503D-4E71-A07A-C79BD0675804_1_201_a.jpeg"
+        },
+        {
+            "alt": "233D733E-0C41-4D54-9D6F-5134CBA6E033_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908155432983/233D733E-0C41-4D54-9D6F-5134CBA6E033_1_201_a.jpeg"
+        },
+        {
+            "alt": "9E312104-7381-43D7-8EC3-144BD2512FA1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6988870225431/9E312104-7381-43D7-8EC3-144BD2512FA1_1_201_a.jpeg"
+        },
+        {
+            "alt": "8E370AB0-A643-43DD-A05A-52DE8E4937EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6988876141847/8E370AB0-A643-43DD-A05A-52DE8E4937EE_1_201_a.jpeg"
+        },
+        {
+            "alt": "F5A707F0-F3B0-448D-BC9F-F3E8322E6A08_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6988946096151/F5A707F0-F3B0-448D-BC9F-F3E8322E6A08_1_201_a.jpeg"
+        },
+        {
+            "alt": "C784D716-93EC-474F-BA1E-48116B04D1F3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6988987450263/C784D716-93EC-474F-BA1E-48116B04D1F3_1_201_a.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "id": 13795796035607,
+    "title": "Managers: Archive – Verify a Delivery",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13795796035607.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13795796035607-Managers-Archive-Verify-a-Delivery",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-12T21:39:17Z",
+        "updated_at": "2023-10-25T20:58:26Z"
+    },
+    "body": "Beans Route Archive gives you access to the last six weeks of route data.  You can use archive to move location pins, reopen a closed route, generate POD reports for specific routes, and verify deliveries, .  To verify a delivery, follow the instructions below. From the Dispatch Console: 1.  Click the “Archive” link.  2.  Enter the tracking number. The date range for the search will automatically expand to the last six weeks. Click “Search.”  3.  The delivery information will populate.   4.  Zoom in on the map; the green pin is the Beans Route location pin, and the red pin is where the driver closed the stop.  5.  You can change the map to satellite view to confirm delivery location.  6.  Click the red pin on the stop card to copy the exact lat/long of the closed stop to your clipboard which you can then drop into a mapping software.",
+    "images": [
+        {
+            "alt": "89D826FC-1B4D-4773-90DF-C2CB01FB89DE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795638786071"
+        },
+        {
+            "alt": "FC7A79C7-51E4-4708-B7D4-62EBA8698922_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795645157911"
+        },
+        {
+            "alt": "395F851D-11A7-4EE2-AC7F-F3E2F3A301E4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795648473623"
+        },
+        {
+            "alt": "1B36D44C-0FE7-4FC4-9793-D9625C9777CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795697065751"
+        },
+        {
+            "alt": "D7693558-023E-4C8E-BD5B-917DBDF79D9C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795737369367"
+        },
+        {
+            "alt": "6A58AD15-5193-43D8-BC3B-90D124147585_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795693793175"
+        },
+        {
+            "alt": "B21C6D66-96F7-4143-8A66-DB285FBC9151_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795741622935"
+        },
+        {
+            "alt": "117B16B4-FFC0-476C-A713-83348332AA56_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13795742515351"
+        }
+    ]
+}

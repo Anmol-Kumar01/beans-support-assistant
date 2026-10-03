@@ -1,0 +1,34 @@
+{
+    "id": 23702986205207,
+    "title": "New Pins for Dispatch",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/23702986205207.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/23702986205207-New-Pins-for-Dispatch",
+        "author_id": 7501352909335,
+        "created_at": "2024-05-23T20:30:10Z",
+        "updated_at": "2024-05-23T20:31:05Z"
+    },
+    "body": "Beans Route now has custom pins to help differentiate between residential and non-residential stops.  Currently these pins are only available in dispatch, but they will soon be available in the mobile app. To update the pins for your account, follow the instructions below. From the Dispatch Console: 1.  Click Settings > Preferences > User Interface   2.  Use the dropdown menu to choose the pins you wish to use and then click “save.” There are three versions to choose from. Default Icons – normal pin shape with small indicator icons on the upper right  Icon Pack V2 – rectangular shape with small indicator icons on the upper left  Icon Pack V3 – different shapes for each type of stop",
+    "images": [
+        {
+            "alt": "31F2CD7A-5FA4-4885-921D-1C457780E60C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/23702973406999"
+        },
+        {
+            "alt": "FF1AC86F-2252-45A3-A3A3-1488B34D755F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/23702973411735"
+        },
+        {
+            "alt": "65CE8182-FD99-4CD4-ABDB-A189A05192D8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/23702973418135"
+        },
+        {
+            "alt": "CE4E94C1-3C6E-4F4E-9C05-9FA6B2156BB2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/23702973420183"
+        },
+        {
+            "alt": "A338011D-2BFD-4F15-9732-E0A8E756C86C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/23702973421719"
+        }
+    ]
+}

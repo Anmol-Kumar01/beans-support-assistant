@@ -1,0 +1,26 @@
+{
+    "id": 13596949465495,
+    "title": "Managers: Turn on Route Notifications",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13596949465495.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13596949465495-Managers-Turn-on-Route-Notifications",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-03T23:48:48Z",
+        "updated_at": "2024-03-07T18:03:59Z"
+    },
+    "body": "Beans Route has notifications for route information: pick-up window warnings, pick-up window closed, and problematic exceptions codes (02, 04, 16, 17, and 27).  To receive these notifications, follow the steps below. From the Dispatch Console: 1.  Click Settings > Preferences > Notifications > Route.   2.  Select which notifications you want to receive and how you want to receive them (e.g. push notification, SMS text, and/or email).  Click Save.  If you are receiving notifications and do NOT want them, please follow the steps above and toggle off the receive notifications options (e.g., SMS, PUSH, EMAIL). Currently the notifications are a global setting which applies to the entire account.  This means you are not able to filter the notifications by warehouse/terminal at this time.",
+    "images": [
+        {
+            "alt": "3EF376F5-43DA-4082-B58D-BC9B055B2CD5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890467384727"
+        },
+        {
+            "alt": "6977D325-29F0-4468-9236-CBA023CDCC44_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890443394071"
+        },
+        {
+            "alt": "59D64C19-FBFE-43EA-9127-E4AF4654E5BE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890467424151"
+        }
+    ]
+}

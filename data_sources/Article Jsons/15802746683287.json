@@ -1,0 +1,74 @@
+{
+    "id": 15802746683287,
+    "title": "Assign a Direct Dispatcher/Manager to Driver(s)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/15802746683287.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/15802746683287-Assign-a-Direct-Dispatcher-Manager-to-Driver-s",
+        "author_id": 7501352909335,
+        "created_at": "2023-07-05T19:43:02Z",
+        "updated_at": "2024-03-07T18:48:38Z"
+    },
+    "body": "From the Dispatch Console: 1.  Click Assets > Drivers and Dispatchers.   2.  Select an individual driver or several drivers by clicking on the row(s) to highlight them.  You can also select all drivers by clicking the “select all” icon (circle with checkmark).  3.  Once you have selected the driver(s), click the “Modify Driver” button.  4.  Select the Dispatcher or Manager from the dropdown list and click “save.”    From the Mobile App: 1.  From the Dispatch tab, click the menu bars in the upper right hand corner.  2.  Click Assets > Drivers and Dispatchers.            3.  Select the driver(s) to assign a dispatcher or manager and click the “modify” icon (blue circle with a pencil).  4.  Select the Dispatcher or Manager from the dropdown list and click “save.”",
+    "images": [
+        {
+            "alt": "7EB2E4A1-0386-46FC-AAFD-5DB044EBEA8F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891955229463"
+        },
+        {
+            "alt": "4867E4F7-8A94-4896-81E7-5D17D6D4E7CC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891945710743"
+        },
+        {
+            "alt": "C53B2A91-47DF-4E3B-8D5B-8BEAB972D5D0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802746633239"
+        },
+        {
+            "alt": "2BE197EA-015E-4ECC-BAB2-A26D9FD49066_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802743847959"
+        },
+        {
+            "alt": "8CB3BA46-3DB1-41AE-82CD-2A3132B85A50_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802727836695"
+        },
+        {
+            "alt": "5B918809-B53B-42E5-9D82-DAB8BACC0C4A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802746642839"
+        },
+        {
+            "alt": "186AEBFC-6603-4A84-88DD-AC35ED8769E4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802743857815"
+        },
+        {
+            "alt": "0541A378-6A6B-48C6-A509-E3D4C9321F57_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802771289623"
+        },
+        {
+            "alt": "BAEB1C68-2E8B-49E8-B795-986C7BFA0D23_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891955270807"
+        },
+        {
+            "alt": "DCA4B129-539B-48D4-99F4-74F7E4C74366_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891945748503"
+        },
+        {
+            "alt": "9A56F36A-673E-43A3-9B27-7EC3B44B91E7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802743862423"
+        },
+        {
+            "alt": "85C4EF81-1FE7-46ED-B697-559986A2C84F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802771298711"
+        },
+        {
+            "alt": "52C6DC36-6F5A-47BE-9BFB-070B45535007_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802746667287"
+        },
+        {
+            "alt": "E285DDBC-283C-449B-A740-F644F98700AF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802743877143"
+        },
+        {
+            "alt": "FC1AEF9B-5F5D-4C8D-A726-F9957F74D708_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15802727857431"
+        }
+    ]
+}

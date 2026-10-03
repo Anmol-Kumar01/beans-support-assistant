@@ -1,0 +1,42 @@
+{
+    "id": 15316382525975,
+    "title": "Timesheets: Generate an Employee Timecard",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/15316382525975.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/15316382525975-Timesheets-Generate-an-Employee-Timecard",
+        "author_id": 7501352909335,
+        "created_at": "2023-06-14T22:05:21Z",
+        "updated_at": "2024-03-07T19:51:39Z"
+    },
+    "body": "NOTE:  You can only generate reports from the computer, NOT on the mobile app. From the Dispatch Console: 1.  Click Assets > Timesheets.  2.  Click the box for “Driver View.”  3.  Find the employee name in the list and click on the row to highlight it. Click the “Generate Report” button.   4. Click on the date line and use the calendar to select the time period (start and end date).  Click generate report.   5.  Choose the file version you wish to download by clicking the link.",
+    "images": [
+        {
+            "alt": "BC391C89-DCE9-4529-BDC2-EF5B9B26E25C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894134989207"
+        },
+        {
+            "alt": "02D1F2BF-A8FD-4044-88BA-388337C9525B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894131355031"
+        },
+        {
+            "alt": "7E31A28B-2B2F-4919-80FE-6CE309A0440E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894131363607"
+        },
+        {
+            "alt": "F1F02046-6A1B-48AE-9A2F-6EAB7BA5F02C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894135022487"
+        },
+        {
+            "alt": "AE8B088D-1F97-471B-B95D-F3E15350D91E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894131395479"
+        },
+        {
+            "alt": "34273549-E732-451F-96CC-C1B2984843C3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894131407639"
+        },
+        {
+            "alt": "892DC840-A7D1-44A6-8B99-DC2D93EF16EA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894135070231"
+        }
+    ]
+}

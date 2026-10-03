@@ -1,0 +1,13 @@
+{
+  "id": "preset-filters",
+  "title": "Create and Managing Preset Filters",
+  "summary": "This tutorial shows you how to create and update preset filters to customize your dispatch console in BeansRoute. Learn how to add new preset filters using the plus icon, enter filter names, set relevant filter criteria, apply new preset filters, update existing filters using the save icon, and toggle between default view and saved preset filters using the dropdown menu. This guide helps you personalize your dispatch console for efficient workflow management.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/6pyBWLOrSVXyGYcEQakLIQ/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

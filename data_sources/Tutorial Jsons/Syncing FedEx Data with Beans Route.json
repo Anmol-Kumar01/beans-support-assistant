@@ -1,0 +1,13 @@
+{
+  "id": "syncing-fedex-data-beansroute",
+  "title": "Syncing FedEx Data with Beans Route",
+  "summary": "This tutorial shows you how to sync FedEx data with BeansRoute. Learn how to access MyBizAccount, configure data subscriptions for delivery manifests, pickup manifests, and work area summaries, then connect your FedEx ID to BeansRoute for seamless data integration. This guide helps you set up the complete FedEx integration workflow from initial account access to final data synchronization.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/j4NH6TjrJH6YBpeWgRUcHg/embed",
+  "display_option_tags": "fedex",
+  "category": "Onboarding",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

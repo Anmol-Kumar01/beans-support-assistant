@@ -1,0 +1,42 @@
+{
+    "id": 4908918812439,
+    "title": "Managers: How to assign a driver to a route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4908918812439.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4908918812439-Managers-How-to-assign-a-driver-to-a-route",
+        "author_id": 417316688474,
+        "created_at": "2022-03-21T15:35:26Z",
+        "updated_at": "2022-06-08T23:51:53Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the routes page, click on the row of the route you want to assign (row will be highlighted in grey).  Under \"Thing That You Can Do,\" click \"Modify Route.\"  2.  Select the driver from the dropdown list.  3.  Click “Save.”    From the Mobile App: 1.  Click the “Dispatch” tab.  2.  Click on the row of the route you want to assign (row will be highlighted in grey).  Click on the blue circle with the pencil icon.  3.  Select the driver from the dropdown list.  4.  Click “Save.”",
+    "images": [
+        {
+            "alt": "1D984216-CDCE-4977-AAA9-F790674F5438_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908521334423/1D984216-CDCE-4977-AAA9-F790674F5438_1_201_a.jpeg"
+        },
+        {
+            "alt": "7ADBF5EE-BEF1-4037-9C3F-D0AC5502F9EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908572395543/7ADBF5EE-BEF1-4037-9C3F-D0AC5502F9EE_1_201_a.jpeg"
+        },
+        {
+            "alt": "DDF18752-0A90-47A8-A530-AA7FC16565AB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908580035991/DDF18752-0A90-47A8-A530-AA7FC16565AB_1_201_a.jpeg"
+        },
+        {
+            "alt": "C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908914116503/C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg"
+        },
+        {
+            "alt": "C76AD3D5-E4AE-4589-8709-FE5C52DA70F2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908993988375/C76AD3D5-E4AE-4589-8709-FE5C52DA70F2_1_201_a.jpeg"
+        },
+        {
+            "alt": "E7FA5272-A439-4260-BFCA-4356DB84C6FB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4909030534679/E7FA5272-A439-4260-BFCA-4356DB84C6FB_1_201_a.jpeg"
+        },
+        {
+            "alt": "AE95A849-4290-4048-B0B8-E650A78DBCCD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4909056262935/AE95A849-4290-4048-B0B8-E650A78DBCCD_1_201_a.jpeg"
+        }
+    ]
+}

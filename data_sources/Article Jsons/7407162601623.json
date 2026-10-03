@@ -1,0 +1,42 @@
+{
+    "id": 7407162601623,
+    "title": "Drivers:  How to Use Lasso+ (Multi Lasso)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/7407162601623.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/7407162601623-Drivers-How-to-Use-Lasso-Multi-Lasso",
+        "author_id": 417316688474,
+        "created_at": "2022-07-12T18:45:03Z",
+        "updated_at": "2024-01-22T18:45:38Z"
+    },
+    "body": "With Beans Route you can customize your delivery route by optimizing multiple areas, and you can choose the number of stops to be included in each area.  From the Mobile App: 1.  In the Deliver tab, expand or contract the map so the pins are clearly visible. Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.                2.  Choose first and final stops and click the “Optimize” button.                          3.  Repeat the process for each area. The numbers will generate sequentially.              Video:  How to Use Lasso+/Multi Lasso",
+    "images": [
+        {
+            "alt": "A5A3D010-917F-4D29-BFBD-9A6942BEC1DF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406843637655"
+        },
+        {
+            "alt": "9E09297F-85CB-4F4E-9A0A-887DC60753EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406882181655"
+        },
+        {
+            "alt": "C6631ED6-AEC5-4EE3-8A04-D8B27DFDDC91_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406886752279"
+        },
+        {
+            "alt": "F871AD66-6B93-4B4A-9C46-F7AA89D53523_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406941164695"
+        },
+        {
+            "alt": "98D2F57E-E0FA-42CB-9EF0-F9130E7C107A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406949308951"
+        },
+        {
+            "alt": "31B18D19-5801-41D8-BB70-7648BE990FC3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7407111826071"
+        },
+        {
+            "alt": "2A5C3FD1-51C3-4B96-A8F4-D9F1A82B61D6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7407175910551"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "id": 13242104137239,
+    "title": "Managers: Enabling Pre and/or Post Vehicle Inspections",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13242104137239.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13242104137239-Managers-Enabling-Pre-and-or-Post-Vehicle-Inspections",
+        "author_id": 7501352909335,
+        "created_at": "2023-03-20T21:06:24Z",
+        "updated_at": "2023-10-24T21:27:45Z"
+    },
+    "body": "With Beans Route you can have drivers complete pre and/or post trip inspections of their vehicles.  To Enable Pre-trip Inspection: From the Dispatch Console: 1.  Go to Settings > Preferences > Inspection  2.  Check the box for pre-inspection to open the list of inspection options.  3.  Choose the items you wish the driver to inspect by clicking the checkbox.  4.  When you have selected all items from the list, click the “save” button below the item list.  5.  Return to the top of the page and click the “save” button under the enable inspection list.  6.  You can “gate” your drivers from clocking in until the vehicle inspection has been completed. To prevent clock in prior to completing inspection, check the box “Hide route if a driver has not completed inspection.”   7.  Repeat the process outlined above to enable post-inspections.  To prevent clock out prior to completing post-inspection of the vehicle, check the box “Do not allow driver to clock out if the inspection is not completed.”    Once inspections are enabled for your account, drivers will complete the inspection on their app by going to the “Hub” and clicking the “Start Inspection” button.",
+    "images": [
+        {
+            "alt": "C49FDF9C-4C93-465D-9A7C-B0478F77B777_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241822627863"
+        },
+        {
+            "alt": "9F989B30-884F-47E8-8BF6-16F53D9B9D8A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241834371095"
+        },
+        {
+            "alt": "8F19FA46-4EBD-4361-8B4A-E98E2E43EF95_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241826871447"
+        },
+        {
+            "alt": "F21DE58A-23EB-4DCF-A8D1-BC5AA2CECD99_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241873085591"
+        },
+        {
+            "alt": "547AE9E5-C724-4A8C-9916-FD9C54FE4008_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241875171095"
+        },
+        {
+            "alt": "9E8C979A-09B2-4A8A-BFDF-C11457337EF2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241884147351"
+        },
+        {
+            "alt": "99396476-CC03-48D2-9042-C4C4D24B87C9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241937208983"
+        },
+        {
+            "alt": "E60C5DB4-D276-428F-A042-86BCAD04BF9D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13241998563991"
+        },
+        {
+            "alt": "E0EFB9AF-1DD3-439E-96F8-4948B6FB0D8E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13242076798359"
+        }
+    ]
+}

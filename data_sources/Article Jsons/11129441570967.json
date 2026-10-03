@@ -1,0 +1,70 @@
+{
+    "id": 11129441570967,
+    "title": "Managers: Transfer Stops in Dispatch",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/11129441570967.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/11129441570967-Managers-Transfer-Stops-in-Dispatch",
+        "author_id": 7501352909335,
+        "created_at": "2022-12-21T20:20:27Z",
+        "updated_at": "2023-10-25T21:03:33Z"
+    },
+    "body": "From the Dispatch Console: 1.  Identify the routes you are transferring to and from.  If necessary, add a route to receive the transfers.  2.  Click on the route number you are transferring from to open the detailed view.  3.  Click on the stops to be transferred in the list or click on the pins on the map.  Each chosen stop will be highlighted in grey in the list view.  4.  Confirm the number of stops to be transferred by checking the number of rows selected at the top of the list view.  When all stops to be transferred are highlighted, click the “Modify Stop” button.  5.  From the dropdown list choose the route to receive the transferred stops and click “Save.”      From the Mobile App: 1.  Click on the Dispatch tab. Identify the routes you are transferring to and from.  If necessary, add a route to receive the transfers.  2.  Click on the route number you are transferring from to open the detailed view.  3.  Click on the stops to be transferred in the list or click on the pins on the map.  Each chosen stop will be highlighted in grey in the list view.   4.  Confirm the number of stops to be transferred by checking the number of rows selected at the top of the list view.  When all stops to be transferred are highlighted, click the blue circle with the pencil icon to open the “Modify Stop” menu.  5.  From the dropdown list choose the route to receive the transferred stops and click “Save.”",
+    "images": [
+        {
+            "alt": "D1118F41-851C-42B8-B1FD-BCDA3AAE1631_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129033547287"
+        },
+        {
+            "alt": "9B3F03B8-EBDC-48A5-8666-E269BC1B7D0E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129036928279"
+        },
+        {
+            "alt": "25A8476C-B5C3-4551-9653-119BEA2B6FB4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129080769175"
+        },
+        {
+            "alt": "4510C531-141A-40D9-B4E0-105C2F8A4843_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129078506391"
+        },
+        {
+            "alt": "F3E3A9AC-0B73-494B-9422-5BD75C08AD50_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129105913367"
+        },
+        {
+            "alt": "B0745E2F-3637-4C83-A2BA-AEA74E836589_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129175326487"
+        },
+        {
+            "alt": "43080AB9-A3D7-4A58-8D8F-33DFDB117D13_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129139570839"
+        },
+        {
+            "alt": "3EFCAEEF-CC0F-4B76-8E19-0AC651E2C640_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129209483543"
+        },
+        {
+            "alt": "98BD1499-EBCD-49D3-9261-FC851089874C_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129213854487"
+        },
+        {
+            "alt": "DEB95F74-213C-4FE5-B738-F73428DC30E5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129233724695"
+        },
+        {
+            "alt": "CBE77D03-4EA5-4120-93B1-B2FFCA6E5C3F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129342158231"
+        },
+        {
+            "alt": "BF096F06-1E65-4D1C-8FF4-9DFC7102BE7D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129412975511"
+        },
+        {
+            "alt": "6A826109-DFFE-4E39-9BC0-67BA9C66ABFC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129420134679"
+        },
+        {
+            "alt": "6A6CA951-5F35-469B-8692-C54E78BB1C31_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11129423783191"
+        }
+    ]
+}

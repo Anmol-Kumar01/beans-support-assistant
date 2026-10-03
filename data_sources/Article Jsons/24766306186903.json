@@ -1,0 +1,42 @@
+{
+    "id": 24766306186903,
+    "title": "Modify Stop Status in Dispatch",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/24766306186903.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/24766306186903-Modify-Stop-Status-in-Dispatch",
+        "author_id": 7501352909335,
+        "created_at": "2024-07-09T17:55:24Z",
+        "updated_at": "2024-07-09T17:56:10Z"
+    },
+    "body": "From Dispatch Console: 1.  Click on the route number to open the detailed view of the route.  2.  Locate the stop card for the stop you wish to modify and click on it to highlight.    3.  Click the \"Modify Stop\" button on the right of the screen.  4.  On the \"Status\" line, use the dropdown menu to select the desired status for the stop and click \"save.\"",
+    "images": [
+        {
+            "alt": "CBDAD144-28B9-47E7-918A-1560052BF70C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766306156311"
+        },
+        {
+            "alt": "B599DE92-F220-454B-99AB-B4EC07853DDF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766306159639"
+        },
+        {
+            "alt": "2C8D0077-535E-4321-AFDE-E463C8869F53_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766297308951"
+        },
+        {
+            "alt": "C51732F8-EEB0-46E0-9FBA-04065CB769D2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766297311639"
+        },
+        {
+            "alt": "7226B405-AAF8-4E70-A766-D8037C967855_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766306171287"
+        },
+        {
+            "alt": "41D74859-55AB-4AE9-BC18-59E6AAC62317_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766306172567"
+        },
+        {
+            "alt": "5EA88920-9E09-46C0-92EE-3C1F99B3D21D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24766306175511"
+        }
+    ]
+}

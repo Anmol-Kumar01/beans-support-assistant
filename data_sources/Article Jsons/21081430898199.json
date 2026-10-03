@@ -1,0 +1,82 @@
+{
+    "id": 21081430898199,
+    "title": "Generate MMRs (FXG)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/21081430898199.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/21081430898199-Generate-MMRs-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2024-02-02T20:25:15Z",
+        "updated_at": "2024-06-25T19:07:42Z"
+    },
+    "body": "Use Beans Route to make generating MMR reports a simple task.  Upload a digital signature in your account preferences to have the signature generate on the report. If you have vehicles in multiple warehouses, create vehicle groups so each warehouse can prepare their own MMRs.  Best practices include entering maintenance records as you receive them throughout the month and when entering records selecting the actual date of service.   NOTE: You can enter maintenance and odometer records on the computer or in the mobile app, but you can only generate MMRs on the computer. From the Dispatch Console: 1.  Click Assets > Vehicles.   ADD MAINTENANCE RECORDS 1.  Click on the vehicle number to open the records.  2.  Click the “Add Vehicle Record” button.  3.  Select the date of maintenance by clicking on the date line and using the calendar.  NOTE: the date automatically defaults to the current date.  You must select the actual date of maintenance for the MMRs to generate properly.  4.  On the “Detail” line fill in the maintenance details. Click “Add Vehicle Record” to save.  Repeat the steps to enter all maintenance records. NOTE: You can attach maintenance invoices to each record by using the “Attach Files” button.  ADD MILEAGE RECORS (ODOMETER) 1.  Click on the vehicle number to open the records.  Click the “Add Vehicle Record” button. 2.  For “Type” use the dropdown menu to select “Odometer.”  3.  For “Date” use the calendar to change the date to the last day of the previous month.  NOTE: the date automatically defaults to the current date.  You must change the date for odometer readings to the last day of the previous month for the MMRs to generate properly.  4.  Enter the mileage on the “Details” line.  Click “Add Vehicle Record” to save.  Repeat the steps to enter all mileage records.   OUT OF SERVICE 1.  If you have a vehicle which is out of service, click on the vehicle number to open the records. 2.  Click the “Modify Vehicle” button.  3.  Change the “Status” from “active” to “out of service” and click save.    GENERATE MMR REPORTS 1.  Select the vehicles you wish to generate MMRs reports for by clicking on the row to highlight; to select all vehicles, click the \"select all\" icon above the list (circle with a checkmark).   NOTE: If the “Active” filter is on, any vehicles marked “out of service” will not show in the list.  To see all vehicles, including those out of service, simply click the “x” on the “Active filter.”  MMRs will not be generated for vehicles marked \"out of service.\"   2.  Click the \"Generate Report\" button.  3.  Select the dates for the report.  NOTE: The month automatically defaults to the previous month.  If you need to generate MMR reports for past months, simply click on the month line and select the appropriate month.  The report date automatically defaults to the current date; you can adjust the date by clicking on the report date line and using the calendar to select the desired date.  4.  Click the “Generate Report” button.  5.  The MMRs will be generated in PDF format.  Click the link to view the MMRs to print or to download and email to your terminal.",
+    "images": [
+        {
+            "alt": "08DE91FF-AB95-4C37-AECD-DA5B460B2B90_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889859471127"
+        },
+        {
+            "alt": "F69DB732-21C0-40F7-A698-0C6B7F2F2394_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798015895"
+        },
+        {
+            "alt": "9C435F9C-7380-4217-ACB5-9C99F6EA06EC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789648279"
+        },
+        {
+            "alt": "56C21B1B-0EA0-486E-BD59-DD2DA2D2352F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798034967"
+        },
+        {
+            "alt": "C65B37EC-25F5-441A-957D-E48AF8F50DB6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789660951"
+        },
+        {
+            "alt": "4BB08F38-744E-4CA4-ABBC-487EE14F04FF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798047383"
+        },
+        {
+            "alt": "107FB50A-7635-4FD8-B53A-191D2D5BF4B5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789673111"
+        },
+        {
+            "alt": "DE1F36C8-EEAE-4D64-AEDF-2A5C458C0D81_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789676311"
+        },
+        {
+            "alt": "6842EDFE-DC01-43FA-AFEF-7E6A4A7F9E21_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789679255"
+        },
+        {
+            "alt": "CEACBE5D-97FA-45B9-BF65-B876DB4159A6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798071703"
+        },
+        {
+            "alt": "BD7DB89D-1D03-4CCE-8448-E60A34E3EBFC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789685527"
+        },
+        {
+            "alt": "3575C2E0-311A-4A17-8F1F-CA711D87F307_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789697303"
+        },
+        {
+            "alt": "93EE58AD-753B-4D8C-84C8-786F0884BBE0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798090903"
+        },
+        {
+            "alt": "0600E206-B8A6-4D99-B4F3-5692333E52FF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789708183"
+        },
+        {
+            "alt": "8C16BF99-EF84-4309-AFCC-62D2B4DA1074_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798110487"
+        },
+        {
+            "alt": "3FEAE6CD-A8BF-4528-8E0D-B22E7401CEB9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083789725847"
+        },
+        {
+            "alt": "F2F2D4F8-6077-40FD-858F-6EDA00484493_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21083798119703"
+        }
+    ]
+}

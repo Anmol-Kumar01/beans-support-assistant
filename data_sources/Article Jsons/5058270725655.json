@@ -1,0 +1,26 @@
+{
+    "id": 5058270725655,
+    "title": "Managers: How to Generate a Proof of Delivery Report/Handsheet",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/5058270725655.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/5058270725655-Managers-How-to-Generate-a-Proof-of-Delivery-Report-Handsheet",
+        "author_id": 417316688474,
+        "created_at": "2022-03-27T23:01:26Z",
+        "updated_at": "2022-06-30T18:01:33Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the Routes page, click on the box with desired route number to open the detail page for the route. 2.  Under “Things That You Can Do,” click “Generate Report.”  3.  The app will then create a digital proof of delivery report for the route and download the report in three formats: PDF, CSV, XLS.  You can download the report for printing or email.",
+    "images": [
+        {
+            "alt": "040C0C8E-3459-4283-98BA-C5D583146C5C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058273015831/040C0C8E-3459-4283-98BA-C5D583146C5C_1_201_a.jpeg"
+        },
+        {
+            "alt": "54F28B15-4993-4FCE-8930-6DB0BE63282B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058274473111/54F28B15-4993-4FCE-8930-6DB0BE63282B_1_201_a.jpeg"
+        },
+        {
+            "alt": "9525F7FB-F93D-44A7-911F-1997C6C8D117_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058276896535/9525F7FB-F93D-44A7-911F-1997C6C8D117_1_201_a.jpeg"
+        }
+    ]
+}

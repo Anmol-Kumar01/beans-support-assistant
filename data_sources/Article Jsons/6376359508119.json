@@ -1,0 +1,46 @@
+{
+    "id": 6376359508119,
+    "title": "Drivers: How to Add a Stop/Scan a Package - iOS",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/6376359508119.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/6376359508119-Drivers-How-to-Add-a-Stop-Scan-a-Package-iOS",
+        "author_id": 417316688474,
+        "created_at": "2022-05-27T18:18:42Z",
+        "updated_at": "2023-04-18T16:20:05Z"
+    },
+    "body": "How to scan a package From the Mobile App: 1.  Click on the deliver tab.  2.  Click the black pin with the plus sign in the lower left hand corner.  3.  Choose “Scan Label” which will open the camera on your phone.  4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab. .             5.  If scanning the label does not work, you can manually add the stop by choosing “Enter Address”. Type in the address and tracking number and click \"done\". .        .         Video: How to scan a package - iOS",
+    "images": [
+        {
+            "alt": "DD6CD57F-8805-4AC1-AE01-7651A26B2E72_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376574841623/DD6CD57F-8805-4AC1-AE01-7651A26B2E72_1_201_a.jpeg"
+        },
+        {
+            "alt": "CDA49477-5835-42F7-BD73-571A6100735A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376508437911/CDA49477-5835-42F7-BD73-571A6100735A_1_201_a.jpeg"
+        },
+        {
+            "alt": "58B035F8-0C9E-4DE8-851E-0921D689B580_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376543114391/58B035F8-0C9E-4DE8-851E-0921D689B580_1_201_a.jpeg"
+        },
+        {
+            "alt": "31A1ED73-8EB5-4A58-A25B-7C1E44ABAF85_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376595448599/31A1ED73-8EB5-4A58-A25B-7C1E44ABAF85_1_101_o.jpeg"
+        },
+        {
+            "alt": "40259B0B-4881-416C-9DFF-B669088817CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376729127959/40259B0B-4881-416C-9DFF-B669088817CB_1_201_a.jpeg"
+        },
+        {
+            "alt": "2590F218-3DB8-403B-99BB-372838AFB0CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376747598871/2590F218-3DB8-403B-99BB-372838AFB0CB_1_201_a.jpeg"
+        },
+        {
+            "alt": "D05923CB-45E3-447F-BEA4-AEDE302E31DC_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376758426775/D05923CB-45E3-447F-BEA4-AEDE302E31DC_1_101_o.jpeg"
+        },
+        {
+            "alt": "995E9A40-1296-435D-A51B-A07714638D1F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376641483927/995E9A40-1296-435D-A51B-A07714638D1F_1_201_a.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "custom-work-areas-zipcodes",
+  "title": "Creating custom work areas using zip-codes / postal codes and using zip affinity",
+  "summary": "This tutorial shows you how to create custom work areas using zip-codes and postal codes with zip affinity in BeansRoute. Learn how to fetch zip-code boundaries using the Create Polygons from Zipcodes button, add custom work areas with the plus button, select and manage zip-code polygons, create multiple work areas, run DRO optimization, switch between map and satellite views, configure ZIP affinity to restrict one driver per postal code, use PROX affinity for stop clustering with K-Means, adjust timeout seconds and solution count for better results, and re-run routing with updated affinity settings. This guide helps you create geographically-based route optimization using postal code boundaries.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/tTJk2Z8W1AHhfucxNZeMjw/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

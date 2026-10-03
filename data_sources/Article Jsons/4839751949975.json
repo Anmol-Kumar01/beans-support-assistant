@@ -1,0 +1,34 @@
+{
+    "id": 4839751949975,
+    "title": "Drivers: How to add a note to a stop",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4839751949975.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4839751949975-Drivers-How-to-add-a-note-to-a-stop",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-17T23:54:05Z",
+        "updated_at": "2024-05-15T17:41:43Z"
+    },
+    "body": "1.  In the app, go to the deliver tab.  2.  Click on the pin/stop where you want to add a note.  Click on the “Info” button.   3.  Drag the Info screen up.  You can choose from Parking, Entrance, Elevator, or enter your own note; you can also include pictures by clicking the “add photo” icon.     .     4.  Click “Save.”",
+    "images": [
+        {
+            "alt": "1FCE927E-3888-4147-BBB4-45F36D1E82A1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4839723844631"
+        },
+        {
+            "alt": "248CF1B3-1921-489C-B894-0C5A67E9875A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4839720650775"
+        },
+        {
+            "alt": "D433069A-04F6-44A6-9945-31A3878F26A0_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4839741102103"
+        },
+        {
+            "alt": "F886BE11-07C0-4743-B514-47E7300F0D20_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4839749640983"
+        },
+        {
+            "alt": "005E2068-172C-44B7-9AED-62BDF5DCDD83_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4839779103511"
+        }
+    ]
+}

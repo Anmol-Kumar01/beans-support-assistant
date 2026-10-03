@@ -1,0 +1,13 @@
+{
+  "id": "modifying-results-rerun",
+  "title": "Modifying Results and re-running Route Planner",
+  "summary": "This tutorial shows you how to modify results and re-run Route Planner in BeansRoute. Learn how to click on individual stops to reassign them, use the RE-RUN button to recalculate routes based on changes, revert changes using the Revert button, accept re-calculated routes with the ACCEPT button, and create final routes with the CREATE ROUTES button. This guide helps you fine-tune route optimization results and make adjustments before finalizing your delivery routes.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/6J9U26LSios82VmeeOvNnQ/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

@@ -1,0 +1,26 @@
+{
+    "id": 25345638883607,
+    "title": "Reading the Routes Page",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/25345638883607.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/25345638883607-Reading-the-Routes-Page",
+        "author_id": 9615213053719,
+        "created_at": "2024-08-01T19:07:34Z",
+        "updated_at": "2024-11-22T18:14:58Z"
+    },
+    "body": "From Dispatch Console:   The Routes page will display all your live information for the day.   The Top Line Summary of information displays a high level view of all syncing data.    From left to right it displays the following LIVE information for the day:      1) All routes for the day (including any manually added routes)   2) Your combined company service score   3) The current number of exception codes affecting your company service score   4) Any warnings that have been coded today   5) Total deliveries for the day   6) Total pickups for the day   7) Total number of packages being handled that day (including all packages from both the delivery and pickup categories)   ******** Below the Top Line Summary bar, we will see a breakdown of all of the individual Routes for the day.    From left to right it displays the following LIVE information for the Route:      1) The route number   2) The truck number on route   3) The warehouse associated with the route    4) The assignment status of the route   5) The first/last delivery time (this indicates when the first/last package was released)   6) Stops per hour   7) The individual route service score   8) The current number of exception codes affecting the route    9) Any warnings that have been coded to the route   10) Total deliveries for the route   11) Total pickups for the route   12) Total number of packages being handled on that route (including all packages from both the delivery and pickup categories)   ******** If you have multiple Warehouses or Contracts, you can filter this information at the top of the screen.    This can be accomplished by clicking on the drop down menu under Select Warehouse or Select Company and marking the data you would like to see.    Once you have selected the data, click the checkmark to the right of your selection to filter the information.",
+    "images": [
+        {
+            "alt": "Screenshot 2024-08-01 at 12.34.37 PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25345668481175"
+        },
+        {
+            "alt": "Screenshot 2024-08-01 at 12.37.31 PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25345638874135"
+        },
+        {
+            "alt": "Screenshot 2024-08-01 at 1.02.32 PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25345668486679"
+        }
+    ]
+}

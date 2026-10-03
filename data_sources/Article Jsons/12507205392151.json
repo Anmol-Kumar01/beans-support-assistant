@@ -1,0 +1,46 @@
+{
+    "id": 12507205392151,
+    "title": "Managers: How to use Archive to Reopen a closed route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/12507205392151.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/12507205392151-Managers-How-to-use-Archive-to-Reopen-a-closed-route",
+        "author_id": 417316688474,
+        "created_at": "2023-02-17T23:02:28Z",
+        "updated_at": "2023-10-25T21:02:49Z"
+    },
+    "body": "1.  In the Dispatch Console on the Routes page, verify which route was accidentally closed.   Click the “Add Route” button.  2.  Name the route (*this should be different from the name of the route that is being copied) , add the date, and select the desired driver and warehouse.  Click “Add Route.”   *For example, if you are copying route 43, you would want to name the copied route “43x” or something similar  3. Navigate to the Archive page, fill out the information (date and name) of the route that you need to re-open. Click the “Search” button.      4. Click on the route that you want to re-open.  5. Select all the stops by clicking the “Select All” icon.    6. Select the route that you would like to copy the stops to (route added earlier). Click “Make a Copy”.       7. On the Routes page, click into the replacement route and click “Group Units”.        8. Done. Now just verify that a driver is assigned to the route.  9. Be sure to close any routes that you have manually opened the next day.",
+    "images": [
+        {
+            "alt": "",
+            "src": "https://lh3.googleusercontent.com/FMSTFd9XFUsDKcnJkEtzWtpLzA-p3ZZdX1p_QA2cHqOVZ6TpC1wehaVq9qMd-8D1TbFh8TJCCxjc81hhMe2eudtr5xEfm1zzutXJl4u2OuEzh53KUhNekHAXuQTYcmDZ4yGU9z7DCbC0SvLW5d-oois"
+        },
+        {
+            "alt": "",
+            "src": "https://lh4.googleusercontent.com/E9IluzR51uHo3vxD2LLlUmXEezsQQ7IW5GSdaqLTJWKiEisLYZ5FOfV-5Au5IMhGNOHeHdMtDvqFMffaP7rfky3ayd6hHxI0A2ThXGiTYhFcSXX6QCicnWPp5RYp0taOP92j3iKlCE-cvFqUaD3ABso"
+        },
+        {
+            "alt": "",
+            "src": "https://lh4.googleusercontent.com/u_MI4nmNfSxQIMhv-Wf4VpQQUWRjE1CFAzzG24xscvq26UGGNIgb_Huvp4jFSY_iH5YKJLSKCXNwN5kzT0650EmGOEy6VMWK2xA8uzEkpmziqNhY_AoE6OQSzho-E5Lno9oIXJ6JcYmFX_6QIJpknR0"
+        },
+        {
+            "alt": "",
+            "src": "https://lh3.googleusercontent.com/qgTakipaA048kO6PDYtNNCIIBe15SjFKXvijoPLsH2p-jGqAFYQonoBr0jSgy1RYDA_r4nJNENaNsqpR634d4vEIev_O7yuzU8U6fJBKPNKvkYqshFA9pk6sDARGjPKPo617x5pdaMGe77HG4juuVhE"
+        },
+        {
+            "alt": "",
+            "src": "https://lh3.googleusercontent.com/Iw2qzy6xb3HpaKiNfzOUyiyMIGOGnzGFausAkWHf30Gi76gkJ_nBrK3XhRnV0qBIkcnOTtrQbCMLIZn-K4vUJ1lunXz0X5lfwMdb5JOCVux2Jv9gadin0wYwwRj8U5gOWSF9N-M013z4_B0EIbXi5AU"
+        },
+        {
+            "alt": "",
+            "src": "https://lh6.googleusercontent.com/4owYvKoxujFPdm5lSHUJh2DLfIUCJToJhhllwqeiZyDdZ6pH5WFi98m__YfkzeyuuOJQnLcHSf4QSd5BajJegpn9lwTggzSg5FHYAl9D1tntc4uoiiiZ5c-3hiXMnIsoTIWxTKivxET8zw-gNhnlEDY"
+        },
+        {
+            "alt": "",
+            "src": "https://lh5.googleusercontent.com/sU-1cpcMUjd6FDTDRh36zMZZRctfmAsBX5SbstQz9aiDZqNZ9coFXn17V2AN5UI0E7X-jh4jY2F0oRvA5o3Up7yVpNAM7IkSRs51mgcfx5eqRpc9QCInqjebB4DAGsjBBsHWaKMDK5St5AqAIfH5UOM"
+        },
+        {
+            "alt": "",
+            "src": "https://lh4.googleusercontent.com/Fyu_JBgZ0ink-XWDL4P6LZpyLZO_IFcGlnGlvJMVrsBXeoGR6RX_uoWM99Gy7YB0dFHUYhrLNWBUv5BVQFsF-p0xHoD5r7A12CNQkOYIg1RMByTpD0vLNZ8nQaL-R_gZ08Ll5EFknnza1GaHxjqNARQ"
+        }
+    ]
+}

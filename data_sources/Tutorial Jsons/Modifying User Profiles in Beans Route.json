@@ -1,0 +1,13 @@
+{
+  "id": "modify-user-profiles",
+  "title": "Modifying User Profiles in Beans Route",
+  "summary": "This tutorial shows you how to modify user profiles within the Beans Route platform, focusing on the roles of Drivers and Dispatchers. Learn how to navigate to Assets and Drivers and Dispatchers, select users to modify, change roles using the dropdown menu, save changes, disable user profiles by changing status to Disabled, and reactivate disabled profiles by changing status back to Active. This guide helps you manage user access and roles effectively in your Beans Route account.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/jyhMkrCYnpkYGaGJYi0irg/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

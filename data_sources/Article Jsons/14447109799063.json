@@ -1,0 +1,70 @@
+{
+    "id": 14447109799063,
+    "title": "Managers: Message Drivers",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/14447109799063.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/14447109799063-Managers-Message-Drivers",
+        "author_id": 7501352909335,
+        "created_at": "2023-05-08T17:53:57Z",
+        "updated_at": "2024-03-07T20:11:29Z"
+    },
+    "body": "From the Dispatch Console: 1.  Click Assets > Drivers and Dispatchers.   2.  Select driver(s) to receive the message by clicking on the row to highlight OR click the \"select all\" icon (circled checkmark) to select all users in your list.    3.  Click the \"Send Message\" button.  4.  Type your message in the space provided and click “Send.”  5.  If you have safety enabled in your Beans Route account and would like to send a message to drivers failing safety, follow steps 1, 2, and 3 above then use the dropdown menu to select “send to selected failing safety.”  Beans Route has a pre-populated safety message which you can send as is or edit as needed.  Once you are satisfied with the message, click “Send.”  The message will be sent only to those drivers failing safety training.  NOTE:  Drivers will receive messages via a push notification in the Beans Route mobile app.  For drivers who have not yet installed the Beans Route app, a text message will be sent to the phone number associated with their user profile; text messages are NOT sent to drivers using the Beans Route app.  Additionally, you can send the message to users via their email address by clicking the “Email” checkbox.  From the Mobile App: 1.  On the Dispatch tab, click the menu bars in the top right.  2.  Click Assets > Drivers and Dispatchers.                    3.  Click the “circled checkmark” icon to select all users in your list.  If you don’t want message all users in the list, you can individually click on the row(s) for the user(s) to receive the message.   4.  Click the blue circle with the “chat” icon.            5.  Type your message and click “Send.”  6.  You can send a message to any driver failing safety by using the dropdown menu to select “send to selected failing safety.”  Only drivers failing safety will receive that message.",
+    "images": [
+        {
+            "alt": "7EB2E4A1-0386-46FC-AAFD-5DB044EBEA8F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894746903191"
+        },
+        {
+            "alt": "4867E4F7-8A94-4896-81E7-5D17D6D4E7CC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894744860951"
+        },
+        {
+            "alt": "DE95CAF2-815D-49FD-927C-082610995817_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894744869911"
+        },
+        {
+            "alt": "BBDB4B8B-FD33-4EDF-B2EA-3D0FA74DB3A4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894744881559"
+        },
+        {
+            "alt": "1C3348BC-5A8B-43EC-97DE-A9FD284DEFC8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894744897687"
+        },
+        {
+            "alt": "319254FF-42EF-403B-A893-8D9D35D14C4D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894746968727"
+        },
+        {
+            "alt": "16BA38FC-27EF-4548-B9A7-DB3044AFD327_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14449910006423"
+        },
+        {
+            "alt": "F0FD6654-9769-4E72-8663-CB7E0C645F3C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14450885569175"
+        },
+        {
+            "alt": "BAEB1C68-2E8B-49E8-B795-986C7BFA0D23_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894744921367"
+        },
+        {
+            "alt": "DCA4B129-539B-48D4-99F4-74F7E4C74366_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21894746999319"
+        },
+        {
+            "alt": "9F16129B-F349-4657-B374-8BD8678E1F4C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14451043939479"
+        },
+        {
+            "alt": "5772DBEC-07F2-43C7-A91F-E6BBBD0482C2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14451095617303"
+        },
+        {
+            "alt": "368BFC63-672A-41F7-9AC5-12BC74CB9585_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14451139809943"
+        },
+        {
+            "alt": "ECC8A6D3-BF5B-4CDB-84E6-FD932553187D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/14451144185623"
+        }
+    ]
+}

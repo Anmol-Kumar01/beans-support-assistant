@@ -1,0 +1,38 @@
+{
+    "id": 9308216424471,
+    "title": "Managers: How to Sync your Beans Route Account (FXG)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9308216424471.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9308216424471-Managers-How-to-Sync-your-Beans-Route-Account-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2022-10-03T21:41:16Z",
+        "updated_at": "2023-08-23T14:46:50Z"
+    },
+    "body": "1.  Sign into your MyGroundBiz account and click the link for FCC.  2.  Click the gear wheel in the upper right-hand corner to open FCC settings.  Click the tab for “Data Subscriptions”  3.  Choose your Service Area from the dropdown menu; choose Beans Maps as the vendor; click all three boxes: Delivery Manifest, Pickup Manifest, and Work Area Summary; click “Save.”  Wait five minutes after saving the info in FCC, and then sign into your Beans Route account. In the Dispatch Console: 1.  Click Settings > Fedex Integration  2.  Enter your Fedex ID# and click Verify ID. At the top of the screen review the information and if FXG ID# and number of work areas are correct, click “Yes.”  The button under your ID# will change to “Sync Manifest,” and you should click this button. Your routes will populate on the Routes page; give it at least 15 minutes after clicking “Sync Manifest” for the routes to show up.  NOTE: If you are a new FXG Standup, you will not have access to your FCC account until after midnight the day before your standup.  You should share the data in FCC and enter your info in Beans Route after midnight but prior to 5:00 a.m. on the standup date or your routes may not sync.",
+    "images": [
+        {
+            "alt": "9B0B733C-3676-42B1-9DF4-84766C9CEB7A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308180666135/9B0B733C-3676-42B1-9DF4-84766C9CEB7A_1_201_a.jpeg"
+        },
+        {
+            "alt": "3182E534-10A4-4AEE-8BC2-CEB09971FE19_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308186277527/3182E534-10A4-4AEE-8BC2-CEB09971FE19_1_201_a.jpeg"
+        },
+        {
+            "alt": "F74F15E9-0D21-4BBD-BF47-86F8CE61F2C4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308183714839/F74F15E9-0D21-4BBD-BF47-86F8CE61F2C4_1_201_a.jpeg"
+        },
+        {
+            "alt": "9B4983F7-AC83-44E4-8933-E25FB35E727B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308210841239/9B4983F7-AC83-44E4-8933-E25FB35E727B_1_201_a.jpeg"
+        },
+        {
+            "alt": "027D2532-9379-4AFA-AF45-1D8439FECC48_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308258376599/027D2532-9379-4AFA-AF45-1D8439FECC48_1_201_a.jpeg"
+        },
+        {
+            "alt": "CF604213-7F01-4D63-BE1F-4C89EECC87FE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9308214199831/CF604213-7F01-4D63-BE1F-4C89EECC87FE_1_201_a.jpeg"
+        }
+    ]
+}

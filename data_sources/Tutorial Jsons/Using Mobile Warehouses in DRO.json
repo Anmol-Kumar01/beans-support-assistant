@@ -1,0 +1,13 @@
+{
+  "id": "mobile-warehouses-dro",
+  "title": "Using Mobile Warehouses in DRO",
+  "summary": "This tutorial shows you how to use mobile warehouses in DRO (Dynamic Route Optimization) in BeansRoute. Learn how to create polygons from stop distribution, add work areas using the plus button, zoom in to pinpoint centralized mobile warehouse locations, enter operational parameters, enable Flex End for drivers who don't need to return to warehouse, and run DRO optimization. This guide helps you optimize routes using mobile warehouse locations for more flexible delivery operations.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/vR4YfqwrUsiae10UgwukmA/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

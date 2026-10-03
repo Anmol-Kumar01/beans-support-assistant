@@ -1,0 +1,54 @@
+{
+    "id": 13272274225303,
+    "title": "Managers: Modify Driver Availability (timesheets)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13272274225303.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13272274225303-Managers-Modify-Driver-Availability-timesheets",
+        "author_id": 7501352909335,
+        "created_at": "2023-03-21T22:06:51Z",
+        "updated_at": "2023-10-24T21:28:31Z"
+    },
+    "body": "Beans Route timesheet allows you to set the availability for drivers to assist in creating your schedule. From the Dispatch Console 1.  Click Settings > Timesheet > Driver View.   To remove days from availability: 1.  Select the driver to modify by clicking on the row to highlight it.  Click the “Modify Availability” button.  2.  Select the day(s) to be removed by clicking the date icon(s) on the calendar.    e.g., to remove all Saturday shifts, click on the first available Saturday on the calendar. On the Modify Shift menu, check “Apply to all similar” and click “Delete.”  Then click “Save”. e.g., to remove a single day, click the date on the calendar, click “Delete,” then click “Save.”     To add days to availability: 1.  Select the driver to modify by clicking on the row to highlight it.  Click the “Modify Availability” button.  2.  Select the date to add by clicking the date on the calendar.  3.  On the Add Shift menu, check “This is a recurring shift,” select the time period for the modification (\"For the next 12 weeks\" is most common), select all the days of the week you wish to add, then click the “Add” button.    Click “Save.”",
+    "images": [
+        {
+            "alt": "AEFF3CB0-D5CC-47EF-954D-1EFAC16FF9CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13271914308503"
+        },
+        {
+            "alt": "55290E0A-C4E0-454B-9BD3-7CF18BB7336C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13271927577879"
+        },
+        {
+            "alt": "CE8F173D-571E-4847-90CF-530542698FFD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13271930627607"
+        },
+        {
+            "alt": "94C0EFB0-521C-42D6-8E8D-BB5CD303592E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13271986777751"
+        },
+        {
+            "alt": "C887D0A6-B15D-458B-834A-E4F57F39EC27_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272014877207"
+        },
+        {
+            "alt": "9D9CD1C2-1A65-42F6-B2DE-2B6169B0D794_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272018273815"
+        },
+        {
+            "alt": "0AD1D971-1C33-44B8-8D9C-BB7D9F00BBE2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272035332375"
+        },
+        {
+            "alt": "8D58B6F0-DDA7-4CC2-BB2B-F6DC27DF6FC6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272114037015"
+        },
+        {
+            "alt": "C0FBDFB6-FE91-4C43-BED9-C641C766CEC4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272136306967"
+        },
+        {
+            "alt": "CE7929F9-0D49-4350-9B12-8493F70BFCED_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13272189098007"
+        }
+    ]
+}

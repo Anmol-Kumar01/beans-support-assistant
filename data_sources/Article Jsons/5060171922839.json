@@ -1,0 +1,50 @@
+{
+    "id": 5060171922839,
+    "title": "Managers: How to update your warehouse filter",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/5060171922839.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/5060171922839-Managers-How-to-update-your-warehouse-filter",
+        "author_id": 417316688474,
+        "created_at": "2022-03-28T00:48:15Z",
+        "updated_at": "2022-06-08T23:52:49Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the Routes page, choose the filter icon (3 lines in a downward triangle).  2.  Set the “warehouse” option to “all\" or to the particular warehouse you wish to view.  OR 1.  On the Routes page, click Settings.  2.  Click Preferences > Warehouses.  3.  Set the “warehouse” option to “all\" or to the particular warehouse you wish to view.  Click \"Save.\"    From the Mobile App: 1.  Click the Dispatch tab. Click the Menu icon (three lines at top right of screen)  2.  Click Settings > Preferences > Warehouse.        3.  Set “Select Warehouse” to “All” or to the particular warehouse you wish to view.  Click Save.  NOTE:  Larger organizations can set a warehouse filter so they can only see operations in a certain location.  Therefore, this setting can impact what data you can see.  If you can’t see all of your routes, or if you can’t see any of your routes,  check this setting first.",
+    "images": [
+        {
+            "alt": "018B3C89-21F9-42F4-8826-26613B3E8DB5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058492765975/018B3C89-21F9-42F4-8826-26613B3E8DB5_1_201_a.jpeg"
+        },
+        {
+            "alt": "C1E07457-3159-4469-83B3-566F91BBB8CA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058500554903/C1E07457-3159-4469-83B3-566F91BBB8CA_1_201_a.jpeg"
+        },
+        {
+            "alt": "53F32AD1-82FD-4CDE-9AD8-E03AD28B97AC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5059750625815/53F32AD1-82FD-4CDE-9AD8-E03AD28B97AC_1_201_a.jpeg"
+        },
+        {
+            "alt": "F254A336-DE38-4333-A664-364E8F5511CC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5059701621015/F254A336-DE38-4333-A664-364E8F5511CC_1_201_a.jpeg"
+        },
+        {
+            "alt": "8880FB57-C32A-4F61-91DB-60268CDFF566_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5059924650903/8880FB57-C32A-4F61-91DB-60268CDFF566_1_201_a.jpeg"
+        },
+        {
+            "alt": "5699328F-B7DC-4B88-BD6F-7AE917D83086_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5059971938455/5699328F-B7DC-4B88-BD6F-7AE917D83086_1_201_a.jpeg"
+        },
+        {
+            "alt": "CE3670B8-8B05-4117-B88E-565AF3D8985A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5060125366935/CE3670B8-8B05-4117-B88E-565AF3D8985A_1_201_a.jpeg"
+        },
+        {
+            "alt": "2DD238D0-9B18-4DC0-90ED-29F07F47DD54_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5060192949527/2DD238D0-9B18-4DC0-90ED-29F07F47DD54_1_201_a.jpeg"
+        },
+        {
+            "alt": "924770D2-09AE-4046-A58F-81C616B9839B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5060186544919/924770D2-09AE-4046-A58F-81C616B9839B_1_201_a.jpeg"
+        }
+    ]
+}

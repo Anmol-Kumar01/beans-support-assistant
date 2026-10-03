@@ -1,0 +1,70 @@
+{
+    "id": 4838301673751,
+    "title": "Managers:  How to Add a Driver (FXG)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4838301673751.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4838301673751-Managers-How-to-Add-a-Driver-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-17T22:26:06Z",
+        "updated_at": "2024-03-07T17:28:19Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Assets > Drivers and Dispatchers.   2.  Under “Things That You Can Do,” click “Add Driver.”  3.  To add a driver you are required to enter the driver’s full name, phone number, email, and FedEx ID#.  For role, select \"driver.\"  You can also enter additional information such as the driver's direct manager, driver's assigned warehouse, and expiration dates for Drivers License and DOT cards. (For non-FXG accounts, you must enter full name, phone number, and email, but are not required to add an employee ID#).  4.  If safety is enabled for the account, be sure the “Enroll in safety training” option is checked.  Click “add driver.”  NOTE: The email entered in the driver profile will be used as both the user name AND password.  Best practice is to enter email addresses in all lowercase letters as the password is case sensitive.  5.  The driver will automatically receive a text message asking them to download the app and sign in. *   From the Mobile App: 1.  From the Dispatch tab, click the Menu Bars on the top right of the screen.  2.  Click: Assets > Drivers and Dispatchers.            3.  Click the blue circle with the plus sign.  4.  To add a driver you are required to enter the driver’s full name, phone number, email, and FedEx ID#.  For role, select \"driver.\"  You can also enter additional information such as the driver's direct manager, driver's assigned warehouse, and expiration dates for Drivers License and DOT cards. (For non-FXG accounts, you must enter full name, phone number, and email, but are not required to add an employee ID#).            6.  The driver will automatically receive a text message asking them to download the app and sign in. *  *When a user is added to your Beans Route account, the email used to create the user account is also the user’s password.  Passwords are case sensitive, so we suggest using all lowercase letters when entering email addresses.  Be sure to verify that all information is correctly entered before hitting “add driver.” NOTE: The process above is the same for adding BCs and AOs.  BCs should be entered as “Dispatchers” and AOs as “Admins.\"  Simply change the “Role” from the dropdown list.",
+    "images": [
+        {
+            "alt": "7EB2E4A1-0386-46FC-AAFD-5DB044EBEA8F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889241383703"
+        },
+        {
+            "alt": "4867E4F7-8A94-4896-81E7-5D17D6D4E7CC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889300974103"
+        },
+        {
+            "alt": "F514BEB9-3E91-4A01-AF94-76365EC6CE80_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495642029591"
+        },
+        {
+            "alt": "CC280A68-B705-4A58-A367-D71355BA56DC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495616954391"
+        },
+        {
+            "alt": "45399069-FB13-4A73-AEA5-B2EF33E1E08C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495642058775"
+        },
+        {
+            "alt": "E9D82233-5EB2-45FE-9868-1686CAB5B926_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495642073751"
+        },
+        {
+            "alt": "EC334AEC-36EB-4750-B42E-CE7709EACB18_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495642097943"
+        },
+        {
+            "alt": "8606F40D-ADFF-45BA-A4B1-91EED54EED44_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889300994199"
+        },
+        {
+            "alt": "BAEB1C68-2E8B-49E8-B795-986C7BFA0D23_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889241481495"
+        },
+        {
+            "alt": "DCA4B129-539B-48D4-99F4-74F7E4C74366_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889241490455"
+        },
+        {
+            "alt": "8EC87FE6-027B-4CAA-8F6E-9105AEC751C1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495617090839"
+        },
+        {
+            "alt": "6E4CA59E-952C-4773-B807-54F1629E117A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495617108759"
+        },
+        {
+            "alt": "63869314-58C5-48AF-B873-E4EB1A9D1161_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495642193047"
+        },
+        {
+            "alt": "D6FBF743-4406-43CB-A937-45C87AE508AE_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21495617138455"
+        }
+    ]
+}

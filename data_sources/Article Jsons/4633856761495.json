@@ -1,0 +1,22 @@
+{
+    "id": 4633856761495,
+    "title": "Drivers: How to Solve Beans Route App Login Issues",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4633856761495.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4633856761495-Drivers-How-to-Solve-Beans-Route-App-Login-Issues",
+        "author_id": 8063442246423,
+        "created_at": "2022-03-08T17:25:08Z",
+        "updated_at": "2024-04-27T23:49:12Z"
+    },
+    "body": "First Time Logging In  Make sure you are on the Beans Route app  and not the Beans Maps for Apartments app   Your default password is your email address. Try logging in with that. If that fails, check with your Manager to see what email address is set for you in Beans Route.  It may be the wrong email address, or it may have typos in it. If it's wrong, then you can try logging in using the wrong address as your password.   If you still cannot login, then you can ask your Manager to send you a new invite link.  You will receive the link as a text message. Tap on it and select \"Open In Beans Route\".    Subsequent Login Attempts  If logging in fails due to password mismatch, you can reset your password with these steps.  Tap the \"Trouble Signing In\" link. An email will be sent to the email address set for you in Beans Route.  IMPORTANT: If the email in Beans Route is wrong, then you will not receive the email. Ask your Manager what email address is set for you in Beans Route.   Once you receive the email, click the link in it. Follow the password reset steps. Use your new password to login to Beans Route.   If logging in still fails, confirm with your Manager that your Beans Route user is not \"disabled\".  Reset Password Video Tutorial      How Managers Can Resend An Invite Link   Go to Drivers & Dispatch.   Highlight the driver by clicking on the white space on their row.   Click Notify Driver.   Have the driver tap the link in the text message notification that they received.   Have the driver select Open in Beans Route.   Still having login trouble? Reach out to Beans Route Support through support@beans.ai or through +1 (415) 888-9059",
+    "images": [
+        {
+            "alt": "Beans_Route_Square_Logo.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4633732446231/Beans_Route_Square_Logo.png"
+        },
+        {
+            "alt": "Beans.ai_logos.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4633723253783/Beans.ai_logos.png"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "id": 4944167831063,
+    "title": "Managers: How to resend an invite code/notify a driver",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4944167831063.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4944167831063-Managers-How-to-resend-an-invite-code-notify-a-driver",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-22T20:35:49Z",
+        "updated_at": "2024-03-18T17:56:40Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Assets > Drivers and Dispatchers.  2.  Highlight the driver to be notified by clicking on the row.  Under “Things That You Can Do,” click “Notify Drivers.”  3.  A text notification will be automatically sent to the driver at the phone number listed in the driver profile.  From the Mobile App: 1.  Click the Dispatch Tab.  Click the Menu Bars on the top right.  2.  Click: Assets > Drivers and Dispatchers.  3.  Highlight the driver to be notified by clicking on the row.  Click the blue circle with the bell icon.  4.  A text notification will be automatically sent to the driver at the phone number listed in the driver profile.",
+    "images": [
+        {
+            "alt": "3AE88A38-C14D-48A3-A509-4FE9C2AAA5E5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158124779159"
+        },
+        {
+            "alt": "0677ADDB-C00A-40E8-AB54-3D0FBE4A01B6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158167292055"
+        },
+        {
+            "alt": "D4F3CA9A-9F44-4B0B-AEB2-FAA6A257DA90_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158167310615"
+        },
+        {
+            "alt": "46037C49-2FA5-486E-8892-382F2B7A97E2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158167317015"
+        },
+        {
+            "alt": "E5DEDDB4-D8D9-4C93-BE98-E67BE2C757E0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158167324439"
+        },
+        {
+            "alt": "FEBC6A9B-A9BE-4CDB-AC79-3276A0CEDBDA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158124830487"
+        },
+        {
+            "alt": "6521A17E-6F0D-4F69-B45A-49AEDD521B72_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22158124845591"
+        }
+    ]
+}

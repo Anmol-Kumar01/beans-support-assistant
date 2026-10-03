@@ -1,0 +1,50 @@
+{
+    "id": 9538181797143,
+    "title": "Drivers: Completing Safety Training",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9538181797143.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9538181797143-Drivers-Completing-Safety-Training",
+        "author_id": 7501352909335,
+        "created_at": "2022-10-13T22:37:08Z",
+        "updated_at": "2023-10-31T16:16:12Z"
+    },
+    "body": "Drivers are assigned one safety training course per month and can complete the course via the Beans Route driver app.  Courses are assigned on the first of the month and must be completed before the last day of the month.  Courses consist of a short video module and then a series of questions about the module. NOTE: You can complete your safety training courses on the computer by going to the Safety Forward webpage and following the login instructions. From the Mobile App: 1. In the app, go to the Hub.  The yellow \"Safety Training\" status bar will show if you have trainings due.  If not, the bar will simply read “Safety Training.”  To complete safety training courses, click the yellow Safety Training bar to see a list of the courses to complete.  2.  Select the course to complete, click the blue “Start Training” button, and agree to the conditions by clicking “continue.”                              3.  The app will then take you directly to the Safety Forward website and launch the course.            4.  Watch the video and then take the associated quiz.  When you have completed the quiz, click \"close\" to return to the Hub.                        NOTE: You can also complete your safety training courses on the computer by going to the Safety Forward webpage and following the login instructions above.",
+    "images": [
+        {
+            "alt": "38308DEB-8682-48AE-99DA-B0D3887D65EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084913559"
+        },
+        {
+            "alt": "F44E1239-B905-4FDD-91F6-B11D897982F3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084918551"
+        },
+        {
+            "alt": "3860800B-DEDC-4FAE-B7EE-8B15B8A5277E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590115008663"
+        },
+        {
+            "alt": "DA211FA6-A0B9-4C1E-8D36-7E3CC7FFD963_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590115019415"
+        },
+        {
+            "alt": "C0E61A1E-8FE5-4F81-8F7A-ADF08583DC13_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590115028119"
+        },
+        {
+            "alt": "D888B44E-7172-4926-B35C-3ECF026A139B_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084934039"
+        },
+        {
+            "alt": "A3BFF19A-D82F-4CDC-8CDF-A5E2EE3DE137_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084939031"
+        },
+        {
+            "alt": "5D0B9754-93C3-466F-9EBB-7463D0400312_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084945047"
+        },
+        {
+            "alt": "24ACC07D-2793-422F-AAF4-25B692BBF6C2_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18590084948631"
+        }
+    ]
+}

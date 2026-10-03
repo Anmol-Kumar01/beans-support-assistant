@@ -1,0 +1,13 @@
+{
+  "id": "using-route-planner-hypr",
+  "title": "Using Route Planner",
+  "summary": "This comprehensive tutorial shows you how to use Route Planner in BeansRoute. Learn how to select routes with the same warehouse, configure driver parameters including account drivers and floating drivers, set capacity and shift parameters, create custom work areas using polygon tools, choose optimization criteria (Time, Distance, Cost), configure advanced settings like traffic speed and balance factors, use auto-generated polygons from zipcodes and stop distribution, toggle zipcode counts and slim mode, save configurations, run optimization, review results with sequence numbers, assign drivers, customize route names, download routes, modify individual stops, re-run optimization, and create final routes. This complete guide helps you master the Route Planner tool for efficient route optimization.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/u68f3C2XdZioEI2imAshAQ/embed",
+  "display_option_tags": "",
+  "category": "Onboarding",
+  "account_buids": "b3b07be7",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

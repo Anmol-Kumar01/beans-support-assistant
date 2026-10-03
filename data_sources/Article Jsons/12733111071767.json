@@ -1,0 +1,34 @@
+{
+    "id": 12733111071767,
+    "title": "FedEx Ground: Stand up Process for Beans Route Account",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/12733111071767.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/12733111071767-FedEx-Ground-Stand-up-Process-for-Beans-Route-Account",
+        "author_id": 7501352909335,
+        "created_at": "2023-02-28T00:06:47Z",
+        "updated_at": "2024-04-30T18:52:46Z"
+    },
+    "body": "Prior to your standup date, you should complete Steps 1 and 2 below.  The remaining Steps will be completed on the day of standup and after.   1.  Create your Beans Route account: Go to beansroute.ai and click the link for “create account.”  Fill out the required information and enter a valid credit card number. NOTE: Be sure to write down the account password you create for future reference.     2.  Add your BC and drivers: a.  If you are purchasing your business from a contractor who also uses Beans Route: Provide your Beans Route Account Executive or Customer Support Manager (CSM) with the seller’s business name and all employees who will be joining your new business.  Beans Route will move the employees from the seller’s account to your new account.  Transferred drivers will remained signed into their Beans Route driver app and can see their new routes as soon as you assign them to a route. b.  If you are purchasing your business from a contractor who does not use Beans Route, you will need to enter your drivers into your Beans Route account.   How to add drivers to your Beans Route account   NOTE:  Newly added drivers will then sign into their Beans Route app. Drivers’ initial login to Beans Route app  Drivers will not see any route information until you have assigned them to a route (see instructions for route assignment below).    3.  Get your account syncing with Beans Route: Once you gain access to your MyGroundBiz account and are able to sign into your FCC, you will need to sync your FXG data with your Beans Route account.  Normally FXG gives new CSPs access to MyGroundBiz and FCC around midnight on the day of the standup.   How to sync your FXG account with Beans Route After 5:00 a.m. on the day of your standup you should be able to see the routes for your service area in FCC.  If you have synced your FCC data with Beans Route, your routes for the day should populate on the Routes page in your Dispatch Manager.   If the routes are not showing up in Beans Route, but you can see them in your FCC, you can manually upload the manifests for the first day.  Beans Route should sync normally thereafter.  If your Beans Route account is not syncing by the Monday after your standup, reach out to your CSM or call Beans Route Support at (415) 888-9059. Upload a manifest to Beans Route   4.  Assign your drivers to their route for the day:   In order for your drivers to be able to use their Beans Route driver app, you will need to assign them to a route.  Beans Route gathers the Star V scanner data and the route information on the Routes page in Beans Route will show you who is assigned to a route based on the driver logging into the FXG scanner.  However, if you don’t see a pad and pen icon beside the driver’s name, the driver is NOT assigned via Beans Route. Assign driver to a route   5.  Get your vehicles into Beans Route: Once your Schedule B is finalized (normally a few days after standup), send a screenshot of the Schedule B page from MyGroundBiz.  Beans Route will get your vehicles entered into your account so you can enter maintenance records and complete your MMRs.   NOTE: When taking the screenshot be sure to include all of the information; do not crop the image.    6.  Setup an Onboarding Session with your Customer Service Manager: In addition to learning to use Beans Route yourself, you also want to train your BCs to use the dispatch functions of Beans Route and the Beans Route Driver App so they can instruct your drivers on using the app.  Your Customer Service Manager will schedule a zoom meeting to teach you and your BCs to use Beans Route.  Follow-up meetings can be scheduled as needed. 7.  Help is at hand: On the day of your standup, your CSM will be available by phone to help you with any issues.  Thereafter, you can reach out to Beans Route Support in three ways. Phone: (415) 888-9059 Email:  support@beans.ai Chat: you can access the chat feature directly from your Beans Route Dispatch Manager on your computer.",
+    "images": [
+        {
+            "alt": "3F42DD46-02DF-4FB4-A11F-6EA7F3F714D6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/12732751691287"
+        },
+        {
+            "alt": "94AB4853-C120-4FFD-8AC1-CC79704971DB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/12732752659991"
+        },
+        {
+            "alt": "B562D40F-6F41-40AD-B04A-EEE20EBF61CD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/12733003475735"
+        },
+        {
+            "alt": "B2A49567-F2B7-45BD-B0A4-EB85BF0319B8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/12733070902807"
+        },
+        {
+            "alt": "B23F3881-B177-473A-AC2A-5A0E727B2BC3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/12733073259671"
+        }
+    ]
+}

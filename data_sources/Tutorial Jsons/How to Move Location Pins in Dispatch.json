@@ -1,0 +1,13 @@
+{
+  "id": "move-location-pins",
+  "title": "How to Move Location Pins in Dispatch",
+  "summary": "This tutorial shows you how to move location pins on the map in BeansRoute Dispatch. Learn how to open the detailed page of a route, zoom in to the specific pin location, click on the pin to display address information, drag and drop the pin to the desired location, save changes to the map view, and close the information popup. This guide helps you fix incorrect pin locations and ensure accurate delivery addresses for your drivers.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/XkJ923N7h7o1sk8mP42dew/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

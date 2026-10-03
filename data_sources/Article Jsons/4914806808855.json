@@ -1,0 +1,50 @@
+{
+    "id": 4914806808855,
+    "title": "Managers: How to Enable a Disabled Driver",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4914806808855.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4914806808855-Managers-How-to-Enable-a-Disabled-Driver",
+        "author_id": 417316688474,
+        "created_at": "2022-03-21T18:54:53Z",
+        "updated_at": "2022-06-09T21:02:12Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Settings > Drivers and Dispatchers.    2.  At the top of the driver list you will see two grey boxes: “Active” and “Signed In.”  Click on the “X” in both grey boxes to remove the filters.  3.  The driver list will now display all drivers, including those previously disabled.  4.  Highlight the driver you wish to enable by clicking on the row.  Under “Things That You Can Do,” click “Modify Driver.”  Change the Status from Disabled to Active.  Click \"Save.\"  From the Mobile App: 1.  Click the Dispatch Tab.  Click the Menu Bars on the top right of the screen.    2.  Click: Settings > Drivers and Dispatchers.    3.  At the top of the driver list you will see two grey boxes: “Active” and “Signed In.”  Click on the “X” in both grey boxes to remove the filters.    4.  The driver list will now display all drivers, including those previously disabled.  Highlight the driver to be enabled by clicking on the row.  Click the blue circle with the pencil icon.      5.  Change Status from Disabled to Active.  Click \"Save.\"",
+    "images": [
+        {
+            "alt": "CD8B600C-DEBA-4F17-9105-7615207EE9F7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4914905360279/CD8B600C-DEBA-4F17-9105-7615207EE9F7_1_201_a.jpeg"
+        },
+        {
+            "alt": "02F28FB9-5B38-43C6-B795-42DC32205D3F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4914860032151/02F28FB9-5B38-43C6-B795-42DC32205D3F_1_201_a.jpeg"
+        },
+        {
+            "alt": "A10C3236-0D21-4009-9A9A-7E2B20AA866E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4914930478103/A10C3236-0D21-4009-9A9A-7E2B20AA866E_1_201_a.jpeg"
+        },
+        {
+            "alt": "627D8148-B467-4847-B2DB-C2CC71E89568_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4914941995031/627D8148-B467-4847-B2DB-C2CC71E89568_1_201_a.jpeg"
+        },
+        {
+            "alt": "11DB875B-E688-4EA3-804D-526FA2B84E23_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4916821382039/11DB875B-E688-4EA3-804D-526FA2B84E23_1_201_a.jpeg"
+        },
+        {
+            "alt": "85B8B0E6-19BF-40DF-9F4D-64E273DFD443_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4916856372887/85B8B0E6-19BF-40DF-9F4D-64E273DFD443_1_201_a.jpeg"
+        },
+        {
+            "alt": "F84B5BFC-EC2A-489B-9475-F825BD04C212_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4916902282263/F84B5BFC-EC2A-489B-9475-F825BD04C212_1_201_a.jpeg"
+        },
+        {
+            "alt": "834B131D-9546-4CDE-A9A4-AF085F7CD87C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4916920077207/834B131D-9546-4CDE-A9A4-AF085F7CD87C_1_201_a.jpeg"
+        },
+        {
+            "alt": "E454D906-99AE-4090-B7F1-37A34C1C23FB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4917212945559/E454D906-99AE-4090-B7F1-37A34C1C23FB_1_201_a.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "managing-territory-planner",
+  "title": "Managing Territories in Territory Planner",
+  "summary": "This tutorial shows you how to manage territories using the Territory Planner in BeansRoute. Learn how to select routes, assign warehouses, create territory configurations, add territories using zip codes or free-form polygons, edit polygon boundaries, assign accounts and route names, and save configurations as primary or secondary. This guide helps you set up and manage territory planning for efficient route management and warehouse operations.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/5aal9RUcl5WnERFVo0wW4g/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

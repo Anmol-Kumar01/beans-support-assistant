@@ -1,0 +1,13 @@
+{
+  "id": "group-stops",
+  "title": "Grouping Stops with the same Address",
+  "summary": "This tutorial shows you how to group stops with the same address in BeansRoute. Learn how to select routes from the route list by clicking on the white space in each row, click on Group Units in the sequencing section, confirm the grouping operation in the modal, wait for system completion notification, and view the grouped stops as a Parent stop with multiple Child stops. This guide helps you organize multiple deliveries to the same location for more efficient route management.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/zW785CcYeGeltaEiEedcLg/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

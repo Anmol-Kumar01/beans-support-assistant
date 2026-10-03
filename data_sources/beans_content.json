@@ -1,0 +1,578 @@
+{
+  "_note": "Structured version of beans_data.text, shown on the Explore Beans, Maps & Traffic and Integrations pages. Edit here; the server reloads it on restart.",
+  "demo_url": "https://www.beansroute.ai/demo",
+  "products": [
+    {
+      "id": "beansroute",
+      "name": "Beans Route",
+      "url": "https://www.beansroute.ai/",
+      "tagline": "Last-mile delivery software for high-growth operations",
+      "text": "An AI-powered route optimization and delivery management platform that uses location intelligence to streamline last-mile logistics.",
+      "for": [
+        "3PLs",
+        "Delivery networks",
+        "Pharmacies",
+        "Ground contractors"
+      ],
+      "features": [
+        {
+          "name": "Dispatch Console",
+          "text": "Assign, track and manage routes in real time"
+        },
+        {
+          "name": "Route Planning AI",
+          "text": "Automates multi-stop planning using traffic and delivery windows"
+        },
+        {
+          "name": "Driver App",
+          "text": "Mobile app for drivers on the road"
+        },
+        {
+          "name": "Real-Time Delivery Tracking",
+          "text": "Live progress for dispatchers and customers"
+        },
+        {
+          "name": "Warehouse App",
+          "text": "Warehouse operations management"
+        },
+        {
+          "name": "Shipper Portal",
+          "text": "Customer-facing delivery visibility"
+        },
+        {
+          "name": "AI Proof of Delivery",
+          "text": "Digital delivery confirmation"
+        },
+        {
+          "name": "Chain of Custody & Rate Cards",
+          "text": "Documentation tracking and pricing management"
+        }
+      ],
+      "stats": [
+        {
+          "value": "5M+",
+          "label": "daily deliveries"
+        },
+        {
+          "value": "50K+",
+          "label": "active drivers"
+        },
+        {
+          "value": "1,000+",
+          "label": "customers"
+        },
+        {
+          "value": "4.9/5",
+          "label": "customer rating"
+        }
+      ],
+      "results": [
+        "80% fewer delivery failures",
+        "23% fewer miles driven",
+        "18% higher driver retention",
+        "38% faster dispatch-to-door"
+      ],
+      "page": "tutorials",
+      "page_label": "Tutorials"
+    },
+    {
+      "id": "beansai",
+      "name": "Beans.ai",
+      "url": "https://www.beans.ai/",
+      "tagline": "Moving people and things efficiently",
+      "text": "A location intelligence platform for routing, dispatch, geocoding and visualization, with hyper-accurate location data, AI-based routing and real-time distance calculations.",
+      "for": [
+        "Transportation & logistics",
+        "Telecom",
+        "Real estate",
+        "Government & public safety"
+      ],
+      "features": [
+        {
+          "name": "API & Data",
+          "text": "Doorstep geocodes and semantic waypoints: unit numbers, parking lots, entrances, elevators"
+        },
+        {
+          "name": "Routing Tools",
+          "text": "Dispatch and routing platform with enhanced location data, route planning, gig drivers app"
+        },
+        {
+          "name": "Visualizations",
+          "text": "2D and 3D maps for apartments and businesses, indoor navigation"
+        },
+        {
+          "name": "Geocoding & Distance Matrix",
+          "text": "Geocoding, reverse geocoding, address verification, autocomplete, distance matrix"
+        }
+      ],
+      "stats": [
+        {
+          "value": "Up to 50%",
+          "label": "shorter delivery windows"
+        },
+        {
+          "value": "300+ ft",
+          "label": "more accurate for 30% of U.S. addresses"
+        }
+      ],
+      "awards": [
+        "ESRI Award Winner 2022",
+        "Food Logistics Rockstar 2022",
+        "Gartner Cool Vendor 2021"
+      ],
+      "page": "maps",
+      "page_label": "Maps & Traffic"
+    },
+    {
+      "id": "api",
+      "name": "Beans APIs",
+      "url": "https://www.beansroute.ai/route-api-v1",
+      "tagline": "Enterprise APIs for routing, maps and address intelligence",
+      "text": "Build Beans routing, optimization and location data into your own systems, or plug it into ServiceNow FSM with just an API key.",
+      "for": [
+        "Developers",
+        "Enterprise IT",
+        "ServiceNow FSM teams"
+      ],
+      "features": [
+        {
+          "name": "Route Enterprise API v1",
+          "text": "Warehouses, drivers, routes, stops, route optimization and proof of delivery"
+        },
+        {
+          "name": "Maps Enterprise API v2",
+          "text": "Search, address autocomplete and unitcomplete, address verifier, POI lookup"
+        },
+        {
+          "name": "Distance Matrix",
+          "text": "Real-time and predictive traffic for scheduling and re-optimization"
+        },
+        {
+          "name": "Maps Web Widget v1",
+          "text": "Embed Beans maps in your web app"
+        }
+      ],
+      "stats": [
+        {
+          "value": "1M",
+          "label": "elements per request"
+        },
+        {
+          "value": "1M",
+          "label": "elements per second"
+        }
+      ],
+      "page": "apis",
+      "page_label": "APIs & Docs"
+    }
+  ],
+  "maps_url": "https://www.beans.ai/3dmaps",
+  "apis": [
+    {
+      "id": "route-api",
+      "name": "Beans Route Enterprise API",
+      "version": "v1",
+      "url": "https://www.beansroute.ai/route-api-v1",
+      "text": "Warehouses, assignees, routes, stops, route optimization and proof-of-delivery documentation.",
+      "reference": true
+    },
+    {
+      "id": "maps-api",
+      "name": "Beans Maps Enterprise API",
+      "version": "v2",
+      "url": "https://www.beans.ai/enterprise-api-v2",
+      "includes": [
+        "Search",
+        "Address Autocomplete",
+        "Address Unitcomplete",
+        "Feedback",
+        "Address Verifier",
+        "POI Lookup"
+      ]
+    },
+    {
+      "id": "maps-widget",
+      "name": "Beans Maps Web Widget",
+      "version": "v1",
+      "url": "https://www.beans.ai/mapswidget-api-v1"
+    }
+  ],
+  "developer_tutorials": {
+    "url": "https://github.com/beansai/beans-tutorials/tree/main",
+    "items": [
+      {
+        "name": "Distance Matrix",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/matrix"
+      },
+      {
+        "name": "What-if",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/what-if"
+      },
+      {
+        "name": "Beans Route",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/beans-route"
+      },
+      {
+        "name": "Callbacks",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/callback"
+      },
+      {
+        "name": "Dynamic Route Optimization",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization"
+      }
+    ]
+  },
+  "contacts": {
+    "sales": "sales@beans.ai",
+    "support": "support@beans.ai",
+    "direct": "akash@beans.ai",
+    "phone": "+1 (415) 888-9059"
+  },
+  "why_beans": {
+    "rows": [
+      {
+        "feature": "Real-Time & Predictive Traffic",
+        "beans": "High quality traffic data",
+        "others": "None (or limited)"
+      },
+      {
+        "feature": "Enterprise Support",
+        "beans": "White-glove support",
+        "others": "Self-serve only"
+      },
+      {
+        "feature": "Flat Pricing",
+        "beans": "Predictable, no overages",
+        "others": "Usage-based billing, spikes possible"
+      },
+      {
+        "feature": "High Element Throughput",
+        "beans": "Millions of elements per request",
+        "others": "Limited (~100x less)"
+      },
+      {
+        "feature": "US Address Precision",
+        "beans": "300+ feet more accurate (30% of the time)",
+        "others": "Inaccurate in dense areas"
+      }
+    ],
+    "points": [
+      {
+        "title": "Traffic intelligence that works for scheduling",
+        "text": "The distance matrix API supports real-time and predictive traffic: morning manifest planning with learned traffic patterns, and midday re-optimization with live congestion data."
+      },
+      {
+        "title": "Predictable, scalable pricing",
+        "text": "Flat-tier pricing based on expected volume, or per-technician pricing. No surprise overage fees."
+      },
+      {
+        "title": "Enterprise support with a human touch",
+        "text": "Dedicated onboarding, technical support that picks up the phone, and configuration guidance for ServiceNow use cases."
+      },
+      {
+        "title": "Hyper-accurate geocoding (U.S. focused)",
+        "text": "300+ feet more accurate for 30% of U.S. addresses, especially in multi-dwelling units, campus-style facilities and urban metros: better routing, fewer delays, more accurate ETAs."
+      }
+    ]
+  },
+  "usage": [
+    {
+      "name": "Brightspeed",
+      "text": "600 techs, peaked at 3M requests/day"
+    },
+    {
+      "name": "TridentCare",
+      "text": "1,800 field staff, 8–9M requests/day"
+    },
+    {
+      "name": "FedEx Ground",
+      "text": "10,000+ drivers actively using the platform"
+    }
+  ],
+  "traffic": {
+    "intro": "Assigning the right technician to the right job isn't just about distance — it's about time. Beans.ai gives both Predictive and Real-Time traffic data, so schedules stay accurate as road conditions change.",
+    "options": [
+      {
+        "name": "Predictive Traffic",
+        "tagline": "Plan smarter for the day ahead",
+        "text": "Machine learning on historical traffic patterns across specific geographies and times of day.",
+        "best_for": [
+          "Overnight hours",
+          "Early morning scheduling",
+          "Low-traffic times"
+        ],
+        "example": "Building a technician's daily manifest at 6 AM for jobs starting at 9 AM.",
+        "ready": "About 2–3 weeks of learning for a new metro area.",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/matrix",
+        "link_label": "Distance Matrix tutorial"
+      },
+      {
+        "name": "Real-Time Traffic",
+        "tagline": "Optimize as the day unfolds",
+        "text": "Live traffic conditions at the moment of scheduling or re-optimization.",
+        "best_for": [
+          "Peak commute hours",
+          "High-density metro areas",
+          "Re-optimizing routes midday when delays happen"
+        ],
+        "example": "Adjusting assignments at 2 PM due to unexpected congestion.",
+        "ready": "Ready immediately.",
+        "url": "https://github.com/beansai/beans-tutorials/tree/main/matrix",
+        "link_label": "Distance Matrix tutorial"
+      }
+    ],
+    "phases": [
+      {
+        "phase": "Initial daily schedule",
+        "traffic": "Predictive Traffic",
+        "benefit": "Anticipate regular patterns and avoid known bottlenecks"
+      },
+      {
+        "phase": "Midday changes / on-demand scheduling",
+        "traffic": "Real-Time Traffic",
+        "benefit": "Account for live incidents, accidents, congestion"
+      }
+    ],
+    "mix": [
+      "Geography (urban vs rural)",
+      "Time of day (peak vs off-peak)",
+      "Frequency of updates (hourly, by event, or dynamic)"
+    ],
+    "plans": [
+      {
+        "name": "Predictive Traffic Only",
+        "includes": "Predictive + Basic Distance Matrix",
+        "price": "Starting ~$1,000/month",
+        "url": "https://www.beans.ai/enterprise",
+        "link_label": "View on beans.ai"
+      },
+      {
+        "name": "Real-Time Traffic (includes Predictive)",
+        "includes": "Real-Time + Predictive + Basic",
+        "price": "Starting ~$1,500/month",
+        "url": "https://www.beans.ai/enterprise",
+        "link_label": "View on beans.ai"
+      }
+    ],
+    "plans_note": "Final pricing is based on request volume, geography, and technician count."
+  },
+  "servicenow": {
+    "tagline": "Smarter Routing. Lower Costs. Plug-and-Play Setup.",
+    "intro": "Beans.ai is fully integrated into ServiceNow Field Service Management (FSM), powering smarter technician assignments with flat, predictable pricing and enterprise-grade support.",
+    "availability": "Native integration with ServiceNow FSM: Scheduled Optimization from the Vancouver release, Dynamic Optimization from the Utah version.",
+    "requirements": [
+      "A signed MSA with Beans",
+      "A Beans API key to plug into ServiceNow"
+    ],
+    "steps": [
+      {
+        "title": "Get in touch",
+        "text": "Reach out to the Beans.ai team at sales@beans.ai"
+      },
+      {
+        "title": "Get pricing",
+        "text": "Simple, flat-rate pricing based on your usage"
+      },
+      {
+        "title": "Sign the order form",
+        "text": "Quick and easy contracting"
+      },
+      {
+        "title": "Receive your API key",
+        "text": "Instantly generated for your account"
+      },
+      {
+        "title": "Paste it in ServiceNow FSM",
+        "text": "Simple copy-and-paste setup, then toggle a setting. No developer involvement required."
+      },
+      {
+        "title": "Go live",
+        "text": "Start optimizing routes and assignments within minutes"
+      }
+    ],
+    "why": [
+      "Built for enterprise-scale FSM",
+      "Predictable flat pricing",
+      "Real-time + predictive traffic",
+      "Millions of elements per second",
+      "Seamless ServiceNow FSM integration",
+      "Hands-on support team"
+    ],
+    "benefits": [
+      {
+        "title": "Better technician assignment",
+        "text": "Optimize job-to-tech pairings with actual driving distance, not straight-line estimates."
+      },
+      {
+        "title": "Faster onboarding",
+        "text": "Integrated APIs and enterprise support get you running fast."
+      },
+      {
+        "title": "Cost control",
+        "text": "Tiered pricing or per-technician pricing to fit your business."
+      },
+      {
+        "title": "Scalability",
+        "text": "Up to 1 million elements per request and up to 1 million elements per second."
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Element-based",
+        "example": "e.g. $2,500/mo for up to 10M elements"
+      },
+      {
+        "name": "Technician-based",
+        "example": "e.g. $120/year per tech (includes real-time + predictive)"
+      }
+    ],
+    "pricing_note": "These are examples at given volumes. Share your number of technicians, tasks per tech per day, average task duration and team size, and Beans will estimate your pricing.",
+    "switching": [
+      {
+        "title": "Using straight-line distances in ServiceNow?",
+        "text": "Upgrade to Beans with a simple API key and unlock real-time travel optimization."
+      },
+      {
+        "title": "Still on Google for Dynamic Optimization?",
+        "text": "Swap to Beans — no dev work required."
+      }
+    ]
+  },
+  "_sources": "beans_data.text, plus product details from beansroute.ai and beans.ai (home pages, read 2026-10-01).",
+  "trusted_by": [
+    "Papa Johns",
+    "Verizon",
+    "FedEx Ground",
+    "Instacart",
+    "Xerox",
+    "Thrive Market"
+  ],
+  "maps_api_url": "https://www.beans.ai/enterprise",
+  "maps_plans": {
+    "title": "Simplify operations for your multifamily teams",
+    "core": {
+      "name": "Map",
+      "label": "Core",
+      "text": "Let renters explore every corner remotely with photorealistic 360° previews of buildings, layouts, and neighborhoods.",
+      "price": "$30/mo",
+      "features": [
+        "3D & 2D maps with LIDAR foliage",
+        "Live unit availability & 3D floorplan",
+        "Sunlight index",
+        "Nearby places & amenity pins",
+        "Brand colors & camera angle",
+        "Fee transparency"
+      ]
+    },
+    "addons": [
+      {
+        "n": "01",
+        "name": "Design",
+        "text": "Customize your map into a realistic, fully branded experience in just minutes, with no hidden costs.",
+        "price": "$45/mo",
+        "price_note": "includes Map",
+        "features": [
+          "Custom amenity names, icons & nearby places",
+          "Live weather & seasonal foliage",
+          "Print-ready canvas map + high-rise floor selector",
+          "Reel-style property video generator"
+        ]
+      },
+      {
+        "n": "02",
+        "name": "Navigation",
+        "text": "Guide renters, residents, vendors, and guests effortlessly with custom paths and pinned POIs.",
+        "price": "$60/mo",
+        "features": [
+          "Precise single & multi-stop routing",
+          "AI-powered navigation assistant",
+          "Shareable links & QR codes"
+        ]
+      },
+      {
+        "n": "03",
+        "name": "Rentable",
+        "text": "Manage and monetize rentable spaces and parking in one place. Tenants find what they need; you unlock new revenue.",
+        "price": "$60/mo",
+        "features": [
+          "Visual map picker for any rentable amenity",
+          "Real-time availability & pricing display",
+          "Portfolio-wide performance view"
+        ]
+      },
+      {
+        "n": "04",
+        "name": "Intelligence",
+        "text": "Surface unit-level data and revenue opportunities that boost engagement, lease-up speed, renewals, and NOI.",
+        "price": "$60/mo",
+        "features": [
+          "Leasing & occupancy data on your 3D map",
+          "Unit-level metrics: vacancy, renewals, maintenance",
+          "Amenity & location impact on retention"
+        ]
+      }
+    ],
+    "ultimate": {
+      "label": "Get everything",
+      "name": "Ultimate",
+      "text": "All four upgrades with priority support and 6-hour change turnaround. The simplest way to run the whole thing.",
+      "includes": [
+        "Map",
+        "Design",
+        "Navigation",
+        "Rentables",
+        "Intelligence",
+        "6-hour change turnaround",
+        "Priority support"
+      ],
+      "price_was": "$225",
+      "price": "$195/mo"
+    }
+  },
+  "api_plans": {
+    "title": "Address APIs: flat monthly pricing with unlimited calls.",
+    "url": "https://www.beans.ai/enterprise",
+    "plans": [
+      {
+        "name": "Verification",
+        "text": "180M+ addresses in the US and growing",
+        "price": "$750/mo",
+        "qps": "10-30 QPS",
+        "calls": "Unlimited calls"
+      },
+      {
+        "name": "Autocomplete",
+        "text": "Clean the addresses before they make it into your system",
+        "price": "$750/mo",
+        "qps": "60-180 QPS",
+        "calls": "Unlimited calls"
+      },
+      {
+        "name": "Unitcomplete",
+        "text": "Secondary lines are no longer a mess",
+        "price": "$750/mo",
+        "qps": "30-90 QPS",
+        "calls": "Unlimited calls"
+      },
+      {
+        "name": "Classification",
+        "text": "Three levels of classification for all addresses",
+        "price": "$750/mo",
+        "qps": "10-30 QPS",
+        "calls": "Unlimited calls"
+      }
+    ],
+    "ultimate": {
+      "name": "Ultimate Plan",
+      "text": "Address Verification + Classification + Autocomplete + Unitcomplete",
+      "includes": [
+        "Address Verification",
+        "Classification",
+        "Autocomplete",
+        "Unitcomplete"
+      ],
+      "price": "$1,750/mo",
+      "calls": "Unlimited calls"
+    }
+  }
+}

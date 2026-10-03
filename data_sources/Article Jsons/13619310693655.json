@@ -1,0 +1,42 @@
+{
+    "id": 13619310693655,
+    "title": "Managers:  Adding Vehicles to your Beans Route account (FXG)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13619310693655.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13619310693655-Managers-Adding-Vehicles-to-your-Beans-Route-account-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-04T18:54:44Z",
+        "updated_at": "2024-07-24T20:03:33Z"
+    },
+    "body": "Your vehicles can be added to your Beans Route account, and you can enter maintenance records and odometer readings for completing Monthly Maintenance Reports (MMRs). The easiest way to get your vehicles into your account is to send a screenshot of your Schedule B to support@beans.ai.  Our team will enter the vehicles for you.   You can enter your vehicles manually by following the steps below. From the Dispatch Console: 1.  Assets > Vehicles.   2.  Click the “add vehicle” button.  3. Enter vehicle details and select the warehouse by using the dropdown list.  Click “add vehicle.”    4.   The vehicle will generate in the list.",
+    "images": [
+        {
+            "alt": "34EADBD5-D732-4328-9157-8C8F83829DFD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13619106413335"
+        },
+        {
+            "alt": "E0A50598-13B2-4303-BF05-BB2376BEBEBE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143103479831"
+        },
+        {
+            "alt": "84B5A5D4-712A-4FF5-96B1-CEFB8D4315F2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143094794647"
+        },
+        {
+            "alt": "8F624A2C-A95C-4E80-9580-6840BEC920C7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143094805143"
+        },
+        {
+            "alt": "226D5DE1-FE7F-4E35-9806-0B7CBED69FE1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143094813591"
+        },
+        {
+            "alt": "9615A4EF-56C0-4F21-948D-D8C16A695504_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143094818967"
+        },
+        {
+            "alt": "70A0606D-BA14-41BB-901B-4675FCFC1518_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143103520919"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": 24263910031767,
+    "title": "How to link your existing Safety Forward account with Beans Route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/24263910031767.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/24263910031767-How-to-link-your-existing-Safety-Forward-account-with-Beans-Route",
+        "author_id": 7501352909335,
+        "created_at": "2024-06-18T16:34:16Z",
+        "updated_at": "2024-06-18T16:34:58Z"
+    },
+    "body": "From the Dispatch Console: 1.  Click: Settings > Preferences > Safety.   2.  Click the button “Link to Existing Safety Forward Account” which will then take you to the Safety Forward webpage.  3.  Sign into Safety Forward with the Primary Admin credentials for the Safety Forward account.  4.  Once completed, return to Beans Route and click Assets > Drivers and Dispatchers to confirm drivers have been enrolled in safety training.  You will see the statement “Safety training is turned on” under each driver name.",
+    "images": [
+        {
+            "alt": "D1BAA265-283E-49B5-AC8A-0FA49552CE72_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263880392855"
+        },
+        {
+            "alt": "7C94FE2E-70D4-4146-A6D8-EA840E85594D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263910002711"
+        },
+        {
+            "alt": "F134CAEA-1A32-4178-98A3-20A8B9524365_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263880397719"
+        },
+        {
+            "alt": "B8EB28B5-D62B-4FBE-AF3F-171ECD089537_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263910011031"
+        },
+        {
+            "alt": "A08EDF33-C384-4E7A-AAD2-C2AA1AB9FF0A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263910013719"
+        },
+        {
+            "alt": "DC91CD56-05BE-479F-9E8E-9762FD05DC22_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/24263880413719"
+        }
+    ]
+}

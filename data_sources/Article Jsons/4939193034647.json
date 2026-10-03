@@ -1,0 +1,30 @@
+{
+    "id": 4939193034647,
+    "title": "Drivers: How to Receive a Lasso Transfer (iOS)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4939193034647.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4939193034647-Drivers-How-to-Receive-a-Lasso-Transfer-iOS",
+        "author_id": 417316688474,
+        "created_at": "2022-03-22T17:37:14Z",
+        "updated_at": "2023-05-23T07:31:26Z"
+    },
+    "body": "From the Mobile App: 1.  In the deliver tab, click on the “Add Stops” icon (pin with the plus sign) in the lower right corner.    2.  Chose the “Scan Label” option which will open your camera.  3.  Scan the QR code from the transferring driver’s app.  NOTE: If you are using a mounted device or are unable to scan the QR code, click on the “Add Stops” icon and choose the “Transfer Code” option.  Enter the six digit code from the transferring driver’s app.   Video:  How to Receive a Lasso Transfer - iOS",
+    "images": [
+        {
+            "alt": "BCBAD71E-816F-4C60-805B-79C208E0F7CF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4939121581335/BCBAD71E-816F-4C60-805B-79C208E0F7CF_1_201_a.jpeg"
+        },
+        {
+            "alt": "B606EF8A-AA54-4F65-A687-B52B6F3E8B4D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4939087836183/B606EF8A-AA54-4F65-A687-B52B6F3E8B4D_1_201_a.jpeg"
+        },
+        {
+            "alt": "981ED84A-1427-4F7F-B57C-EAE4B7E8EECE_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4939173983383/981ED84A-1427-4F7F-B57C-EAE4B7E8EECE_1_101_o.jpeg"
+        },
+        {
+            "alt": "79A7D7C9-56CF-47D4-A926-FD3FCB0E4E77_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4939134061335/79A7D7C9-56CF-47D4-A926-FD3FCB0E4E77_1_201_a.jpeg"
+        }
+    ]
+}

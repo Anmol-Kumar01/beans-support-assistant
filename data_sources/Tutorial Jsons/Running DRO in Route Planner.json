@@ -1,0 +1,13 @@
+{
+  "id": "running-dro-route-planner",
+  "title": "Running DRO in Route Planner",
+  "summary": "This tutorial shows you how to run DRO (Dynamic Route Optimization) in Route Planner in BeansRoute. Learn how to select routes with the same warehouse, configure driver parameters including account drivers and floating drivers, set capacity and shift parameters, choose optimization criteria (Time, Distance, or Cost), configure advanced settings like traffic speed and balance factors, save configurations, run the optimization, review results with sequence numbers, assign drivers, customize route names, and create final routes. This comprehensive guide helps you optimize routes efficiently using the Route Planner tool.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/k6h96tuq1s1MOWwmUDR8dw/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

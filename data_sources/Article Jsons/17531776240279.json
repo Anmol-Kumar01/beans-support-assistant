@@ -1,0 +1,50 @@
+{
+    "id": 17531776240279,
+    "title": "Drivers: Optimize Your Route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/17531776240279.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/17531776240279-Drivers-Optimize-Your-Route",
+        "author_id": 7501352909335,
+        "created_at": "2023-09-14T18:20:02Z",
+        "updated_at": "2023-09-14T18:20:09Z"
+    },
+    "body": "With your Beans Route app you can choose to optimize your entire route or break up your route into multiple optimized areas. 1.  Go to the Deliver tab on your mobile app.  Expand or contract the map so all of the pins you want to optimize are clearly visible.  Click the black circle with the hand icon.  2.  Use your finger to draw a circle around the pins to be optimized.            3.  Select a pin as your first stop by clicking on the pin and then confirm your selection.  Select a pin as your last stop by clicking on the pin and confirm your selection.                     4.  Click the \"Optimize\" button.",
+    "images": [
+        {
+            "alt": "369F4EE7-F7A6-4B61-80FD-D76F9A4FF208_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531802749719"
+        },
+        {
+            "alt": "D8024750-8FBD-4DCC-9EAF-2AD7A4B90C89_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531816535319"
+        },
+        {
+            "alt": "201F869E-C77D-4C67-9E9F-A03685B99395_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531806676503"
+        },
+        {
+            "alt": "FE3BC623-54F5-4766-BABD-97616C69A09C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531776216343"
+        },
+        {
+            "alt": "88CF7381-F401-422B-9BBD-0E46F9380DE1_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531792479767"
+        },
+        {
+            "alt": "3AD9D9BB-41EB-41FE-907F-A50F99F54830_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531787893655"
+        },
+        {
+            "alt": "BE0C1DF5-E022-4BAB-8267-781719AC9DB4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531776226967"
+        },
+        {
+            "alt": "750AD1C8-B70B-4E17-86F1-6485B183ABC8_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531792488983"
+        },
+        {
+            "alt": "12C116FF-534E-439D-958E-373803EC6E14_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17531787898135"
+        }
+    ]
+}

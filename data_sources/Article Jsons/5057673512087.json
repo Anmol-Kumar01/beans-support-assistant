@@ -1,0 +1,42 @@
+{
+    "id": 5057673512087,
+    "title": "Drivers: How to Move Location Pins in Driver App - iOS",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/5057673512087.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/5057673512087-Drivers-How-to-Move-Location-Pins-in-Driver-App-iOS",
+        "author_id": 417316688474,
+        "created_at": "2022-03-27T22:06:55Z",
+        "updated_at": "2023-04-13T20:25:58Z"
+    },
+    "body": "1.  On the Deliver tab, in the map zoom in to locate the pin you wish to move.  2.  Click on the pin and on the detail screen, click the “Info” button (icon with an “i”).  3.  The pin now displays the address and a white door icon.  Hard press on the white door icon until it changes to an “undo arrow.”        4.  Drag the pin to the desired location.  If you make an error, click the “undo arrow” to move the pin back to its original location and try again.  5.  Once the pin is correctly located, click the black circle with the arrow in the upper left corner to return to the delivery map.        NOTE:  If you move a pin location in dispatch and save it, it will automatically be moved to the updated location the next day, and this change will be reflected both in dispatch console and the driver app.   Video:  How to Move Location Pins in Driver App - iOS",
+    "images": [
+        {
+            "alt": "7FC3A48F-F28C-4E6E-A877-C08874265C10_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057524819863/7FC3A48F-F28C-4E6E-A877-C08874265C10_1_201_a.jpeg"
+        },
+        {
+            "alt": "CAB19F09-4F38-44E2-B9DC-605DD67A9370_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057557780247/CAB19F09-4F38-44E2-B9DC-605DD67A9370_1_201_a.jpeg"
+        },
+        {
+            "alt": "F5143996-8093-46E0-A09A-1D00665152F3_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057526826903/F5143996-8093-46E0-A09A-1D00665152F3_1_101_o.jpeg"
+        },
+        {
+            "alt": "EE07C72E-FF03-40DB-8218-ACB2B40B279D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057527317399/EE07C72E-FF03-40DB-8218-ACB2B40B279D_1_201_a.jpeg"
+        },
+        {
+            "alt": "2D31B21A-C60A-43DA-A28A-4752045774A0_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057628785943/2D31B21A-C60A-43DA-A28A-4752045774A0_1_101_o.jpeg"
+        },
+        {
+            "alt": "2D31B21A-C60A-43DA-A28A-4752045774A0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057669064727/2D31B21A-C60A-43DA-A28A-4752045774A0_1_201_a.jpeg"
+        },
+        {
+            "alt": "E243AFC1-ADB9-41B4-8941-380FD6472BCE_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5057659044631/E243AFC1-ADB9-41B4-8941-380FD6472BCE_1_101_o.jpeg"
+        }
+    ]
+}

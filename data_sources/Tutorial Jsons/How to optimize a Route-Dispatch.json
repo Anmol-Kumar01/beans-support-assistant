@@ -1,0 +1,13 @@
+{
+  "id": "optimize-route-guide",
+  "title": "How to optimize a Route-Dispatch",
+  "summary": "This tutorial shows you how to optimize a route in BeansRoute for maximum efficiency. Learn how to open the detailed view of a route, check the route path and stops on the map, click the OPTIMIZE ROUTE button in the sequencing section, select start and end points from the dropdown menu, use custom addresses if needed, generate and select address pins, and click the OPTIMIZE button to complete the route optimization. This guide helps you reorder stops for better delivery sequences and create the most efficient route paths.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/kTXAAiygS9aughaFVrnhpg/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

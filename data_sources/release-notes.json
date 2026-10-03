@@ -1,0 +1,225 @@
+[
+  {
+    "id": "creating-preset-filters",
+    "title": "Creating and Managing Preset Filters",
+    "summary": "We’re excited to announce the new Preset Filters feature, designed to simplify your workflow. This enhancement allows users to create, save, and manage custom filter presets directly on the dispatch console, making it easier to toggle between frequently used filter settings. With just a few clicks, you can update and apply filters, streamlining your operations and saving valuable time.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Step 1:</strong> To create a new Preset Filter, Click the plus icon to add a new filter on the main dashboard.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/908;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-09-20/2024-09-20_9a454213-d964-49f2-bdd5-c7f1248f8516.jpg\" width=\"1920\" height=\"908\"></figure>",
+      "<p><strong>Step 2:</strong> Set all the relevant filters that you'd like to use.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/908;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-09-20/2024-09-20_69d14a06-1091-406d-a180-21ddead38ee9.jpg\" width=\"1920\" height=\"908\"></figure>",
+      "<p><strong>Step 3:</strong> Click the add button to apply the new preset filter.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/908;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-09-20/2024-09-20_5ab049ca-3227-4853-af94-6a765fde2789.jpg\" width=\"1920\" height=\"908\"></figure>",
+      "<p><strong>Step 4:</strong> If you make changes to the preset filter, you can simply click the save icon to update the selection for that filter.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/908;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-09-20/2024-09-20_b3fbb16a-44d0-46ac-b078-848f29ccf122.jpg\" width=\"1920\" height=\"908\"></figure>",
+      "<p><strong>Step 5:</strong> You can toggle between the default view and saved Preset Filters by selecting them from the drop-down.</p><figure class=\"image\"><img style=\"aspect-ratio:1920/908;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-09-20/2024-09-20_85d6fca6-e4f9-4f6e-9dcc-d35eea432337.jpg\" width=\"1920\" height=\"908\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/qHAHk0zVYD7VMjE8hZkjpg/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2024-09-20",
+    "timestamp": 1726816800
+  },
+  {
+    "id": "polygon-tool-routes-page",
+    "title": "Utilizing the Polygon Tool on the Routes Page",
+    "summary": "We are excited to introduce a new feature that enhances the functionality of our routes page: the Polygon Tool. This tool will streamline your route management process by allowing you to easily select and modify stops directly on the map.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Key Features:</strong></p><p>&nbsp;</p><p><strong>Easy Access to Polygon Tool:</strong></p><ul><li><p>The Polygon Tool can be accessed by clicking the polygon icon located at the top of the map on the routes page.</p><figure class=\"image\" style=\"width:60%;\"><img style=\"aspect-ratio:1083/1476;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-09-02/2024-09-02_cfa14c41-70f2-46de-9e96-bdffa701302e.png\" width=\"1083\" height=\"1476\"></figure></li></ul>",
+      "<p><strong>Intuitive Polygon Drawing:</strong></p><ul><li>Draw a polygon by clicking on the map to outline the area. Each click represents a corner of the polygon, allowing you to customize the selection area based on your needs.</li></ul><p><strong>Selecting Stops within the Polygon:</strong></p><ul><li><p>After drawing your polygon, click the ‘SELECT STOPS’ button at the bottom of the map. This will automatically select all stops that fall within the boundaries of your polygon.</p><figure class=\"image\" style=\"width: 60%\"><img style=\"aspect-ratio:1078/1481;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-09-02/2024-09-02_4340fcb4-c129-4f84-8977-6e7821d5ecb1.png\" width=\"1078\" height=\"1481\"></figure></li></ul>",
+      "<p><strong>Excluding Stops from Selection:</strong></p><ul><li>To refine your selection, use the Hand icon on the map to click on individual stops that you want to exclude. Once you’ve made your adjustments, remember to click the ‘SELECT STOPS’ button again to update your selection.</li></ul><p>&nbsp;</p><p><strong>Modifying Stops:</strong></p><ul><li>With your stops selected, you can easily move them to a different route by clicking the ‘Modify Stop’ option. This feature provides a quick and efficient way to reorganize stops and optimize route planning.</li></ul>",
+      "<p><strong>Benefits:</strong></p><ul><li><strong>Enhanced Control:</strong> The Polygon Tool provides a more precise method for selecting stops, giving you greater control over route management.</li><li><strong>Improved Efficiency:</strong> By allowing quick selection and modification of stops, this tool helps to streamline operations and reduce the time spent on route planning.</li><li><strong>Flexibility:</strong> Easily exclude specific stops from your selection without redrawing the entire polygon, offering flexibility in managing exceptions.</li></ul>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/Ru155yIlZo9QUmsWL7Ulhg/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2024-08-17",
+    "timestamp": 1723888800
+  },
+  {
+    "id": "zone-planner",
+    "title": "Zone Planner",
+    "summary": "We've added the ability for users to prioritize certain geographical areas while optimizing the route. Users can now create zones in an order of priority they want the drivers to follow while completing the stops. Every zone plan is tied to a specific route, and is completely configurable.",
+    "platform": "Dispatch",
+    "description": [
+      "<ul><li><p>Click on the 'Zone Planner' option in the navigation bar.</p><figure class=\"image image_resized\" style=\"width:86.79%;\"><img style=\"aspect-ratio:1706/853;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_c4023a99-2d8c-4f72-8054-4d61e0803cef.png\" width=\"1706\" height=\"853\"></figure></li></ul>",
+      "<ul><li><p>To add a zone, select the route which you want to create a Zone Plan for from the list of routes, then click on the 'Plus' icon and draw a zone on the map by clicking and dragging the cursor.</p><figure class=\"image image_resized\" style=\"width:89.55%;\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_70ad24ef-e1d3-405f-bed9-200bfa2e7039.png\" width=\"1710\" height=\"849\"></figure></li></ul>",
+      "<ul><li><p>Click 'Edit' on the dialog box and set the priorities of each of the zones that were drawn</p><figure class=\"image image_resized\" style=\"width:88.14%;\"><img style=\"aspect-ratio:1706/853;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_3f2cb5fb-4a1d-4664-b26c-b89db72e093b.png\" width=\"1706\" height=\"853\"></figure></li></ul>",
+      "<ul><li><p>Finally, enter the route name that you want to save these zones for and hit Save. Please note that the route name should match exactly for the zones to take effect.</p><figure class=\"image image_resized\" style=\"width:88.14%;\"><img style=\"aspect-ratio:1706/853;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_d6c68d49-af15-4d0c-adc0-320fe39029ae.png\" width=\"1706\" height=\"853\"></figure></li></ul>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/ZO5HIav0iqnCgraMD235PQ/embed?mode=interactive",
+    "display_option_tags": "fedex",
+    "account_buids": "",
+    "date_str": "2024-07-25",
+    "timestamp": 1722554110
+  },
+  {
+    "id": "updated-location-icons-dispatch",
+    "title": "Updated location icons",
+    "summary": "We've added the ability for users to select location icons based on the type of the stop. This will allow users to visually better differentiate between different types of stops. The current version is available for the dispatch console and the plan is to bring this to the app in the next 3-4 weeks.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Details</strong></p><ul><li>We're currently supporting four variations<ul><li>Residential&nbsp;</li><li>Non-residential (aka Businesses)</li><li>Time Commits</li><li>High priority</li></ul></li></ul>",
+      "<ul><li><p>Users can go to preferences and navigate to 'User Interface' to select the icon pack as well as the individual icon for each type of stop</p><figure class=\"image image_resized\" style=\"width:86.79%;\"><img style=\"aspect-ratio:1706/853;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_fc6eb5f2-0d44-418c-8718-71f4c987c5d7.png\" width=\"1706\" height=\"853\"></figure></li></ul>",
+      "<ul><li><p>We currently have two icon packs and may potentially add/edit a few more icons</p><figure class=\"image image_resized\" style=\"width:89.55%;\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_5df77c04-4a28-4285-a8f6-6c9b42d1a4dc.png\" width=\"1710\" height=\"849\"></figure></li></ul>",
+      "<ul><li><p>Once an icon is selected for a type of stop, the dispatch console is automatically updated.</p><figure class=\"image image_resized\" style=\"width:88.14%;\"><img style=\"aspect-ratio:1706/853;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_941ebad6-9837-4b50-88a5-c97d13a2c376.png\" width=\"1706\" height=\"853\"></figure></li></ul>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/Vim0gcu3FR3dDli4FrgzXg/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2024-07-11",
+    "timestamp": 1718697600
+  },
+  {
+    "id": "custom-geocodes-enhancement",
+    "title": "Custom Geocodes Enhancements",
+    "summary": "The above enhancements will allow users to further optimize their dispatch and delivery operations based on the types of addresses they are delivering to.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Summary</strong></p><p>&nbsp;</p><p>We've further enhanced the ability to add and improve custom location data. The key enhancements include:</p><ul><li>Attaching address types to an address so that users can better differentiate between residential, office complexes, commercial, and other address types.&nbsp;</li><li>Supporting business hours associated with each address type</li></ul><p>&nbsp;</p><p>The above enhancements will allow users to further optimize their dispatch and delivery operations based on the types of addresses they are delivering to.</p><p>&nbsp;</p>",
+      "<p><strong>Details</strong></p><ul><li>Adding address types can be done by selecting an address and clicking &nbsp;'Modify Geocode'</li><li>Business hours for an individual address can be added by clicking the edit icon, adding the hours and clicking \"Update\"</li><li>Once the data is saved, the stop card will reflect the type of the stop. Future enhancements will include business hours in notes as well as being factored into optimization as well.</li></ul><p>&nbsp;</p>",
+      "<figure class=\"image\" data-ckbox-resource-id=\"v2BRs9i57nAK\"><picture><source srcset=\"https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/302.webp 302w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/604.webp 604w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/906.webp 906w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/1208.webp 1208w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/1510.webp 1510w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/1812.webp 1812w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/2114.webp 2114w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/2416.webp 2416w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/2718.webp 2718w,https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/3014.webp 3014w\" type=\"image/webp\" sizes=\"(max-width: 3014px) 100vw, 3014px\"><img src=\"https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/3014.png\" width=\"3014\" height=\"1508\"></picture></figure>"
+    ],
+    "thumbnail_url": "https://storage.googleapis.com/beans-images/production/original/2024-06-20/2024-06-20_79d574b1-50b4-4c95-94b1-664e4125cb5f.png",
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/Vim0gcu3FR3dDli4FrgzXg/embed?mode=interactive",
+    "video_url": "",
+    "video_player": "HTML",
+    "realm": "production",
+    "display_option_tags": "",
+    "timestamp": 1718629290
+  },
+  {
+    "id": "live-status-map",
+    "title": "Live Status > Map",
+    "summary": "We've updated the functionality of the Map (aka All Stops) view under live status. This will allow users to filter and identify operationally relevant stops faster. The feature applies to all account types but may be most useful for ISPs with Express stops. This will be in production starting 5/24",
+    "platform": "Dispatch",
+    "description": "<div class=\"formatted_content formatted_content--large\"><div><strong>Summary<br><br></strong>We've updated the functionality of the Map (aka All Stops) view under live status. This will allow users to filter and identify operationally relevant stops faster. The feature applies to all account types but may be most useful for ISPs with Express stops. This will be in production starting 5/24<br><br><strong>Details<br><br></strong>The key changes are</div><ol><li>A toggle switch to view/hide stops has been added to the map view (similar to driver and route)<br></li><li>Hovering over the driver's location will show the driver's name and route<br></li><li>Quick Access filters allow you to filter through drivers, routes, and stops. <strong>Specifically useful for ISPs with Express Stops<br></strong></li><li>Clicking on Exceptions and Warnings in route metrics summary will take users to the all stops page with the respective stops filtered. </li></ol></div>",
+    "thumbnail_url": "https://storage.googleapis.com/beans-images/production/original/2024-06-20/2024-06-20_6179491f-3259-4b00-b6e1-77392b3b83d3.png",
+    "video_url": "https://storage.googleapis.com/beans-images/51167403b3d74194a1cddf7d83d00719.mov",
+    "video_player": "HTML",
+    "realm": "production",
+    "display_option_tags": "",
+    "date_str": "2024-05-25",
+    "timestamp": 1718886258
+  },
+ {
+    "id": "updated-driver-profile",
+    "title": "Updated driver profiles",
+    "summary": "We are excited to announce significant enhancements to the Driver Profile feature, designed to provide comprehensive insights into driver details, performance metrics, and safety records. These improvements aim to optimize fleet management and enhance overall operational efficiency.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><span><b>Step 1:</b> Click on 'Assets > Drivers and Dispatchers' to navigate to drivers.</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_fd156619-9d1d-4b92-976a-0b80ad06b324.png\"></figure>",
+      "<p><span><b>Step 2:</b> To add details such as Driver's License expiry, notes, and other qualifications click on 'Modify Driver'</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_c8af0149-67b8-49ee-a556-dd9a9431f769.png\"></figure>",
+      "<p><span><b>Step 3:</b> To see driver performance and safety status, click on the corresponding sections in the .</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_4e6ba5d7-af9d-41a3-9e26-0147e18c229c.png\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/mojSI313ImBHXffVNzKwdw/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2024-04-11",
+    "timestamp": 1718697600
+  },
+   {
+    "id": "how-to-optimize-a-route",
+    "title": "Optimization Update",
+    "summary": "The tutorial guides you through the process of optimizing a route by selecting the first stop.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Step 1:</strong> On the Routes page, click on the desired route number to open the detailed view of the route.</p><figure class=\"image\"><img style=\"aspect-ratio:1716/843;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8540c38d-3264-4278-ac03-2ddceba8020c.jpeg\" width=\"1716\" height=\"843\"></figure>",
+      "<p><strong>Step 2:</strong> Identify the desired first stop and then click the \"Optimize Route\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:1717/842;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_293ff863-8c20-4b8c-bf4b-1f328f358f1c.jpeg\" width=\"1717\" height=\"842\"></figure>",
+      "<p><strong>Step 3: </strong>Use the “Start” dropdown menu, choose \"Custom\", and type in the address of the first stop. &nbsp;The address pin will generate; click on the pin to select.</p><figure class=\"image\"><img style=\"aspect-ratio:1717/842;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_27352865-607e-4da4-b6f8-267615c427d5.jpeg\" width=\"1717\" height=\"842\"></figure><figure class=\"image\"><img style=\"aspect-ratio:1711/848;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_1a39d17e-091a-41fb-8d06-8dc2282636b3.jpeg\" width=\"1711\" height=\"848\"></figure>",
+      "<p><strong>Step 4: </strong>Click \"Optimize.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1715/844;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_cd9d1836-60fa-4459-a151-32e72e064a5d.jpeg\" width=\"1715\" height=\"844\"></figure>",
+      "<p><strong>Step 5: </strong>You can also select the optimization algorithm from Preferences by choosing 'Use more intuitive ordering'.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1715/844;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_45d7e7cb-b176-4e72-b8ce-acd6d54c6239.png\" width=\"1715\" height=\"844\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/kTXAAiygS9aughaFVrnhpg/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2024-1-1",
+    "timestamp": 1718697600
+  },
+  {
+    "id": "moving-location-pins",
+    "title": "Moving Location Pins",
+    "summary": "To fix any locations on a particular route, you can just drag the pin to the correct location and save it. That will be the new location for that address in the future, across all routes.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><span><b>Step 1:</b> On the map, zoom in to the location of the pin you want to move.</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-07-31/2024-07-31_d53cd050-0987-4c38-9649-b2e23fa6a521.jpeg\"></figure>",
+      "<p><span><b>Step 2:</b> Click on the pin until the address information appears, that you would like to move.</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_28947960-dd54-44aa-b3f1-386a20ae26b0.jpeg\"></figure>",
+      "<p><span><b>Step 3:</b> Move the pin to the desired location. Click “Save.”.</span><br>&nbsp;</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-07-31/2024-07-31_456a9e22-61f7-49bd-8bb8-5b89adb6cdde.jpeg\"></figure>"
+     ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/XkJ923N7h7o1sk8mP42dew/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2023-12-11",
+    "timestamp": 1718697600
+  },
+  {
+    "id": "turn-on-safety-for-drivers",
+    "title": "Safety Training for Drivers",
+    "summary": "The tutorial guides you through the process of enrolling drivers in safety training within the Dispatch Console.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><b>Step 1:</b> In the Dispatch Console: Settings &gt; Preferences.</p><figure class=\"image\"><img style=\"aspect-ratio:1718/841;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_93d0af82-0727-4a26-8c6d-08ceecb5ba45.jpeg\" width=\"1718\" height=\"841\"></figure>",
+      "<p><b>Step 2:</b> Choose \"Safety.\" &nbsp;Click \"Turn on safety training.\"</p><figure class=\"image\"><img style=\"aspect-ratio:3024/1494;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-02/2024-08-02_8d4e65e0-672d-428e-816d-fcacb05864db.jpeg\" width=\"3024\" height=\"1494\"></figure><figure class=\"image\"><img style=\"aspect-ratio:3024/1508;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-02/2024-08-02_58695d06-f4f3-4aa0-9515-dae46e26faa0.jpeg\" width=\"3024\" height=\"1508\"></figure>",
+      "<p><b>Step 3:</b> Click Assets &gt; Drivers and Dispatchers.</p><figure class=\"image\"><img style=\"aspect-ratio:1625/934;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_66c2da89-4650-4c7a-b91e-653f5da5c050.png\" width=\"1625\" height=\"934\"></figure>",
+      "<p><b>Step 4:</b> Click the circle with the checkmark icon to highlight the entire list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver).</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_d8c4b2fb-d1c3-4d58-a238-a562fd5c0a63.jpeg\" width=\"1710\" height=\"849\"></figure>",
+      "<p><b>Step 5:</b> Click \"Modify Driver.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1714/845;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_123a6f2e-bfec-4d9f-a98b-b04d5da79afc.jpeg\" width=\"1714\" height=\"845\"></figure>",
+      "<p><b>Step 6:</b> Check the box \"Enroll in Safety Training.\" &nbsp;Click \"Save.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1713/846;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_b78737c2-3780-45aa-b092-2d28a8138ce9.jpeg\" width=\"1713\" height=\"846\"></figure>",
+      "<p><b>Step 7:</b> Drivers will be enrolled in safety and you will see a notification under each driver which says \"Safety Training is turned on.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1710/849;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_b5e3ba99-ac90-492d-9760-f86ed139988a.jpeg\" width=\"1710\" height=\"849\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/ib6DEx4beohOB0EJxS7JAg/embed?mode=interactive",
+    "display_option_tags": "fedex",
+    "account_buids": "",
+    "date_str": "2023-12-1",
+    "timestamp": 1718697600
+  },
+
+  {
+    "id": "how-to-generate-mmr",
+    "title": "MMRs Reports",
+    "summary": "Beans Route makes generating MMR reports simple. Upload a digital signature in your account preferences to have the signature generate on the report. If you have vehicles in multiple warehouses, create vehicle groups so each warehouse can prepare their own MMRs. Best practices include entering maintenance records as you receive them throughout the month and when entering records selecting the actual date of service.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>ADD MAINTENANCE RECORDS</strong></p><p><strong>Step 1:</strong> Click Assets &gt; Vehicles. Click on the vehicle number to open the records.</p><figure class=\"image\"><img style=\"aspect-ratio:1707/852;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_c2fbb91b-83a8-4b02-8dcd-ff9375fe4761.jpeg\" width=\"1707\" height=\"852\"></figure>",
+      "<p><strong>Step 2: </strong>Click the \"Add Vehicle Record\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:2983/1481;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_9e6f7632-fc60-4ddf-b39d-c9420e9ba507.jpeg\" width=\"2983\" height=\"1481\"></figure>",
+      "<p><strong>Step 3:</strong> Select the date of maintenance by clicking on the date line and using the calendar.</p><p><strong>NOTE:</strong> the date automatically defaults to the current date. &nbsp;You must select the actual date of maintenance for the MMRs to generate properly.</p><figure class=\"image\"><img style=\"aspect-ratio:2987/1500;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_5b0e5a15-b254-4dea-9c6b-eb3abc2d4f79.jpeg\" width=\"2987\" height=\"1500\"></figure>",
+      "<p><strong>Step 4:</strong> On the \"Detail\" line fill in the maintenance details. Click \"Add Vehicle Record\" to save. &nbsp;Repeat the steps to enter all maintenance records.</p><p><strong>NOTE:</strong> You can attach maintenance invoices to each record by using the \"Attach Files\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:2980/1475;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_db70a7b4-b5b6-455e-8159-764f46db4d0a.jpeg\" width=\"2980\" height=\"1475\"></figure>",
+      "<p><strong>ADD MILEAGE RECORS (ODOMETER)</strong></p><p><strong>Step 1:</strong> Click on the vehicle number to open the records. &nbsp;Click the \"Add Vehicle Record\" button.</p><p><strong>Step 2: </strong>For \"Type\" use the dropdown menu to select \"Odometer.\"</p><figure class=\"image\"><img style=\"aspect-ratio:2991/1484;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_1e2a7fa8-b81a-4579-a6a5-7ead7703fb6b.jpeg\" width=\"2991\" height=\"1484\"></figure>",
+      "<p><strong>Step 3:</strong> For \"Date\" use the calendar to change the date to the last day of the previous month.</p><p><strong>NOTE:</strong> the date automatically defaults to the current date. &nbsp;You must change the date for odometer readings to the last day of the previous month for the MMRs to generate properly.</p><figure class=\"image\"><img style=\"aspect-ratio:2986/1480;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_d9c5bc4f-0511-4306-96bc-80245477ca6e.jpeg\" width=\"2986\" height=\"1480\"></figure>",
+      "<p><strong>Step 4:</strong> Enter the mileage on the \"Details\" line. &nbsp;Click \"Add Vehicle Record\" to save. &nbsp;Repeat the steps to enter all mileage records.</p>",
+      "<p><strong>OUT OF SERVICE</strong></p><p><strong>Step 1:</strong> If you have a vehicle which is out of service, click on the vehicle number to open the records.</p><p><strong>Step 2:</strong> Click the \"Modify Vehicle\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:2978/1484;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_3feb3867-2100-4049-ac81-24b97f17daa3.jpeg\" width=\"2978\" height=\"1484\"></figure>",
+      "<p><strong>Step 3:</strong> Change the \"Status\" from \"active\" to \"out of service\" and click save.</p><figure class=\"image\"><img style=\"aspect-ratio:2989/1472;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_77ff8107-1477-41e9-9ecc-43fdd4719216.jpeg\" width=\"2989\" height=\"1472\"></figure>",
+      "<p><strong>GENERATE MMR REPORTS</strong></p><p><strong>Step 1:</strong> Select the vehicles you wish to generate MMRs reports for by clicking on the row to highlight; to select all vehicles, click the \"select all\" icon above the list (circle with a checkmark).</p><figure class=\"image\"><img style=\"aspect-ratio:1711/848;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_89db277c-7a3b-445c-bc0c-d364b22afcad.jpeg\" width=\"1711\" height=\"848\"></figure>",
+      "<p><strong>NOTE:</strong> If the \"Active\" filter is on, any vehicles marked \"out of service\" will not show in the list. &nbsp;To see all vehicles, including those out of service, simply click the \"x\" on the \"Active filter.\" &nbsp;MMRs will not be generated for vehicles marked \"out of service.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1713/846;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_4165519c-db40-4f74-890c-877db74b0e68.jpeg\" width=\"1713\" height=\"846\"></figure><figure class=\"image\"><img style=\"aspect-ratio:1711/848;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_167fbad0-9f22-4ebe-80d7-f5bd089389e9.jpeg\" width=\"1711\" height=\"848\"></figure>",
+      "<p><strong>Step 2:</strong> Click the \"Generate Report\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:1722/837;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_32280288-ba81-4568-bd08-804f8c2fd875.jpeg\" width=\"1722\" height=\"837\"></figure>",
+      "<p><strong>Step 3:</strong> Select the dates for the report.</p><p><strong>NOTE: </strong>The month automatically defaults to the previous month. &nbsp;If you need to generate MMR reports for past months, simply click on the month line and select the appropriate month. &nbsp;The report date automatically defaults to the current date; you can adjust the date by clicking on the report date line and using the calendar to select the desired date.</p><figure class=\"image\"><img style=\"aspect-ratio:1713/846;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_83adf0e4-2773-4896-9b38-f60c6af1faeb.jpeg\" width=\"1713\" height=\"846\"></figure>",
+      "<p><strong>Step 4:</strong> Click the \"Generate Report\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:1713/846;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_e042c21a-78c7-4c49-af54-cdc6b7ccba72.jpeg\" width=\"1713\" height=\"846\"></figure>",
+      "<p><strong>Step 5:</strong> The MMRs will be generated in PDF format. &nbsp;Click the link to view the MMRs to print or to download and email to your terminal.</p><figure class=\"image\"><img style=\"aspect-ratio:1708/851;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_2826bd19-6af2-4cd2-8e2d-d04a38c72d50.jpeg\" width=\"1708\" height=\"851\"></figure><figure class=\"image\"><img style=\"aspect-ratio:1704/855;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8b086c69-5e84-428f-bed1-6937bdd5d078.jpeg\" width=\"1704\" height=\"855\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/UXYNMdUU7c9wRrdvq8wYyQ/embed?mode=interactive",
+    "display_option_tags": "fedex",
+    "account_buids": "",
+    "date_str": "2023-12-1",
+    "timestamp": 1718697600
+  },
+  {
+    "id": "how-to-generate-reports-timesheets",
+    "title": "Timesheets Reports",
+    "summary": "We recommend using the STD version of the timesheet report which gives you clock in, clock out, and total hours for each driver. The PDF, CSV, and XLS reports give only the total hours. You choose the time period for the report.  *To deduct breaks from daily hours follow instructions below (steps 7 - 9) before generating the report.",
+    "platform": "Dispatch",
+    "description": [
+      "<p><strong>Step 1:</strong> Click Assets &gt; Timesheets.</p><figure class=\"image\"><img style=\"aspect-ratio:1708/851;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_fb4ad974-7b0d-4355-92de-5e17c49cf73c.jpeg\" width=\"1708\" height=\"851\"></figure>",
+      "<p><strong>Step 2:</strong> Click the box for \"Driver View.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1714/845;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_0cc9dac9-0815-482c-aba7-c9fea4b228f7.jpeg\" width=\"1714\" height=\"845\"></figure>",
+      "<p><strong>Step 3:</strong> Click the \"Generate Report\" button.</p><figure class=\"image\"><img style=\"aspect-ratio:1720/839;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_b06e3843-24db-4851-a687-1904cecf846f.jpeg\" width=\"1720\" height=\"839\"></figure>",
+      "<p><strong>Step 4:</strong> Choose the date range for your report; click on the date line to open the calendar. Optional: you may click the box for \"use default route length to estimate when clock in or clock out times are missing.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1717/842;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_ab2456f6-e1f4-49bc-98f7-b5142c021e46.jpeg\" width=\"1717\" height=\"842\"></figure><figure class=\"image\"><img style=\"aspect-ratio:1718/841;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_05937775-0e7b-4f62-9899-7046eb630c96.jpeg\" width=\"1718\" height=\"841\"></figure>",
+      "<p><strong>Step 5:</strong> Click \"Generate Report.\"</p><figure class=\"image\"><img style=\"aspect-ratio:1720/839;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_f875918f-1df2-4819-924c-a6f4593dc77a.jpeg\" width=\"1720\" height=\"839\"></figure>",
+      "<p><strong>Step 6:</strong> Click the link for the report you wish to download.</p><figure class=\"image\"><img style=\"aspect-ratio:1717/842;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_c88f9ae0-7e76-44f8-8e4b-3a51b256e639.jpeg\" width=\"1717\" height=\"842\"></figure>",
+      "<p><strong>Deduct Breaks from Daily Hours</strong></p><p><strong>Step 7:</strong> Click Settings &gt; Preferences.</p><figure class=\"image\"><img style=\"aspect-ratio:1719/840;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_f039cc3c-ae58-41b3-8890-5629f14e1692.jpeg\" width=\"1719\" height=\"840\"></figure>",
+      "<p><strong>Step 8:</strong> Click \"Timesheets\"</p><figure class=\"image\"><img style=\"aspect-ratio:2996/1461;\" src=\"https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_522249d6-7d4e-4a7f-96a5-6fd231fe1c85.jpeg\" width=\"2996\" height=\"1461\"></figure>",
+      "<p><strong>Step 9:</strong> Turn on the option \"Subtract break hours from paid hours in reports\" and click \"save\"</p><figure class=\"image\"><img style=\"aspect-ratio:1708/851;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_bcfd2fba-e230-4b2b-ab91-95f5c9a232a7.jpeg\" width=\"1708\" height=\"851\"></figure>",
+      "<p><strong>Understanding the STD Timesheet Report</strong></p><p>Clock in and clock out times are calculated in minutes using military time. &nbsp;Using line #2 as an example on 5/28/22: &nbsp;Xavian Washburn clocked in at 7:22 a.m. or 38 minutes before 8:00 a.m. &nbsp;He clocked out at 17:10 p.m. or 10 minutes after 5:00 p.m.:</p><p>8:00 a.m. to 5:00 p.m. = 9 hours</p><p>38 minutes before 8:00 a.m. + 10 minutes after 5:00 p.m. = 48 minutes</p><p>Therefore: Xavian Washburn worked a total of 9 hours and 48 minutes.</p><p>The total hours and paid hours are calculated in 1/10 of an hour. &nbsp;A tenth of an hour is 6 minutes. &nbsp;Using the example of Xavian Washburn, his total hours of 9.8 = 9 hours and 8/10 of an hour (8 x 6= 48).</p><figure class=\"image\"><img style=\"aspect-ratio:1358/1201;\" src=\"https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8974256c-d03a-44ef-bf7b-ad98c7f2ea52.jpeg\" width=\"1358\" height=\"1201\"></figure>"
+    ],
+    "tutorial_url": "https://beans-ai.portal.trainn.co/share/MkKCwYIl3T7uZlpRwD6ijw/embed?mode=interactive",
+    "display_option_tags": "",
+    "account_buids": "",
+    "date_str": "2023-12-1",
+    "timestamp": 1718697600
+  }
+]

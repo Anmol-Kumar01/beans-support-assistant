@@ -1,0 +1,70 @@
+{
+    "id": 22156913112215,
+    "title": "Step 5: Completing a Stop/POD",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/22156913112215.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/22156913112215-Step-5-Completing-a-Stop-POD",
+        "author_id": 12814574162967,
+        "created_at": "2024-03-18T17:20:36Z",
+        "updated_at": "2024-03-18T19:30:39Z"
+    },
+    "body": "From the Mobile App: Zoom in on the map to identify your route; deliveries are indicated by blue pins and pickups are blue squares.  For a Successful Delivery 1.  Select your stop by clicking on the pin; the address card with stop details will open at the bottom of the screen. To complete the delivery, click the checkmark on the address card.  2.  Scan the barcode on the package, and the POD screen will automatically open.  Fill in the info on the POD screen.  If you scan the incorrect package you will get an error message.             3.  Select Reason Code.            4.  Select Package Location.            5.  Take photo and click “Save.”  6.  The app will return to the Deliver tab; click “Next” to move to the next stop on your route.  For a Failed Delivery 1.  Select your stop by clicking on the pin; the address card with stop details will open at the bottom of the screen.  To complete the delivery, click the \"X\" on the address card.  2.  Select Reason Code.            3.  If needed take photo; if not click “Save.”  4.  Return to the Deliver tab, and click “Next” to move to the next stop on your route. Return the package to the Warehouse.",
+    "images": [
+        {
+            "alt": "4D7F4639-4897-4642-8673-344AFAF0FB4B_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156913042071"
+        },
+        {
+            "alt": "5B599FBB-E49C-4BFB-8D2F-E5DC57C7B785_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938029207"
+        },
+        {
+            "alt": "C491DC75-C9BD-464D-B06F-EC1FEE20A499_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938032663"
+        },
+        {
+            "alt": "4806D725-5098-49FB-AB9F-F4CC8BC3B369_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156913055639"
+        },
+        {
+            "alt": "F9ED61C2-D27D-4CFE-B519-5FFDAA6AA43A_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938037911"
+        },
+        {
+            "alt": "8F34B4B2-43B6-40A8-B2FA-9B3531ECEBE9_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156913066647"
+        },
+        {
+            "alt": "F9ED61C2-D27D-4CFE-B519-5FFDAA6AA43A_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938037911"
+        },
+        {
+            "alt": "E73BDD27-FD76-4E3B-9EA7-15F914084AFA_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938040855"
+        },
+        {
+            "alt": "FC56FB22-A320-4171-883E-0399B8665341_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938042775"
+        },
+        {
+            "alt": "2968E9C3-DF7F-436F-B9A1-B7963C16A3EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156913076887"
+        },
+        {
+            "alt": "8FC83652-7981-49D6-80E2-ED003DD91A83_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938048023"
+        },
+        {
+            "alt": "FE1D57AC-C70E-4FA3-8D1A-B386E5D28FE5_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156913081367"
+        },
+        {
+            "alt": "7ACBEF42-895B-49D0-BB66-C21C108BFD69_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938053911"
+        },
+        {
+            "alt": "6E52551F-DAEC-49D1-93BD-654D20AA1375_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22156938056727"
+        }
+    ]
+}

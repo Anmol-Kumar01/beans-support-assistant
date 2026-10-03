@@ -1,0 +1,86 @@
+{
+    "id": 9508555688343,
+    "title": "Managers: How to Turn On Safety Training for Drivers",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9508555688343.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9508555688343-Managers-How-to-Turn-On-Safety-Training-for-Drivers",
+        "author_id": 7501352909335,
+        "created_at": "2022-10-12T19:14:23Z",
+        "updated_at": "2024-03-07T18:16:53Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Settings > Preferences.  2.  Choose \"Safety.\"  Click “Turn on safety training.”   3.  Click Settings > Drivers and Dispatchers.  4,  Click the circle with checkmark icon to highlight the entire list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver).  5.  Click \"Modify Driver.\"   6.  Check the box \"Enroll in Safety Training.\"  Click \"Save.\"  7.  Drivers will be enrolled in safety and you will see a notification under each driver which says “Safety Training is turned on.”    From the Mobile App: 1.  Click the Dispatch tab and then click the Menu Bars on the top right of the screen.  2.  Click Settings > Preferences.  3.  Choose Safety and click “Turn on safety training.”                      4.  Click Settings > Drivers and Dispatchers.  5.  Click the circle with checkmark icon to highlight the list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver).  6.  Click the blue circle with the pencil icon to open the \"Modify Driver\" page and check the box \"Enroll in Safety Training.\"  Click \"Save.\"            7.  Drivers will be enrolled in safety and you will see a notification under each driver which says “Safety Training is turned on.”  NOTE: Drivers can now complete all safety training courses directly from the Beans Route mobile app.  See the article Drivers: Completing Safety Training.",
+    "images": [
+        {
+            "alt": "3EF376F5-43DA-4082-B58D-BC9B055B2CD5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890872702487"
+        },
+        {
+            "alt": "C40B0D88-6A7A-40CB-864B-664860996607_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508039930647"
+        },
+        {
+            "alt": "8936A9F2-F9CE-4127-8092-09FB4043F5C7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508037466007"
+        },
+        {
+            "alt": "2E1058AF-52EF-4768-9A36-EF15DF70F4EB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508111514263"
+        },
+        {
+            "alt": "EF1D8DD1-E3BB-4FF3-A9B3-8F3B8690551D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508115459095"
+        },
+        {
+            "alt": "A4DE034B-9C1D-403F-91DD-B039A234AA19_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508149378583"
+        },
+        {
+            "alt": "5CD74195-5929-4301-AF00-2FA093BC688D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508143283479"
+        },
+        {
+            "alt": "83F0DBFA-6800-419B-9A6E-CF4DB2D48750_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508191036951"
+        },
+        {
+            "alt": "533BEF9B-A018-4776-BC01-CFA3075487A2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508257284247"
+        },
+        {
+            "alt": "7E6DA1C8-2B32-420D-803E-C470098B9CB5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508289011863"
+        },
+        {
+            "alt": "092ED1F9-CBA7-4F98-B087-00E8DBA05AAA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508318324375"
+        },
+        {
+            "alt": "859A1404-9576-43C8-A6CA-E1BB5B694984_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508355127447"
+        },
+        {
+            "alt": "2CD0EFC4-920B-4669-BC6B-494DC2E6B36A_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508350172823"
+        },
+        {
+            "alt": "F71317F9-4424-4BC8-B653-52C14E55385B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508392186647"
+        },
+        {
+            "alt": "1F74F659-C669-4857-B2E9-84C7E037254E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508447653911"
+        },
+        {
+            "alt": "028DC8C2-8195-4BCC-8596-0B5A768E9B1A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508452681623"
+        },
+        {
+            "alt": "521F17F6-61A8-4593-A180-0AF5435C5741_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508514115223"
+        },
+        {
+            "alt": "93231BAD-11EE-4F33-9185-A8EB48730CC9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9508518443031"
+        }
+    ]
+}

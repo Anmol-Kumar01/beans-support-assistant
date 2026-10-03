@@ -1,0 +1,66 @@
+{
+    "id": 4938787357079,
+    "title": "Managers: How to modify a driver profile",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4938787357079.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4938787357079-Managers-How-to-modify-a-driver-profile",
+        "author_id": 7501352909335,
+        "created_at": "2022-03-22T17:21:27Z",
+        "updated_at": "2024-03-22T20:33:24Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Assets > Drivers and Dispatchers.  2.  Highlight the driver to be modified by clicking on the row.  Under “Things That You Can Do,” click “Modify Driver.” 3.  Edit the information in the user profile.*  Click \"Save.\"     From the Mobile App: 1.  Click the Dispatch tab.  Click the Menu Bars on the top right.  2.  Click: Assets > Drivers and Dispatchers.  3.  Highlight the driver to be modified by clicking on the row.  Click the modify button (blue circle with pencil icon).  4.  Edit the information in the user profile. * Click \"Save.\"           .            * Note: When a driver is added to Beans Route, the email address entered becomes the driver’s user name AND password.  You may change a driver’s email address, but the driver’s login password will not change!  The driver may use the “forgot password” link on the mobile app to change the password or reach out to support at support@beans.ai and include your company name and the information for the user to be altered.",
+    "images": [
+        {
+            "alt": "97ACE539-CC7A-4A28-947E-204B0A8896D8_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273001807895"
+        },
+        {
+            "alt": "28900188-FB21-4ED1-AE28-27C2EF621F9D_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273001831447"
+        },
+        {
+            "alt": "63680502-2621-4FAC-BFF9-91DEC940A1F7_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273059159703"
+        },
+        {
+            "alt": "55990E3A-5FC4-4F69-830C-C5880C16A3D1_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273059173911"
+        },
+        {
+            "alt": "F27A7B1A-632E-405B-8899-60DAF9DEFDB8_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273059186199"
+        },
+        {
+            "alt": "56E50E8A-9828-4A6B-BAAE-C9636EC76441_1_105_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22273001887511"
+        },
+        {
+            "alt": "EE273478-5E4D-49D7-B8DA-45CA7A5E3339_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274701036695"
+        },
+        {
+            "alt": "D2D3E2D2-4053-4D8D-9728-C491FB6C2426_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274708132759"
+        },
+        {
+            "alt": "0EEA1658-8D40-4845-B319-015535B35A07_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274701062807"
+        },
+        {
+            "alt": "7B1F9D80-E661-4050-90D6-972FA5A5AEA7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274701080855"
+        },
+        {
+            "alt": "AB05A2EF-AF5B-4912-B514-438DB5F0ED1C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274701095959"
+        },
+        {
+            "alt": "E12A925C-50F2-41D8-A9E9-7D6AFB742CBB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274708157719"
+        },
+        {
+            "alt": "0B2E8C83-C910-454A-8CEB-5C2E68C06BF5_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/22274708160407"
+        }
+    ]
+}

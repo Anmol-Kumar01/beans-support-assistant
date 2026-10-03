@@ -1,0 +1,13 @@
+{
+  "id": "dro-custom-work-areas",
+  "title": "Running DRO with custom work areas",
+  "summary": "This tutorial shows you how to run DRO (Dynamic Route Optimization) with custom work areas in BeansRoute. Learn how to select routes for planning, configure operations settings, enable Flex End for floating drivers, draw custom work areas using the polygon tool, create multiple work areas with stop counts, run DRO optimization, view separate routes for each work area, handle capacity constraints, and toggle stop numbers on the map. This guide helps you create optimized routes within specific geographic boundaries for more targeted delivery operations.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/b1DI6pewy0qLScyAYK0WqQ/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

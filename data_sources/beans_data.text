@@ -1,0 +1,390 @@
+Beans has two product : api , beans.ai , beansroute
+api : https://www.beansroute.ai/route-api-v1
+beans.ai : https://www.beans.ai/
+
+beansroute : https://www.beansroute.ai/
+
+
+Beans Demo link : https://www.beansroute.ai/demo
+Beans maps : https://www.beans.ai/3dmaps
+
+
+
+
+Beans Maps Enterprise API - Current Version: v2
+Link https://www.beans.ai/enterprise-api-v2
+Includes Search, Address Autocomplete, Address Unitcomplete, Feedback, Feedback, Address Verifier, POI Lookup
+
+
+
+Beans Route Enterprise API - Current Version: v1
+Link: https://www.beansroute.ai/route-api-v1
+
+
+
+Beans Maps Web Widget- Current Version: v1
+Link: https://www.beans.ai/mapswidget-api-v1
+
+
+tutorials :
+
+Primary link: https://github.com/beansai/beans-tutorials/tree/main
+
+Distance Matrix: https://github.com/beansai/beans-tutorials/tree/main/matrix
+
+What-if: https://github.com/beansai/beans-tutorials/tree/main/what-if
+
+Beans Route: https://github.com/beansai/beans-tutorials/tree/main/beans-route
+
+Callbacks: https://github.com/beansai/beans-tutorials/tree/main/callback
+
+Dynamic Route Optimization: https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization
+
+
+📞 Key Contacts
+ Akash Agarwal
+1 year ago Updated
+Please email: sales@beans.ai 
+For Support : support@beans.ai
+
+Or you can directly email: akash@beans.ai
+
+Company support: +1 (415) 888-9059
+
+
+
+
+
+🏁 Getting started with Beans
+ Akash Agarwal
+1 year ago Updated
+SECTION 1 — How It Works 
+The two things that you need if you are a Servicenow customer, to get started Beans power optimization on Servicenow are: 
+
+1. Signed MSA with Beans
+
+2. Beans API Key that you can plug in into Servicenow
+
+ 
+
+1️⃣ Get in Touch → Reach out to the Beans.ai team at 📧 sales@beans.ai
+
+2️⃣ Get Pricing → We’ll provide simple, flat-rate pricing based on your usage
+
+3️⃣ Sign Order Form → Quick & easy contracting process
+
+4️⃣ Receive API Key → Instantly generated for your account
+
+5️⃣ Paste API Key in ServiceNow FSM Portal → Simple copy & paste setup
+
+6️⃣ Go Live! → Start optimizing routes & assignments within minutes 🎯
+
+ 
+SECTION 2 — Why Beans.ai + ServiceNow
+Built for Enterprise-Scale FSM
+
+Predictable Flat Pricing
+
+Real-Time + Predictive Traffic
+
+Millions of Elements per Second
+
+Seamless ServiceNow FSM Integration
+
+Hands-On Support Team
+
+SECTION 3 — Pricing Overview
+Beans.ai provides two flexible pricing models to suit customer needs:
+
+Pricing based on monthly request volume
+
+Pricing based on the number of technicians
+
+If you can provide us with number of technicians, number of tasks per tech per day, average duration of a task, size of one tech team, we can get back to you with our estimate on pricing. 
+
+
+
+
+🌐 About Beans.ai + ServiceNow Integration
+ Akash Agarwal
+1 year ago Updated
+ 
+
+Smarter Routing. Lower Costs. Plug-and-Play Setup.
+
+🚀 What is Beans.ai?
+Beans.ai is a geospatial intelligence platform that enhances field service operations with hyper-accurate location data, AI-based routing, and real-time distance calculations.
+
+We’re now fully integrated into ServiceNow Field Service Management (FSM), powering smarter technician assignments with flat, predictable pricing and enterprise grade support. 
+
+🔌 How the Integration Works
+Pre-Built & Plug-and-Play:
+
+Beans is natively integrated with ServiceNow FSM (starting with the Vancouver release for Scheduled Optimization, and available for Dynamic Optimization starting with Utah version).
+
+Setup in Minutes:
+
+Sign a simple order form with Beans
+
+Receive an API key
+
+Paste the API key in your ServiceNow FSM portal
+
+Toggle a setting — and you’re live!
+
+No Developer Involvement Required
+
+🧠 Why Customers Choose Beans.ai Over Others
+Key Advantage
+
+Beans.ai
+
+Others
+
+Real-Time & Predictive Traffic
+
+✅ High quality traffic data
+
+❌ (or limited)
+
+Enterprise Support
+
+✅ White-glove support
+
+❌ Self-serve only
+
+Flat Pricing
+
+✅ Predictable, no overages
+
+❌ Usage-based billing, spikes possible
+
+High Element Throughput
+
+✅ Millions elements per request
+
+❌ Limited (~100x less)
+
+US Address Precision
+
+✅ 300+ feet more accurate (30% of the time)
+
+❌ Inaccurate in dense areas
+
+ 
+
+📍 Core Benefits for ServiceNow Customers
+Better Technician Assignment: Optimize job-to-tech pairings with actual driving distance, not straight-line estimates
+
+Faster Onboarding: Integrated APIs and enterprise support mean you’re up and running fast
+
+Cost Control: Tiered pricing or per-technician pricing models to fit your business
+
+Scalability: Send up to 1 million elements per request and up to 1 million elements per second
+
+💵 Pricing Overview
+We offer two pricing models: 
+
+Element-Based – e.g., $2,500/mo for up to 10M elements
+
+Technician-Based – e.g., $120/year per tech (includes real-time + predictive)
+
+The above two are just 2 examples at given volumes. Based on your number of technicians and number of jobs, we can give you your personalized pricing. 
+
+✅ Real-World Usage
+Brightspeed: 600 techs, peaked at 3M requests/day
+
+TridentCare: 1,800 field staff, 8–9M requests/day
+
+FedEx Ground: 10,000+ drivers actively using the platform 
+
+🛠️ Switching Is Easy
+Already using straight-line distances in ServiceNow?
+
+→ You can upgrade to Beans with a simple API key and unlock real-time travel optimization.
+
+Still on Google for Dynamic Optimization?
+
+→ Easily swap to Beans — no dev work required.
+
+🎯 Ready to Get Started?
+Contact Beans.ai to receive your pricing estimate and API key:
+
+📧 sales@beans.ai
+
+Or talk to your ServiceNow delivery partner to initiate the integration.
+
+
+
+🚦Predictive and Real Time Traffic Options
+ Akash Agarwal
+1 year ago Updated
+ 
+
+Smarter Routing Powered by Traffic Intelligence
+
+Why Traffic Data Matters in Field Service
+Assigning the right technician to the right job isn’t just about distance — it’s about time.
+
+ 
+
+Beans.ai’s advanced traffic solutions give ServiceNow FSM customers access to both Predictive and Real-Time traffic data, ensuring your schedules stay accurate — even as conditions on the road change.
+
+Two Powerful Traffic Options — Tailored to Your Needs
+1. Predictive Traffic — Plan Smarter for the Day Ahead
+Beans.ai uses machine learning to analyze historical traffic patterns across specific geographies and times of day.
+
+→ Perfect for route planning during:
+
+Overnight hours
+
+Early morning scheduling
+
+Low-traffic times
+
+Typical Use Case: Building your technician’s daily manifest at 6 AM for jobs starting at 9 AM.
+
+2. Real-Time Traffic — Optimize as the Day Unfolds
+Real-Time traffic pulls live traffic conditions at the moment of scheduling or re-optimization.
+
+→ Best used during:
+
+Peak commute hours
+
+High-density metro areas
+
+Re-optimizing routes midday when delays happen
+
+Typical Use Case: Adjusting assignments at 2 PM due to unexpected traffic congestion.
+
+How It Works in ServiceNow FSM
+Planning Phase
+
+Beans.ai Traffic Type
+
+Benefit
+
+Initial Daily Schedule
+
+Predictive Traffic
+
+Anticipate regular patterns & avoid known bottlenecks
+
+Midday Changes / On-Demand Scheduling
+
+Real-Time Traffic
+
+Account for live incidents, accidents, congestion
+
+ 
+
+Flexible Configuration For Every Customer
+Mix-and-match real-time & predictive traffic by:
+
+→ Geography (urban vs rural)
+
+→ Time of day (peak vs off-peak)
+
+→ Frequency of updates (hourly, by event, or dynamic)
+
+Beans.ai will guide your team on optimal configurations to balance accuracy & cost.
+
+Fast Deployment — Predictive Traffic Ready in Weeks
+For any new metro area, Beans.ai typically needs ~2-3 weeks of learning to build predictive traffic models.
+
+Real-Time Traffic is ready immediately.
+
+Transparent & Predictable Pricing
+Beans.ai’s pricing is designed to give you control and clarity.
+
+Plan
+
+Includes
+
+Typical Monthly Fee*
+
+Predictive Traffic Only
+
+Predictive + Basic Distance Matrix
+
+Starting ~$1,000/month
+
+Real-Time Traffic (Includes Predictive)
+
+Real-Time + Predictive + Basic
+
+Starting ~$1,500/month
+
+* Final pricing based on request volume, geography, and technician count.
+
+
+
+
+
+
+
+⚙️ Beans.ai vs Other APIs
+ Akash Agarwal
+1 year ago Updated
+ 
+
+Why Beans.ai’s APIs Are Built for ServiceNow — and Built to Win 🚀
+When it comes to optimizing field operations in ServiceNow FSM, choosing the right mapping and routing APIs isn’t just about functionality — it’s about fit, flexibility, and future-proofing.
+
+At Beans.ai, we’ve engineered our API suite to meet the complex needs of enterprise service teams, without the overhead, limitations, or surprise costs that often come with legacy providers. Here’s why more ServiceNow customers are making the switch:
+
+🚦 1. Traffic Intelligence That Actually Works for Scheduling
+Our distance matrix API supports both real-time and predictive traffic, making it ideal for:
+
+Morning manifest planning using learned traffic patterns
+
+Midday re-optimizations using live congestion data
+
+Unlike others who treat traffic as an afterthought, we build it into the core of every route.
+
+📊 2.  Predictable, Scalable Pricing
+Say goodbye to volatile usage-based billing. Beans.ai offers:
+
+Flat-tier pricing based on expected volume
+
+Per-technician pricing for enterprise simplicity
+
+No surprise overage fees — ever
+
+You can optimize at scale without worrying about cost spikes.
+
+🧠 3. Enterprise Support with a Human Touch
+Most APIs are “self-serve” by design. Ours come with:
+
+Dedicated onboarding assistance
+
+Technical support that actually picks up the phone
+
+Custom configuration guidance for ServiceNow use cases
+
+🧭 4. Hyper-Accurate Geocoding (U.S. Focused)
+Beans.ai’s geocoding is 300+ feet more accurate for 30% of U.S. addresses — especially in multi-dwelling units, campus-style facilities, and urban metros. This means:
+
+Better technician routing
+
+Fewer delays
+
+More accurate ETAs for your customers
+
+⚙️ 5.  Built for ServiceNow — Not Just Compatible
+Our APIs are:
+
+Natively integrated with ServiceNow FSM
+
+Plug-and-play (just paste your API key and go)
+
+Compatible with Scheduled Optimization and Dynamic Scheduling
+
+From API structure to customer support, we’ve optimized the experience specifically for the ServiceNow ecosystem.
+
+🚀 Summary
+Whether you’re running 100 field technicians or 10,000, Beans.ai gives you the power to route smarter, scale faster, and deliver better — with pricing and support designed for the real world.
+
+ 
+
+ServiceNow + Beans.ai = Faster Schedules. Happier Customers. Fewer Surprises.

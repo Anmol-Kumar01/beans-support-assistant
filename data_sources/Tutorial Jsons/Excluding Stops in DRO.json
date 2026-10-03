@@ -1,0 +1,13 @@
+{
+  "id": "exclude-stops-dro",
+  "title": "Excluding Stops in DRO",
+  "summary": "This tutorial shows you how to exclude specific stops from DRO (Dynamic Route Optimization) in BeansRoute. Learn how to click on a stop you wish to exclude before running DRO, use the exclude option in the popup to omit the stop from planning, and continue with normal DRO parameter settings and execution. This guide helps you customize your route optimization by removing unwanted stops from the planning process.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/DD8OlDrfL9zxutPYaMAv3A/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

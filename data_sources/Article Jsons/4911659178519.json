@@ -1,0 +1,42 @@
+{
+    "id": 4911659178519,
+    "title": "Managers: How to manually create a route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4911659178519.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4911659178519-Managers-How-to-manually-create-a-route",
+        "author_id": 417316688474,
+        "created_at": "2022-03-21T17:05:02Z",
+        "updated_at": "2022-09-29T17:59:28Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the routes page under “Things You Can Do,” click the “Add Route” button.  2.  Give the route a name to identify it as a created route (e.g., 123x).  Select the driver.  Select the warehouse.  Click “Add Route.”    3.  The new route will populate in your routes list, and you can now manually add stops or move stops from another route to the new route.  4.  You can now upload a manifest or manually add stops to the route.   From the Mobile App: 1.  Click the “Dispatch” tab.    2.  Click on the blue circle with the plus sign.    3.  Give the route a name to identify it as a created route (e.g., 123x).  Select the driver.  Select the warehouse.  Click “Add Route.”    4.  The new route will populate in your routes list, and you can now manually add stops or move stops from another route to the new route.  5.  You can now upload a manifest or manually add stops to the route. Video:  How to manually create a route",
+    "images": [
+        {
+            "alt": "67518CDA-4304-49CF-93E7-55A544DBBBEE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4910468586903/67518CDA-4304-49CF-93E7-55A544DBBBEE_1_201_a.jpeg"
+        },
+        {
+            "alt": "A86D99E5-B3F7-4530-BC97-0901F11A6661_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4910934389271/A86D99E5-B3F7-4530-BC97-0901F11A6661_1_201_a.jpeg"
+        },
+        {
+            "alt": "9A637709-1021-409B-A396-94E72AEAFA8B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4910941771159/9A637709-1021-409B-A396-94E72AEAFA8B_1_201_a.jpeg"
+        },
+        {
+            "alt": "C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4911062223767/C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg"
+        },
+        {
+            "alt": "8614D455-C4B9-4D53-A969-C9B95C897969_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4911522328983/8614D455-C4B9-4D53-A969-C9B95C897969_1_201_a.jpeg"
+        },
+        {
+            "alt": "058710D5-C6E1-42AD-AF6A-E92FB2C76B3D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4911585116183/058710D5-C6E1-42AD-AF6A-E92FB2C76B3D_1_201_a.jpeg"
+        },
+        {
+            "alt": "82B41EFB-3877-4169-B5B4-A7B5AA3B6C61_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4911634291607/82B41EFB-3877-4169-B5B4-A7B5AA3B6C61_1_201_a.jpeg"
+        }
+    ]
+}

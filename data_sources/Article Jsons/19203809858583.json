@@ -1,0 +1,34 @@
+{
+    "id": 19203809858583,
+    "title": "Managers: Enable Safety Gating",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/19203809858583.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/19203809858583-Managers-Enable-Safety-Gating",
+        "author_id": 7501352909335,
+        "created_at": "2023-11-20T18:15:03Z",
+        "updated_at": "2024-03-07T18:15:14Z"
+    },
+    "body": "When your drivers are enrolled in safety training in Beans Route you can turn on Safety Gating which will prevent drivers who have not completed their assigned safety training courses from starting their route.  Once the driver has completed the required safety training courses, they can then go to the map and proceed with their route.  To turn on Safety Gating follow the instructions below. From the Dispatch Console: 1.  Go to Settings > Preferences > Timesheets   2.  Turn on the setting “Hide route if a driver is failing safety training\" and click \"save.\"  3.  After completing the above steps, contact Beans Route Support to have Safety Gating enabled for your account.  Email: support@beans.ai or call (415)888-9059.   Keep in mind once this setting is enabled, any driver failing safety training will not be able to view or start their route until the past due safety training courses are completed.",
+    "images": [
+        {
+            "alt": "3EF376F5-43DA-4082-B58D-BC9B055B2CD5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890806798743"
+        },
+        {
+            "alt": "04465CCD-92F6-46EE-B146-ACA0DC873E2A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/19203825051927"
+        },
+        {
+            "alt": "588157E0-3E32-4935-8AD8-0AB649A759FD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/19203781741591"
+        },
+        {
+            "alt": "141E182A-055D-43D8-99D7-B862BA0A4319_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/19203797158551"
+        },
+        {
+            "alt": "24D3C247-94E0-4F41-8F9F-41A64D0A974E_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/19203825055895"
+        }
+    ]
+}

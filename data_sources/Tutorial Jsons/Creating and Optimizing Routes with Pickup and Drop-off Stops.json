@@ -1,0 +1,13 @@
+{
+  "id": "route-planner-pickup-dropoff",
+  "title": "Creating and Optimizing Routes with Pickup and Drop-off Stops",
+  "summary": "This tutorial shows you how to create and optimize routes with paired pickups and drop-offs using Route Planner in BeansRoute. Learn how to upload a manifest with paired stops, map your file correctly, configure routes in Route Planner, add floating drivers with capacity settings, optimize routes using DRO, review optimization results, and create final routes. This guide helps you efficiently manage complex delivery operations with both pickup and drop-off requirements.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/Qmut0XLqI6IxmkfzFOHQLg/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

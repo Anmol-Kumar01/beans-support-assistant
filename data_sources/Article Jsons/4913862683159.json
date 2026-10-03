@@ -1,0 +1,42 @@
+{
+    "id": 4913862683159,
+    "title": "Managers: How to Disable a Driver",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4913862683159.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4913862683159-Managers-How-to-Disable-a-Driver",
+        "author_id": 417316688474,
+        "created_at": "2022-03-21T18:18:20Z",
+        "updated_at": "2024-07-01T14:53:51Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console: Settings > Drivers and Dispatchers.  2.  Highlight the driver to be disabled by clicking on the row.  Under “Things That You Can Do,” click “Modify Driver.”   3.  Change Status from Active to Disabled.  Click Save. From the Mobile App: 1.  Click the Dispatch tab.  Click the Menu Bars on the top right of the screen.    2.  Click: Settings > Drivers and Dispatchers.    3.  Highlight the driver to be disabled by clicking on the row.  Click the blue circle with the pencil icon.    4.  Change Status from Active to Disabled.  Click \"Save.\"  Video:  How to Disable a Driver",
+    "images": [
+        {
+            "alt": "15693FDE-2B89-4CF4-8B09-F2C60536C1A4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913149808663"
+        },
+        {
+            "alt": "4ABA90AD-3D4B-4F94-8761-D146374C6575_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913172937751"
+        },
+        {
+            "alt": "45C70D1F-F89D-4319-B41E-3106981A2E75_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913220428311"
+        },
+        {
+            "alt": "6B5F6264-D000-4E17-B5A9-AC2370EA039A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913679685143"
+        },
+        {
+            "alt": "A6870874-747D-42A9-876B-B9B0D723E423_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913729249943"
+        },
+        {
+            "alt": "6399A647-DB1C-4D77-835A-6600553AA186_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913774588567"
+        },
+        {
+            "alt": "CE2E0D54-9C28-4747-93DA-30354ABEE871_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4913828629399"
+        }
+    ]
+}

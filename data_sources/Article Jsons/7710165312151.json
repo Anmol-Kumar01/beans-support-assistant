@@ -1,0 +1,70 @@
+{
+    "id": 7710165312151,
+    "title": "Managers: Upload an Ontrac Manifest",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/7710165312151.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/7710165312151-Managers-Upload-an-Ontrac-Manifest",
+        "author_id": 7501352909335,
+        "created_at": "2022-07-25T19:12:02Z",
+        "updated_at": "2023-07-08T16:38:17Z"
+    },
+    "body": "From Fastrac.ontrac Account: 1.  Sign into your fastrac.ontrac.com account.  2.  Click Route Assignments.  3.  From the dropdown list select your facility and RSP number.  4.  Click the “Reports” button and then click “Driver Manifests.”   5.  Select your RSP from the dropdown menu and click “OK.”  6.  Choose the desired route from the dropdown menu and then click “View Report.”   7.  Click the arrow next to the floppy disc icon and choose CSV; the manifest will download to your computer.    From the Dispatch Console: 12.  From the Dispatch Console on the Routes page under “Things That You Can Do,” click “Upload Manifest.”  13.  Open the downloaded delivery manifest.  14.  Under “Create a new route,” assign a route number, driver, warehouse, and click “Add New Route.”  The new route will now populate in your Routes list.  15.  Under the “Match Columns for Upload” scroll to the bottom of the screen and click “Upload.”  Stops will now populate in the newly created route.",
+    "images": [
+        {
+            "alt": "55955543-6C2C-4538-851F-CA3720AA2C7D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7711993032215/55955543-6C2C-4538-851F-CA3720AA2C7D_1_201_a.jpeg"
+        },
+        {
+            "alt": "A63EF8F0-B591-4E10-862D-7D75569687C2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7711897922327/A63EF8F0-B591-4E10-862D-7D75569687C2_1_201_a.jpeg"
+        },
+        {
+            "alt": "4E51B1E5-F9C4-462B-809C-5D47C88D30DF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712066454423/4E51B1E5-F9C4-462B-809C-5D47C88D30DF_1_201_a.jpeg"
+        },
+        {
+            "alt": "72CFC393-28FD-4AA5-8726-A0C4F13ED385_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712098194071/72CFC393-28FD-4AA5-8726-A0C4F13ED385_1_201_a.jpeg"
+        },
+        {
+            "alt": "53B4D1BD-76F7-4377-B6B7-AE251F718000_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712104690071/53B4D1BD-76F7-4377-B6B7-AE251F718000_1_201_a.jpeg"
+        },
+        {
+            "alt": "FA2F8E34-340A-41FA-8D05-42EE143FD115_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712136160535/FA2F8E34-340A-41FA-8D05-42EE143FD115_1_201_a.jpeg"
+        },
+        {
+            "alt": "8D8CB926-DDB1-4F8F-825C-4D9A53A1377E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712166241047/8D8CB926-DDB1-4F8F-825C-4D9A53A1377E_1_201_a.jpeg"
+        },
+        {
+            "alt": "66AF3E17-1366-45B5-B062-40037A93E5B0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712265289751/66AF3E17-1366-45B5-B062-40037A93E5B0_1_201_a.jpeg"
+        },
+        {
+            "alt": "90EB57E2-C925-473C-AF16-03FE416894A6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712353471511/90EB57E2-C925-473C-AF16-03FE416894A6_1_201_a.jpeg"
+        },
+        {
+            "alt": "0E101AF5-080F-4A67-871F-F6D65D241A80_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712515244567/0E101AF5-080F-4A67-871F-F6D65D241A80_1_201_a.jpeg"
+        },
+        {
+            "alt": "8496D10D-BE97-4152-8BD5-413DF22AEA71_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712522526999/8496D10D-BE97-4152-8BD5-413DF22AEA71_1_201_a.jpeg"
+        },
+        {
+            "alt": "1CDEB537-C3FF-4C19-A200-35970615EB1A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712524442263/1CDEB537-C3FF-4C19-A200-35970615EB1A_1_201_a.jpeg"
+        },
+        {
+            "alt": "0F387556-81C3-41E9-8144-45F5D423E3DF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712526775191/0F387556-81C3-41E9-8144-45F5D423E3DF_1_201_a.jpeg"
+        },
+        {
+            "alt": "0613D4E9-487E-4DE7-96E8-A0D0A6771C67_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7712578584215/0613D4E9-487E-4DE7-96E8-A0D0A6771C67_1_201_a.jpeg"
+        }
+    ]
+}

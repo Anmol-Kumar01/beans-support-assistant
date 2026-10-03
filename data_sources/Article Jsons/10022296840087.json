@@ -1,0 +1,82 @@
+{
+    "id": 10022296840087,
+    "title": "Managers: Creating a Schedule in Timesheets",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/10022296840087.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/10022296840087-Managers-Creating-a-Schedule-in-Timesheets",
+        "author_id": 7501352909335,
+        "created_at": "2022-11-05T00:41:07Z",
+        "updated_at": "2024-07-26T16:48:41Z"
+    },
+    "body": "In Beans Route you can create a schedule for your drivers in Timesheets.  When you create a schedule in timesheets, the drivers will be assigned to their routes automatically, and drivers can view their schedule in the calendar located in the Hub on their mobile app. To create a schedule, follow the instructions below.  From the Dispatch Console: 1.  Click Assets > Timesheets which will open the timesheet to the default Route View where you will create your schedule.   2. Your routes are listed in the left column and the days of the week across the top of the table.  Use the dropdown menu to select the day of the week to begin your schedule.  Select the route you wish to schedule and then click the bubble for the day you wish to schedule.  3.  Use the dropdown menu and select the driver you wish to schedule.   4.  Repeat the process to schedule each route for each day of the week.  Once you have completed the schedule, you can copy and paste the same schedule to future weeks.  Click the “two boxes” icon located above the table to copy the schedule.  5.  Click “No” to overwrite existing shifts to copy the schedule to the clipboard. Click the arrow above the route list to move the calendar to the next week.     6.  Click the \"two boxes\" icon and then click \"yes\" to overwrite existing shifts to paste the schedule you have created to the calendar.     7.  You can copy and paste the same schedule for the next six weeks by repeating steps 4 - 6.   For call-outs or last minute changes to the schedule, you can change the drivers right from the routes page with no need to adjust your timesheet. 1.  Choose the route and click the “pad and pencil” icon after the scheduled driver’s name to open the dialogue box.  2.  From the dropdown list choose the replacement driver and click “save.”",
+    "images": [
+        {
+            "alt": "8792EC19-0EFD-4CCE-8E9F-D458738480EC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476330647"
+        },
+        {
+            "alt": "0F6D7F49-C77B-4327-91D8-9E0494166CA9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195503043607"
+        },
+        {
+            "alt": "5457F1F9-44C1-4B44-BF9D-C218FE85F53E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195503045527"
+        },
+        {
+            "alt": "9FF284A9-F437-4F42-951D-388C94D1B1A8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476337047"
+        },
+        {
+            "alt": "C14E0B9B-DF28-4822-84C8-252D1E2BD44F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476340119"
+        },
+        {
+            "alt": "E40B4A63-70AB-4DEE-9E30-F8BCFAACB584_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476345367"
+        },
+        {
+            "alt": "1C2C1F35-BCA0-4A07-B348-E782C400C6CC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476348439"
+        },
+        {
+            "alt": "080B8339-2E58-4B0A-A5C6-05584AF94D46_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476352023"
+        },
+        {
+            "alt": "636E82B0-AA46-404F-9976-D99BF15F0148_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476353559"
+        },
+        {
+            "alt": "519AC4E0-CC89-4D94-865F-9EF85AE49C75_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195476354583"
+        },
+        {
+            "alt": "957C199B-9166-4482-BED6-2E63B5D526B6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195503071895"
+        },
+        {
+            "alt": "CA340F4A-86D3-42C9-B5C6-3B19878F2852_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25195503074071"
+        },
+        {
+            "alt": "5726C378-EF0C-445E-8DC5-B68C126FDC64_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10022217335575"
+        },
+        {
+            "alt": "35B6C281-8452-431F-AC85-EC688A871B9C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10022253824919"
+        },
+        {
+            "alt": "FBA78310-833F-4B8A-9A64-2098ED6DB6BB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10022289676567"
+        },
+        {
+            "alt": "3E097640-FDE7-4FDD-AAAD-47EAF36334A1_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10022261089175"
+        },
+        {
+            "alt": "10B7A23B-CDFE-416F-85E7-52299986BCAC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10022292788375"
+        }
+    ]
+}

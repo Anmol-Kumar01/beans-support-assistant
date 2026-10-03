@@ -1,0 +1,26 @@
+{
+    "id": 4833380109463,
+    "title": "Managers: Enable Drivers to utilize Beans Route Lasso Transfer Feature",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4833380109463.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4833380109463-Managers-Enable-Drivers-to-utilize-Beans-Route-Lasso-Transfer-Feature",
+        "author_id": 417316688474,
+        "created_at": "2022-03-17T19:04:12Z",
+        "updated_at": "2022-06-23T21:17:01Z"
+    },
+    "body": "In dispatch go to settings > Preferences > Routes:      2. From the list check, “allow drivers to transfer stops to another driver on the app” 3.  Click Save",
+    "images": [
+        {
+            "alt": "C0BD235D-FD02-4EF1-825B-D518FF604712.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4834264999575/C0BD235D-FD02-4EF1-825B-D518FF604712.png"
+        },
+        {
+            "alt": "A9B18632-1B47-45CF-9293-A60A7B99B8A9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4834315759255/A9B18632-1B47-45CF-9293-A60A7B99B8A9_1_201_a.jpeg"
+        },
+        {
+            "alt": "5FA8E616-7547-487D-A409-C8FBCEC557AB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4834320021655/5FA8E616-7547-487D-A409-C8FBCEC557AB_1_201_a.jpeg"
+        }
+    ]
+}

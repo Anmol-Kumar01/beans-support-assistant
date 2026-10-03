@@ -1,0 +1,46 @@
+{
+    "id": 9223116019095,
+    "title": "Managers: Create a Route and Add Stops",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9223116019095.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9223116019095-Managers-Create-a-Route-and-Add-Stops",
+        "author_id": 7501352909335,
+        "created_at": "2022-09-29T17:58:02Z",
+        "updated_at": "2022-09-30T06:07:18Z"
+    },
+    "body": "From the Dispatch Console: 1.  In the Dispatch Console on the Routes page, click the “Add Route” button.  2.  Name the route, and if needed select driver and warehouse.  Click “Add Route.”  3.  In the routes list, click the box of the desired route to open the detailed view. 4.  Click “Add Stop,” type in the address and select the type of stop (e.g., pickup or delivery). Scroll down and click “Add Stop.”  5.  Once all stops are added, click “Optimize Route,” and choose “Custom” from the start dropdown list.  6.  Type in the address for the start of the route (first stop) and the end of the route (last stop); click “Optimize.”  To Move a Stop Up or Down in the Route: 1.  Click the three bars icon (second from the end).  2.  Click on the stop you want to move and drag it to the desired location in the list.",
+    "images": [
+        {
+            "alt": "74C8F7A1-CFB4-4D93-B57D-D69C97D8AB47_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228186228375/74C8F7A1-CFB4-4D93-B57D-D69C97D8AB47_1_201_a.jpeg"
+        },
+        {
+            "alt": "007664FD-5202-41C8-A77A-26E81A9491CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228282665623/007664FD-5202-41C8-A77A-26E81A9491CB_1_201_a.jpeg"
+        },
+        {
+            "alt": "8D626691-EE8D-4A54-8C1A-4DE3574AEC71_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228286580503/8D626691-EE8D-4A54-8C1A-4DE3574AEC71_1_201_a.jpeg"
+        },
+        {
+            "alt": "9EB20E1C-2CC3-4727-AE2F-AB0A5475492C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228307720215/9EB20E1C-2CC3-4727-AE2F-AB0A5475492C_1_201_a.jpeg"
+        },
+        {
+            "alt": "BA3B35F7-24DD-4F39-AFA7-CC35D17B51C6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228368395031/BA3B35F7-24DD-4F39-AFA7-CC35D17B51C6_1_201_a.jpeg"
+        },
+        {
+            "alt": "AD7C48DD-8F3A-40FF-A3A3-21F57DA8F61C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228372058903/AD7C48DD-8F3A-40FF-A3A3-21F57DA8F61C_1_201_a.jpeg"
+        },
+        {
+            "alt": "A734E422-1377-473F-B683-EABB528B5C9E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228408983831/A734E422-1377-473F-B683-EABB528B5C9E_1_201_a.jpeg"
+        },
+        {
+            "alt": "B8831017-82FF-444D-8731-DB8E02F6BA3F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9228391393303/B8831017-82FF-444D-8731-DB8E02F6BA3F_1_201_a.jpeg"
+        }
+    ]
+}

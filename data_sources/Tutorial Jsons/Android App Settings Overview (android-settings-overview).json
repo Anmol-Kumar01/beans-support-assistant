@@ -1,0 +1,13 @@
+{
+  "id": "android-settings-overview",
+  "title": "Android App Settings Overview",
+  "summary": "This tutorial shows you how to customize the BeansRoute mobile app settings for Android. Learn how to set language preferences, choose navigation app options (Your Maps, Google Maps, OpenStreetMaps), configure pin color settings for SID groups or status, hide completed stops, enable auto next stop, and adjust additional preferences like showing stop info and hiding route paths. This guide helps FedEx drivers personalize their app experience for optimal workflow.",
+  "platform": "Mobile App",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/FpfKqlNNW59LugquSB9wNg/embed",
+  "display_option_tags": "fedex;regionals",
+  "category": "App Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

@@ -1,0 +1,58 @@
+{
+    "id": 11492510288663,
+    "title": "Managers: How to Close a Route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/11492510288663.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/11492510288663-Managers-How-to-Close-a-Route",
+        "author_id": 7501352909335,
+        "created_at": "2023-01-06T19:35:59Z",
+        "updated_at": "2023-05-22T19:52:41Z"
+    },
+    "body": "If you manually create a route or upload a manifest, at the end of the day you will need to close those routes.  The closed route will be removed from your Routes page, but can still be accessed via Archive as needed. From the Dispatch Console: 1.  On the Routes page, click on the row of the route you want to close to highlight it.  2.  Click the \"Modify Route\" button on the right.  3.  If there is no warehouse assigned to the route, add a warehouse from the dropdown list.  4.  Change the route status from “open” to “closed” and click Save.   From the Mobile App: 1.  Click the Dispatch tab which defaults to your list of routes for the day.  2.  Click on the row of the route you want to close to highlight it and then click the blue circle with the pencil icon.  3.  If there is no warehouse assigned to the route, add a warehouse from the dropdown list.  4.  Change the route status from “open” to “closed” and click Save.",
+    "images": [
+        {
+            "alt": "34D6864A-E4AD-402B-B9E6-7A847D757E18_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492303445911"
+        },
+        {
+            "alt": "A2AF242D-AE23-4626-81E6-25E000222AB9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492317043991"
+        },
+        {
+            "alt": "2148B0B6-B66F-4C44-B6AC-DDD7D0622359_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13394769656343"
+        },
+        {
+            "alt": "404EB4E8-7DCA-4D6C-B4D0-FE951DB93E95_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492369654295"
+        },
+        {
+            "alt": "71E71A01-3654-4B58-B266-4373422AD58F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492360631703"
+        },
+        {
+            "alt": "C01FD663-A60A-4F1C-8599-9E48C9035207_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492428978711"
+        },
+        {
+            "alt": "A2A5AF7C-EA8B-41F3-AA4B-50A0DE1FFC47_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492404349591"
+        },
+        {
+            "alt": "93E1D32B-E910-4627-80A8-B20DF9348D92_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13395180338071"
+        },
+        {
+            "alt": "19505BCB-832F-4650-A5C0-D873FFCFAFAA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492472959255"
+        },
+        {
+            "alt": "0D172CA1-E575-460D-98EB-CFBF96F5D970_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492504292887"
+        },
+        {
+            "alt": "9C0864EE-158B-41E1-BD0E-B996148BDB59_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11492506393111"
+        }
+    ]
+}

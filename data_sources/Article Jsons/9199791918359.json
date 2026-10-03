@@ -1,0 +1,70 @@
+{
+    "id": 9199791918359,
+    "title": "Managers: Generate a Timesheet Report (STD file)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9199791918359.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9199791918359-Managers-Generate-a-Timesheet-Report-STD-file",
+        "author_id": 7501352909335,
+        "created_at": "2022-09-28T19:04:59Z",
+        "updated_at": "2024-07-25T00:11:51Z"
+    },
+    "body": "We recommend using the STD version of the timesheet report which gives you clock in, clock out, and total hours for each driver. The PDF, CSV, and XLS reports give only the total hours. You choose the time period for the report.  *To deduct breaks from daily hours follow instructions below (steps 7 - 9) before generating the report. NOTE: You cannot generate reports from the mobile app. From the Dispatch Console: 1.  Click Assets > Timesheets.   2.  Click the box for “Driver View.\"  3.  Click the “Generate Report” button.  4.  Choose the date range for your report; click on the date line to open the calendar. Optional: you may click the box for “use default route length to estimate when clock in or clock out times are missing.”   5.  Click “Generate Report.”   6.  Click the link for the report you wish to download.  Deduct Breaks from Daily Hours 7.  Click Settings > Preferences.   8.  Click “Timesheets”  9.  Turn on the option “Subtract break hours from paid hours in reports\" and click \"save\"    Understanding the STD Timesheet Report  Clock in and clock out times are calculated in minutes using military time.  Using line #2 as an example on 5/28/22:  Xavian Washburn clocked in at 7:22 a.m. or 38 minutes before 8:00 a.m.  He clocked out at 17:10 p.m. or 10 minutes after 5:00 p.m.: 8:00 a.m. to 5:00 p.m. = 9 hours 38 minutes before 8:00 a.m. + 10 minutes after 5:00 p.m. = 48 minutes Therefore: Xavian Washburn worked a total of 9 hours and 48 minutes. The total hours and paid hours are calculated in 1/10 of an hour.  A tenth of an hour is 6 minutes.  Using the example of Xavian Washburn, his total hours of 9.8 = 9 hours and 8/10 of an hour (8 x 6= 48).",
+    "images": [
+        {
+            "alt": "3B762F22-CC88-40FC-8AC3-01976F44E522_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148577309207"
+        },
+        {
+            "alt": "322622A5-4CFA-4F87-9A4D-ABFB85B7BF85_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148577311511"
+        },
+        {
+            "alt": "78F32A05-78ED-4235-B42D-EF4BD2F2819B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148552289815"
+        },
+        {
+            "alt": "DB69FE98-AC5C-42E2-AA47-7DB5122DEE70_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148552291991"
+        },
+        {
+            "alt": "E0C85D89-71B9-4D63-BE93-1A8652000882_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148577316119"
+        },
+        {
+            "alt": "7FF94B6B-C1B4-4654-9EF5-138568E9A2B5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148577320471"
+        },
+        {
+            "alt": "1B283B93-4203-4364-8AC6-C619A75C4E05_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148577323799"
+        },
+        {
+            "alt": "FBD2E00B-8527-4214-8205-190AFE9164CE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148552302615"
+        },
+        {
+            "alt": "54A1904C-55C5-4A90-BEEC-25637AC85E87_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148552304279"
+        },
+        {
+            "alt": "1D7EA6FF-0404-4A81-B004-883D2068C2A8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148618132375"
+        },
+        {
+            "alt": "57CC0136-5852-4947-9638-59BFA5129839_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148618133655"
+        },
+        {
+            "alt": "D2301A70-C5FD-4B30-83DE-B4CC235B1C31_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148618134679"
+        },
+        {
+            "alt": "F99F4FEA-3973-4FEA-B08A-FC2EF710DEBE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25148689677079"
+        },
+        {
+            "alt": "B4F7062D-EF0B-4586-8FD0-5340513F793E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/9199098590231"
+        }
+    ]
+}

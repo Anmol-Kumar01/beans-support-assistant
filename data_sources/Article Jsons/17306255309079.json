@@ -1,0 +1,46 @@
+{
+    "id": 17306255309079,
+    "title": "Starting a Route/ Pre-Dispatch Scanning",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/17306255309079.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/17306255309079-Starting-a-Route-Pre-Dispatch-Scanning",
+        "author_id": 417316688474,
+        "created_at": "2023-09-06T00:21:44Z",
+        "updated_at": "2023-09-06T00:22:00Z"
+    },
+    "body": "Once you have been assigned to a route by your manager, when you open your Beans Route app, you will be prompted to begin your pre-dispatch scan of the packages for delivery. 1.  Click the \"Start Route\" button which will take you to the Hub where you will clock in.                   2.  Click the red \"Start Route\" button to begin the pre-dispatch scan.              3.  Scan the barcode of each package, and the app will reconcile the barcode with a stop on your route. You will see the “package reconciled” message at the top of the screen.  If the scanned barcode is not correct, you will see the message “package cannot be reconciled.”            4.  When you have scanned all of barcodes, you will see the message “package reconcile complete” and the number of barcodes scanned should match the number of stops on your route.  4.  The app will then take you to your deliver tab, where you will begin your route.",
+    "images": [
+        {
+            "alt": "9967A077-631B-4FAD-87CA-18C1FF842A4B_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306269455383"
+        },
+        {
+            "alt": "244748B8-AA33-4D7F-9684-B218C1270BB6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306229932951"
+        },
+        {
+            "alt": "C130355A-7CF9-4BA8-94C7-52B1588B0A03_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306255292695"
+        },
+        {
+            "alt": "3BBC0777-B053-4DDD-A939-41D02891FA6A_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306269459607"
+        },
+        {
+            "alt": "88AA0278-3D0A-41E3-955E-3A455F67CF2B_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306229935895"
+        },
+        {
+            "alt": "2B552EF2-5675-4FF3-91CB-DC5096827A41_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306255296279"
+        },
+        {
+            "alt": "C0C4D096-5C0A-4320-AB25-745A4EA0620B_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306239838231"
+        },
+        {
+            "alt": "A01150B6-F13F-4F08-8E04-68300800D3F8_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/17306229941527"
+        }
+    ]
+}

@@ -1,0 +1,1277 @@
+{
+  "info": {
+    "_postman_id": "938c392c-f5ce-450b-9102-f5181c447214",
+    "name": "Beans Route API Collection",
+    "description": "# Beans Route API Collection\n\n<img src=\"https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png\" alt=\"Beans Logo\">\n\nAPI collection generated from [Beans AI tutorials](https://github.com/beansai/beans-tutorials/tree/main/beans-route)\n\n## Overview\n\nThis collection provides comprehensive API endpoints for managing logistics operations including:\n\n- **Warehouses** - Set up and manage warehouse locations\n    \n- **Assignees** - Manage drivers and personnel\n    \n- **Routes** - Create and manage delivery routes\n    \n- **Stops** - Add and manage stops/items on routes\n    \n- **Route Optimization** - Optimize stop sequences for efficiency\n    \n- **Documentation** - Capture proof of delivery, signatures, and notes\n    \n\n## Authentication\n\nAll requests use the `{{Auth}}` environment variable for authorization. Set up your Postman environment with:\n\n| Variable | Description |\n| --- | --- |\n| `Auth` | Your full authorization header value (e.g., `YOUR_API_KEY`) |\n| `userBuid` | Your user BUID for account operations |\n\n## Base URL\n\n```\nhttps://isp.beans.ai\n\n ```\n\n## Getting Started\n\n1. Import this collection into Postman\n    \n2. Create/select a Postman **Environment** with `Auth` and `userBuid` variables\n    \n3. Start with **Warehouses Management** to create a warehouse\n    \n4. Create **Assignees** (drivers)\n    \n5. Create **Routes** and add **Stops**\n    \n6. Use **Route Optimization** to optimize delivery sequences",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29857842"
+  },
+  "item": [
+    {
+      "name": "Assignees Management",
+      "item": [
+        {
+          "name": "Create Assignees",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"assignee\": [\n    {\n      \"list_assignee_id\": \"tu1-tutorial-driver-1\",\n      \"name\": \"Driver One\",\n      \"email\": \"integrator@beans.ai\",\n      \"role\": \"DRIVER\",\n      \"disable_invite_communication\": false\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/assignees",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "assignees"
+              ]
+            },
+            "description": "# Create Assignees\n\nCreate one or more assignees (drivers, managers, etc.) in bulk.\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `list_assignee_id` | string | Yes | Unique identifier for the assignee |\n| `name` | string | Yes | Display name |\n| `email` | string | No | Email address |\n| `role` | string | Yes | One of: ADMIN, DRIVER, MANAGER, DISPATCHER |\n| `disable_invite_communication` | boolean | No | Set to `true` to prevent email notifications |\n\n## Example\n\n```json\n{\n  \"assignee\": [\n    {\n      \"list_assignee_id\": \"driver-001\",\n      \"name\": \"John Smith\",\n      \"email\": \"john@example.com\",\n      \"role\": \"DRIVER\",\n      \"disable_invite_communication\": false\n    }\n  ]\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Assignee",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"New Driver 2\",\n  \"code\": \"c514dabe-091\",\n  \"state\": \"ACTIVE\",\n  \"role\": \"DRIVER\",\n  \"employeeId\": \"2000001\",\n  \"listWarehouseId\": \"lzt6vwxta2o0e1hsl9k75u\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "assignees",
+                "{{list-assignee-id}}"
+              ]
+            },
+            "description": "# Update Assignee\n\nUpdate an existing assignee's properties.\n\n## Request Body Fields\n\n| Field | Type | Description |\n|-------|------|-------------|\n| `name` | string | Updated display name |\n| `code` | string | Optional assignee code |\n| `state` | string | State: ACTIVE or DISABLED |\n| `role` | string | Role: ADMIN, DRIVER, MANAGER, DISPATCHER |\n| `employeeId` | string | Employee identifier |\n| `listWarehouseId` | string | Associated warehouse ID |\n\n## Example\n\n```json\n{\n  \"name\": \"Updated Driver Name\",\n  \"state\": \"ACTIVE\",\n  \"role\": \"DRIVER\",\n  \"employeeId\": \"EMP-001\",\n  \"listWarehouseId\": \"warehouse-123\"\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Assignee List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/assignees",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "assignees"
+              ]
+            },
+            "description": "# Get Assignee List\n\nRetrieve all assignees in your account.\n\n## Response\n\nReturns an array of assignee objects containing:\n- `listAssigneeId` - Unique identifier\n- `name` - Display name\n- `email` - Email address\n- `state` - ACTIVE or DISABLED\n- `role` - Assignee role\n- `latitude`/`longitude` - Last known location"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Assignee",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "assignees",
+                "{{list-assignee-id}}"
+              ]
+            },
+            "description": "# Get Assignee\n\nRetrieve a specific assignee by their ID.\n\n## Path Parameters\n\n| Parameter | Description |\n|-----------|-------------|\n| `list-assignee-id` | The unique identifier of the assignee |"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Assignee",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/assignees/{{list-assignee-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "assignees",
+                "{{list-assignee-id}}"
+              ]
+            },
+            "description": "# Delete Assignee\n\nSoft-delete an assignee. The assignee record is retained but marked as `DISABLED`.\n\n## Important Notes\n\n- This is a **soft-delete** operation\n- The assignee will still appear in GET responses with `state: \"DISABLED\"`\n- The assignee can no longer be assigned to routes"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Assignees Management\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nThe Beans Route API provides comprehensive assignee management capabilities through five core operations. Assignees represent personnel (drivers, managers, etc.) within the system and can be created, updated, retrieved, or deleted.\n\n## Key Operations\n\n| Operation | Method | Endpoint |\n|-----------|--------|----------|\n| Create | POST | `/enterprise/v1/lists/assignees` |\n| Update | POST | `/enterprise/v1/lists/assignees/{id}` |\n| Get List | GET | `/enterprise/v1/lists/assignees` |\n| Get One | GET | `/enterprise/v1/lists/assignees/{id}` |\n| Delete | DELETE | `/enterprise/v1/lists/assignees/{id}` |\n\n## Core Fields\n\nThe Assignee Object includes:\n\n- **Identity data**: name, email, phone\n- **Operational properties**: state, role\n- **Location tracking**: latitude/longitude for real-time positioning\n- **Compliance features**: safety status, warehouse association\n- **Code field**: Optional assignee identifier separate from primary ID\n\n## Notable Features\n\n### Role Taxonomy\nAssignees support the following roles:\n- `ADMIN`\n- `DRIVER`\n- `MANAGER`\n- `DISPATCHER`\n\n### Location Awareness\nReal-time latitude/longitude tracking for active assignees.\n\n### Safety Compliance\nIntegrated safety status monitoring with provider integration tracking.\n\n### Hierarchical Structure\nManager associations enable organizational representation.\n\n### Routing Eligibility\nThe `isAssigningEnabled` flag controls dispatch assignment capability.\n\n## Important Notes\n\n- **Creation**: POST requests allow bulk assignee addition with optional email notifications controlled via `disable_invite_communication`\n- **Updates**: Individual assignees are modified using their list assignee ID\n- **Deletion**: Implements soft-delete functionality—removed assignees retain records but transition to `DISABLED` state"
+    },
+    {
+      "name": "Delegated Accounts",
+      "item": [
+        {
+          "name": "Create Delegated Account",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"owner\": {\n    \"name\": \"Don Delegator Owner 10\",\n    \"email\": \"donchen+delegator-10@beans.ai\",\n    \"phone\": \"650-555-1231\",\n    \"password\": \"donchen10\"\n  },\n  \"name\": \"Delegator Logistics 10\",\n  \"timezone\": \"America/New_York\",\n  \"country_iso3\": \"USA\",\n  \"id\": \"delegator-10\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/delegated_account",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "delegated_account"
+              ]
+            },
+            "description": "# Create Delegated Account\n\nCreate a new delegated account for a partner organization.\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `owner.name` | string | Yes | Account owner's name |\n| `owner.email` | string | Yes | Account owner's email |\n| `owner.phone` | string | No | Phone number |\n| `owner.password` | string | Yes | Account password |\n| `name` | string | Yes | Account/organization name |\n| `timezone` | string | Yes | Timezone (e.g., \"America/New_York\") |\n| `country_iso3` | string | Yes | Country code (e.g., \"USA\") |\n| `id` | string | Yes | Unique account identifier |\n\n## Response\n\nReturns account details including:\n- `accountBuid` - Unique account identifier for API operations\n- Email confirmation\n- Subscription plan details\n- Creation timestamp"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Delegated Account List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/delegated_account",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "delegated_account"
+              ]
+            },
+            "description": "# Get Delegated Account List\n\nRetrieve all delegated accounts linked to your delegator account.\n\n## Response\n\nReturns an array of delegated accounts with:\n- Account identifiers (`accountBuid`)\n- Creation timestamps\n- Subscription plans\n- Configuration tags\n\n## Using the Account BUID\n\nOnce you have the `accountBuid`, use it with the `X-Beansai-On-Behalf-Of` header to perform operations on behalf of that account:\n\n```\nX-Beansai-On-Behalf-Of: <accountBuid>\n```"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Delegated Accounts\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nBeans Route enables account holders to create and manage delegated accounts for partner organizations. This facilitates cross-organizational workflows through secured API integrations.\n\n## Key Concepts\n\n### Delegator Role\nAn authenticated account authorized to create and manage other accounts.\n\n### Delegated Account\nA sub-account created by a delegator for partner use.\n\n### On Behalf Of\nOperations performed by a delegator with authorization to access delegated account data.\n\n## Prerequisites\n\n**Important**: Organizations must contact the Beans team to enable delegator capabilities on their primary account before using these endpoints.\n\n## Performing Operations on Behalf of Delegated Accounts\n\nTo perform actions on behalf of a delegated account, include this HTTP header:\n\n```\nX-Beansai-On-Behalf-Of: <delegated_account's accountBUID>\n```\n\nThis header authorizes the delegator to perform read/update operations targeting delegated account data.\n\n## Response Format\n\nAPI responses include:\n- Account's unique identifier (`accountBuid`)\n- Email and subscription tier\n- Creation/update timestamps\n- Metadata tags indicating delegator relationships"
+    },
+    {
+      "name": "Route Paths",
+      "item": [
+        {
+          "name": "Get Route Path",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/path/{{list-route-id}}?enc=true",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "path",
+                "{{list-route-id}}"
+              ],
+              "query": [
+                {
+                  "key": "enc",
+                  "value": "true",
+                  "description": "Whether to encode the path (true returns compressed polyline)"
+                }
+              ]
+            },
+            "description": "# Get Route Path\n\nGet the path geometry for a route, including distance and time for each segment between stops.\n\n## Query Parameters\n\n| Parameter | Type | Default | Description |\n|-----------|------|---------|-------------|\n| `enc` | boolean | false | Return encoded polyline format |\n\n## Response Structure\n\n```json\n{\n  \"line\": [\n    {\n      \"distanceM\": 2574.0,\n      \"timeS\": 209.9,\n      \"encoded\": \"gexfFde{eV?V...\",\n      \"referenceId\": \"stop-02\"\n    },\n    {\n      \"distanceM\": 7459.2,\n      \"timeS\": 582.7,\n      \"referenceId\": \"stop-03\"\n    }\n  ]\n}\n```\n\n## Response Fields\n\n| Field | Description |\n|-------|-------------|\n| `distanceM` | Distance in meters for this segment |\n| `timeS` | Travel time in seconds |\n| `encoded` | Compressed polyline (when enc=true) |\n| `point` | Array of coordinates (when enc=false) |\n| `referenceId` | The stop ID this segment leads to |"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Route Path (with refresh)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/lists/routes/{{list-route-id}}/path?enc=true&force_refresh=true",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "lists",
+                "routes",
+                "{{list-route-id}}",
+                "path"
+              ],
+              "query": [
+                {
+                  "key": "enc",
+                  "value": "true",
+                  "description": "Returns Google encoded polyline format when true"
+                },
+                {
+                  "key": "force_refresh",
+                  "value": "true",
+                  "description": "Recomputes path when true"
+                }
+              ]
+            },
+            "description": "# Get Route Path (with refresh)\n\nGet route path with optional force refresh to recompute paths.\n\n## Query Parameters\n\n| Parameter | Type | Description |\n|-----------|------|-------------|\n| `enc` | boolean | Returns Google encoded polygon format when true |\n| `force_refresh` | boolean | Triggers system recomputation when material changes occur |\n\n## When to Use force_refresh\n\nUse `force_refresh=true` when:\n- Stops have been added, removed, or reordered\n- You need the most up-to-date path calculations\n- The cached path may be stale"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Get Route Paths\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\nHere's an example of how to get a route's paths.\n\n## Route Stops Visualization\n\n![Stops](https://raw.githubusercontent.com/beansai/beans-tutorials/main/beans-route/get-route-paths/images/stops.png)\n\n## Table of Contents\n\n- [Example](#example)\n- [Different Sequence of Stops](#different-sequence-of-stops)\n- [Notes](#notes)\n\n---\n\n## Example\n\n![Sequence 1](https://raw.githubusercontent.com/beansai/beans-tutorials/main/beans-route/get-route-paths/images/sequence-1.png)\n\nLet's say we have 9 stops for route `ecdd0458-7e63-44ad-b26d-b89fded637a2-k1` and we want to get the paths for it.\n\n### Request\n\n```\nGET {{baseURL}}/enterprise/v1/lists/routes/path/{{list-route-id}}?enc=true\n```\n\nFrom the response, we can see time and distance for each segment between the stops.\n\nSo, for the sequence of the stops we set, we can see from stop 1 to stop 2:\n- `distanceM` is 2574.0 (meters)\n- `timeS` is 209.9 (seconds)\n\nAnd from stop 2 to stop 3:\n- `distanceM` is 7459.2\n- `timeS` is 582.7\n\n---\n\n## Different Sequence of Stops\n\n![Sequence 2](https://raw.githubusercontent.com/beansai/beans-tutorials/main/beans-route/get-route-paths/images/sequence-2.png)\n\nNow, let's switch the sequence of first and last stop and see the difference.\n\nSo we can see the result changes, from 1st stop to 2nd stop:\n- `distanceM` becomes 6976.4 (from 2574.0)\n- `timeS` becomes 504.5 (from 209.9)\n\n---\n\n## Notes\n\n### Parameters\n\n| Parameter | Type | Description |\n|-----------|------|-------------|\n| `enc` | boolean | Whether or not to encode the path |\n\n### Response Fields\n\n- **encoded** - The encoded paths of route for reducing the network bandwidth (appears in first segment of \"line\")\n- **point** - When `enc=false`, this replaces `encoded` with an array of lat/lng coordinates\n- **distanceM** - Distance in meters for the segment\n- **timeS** - Time in seconds for the segment\n- **referenceId** - The stop ID this segment leads to\n\n### Encoded vs Decoded\n\nWhen `enc=true`:\n```json\n{\n  \"encoded\": \"gexfFde{eV?V?j@@XM?yICgJ...\",\n  \"distanceM\": 2574.0,\n  \"timeS\": 209.9\n}\n```\n\nWhen `enc=false`:\n```json\n{\n  \"point\": [\n    {\"latitude\": 37.97604, \"longitude\": -121.71363},\n    {\"latitude\": 37.97604, \"longitude\": -121.71375}\n  ],\n  \"distanceM\": 2574.0,\n  \"timeS\": 209.9\n}\n```"
+    },
+    {
+      "name": "Items Documentation",
+      "item": [
+        {
+          "name": "Get Item Documentation",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/itemsdocumentation/{{list-item-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "itemsdocumentation",
+                "{{list-item-id}}"
+              ]
+            },
+            "description": "# Get Item Documentation\n\nRetrieve documentation for a specific list item.\n\n## Response Example\n\n```json\n{\n  \"listItemId\": \"47e56245-0a78-4cb9-a268-83fa2f247d91-01\",\n  \"listRouteId\": \"47e56245-0a78-4cb9-a268-83fa2f247d91\",\n  \"accountBuid\": \"4022a1aada0e4c4684e61e3f73290a68\",\n  \"timestampEpochSecond\": 1669118402,\n  \"notes\": [\"note 1\", \"note 2\"],\n  \"images\": [\n    {\n      \"url\": \"https://storage.googleapis.com/...\",\n      \"type\": \"signature\",\n      \"position\": {\n        \"latitude\": 38.003654,\n        \"longitude\": -121.783137\n      }\n    }\n  ],\n  \"eventCode\": {\n    \"code\": \"101\",\n    \"name\": \"received\"\n  },\n  \"tags\": [\n    {\"key\": \"is_in_time\", \"value\": \"true\"}\n  ]\n}\n```\n\n## Image Types\n\n| Type | Description |\n|------|-------------|\n| `proof` | Photo proof of delivery |\n| `signature` | Customer signature |\n| `exception` | Exception/issue documentation |"
+          },
+          "response": []
+        },
+        {
+          "name": "Search Item Documentation by Tracking ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/itemsdocumentation?tracking_id={{tracking_id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "itemsdocumentation"
+              ],
+              "query": [
+                {
+                  "key": "tracking_id",
+                  "value": "{{tracking_id}}",
+                  "description": "Tracking identifier to search for"
+                }
+              ]
+            },
+            "description": "# Search Item Documentation by Tracking ID\n\nSearch documentation records using a tracking identifier.\n\n## Query Parameters\n\n| Parameter | Type | Description |\n|-----------|------|-------------|\n| `tracking_id` | string | The tracking ID to search for |\n\n## Response\n\nReturns an array of documentation objects matching the tracking ID, with additional fields:\n- `generatedFrom` - Source of the documentation\n- `generatedBy` - Who generated the documentation\n- `podTimestampEpoch` - Proof of delivery timestamp"
+          },
+          "response": []
+        },
+        {
+          "name": "Create Item Documentation",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"account_buid\": \"{{account_buid}}\",\n  \"list_route_id\": \"{{list-route-id}}\",\n  \"list_item_id\": \"{{list-item-id}}\",\n  \"timestamp_epochSecond\": 1669118402,\n  \"notes\": [\"note 1\", \"note 2\"],\n  \"event_code\": {\n    \"code\": \"101\",\n    \"name\": \"received\"\n  },\n  \"tags\": [\n    {\n      \"key\": \"is_in_time\",\n      \"value\": \"true\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/itemsdocumentation",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "itemsdocumentation"
+              ]
+            },
+            "description": "# Create Item Documentation\n\nCreate documentation for an item (notes, event codes, tags).\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `account_buid` | string | Yes | Account identifier |\n| `list_route_id` | string | Yes | Route identifier |\n| `list_item_id` | string | Yes | Item/stop identifier |\n| `timestamp_epochSecond` | number | Yes | Unix timestamp |\n| `notes` | array | No | Array of note strings |\n| `event_code` | object | No | Event code object |\n| `tags` | array | No | Array of key-value tags |\n\n## Example\n\n```json\n{\n  \"account_buid\": \"4022a1aada0e4c4684e61e3f73290a68\",\n  \"list_route_id\": \"route-123\",\n  \"list_item_id\": \"item-456\",\n  \"timestamp_epochSecond\": 1669118402,\n  \"notes\": [\"Package delivered to front door\"],\n  \"event_code\": {\n    \"code\": \"101\",\n    \"name\": \"received\"\n  },\n  \"tags\": [\n    {\"key\": \"is_in_time\", \"value\": \"true\"}\n  ]\n}\n```"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Items Documentation\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nThe Items Documentation API manages contextual documentation accompanying work tasks, modeled as list items. A practical example: package delivery drivers can capture recipient signatures and package status simultaneously.\n\n## Example Signature Image\n\n![Signature Example](https://storage.googleapis.com/beans-images/testing/small/2022-11-22/2022-11-22_b27d61c6-21d8-4188-a0e2-f184360907d2.png)\n\n## Key Endpoints\n\n| Operation | Method | Endpoint |\n|-----------|--------|----------|\n| Get Documentation | GET | `/enterprise/v1/lists/itemsdocumentation/{list-item-id}` |\n| Search by Tracking ID | GET | `/enterprise/v1/lists/itemsdocumentation?tracking_id=...` |\n| Create Documentation | POST | `/enterprise/v1/lists/itemsdocumentation` |\n\n## Core Components\n\nThe API structures documentation around three main object types:\n\n### 1. Item Documentation Object\n- List item identifiers\n- Timestamps\n- Notes (array of strings)\n- Images (array of image objects)\n- Event codes\n- Metadata tags\n\n### 2. Event Code Object\n```json\n{\n  \"code\": \"101\",\n  \"name\": \"received\"\n}\n```\n\n### 3. Image Info Object\n```json\n{\n  \"url\": \"https://storage.googleapis.com/...\",\n  \"type\": \"signature\",\n  \"position\": {\n    \"latitude\": 38.003654,\n    \"longitude\": -121.783137\n  }\n}\n```\n\n## Notable Characteristics\n\nThe documentation system permits:\n- **Multiple images** and **multiple notes** per documentation record\n- **Tags** for domain-specific attributes (example: package dimensions)\n- **Flexible image classifications**: `proof`, `signature`, `exception`\n- **Geographic coordinates** associated with captured images"
+    },
+    {
+      "name": "Route Optimization",
+      "item": [
+        {
+          "name": "Optimize Route with Stops",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"item\": [\n    {\n      \"listItemId\": \"example-item-1\",\n      \"address\": \"123 Main St, City, State 12345\",\n      \"position\": {\n        \"latitude\": 37.7749,\n        \"longitude\": -122.4194\n      },\n      \"type\": \"DROPOFF\",\n      \"route\": {\n        \"listRouteId\": \"{{list-route-id}}\"\n      },\n      \"status\": \"NEW\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items/do/optimize/?startMode=WAREHOUSE&endMode=WAREHOUSE",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items",
+                "do",
+                "optimize",
+                ""
+              ],
+              "query": [
+                {
+                  "key": "startMode",
+                  "value": "WAREHOUSE",
+                  "description": "Options: WAREHOUSE, ASSIGNEE_LOCATION, ASSIGNEE_ADDRESS, PREVIOUS_STOP, NONE, or coordinates"
+                },
+                {
+                  "key": "endMode",
+                  "value": "WAREHOUSE",
+                  "description": "Options: WAREHOUSE, ASSIGNEE_LOCATION, ASSIGNEE_ADDRESS, PREVIOUS_STOP, NONE, or coordinates"
+                }
+              ]
+            },
+            "description": "# Optimize Route with Stops\n\nOptimize a route by providing an array of stops to be reordered.\n\n## Query Parameters\n\n| Parameter | Required | Description |\n|-----------|----------|-------------|\n| `startMode` | Yes | Where the route starts |\n| `endMode` | Yes | Where the route ends |\n\n## Start/End Mode Options\n\n- `WAREHOUSE` - Warehouse location\n- `ASSIGNEE_LOCATION` - Driver's current GPS\n- `ASSIGNEE_ADDRESS` - Driver's home address\n- `PREVIOUS_STOP` - Previous stop location\n- `NONE` - No fixed point\n- `lat,lng` - Custom coordinates\n\n## Response\n\nReturns optimized stops with updated `routePriority` values indicating the optimal visiting sequence."
+          },
+          "response": []
+        },
+        {
+          "name": "Optimize Entire Route",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "{{baseURL}}/lists/routes/{{list-route-id}}/do/optimize?startMode=WAREHOUSE&endMode=WAREHOUSE",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "lists",
+                "routes",
+                "{{list-route-id}}",
+                "do",
+                "optimize"
+              ],
+              "query": [
+                {
+                  "key": "startMode",
+                  "value": "WAREHOUSE",
+                  "description": "Options: WAREHOUSE, ASSIGNEE_LOCATION, ASSIGNEE_ADDRESS, PREVIOUS_STOP, NONE, or coordinates"
+                },
+                {
+                  "key": "endMode",
+                  "value": "WAREHOUSE",
+                  "description": "Options: WAREHOUSE, ASSIGNEE_LOCATION, ASSIGNEE_ADDRESS, PREVIOUS_STOP, NONE, or coordinates"
+                }
+              ]
+            },
+            "description": "# Optimize Entire Route\n\nOptimize all stops on a route by route ID. No request body required.\n\n## Important\n\nThis is a POST request **without a body**. The route ID in the URL specifies which route to optimize.\n\n## When to Use\n\nUse this endpoint when:\n- You want to optimize all stops on an existing route\n- Stops are being added dynamically\n- You don't need to specify which stops to include"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Route Optimization\n\n<img src=\"https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png\" alt=\"Beans Logo\">\n\n## Overview\n\nThis section covers route optimization capabilities for reordering stops to minimize travel time and distance.\n\n## Route Stops Example\n\n<img src=\"https://raw.githubusercontent.com/beansai/beans-tutorials/main/beans-route/route-optimization/assets/images/stops.png\" alt=\"Stops\">\n\n## Key Features\n\n### Route Optimization with Stops\n\nThe API allows optimization of routes containing multiple stops by specifying start and end modes.\n\n**Important Note**: `route_priority` may not start from 1. The system uses values like 3, 6, 10, 15 to represent suggested visiting sequences.\n\n## Start/End Mode Parameters\n\n| Mode | Description |\n| --- | --- |\n| `WAREHOUSE` | Start/end at warehouse location |\n| `ASSIGNEE_LOCATION` | Start/end at assignee's current GPS location |\n| `ASSIGNEE_ADDRESS` | Start/end at assignee's home address |\n| `PREVIOUS_STOP` | Start from previous stop |\n| `NONE` | No specific start/end point |\n| `lat,lng` | Custom coordinates (e.g., `37.12423,-123.2323`) |\n\n## Request Examples\n\n### Optimize with Stops Array\n\n```\nPOST /enterprise/v1/lists/items/do/optimize/?startMode=WAREHOUSE&endMode=WAREHOUSE\n\n ```\n\n### Optimize Entire Route\n\n```\nPOST /lists/routes/{listRouteID}/do/optimize?startMode=WAREHOUSE&endMode=WAREHOUSE\n\n ```\n\n## Response Structure\n\nResponses include:\n\n- Arrays of items with `listItemId`, `address`, `status`, `coordinates`\n    \n- Calculated `routePriority` values indicating optimal sequence\n    \n- Route objects with warehouse information and start/end modes\n    \n- Path metadata including MD5 hashes for change detection"
+    },
+    {
+      "name": "Route Optimization with Units",
+      "item": [
+        {
+          "name": "Optimize Items with Units",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"item\": [\n    {\n      \"listItemId\": \"a3cc1ed-1\",\n      \"route\": {\n        \"listRouteId\": \"{{list-route-id}}\"\n      }\n    },\n    {\n      \"listItemId\": \"a3cc1ed-2\",\n      \"route\": {\n        \"listRouteId\": \"{{list-route-id}}\"\n      }\n    },\n    {\n      \"listItemId\": \"a3cc1ed-3\",\n      \"route\": {\n        \"listRouteId\": \"{{list-route-id}}\"\n      }\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRESS",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items",
+                "do",
+                "optimizewithunits"
+              ],
+              "query": [
+                {
+                  "key": "mode",
+                  "value": "INPUT_ADDRESS",
+                  "description": "Grouping mode"
+                }
+              ]
+            },
+            "description": "# Optimize Items with Units\n\nGroup and optimize stops that share the same address.\n\n## Query Parameters\n\n| Parameter | Required | Description |\n|-----------|----------|-------------|\n| `mode` | Yes | Grouping strategy |\n\n## Grouping Modes\n\n| Mode | Groups By |\n|------|----------|\n| `INPUT_ADDRESS` | Same input address |\n| `INPUT_ADDRESS_UNIT_AND_CUSTOMER_NAME` | Address + unit + customer name |\n| `INPUT_ADDRESS_AND_UNIT` | Address + unit |\n| `BUILDING_ADDRESS` | Formatted address |\n| `FORMATTED_ADDRESS_AND_UNIT_NO_TIME_WINDOW` | Formatted address + unit (ignores time windows) |\n\n## Response\n\nGrouped stops appear with a parent item containing a `children` array:\n\n```json\n{\n  \"listItemId\": \"auto-generated-id\",\n  \"notes\": \"Autogenerated by optimizer\",\n  \"numPackages\": 4,\n  \"children\": [\n    {\"listItemId\": \"original-1\"},\n    {\"listItemId\": \"original-2\"}\n  ]\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Optimize Route with Units",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": ""
+            },
+            "url": {
+              "raw": "{{baseURL}}/lists/routes/{{list-route-id}}/do/optimizewithunits?mode=INPUT_ADDRESS",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "lists",
+                "routes",
+                "{{list-route-id}}",
+                "do",
+                "optimizewithunits"
+              ],
+              "query": [
+                {
+                  "key": "mode",
+                  "value": "INPUT_ADDRESS",
+                  "description": "Grouping mode"
+                }
+              ]
+            },
+            "description": "# Optimize Route with Units\n\nOptimize an entire route with unit grouping. Useful when stops are being added dynamically.\n\n## Important\n\n- POST request **without a body**\n- Groups all stops on the route by the specified mode\n- Creates parent/child relationships for same-address stops"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Route Items",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/{{list-route-id}}/items",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "{{list-route-id}}",
+                "items"
+              ]
+            },
+            "description": "# Get Route Items\n\nGet all items/stops for a specific route. Use this to see current stops before running optimization."
+          },
+          "response": []
+        }
+      ],
+      "description": "# Route Optimization With Units (Grouping)\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nRoute Optimization With Units is a grouping mechanism to condense stops that share the same address into parent/child relationships.\n\nFor other route optimization conditions like pickup-dropoff pair, time window, assignee shift time, capacity, please see [Dynamic Route Optimization](https://github.com/beansai/beans-tutorials/tree/main/dynamic-routes-optimization).\n\n## Table of Contents\n\n- [To Group stops that have same address](#to-group-stops-that-have-same-address)\n- [Group by Route](#group-by-route)\n- [Supported Modes](#supported-modes)\n\n---\n\n## To Group Stops That Have Same Address\n\nLet's say we have 5 stops for route `a3cc1ed1-8586-426e-b154-e46bc7bf0c66`, and 4 of them are with the same address.\n\n**Address: `9404` Central Ave, Montclair, CA 91763**\n- a3cc1ed-1\n- a3cc1ed-3\n- a3cc1ed-4\n- a3cc1ed-5\n\n**Address: `9000` Central Ave, Montclair, CA 91763**\n- a3cc1ed-2\n\n### Grouping Request\n\n```\nPOST {{baseURL}}/enterprise/v1/lists/items/do/optimizewithunits?mode=INPUT_ADDRESS\n```\n\n### Result\n\nThe stops with the same address are grouped together with a new `listItemId` under the field `children`:\n\n```json\n{\n  \"listItemId\": \"e20c85d1b155327a973e5fa41f0bd08d\",\n  \"address\": \"9404 Central Ave, Montclair, CA\",\n  \"notes\": \"Autogenerated by optimizer\",\n  \"numPackages\": 4,\n  \"children\": [\n    {\"listItemId\": \"a3cc1ed-1\", ...},\n    {\"listItemId\": \"a3cc1ed-3\", ...},\n    {\"listItemId\": \"a3cc1ed-4\", ...},\n    {\"listItemId\": \"a3cc1ed-5\", ...}\n  ]\n}\n```\n\n---\n\n## Group by Route\n\nFor scenarios where you want to optimize an entire route regardless of how many stops there are, use:\n\n```\nPOST {{baseURL}}/lists/routes/{listRouteID}/do/optimizewithunits?mode=INPUT_ADDRESS\n```\n\n**Note**: POST request without a body.\n\n---\n\n## Supported Modes\n\n| Mode | Description |\n|------|-------------|\n| `INPUT_ADDRESS` | Group stops with the same input address |\n| `INPUT_ADDRESS_UNIT_AND_CUSTOMER_NAME` | Group by (address, unit, customer name) |\n| `INPUT_ADDRESS_AND_UNIT` | Group by (address, unit) |\n| `BUILDING_ADDRESS` | Group by formatted_address |\n| `FORMATTED_ADDRESS_AND_UNIT_NO_TIME_WINDOW` | Group by (formatted_address, unit), ignoring time windows |"
+    },
+    {
+      "name": "Routes Management",
+      "item": [
+        {
+          "name": "Create Routes",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"route\": [\n    {\n      \"name\": \"Tu Route 9d0b\",\n      \"warehouse\": {\n        \"list_warehouse_id\": \"{{list-warehouse-id}}\"\n      },\n      \"assignee\": {\n        \"list_assignee_id\": \"{{list-assignee-id}}\"\n      },\n      \"list_route_id\": \"9d0b5ee9-fa02-4d6e-8633-f7980b225ae1\",\n      \"status\": \"OPEN\",\n      \"routeType\": \"DEFAULT\",\n      \"date_str\": \"2022-02-09\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes"
+              ]
+            },
+            "description": "# Create Routes\n\nCreate one or more routes in bulk.\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `list_route_id` | string | Yes | Unique route identifier |\n| `name` | string | Yes | Display name |\n| `date_str` | string | Yes | Route date (YYYY-MM-DD) |\n| `status` | string | Yes | OPEN or CLOSED |\n| `routeType` | string | No | DEFAULT, HOLDING, etc. |\n| `warehouse` | object | No | Associated warehouse |\n| `assignee` | object | No | Assigned driver |\n\n## Example\n\n```json\n{\n  \"route\": [\n    {\n      \"list_route_id\": \"route-001\",\n      \"name\": \"Morning Route\",\n      \"date_str\": \"2024-01-15\",\n      \"status\": \"OPEN\",\n      \"routeType\": \"DEFAULT\",\n      \"warehouse\": {\"list_warehouse_id\": \"wh-001\"},\n      \"assignee\": {\"list_assignee_id\": \"driver-001\"}\n    }\n  ]\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Route",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Route Name 3-1\",\n  \"date_str\": \"2022-02-09\",\n  \"status\": \"OPEN\",\n  \"routeType\": \"DEFAULT\",\n  \"assignee\": {\n    \"list_assignee_id\": \"{{list-assignee-id}}\"\n  },\n  \"warehouse\": {\n    \"list_warehouse_id\": \"{{list-warehouse-id}}\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/{{list-route-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "{{list-route-id}}"
+              ]
+            },
+            "description": "# Update Route\n\nUpdate an existing route's properties including name, date, status, assignee, and warehouse."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Route List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes"
+              ]
+            },
+            "description": "# Get Route List\n\nRetrieve all routes in your account."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Route List by Date",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes?dateStr=2022-02-09",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes"
+              ],
+              "query": [
+                {
+                  "key": "dateStr",
+                  "value": "2022-02-09",
+                  "description": "Filter by date (yyyy-mm-dd format)"
+                }
+              ]
+            },
+            "description": "# Get Route List by Date\n\nFilter routes by a specific date.\n\n## Query Parameters\n\n| Parameter | Format | Description |\n|-----------|--------|-------------|\n| `dateStr` | YYYY-MM-DD | Filter routes by this date |"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Route",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/{{list-route-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "{{list-route-id}}"
+              ]
+            },
+            "description": "# Get Route\n\nRetrieve a specific route by ID."
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Route",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/{{list-route-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "{{list-route-id}}"
+              ]
+            },
+            "description": "# Delete Route\n\nSoft-delete a route. The route is marked as `CLOSED` rather than being permanently removed."
+          },
+          "response": []
+        }
+      ],
+      "description": "# Routes Management\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nThe Beans Route API enables comprehensive route management through CRUD operations. Routes represent delivery runs that contain stops and are assigned to drivers and warehouses.\n\n## Core Operations\n\n| Operation | Method | Endpoint |\n|-----------|--------|----------|\n| Create | POST | `/enterprise/v1/lists/routes` |\n| Update | POST | `/enterprise/v1/lists/routes/{id}` |\n| Get List | GET | `/enterprise/v1/lists/routes` |\n| Get One | GET | `/enterprise/v1/lists/routes/{id}` |\n| Delete | DELETE | `/enterprise/v1/lists/routes/{id}` |\n\n## Key Route Properties\n\nRoutes contain:\n- **Identifiers**: `listRouteId`, `accountBuid`\n- **Operational details**: `name`, `dateStr`, `status`\n- **Relationships**: `assignee`, `warehouse` objects\n- **Timestamps**: `createdAt`, `updatedAt`\n- **Metadata**: `routePathMd5` for route computation tracking\n\n## Route Status Values\n\n| Status | Description |\n|--------|-------------|\n| `OPEN` | Active route |\n| `CLOSED` | Completed or deleted route |\n\n## Route Types\n\n- `DEFAULT` - Standard delivery route\n- `HOLDING` - Holding area\n- `SORTING_RECEIVED` - Sorting received items\n- `TRAILER` - Trailer route\n- `RETURN_TO_SENDER` - Return shipments\n\n## Configuration Features\n\nRoutes support:\n- Start/end mode configuration (`WAREHOUSE`, `ASSIGNEE_ADDRESS`, `STOP`)\n- Secondary assignees\n- Provider associations\n- Tag-based preferences (e.g., timezone)"
+    },
+    {
+      "name": "Stops Management",
+      "item": [
+        {
+          "name": "Create Stops",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"item\": [\n    {\n      \"list_item_id\": \"example-stop-1\",\n      \"address\": \"123 Main St, City, State 12345\",\n      \"route\": {\n        \"list_route_id\": \"{{list-route-id}}\"\n      },\n      \"type\": \"DROPOFF\",\n      \"deliver_from_str\": \"2022-02-09 09:00\",\n      \"deliver_by_str\": \"2022-02-09 17:00\",\n      \"placement\": \"LAST\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items"
+              ]
+            },
+            "description": "# Create Stops\n\nCreate one or more stops on a route.\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `list_item_id` | string | Yes | Unique stop identifier |\n| `address` | string | Yes | Delivery address |\n| `route.list_route_id` | string | Yes | Route to add stop to |\n| `type` | string | Yes | PICKUP or DROPOFF |\n| `deliver_from_str` | string | No | Earliest time (YYYY-MM-DD HH:MM) |\n| `deliver_by_str` | string | No | Latest time (YYYY-MM-DD HH:MM) |\n| `placement` | string | No | Where to place: FIRST, LAST, or OPTIMAL |\n\n## Example\n\n```json\n{\n  \"item\": [\n    {\n      \"list_item_id\": \"stop-001\",\n      \"address\": \"123 Main St, Los Angeles, CA 90001\",\n      \"route\": {\"list_route_id\": \"route-001\"},\n      \"type\": \"DROPOFF\",\n      \"deliver_from_str\": \"2024-01-15 09:00\",\n      \"deliver_by_str\": \"2024-01-15 17:00\"\n    }\n  ]\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Stop",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"list_item_id\": \"{{list-item-id}}\",\n  \"address\": \"456 Updated St, City, State 12345\",\n  \"route\": {\n    \"list_route_id\": \"{{list-route-id}}\"\n  },\n  \"type\": \"DROPOFF\",\n  \"deliver_from_str\": \"2022-02-09 09:00\",\n  \"deliver_by_str\": \"2022-02-09 17:00\",\n  \"status\": \"NEW\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items",
+                "{{list-item-id}}"
+              ]
+            },
+            "description": "# Update Stop\n\nUpdate an existing stop.\n\n## ⚠️ Important: Whole Object Replacement\n\nThis performs a **whole object replacement**. You must include ALL existing values you want to maintain. Any fields not included will be cleared.\n\n## Example\n\nIf updating just the address, you still need to include all other fields:\n\n```json\n{\n  \"list_item_id\": \"stop-001\",\n  \"address\": \"New Address Here\",\n  \"route\": {\"list_route_id\": \"route-001\"},\n  \"type\": \"DROPOFF\",\n  \"deliver_from_str\": \"2024-01-15 09:00\",\n  \"deliver_by_str\": \"2024-01-15 17:00\",\n  \"status\": \"NEW\"\n}\n```"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Stop List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items"
+              ]
+            },
+            "description": "# Get Stop List\n\nRetrieve all stops in your account."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Stops by Route ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/routes/{{list-route-id}}/items",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "routes",
+                "{{list-route-id}}",
+                "items"
+              ]
+            },
+            "description": "# Get Stops by Route ID\n\nRetrieve all non-deleted stops for a specific route."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Stop",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items",
+                "{{list-item-id}}"
+              ]
+            },
+            "description": "# Get Stop\n\nRetrieve a specific stop by ID."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Stop by Tracking ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/item_by_tracking_id?tracking_id={{tracking_id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "item_by_tracking_id"
+              ],
+              "query": [
+                {
+                  "key": "tracking_id",
+                  "value": "{{tracking_id}}",
+                  "description": "Tracking ID to search for"
+                }
+              ]
+            },
+            "description": "# Get Stop by Tracking ID\n\nFind a stop using its tracking ID.\n\n## Query Parameters\n\n| Parameter | Description |\n|-----------|-------------|\n| `tracking_id` | The package tracking ID |"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Stop",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/items/{{list-item-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "items",
+                "{{list-item-id}}"
+              ]
+            },
+            "description": "# Delete Stop\n\nSoft-delete a stop. The stop is marked as `DELETED` while maintaining historical records."
+          },
+          "response": []
+        }
+      ],
+      "description": "# Stops Management\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nThe Stops Management API enables comprehensive operations for managing delivery and pickup stops within routes. The system supports creating, updating, retrieving, and deleting stops with detailed tracking and documentation capabilities.\n\n## Example Proof Image\n\n![Proof Image](https://storage.googleapis.com/beans-images/testing/original/2022-03-02/2022-03-02_b695d615-4d32-4222-ba34-f34a68f1cee4.png)\n\n## Key Operations\n\n| Operation | Method | Endpoint |\n|-----------|--------|----------|\n| Create | POST | `/enterprise/v1/lists/items` |\n| Update | POST | `/enterprise/v1/lists/items/{id}` |\n| Get List | GET | `/enterprise/v1/lists/items` |\n| Get by Route | GET | `/enterprise/v1/lists/routes/{id}/items` |\n| Get One | GET | `/enterprise/v1/lists/items/{id}` |\n| Get by Tracking | GET | `/enterprise/v1/lists/item_by_tracking_id` |\n| Delete | DELETE | `/enterprise/v1/lists/items/{id}` |\n\n## Stop Properties\n\nA list item (stop) encompasses:\n\n### Core Fields\n- `listItemId` - Unique identifier\n- `address` - Delivery address\n- `position` / `displayPosition` - Coordinates\n- `status` - Current status\n\n### Temporal Fields\n- `deliverFromStr` - Earliest delivery time\n- `deliverByStr` - Latest delivery time\n- `createdAt`, `updatedAt`, `statusUpdatedAt` - Timestamps\n\n### Operational Fields\n- `route` - Associated route\n- `routePriority` - Sequence position\n- `type` - PICKUP or DROPOFF\n- `placement` - Placement notation\n\n### Constraints\n- `dimensions` - Weight, volume, count\n- `flavors` - Special handling requirements\n- `stopTimeSeconds` - Expected stop duration\n\n### Documentation\n- `notes` - Delivery notes\n- `trackingId` - Package tracking ID\n- `numPackages` - Number of packages\n\n## Important: Update Behavior\n\n**Update performs whole object replacement** - existing values must be included to maintain them. Any fields not included in the update request will be cleared."
+    },
+    {
+      "name": "Warehouses Management",
+      "item": [
+        {
+          "name": "Create Warehouses",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"warehouse\": [\n    {\n      \"name\": \"Tutorial Warehouse\",\n      \"domicile\": \"\",\n      \"address\": \"14840 CA-4, Discovery Bay, CA 94505\",\n      \"list_warehouse_id\": \"7bc71186-9d6f-4541-a1b3-ffcfe0b6234f\"\n    }\n  ]\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouses",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouses"
+              ]
+            },
+            "description": "# Create Warehouses\n\nCreate one or more warehouses.\n\n## Request Body Fields\n\n| Field | Type | Required | Description |\n|-------|------|----------|-------------|\n| `list_warehouse_id` | string | Yes | Unique warehouse identifier |\n| `name` | string | Yes | Display name |\n| `address` | string | Yes | Physical address |\n| `domicile` | string | No | Domicile identifier |\n\n## Example\n\n```json\n{\n  \"warehouse\": [\n    {\n      \"list_warehouse_id\": \"warehouse-001\",\n      \"name\": \"Main Distribution Center\",\n      \"address\": \"123 Warehouse Blvd, Los Angeles, CA 90001\"\n    }\n  ]\n}\n```\n\n## Response\n\nReturns the created warehouse with:\n- Geocoded `position` (latitude/longitude)\n- `formattedAddress`\n- `createdAt` timestamp"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Warehouse",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Tutorial Warehouse\",\n  \"domicile\": \"\",\n  \"address\": \"14840 CA-4, Discovery Bay, CA 94505\"\n}"
+            },
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouses/{{list-warehouse-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouses",
+                "{{list-warehouse-id}}"
+              ]
+            },
+            "description": "# Update Warehouse\n\nUpdate an existing warehouse's properties."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Warehouse List",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouses",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouses"
+              ]
+            },
+            "description": "# Get Warehouse List\n\nRetrieve all warehouses in your account."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Warehouse",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouses/{{list-warehouse-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouses",
+                "{{list-warehouse-id}}"
+              ]
+            },
+            "description": "# Get Warehouse\n\nRetrieve a specific warehouse by ID."
+          },
+          "response": []
+        },
+        {
+          "name": "Get Warehouse Routes",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouses/{{list-warehouse-id}}/routes?dateStr=2024-11-01",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouses",
+                "{{list-warehouse-id}}",
+                "routes"
+              ],
+              "query": [
+                {
+                  "key": "dateStr",
+                  "value": "2024-11-01",
+                  "description": "Optional date filter (yyyy-mm-dd format)"
+                }
+              ]
+            },
+            "description": "# Get Warehouse Routes\n\nRetrieve all routes associated with a warehouse.\n\n## Query Parameters\n\n| Parameter | Required | Description |\n|-----------|----------|-------------|\n| `dateStr` | No | Filter by date (YYYY-MM-DD) |\n\n## Response\n\nReturns routes connected to this warehouse, optionally filtered by date."
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Warehouse",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "{{Auth}}"
+              }
+            ],
+            "url": {
+              "raw": "{{baseURL}}/enterprise/v1/lists/warehouse/{{list-warehouse-id}}",
+              "host": [
+                "{{baseURL}}"
+              ],
+              "path": [
+                "enterprise",
+                "v1",
+                "lists",
+                "warehouse",
+                "{{list-warehouse-id}}"
+              ]
+            },
+            "description": "# Delete Warehouse\n\nSoft-delete a warehouse.\n\n## Important\n\n- This is a **soft-delete** operation\n- The deleted warehouse will still appear in Get Warehouse by ID responses\n- Historical data is preserved for audit purposes"
+          },
+          "response": []
+        }
+      ],
+      "description": "# Warehouses Management\n\n![Beans Logo](https://raw.githubusercontent.com/beansai/beans-tutorials/main/assets/images/beans-128x128.png)\n\n## Overview\n\nThe Beans Route API provides comprehensive warehouse management functionality, enabling users to create, update, retrieve, and delete warehouse records within their enterprise account.\n\nWarehouses serve as start/end points for routes and are essential for route optimization.\n\n## Core Operations\n\n| Operation | Method | Endpoint |\n|-----------|--------|----------|\n| Create | POST | `/enterprise/v1/lists/warehouses` |\n| Update | POST | `/enterprise/v1/lists/warehouses/{id}` |\n| Get List | GET | `/enterprise/v1/lists/warehouses` |\n| Get One | GET | `/enterprise/v1/lists/warehouses/{id}` |\n| Get Routes | GET | `/enterprise/v1/lists/warehouses/{id}/routes` |\n| Delete | DELETE | `/enterprise/v1/lists/warehouse/{id}` |\n\n## Warehouse Properties\n\nWarehouse objects contain:\n- **Identifiers**: `listWarehouseId`, `accountBuid`\n- **Location data**: `address`, `formattedAddress`, `position` (lat/lng)\n- **Timestamps**: `createdAt`, `updatedAt`\n- **Display**: `name`\n\n## Key Features\n\n- **Automatic geocoding**: Addresses are automatically geocoded to coordinates\n- **Timestamp tracking**: Full audit trail through timestamps\n- **Soft-delete**: Preserves data integrity when deleting\n- **Route association**: Query routes by warehouse with date filtering\n- **Enterprise organization**: Warehouses are scoped to your account"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "packages": {},
+        "requests": {},
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseURL",
+      "value": "https://isp.beans.ai"
+    },
+    {
+      "key": "userBuid",
+      "value": "{{userBuid}}",
+      "description": "User BUID from environment variable"
+    },
+    {
+      "key": "list-assignee-id",
+      "value": "tu1-tutorial-driver-1"
+    },
+    {
+      "key": "list-warehouse-id",
+      "value": "7bc71186-9d6f-4541-a1b3-ffcfe0b6234f"
+    },
+    {
+      "key": "list-route-id",
+      "value": "9d0b5ee9-fa02-4d6e-8633-f7980b225ae1"
+    },
+    {
+      "key": "list-item-id",
+      "value": "47e56245-0a78-4cb9-a268-83fa2f247d91-01"
+    },
+    {
+      "key": "tracking_id",
+      "value": "ABCD"
+    },
+    {
+      "key": "account_buid",
+      "value": "4022a1aada0e4c4684e61e3f73290a68"
+    }
+  ]
+}

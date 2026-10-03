@@ -1,0 +1,114 @@
+{
+    "id": 10746336090519,
+    "title": "Beans Route Workaround for FedEx Server Outages (MOBILE APP)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/10746336090519.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/10746336090519-Beans-Route-Workaround-for-FedEx-Server-Outages-MOBILE-APP",
+        "author_id": 7501352909335,
+        "created_at": "2022-12-06T06:17:01Z",
+        "updated_at": "2024-03-05T01:27:07Z"
+    },
+    "body": "From the Mobile App: CREATE YOUR ROUTE: 1.  Click on the Hub tab  2.  Name the Route (e.g., 101x) and click “create route.”  ADD STOPS: 1.  Click on the deliver tab.  2.  Click the black pin with the plus sign in the lower left-hand corner.  3.  Choose “Scan Label” which will open the camera on your phone.  4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab.           5. If scanning the label does not work, you can manually add the stop by choosing “Enter Address” and type in the address and tracking number.                      OPTIMIZE YOUR ROUTE: 1.  Expand or contract the map so all of the pins are clearly visible.   2.  Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.   3.  Choose a first and last stop and click the “Optimize” button.           .        .         SCAN PACKAGES/POD: 1.  Click the Settings tab  2.  Change the POD setting from “If Needed” to “Full.”  Go back to the Deliver tab.  3.  Click the checkmark on the address card to mark a stop as delivered.  4.  The app will open the “Complete Stop” window which is preloaded with all the FedEx Reason Codes.  You can take a photo of released packages. If a signature is required, the customer can sign on your phone. .    .    .     5.  At the end of the day, your BC can generate a digital proof of delivery report which will include photos and signatures of your deliveries in the Dispatch Console.",
+    "images": [
+        {
+            "alt": "6D4D0E80-59FC-4F81-98AB-A11D0F86B7D2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745686302743"
+        },
+        {
+            "alt": "39944486-989B-4102-9B9B-4F61C99CF04D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745687816087"
+        },
+        {
+            "alt": "DD6CD57F-8805-4AC1-AE01-7651A26B2E72_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745725113111"
+        },
+        {
+            "alt": "CDA49477-5835-42F7-BD73-571A6100735A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745712664087"
+        },
+        {
+            "alt": "58B035F8-0C9E-4DE8-851E-0921D689B580_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745731027479"
+        },
+        {
+            "alt": "31A1ED73-8EB5-4A58-A25B-7C1E44ABAF85_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745783094679"
+        },
+        {
+            "alt": "40259B0B-4881-416C-9DFF-B669088817CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745784225303"
+        },
+        {
+            "alt": "2590F218-3DB8-403B-99BB-372838AFB0CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745808063639"
+        },
+        {
+            "alt": "D05923CB-45E3-447F-BEA4-AEDE302E31DC_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745823845015"
+        },
+        {
+            "alt": "995E9A40-1296-435D-A51B-A07714638D1F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745824918807"
+        },
+        {
+            "alt": "E5CA376A-6699-491F-91FF-1D87A3E84ABA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745969157783"
+        },
+        {
+            "alt": "EE51A5AC-DF96-4021-919B-33BEA8B87B86_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10745970678679"
+        },
+        {
+            "alt": "EE51A5AC-DF96-4021-919B-33BEA8B87B86_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746022312599"
+        },
+        {
+            "alt": "892F810E-BF1D-4764-B305-8CD9F12741BA_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746027388567"
+        },
+        {
+            "alt": "574C8A85-0B51-45DD-8E65-BE71DF177129_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746023952023"
+        },
+        {
+            "alt": "24CDE44F-FBC4-49BA-ABF9-CEE6965D4430_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746029033495"
+        },
+        {
+            "alt": "1327A806-8E2B-4E9F-B2E9-F9E430B7A412_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746032875415"
+        },
+        {
+            "alt": "3147B3DE-D970-4591-BBD9-3FD7DF4B1CE2_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746103382423"
+        },
+        {
+            "alt": "40D7EB0F-544E-4B8F-A4AA-2A13E6DEA03B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746207177111"
+        },
+        {
+            "alt": "8C0200AB-73AB-4AF5-95F9-039F834DBDB7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746208619287"
+        },
+        {
+            "alt": "A000499C-33BC-4261-A36A-B2C1E65C9478_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746225796247"
+        },
+        {
+            "alt": "5105EAA7-266B-4104-9E37-1A530DFA41F4_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746278494743"
+        },
+        {
+            "alt": "E5F47291-36B7-4DE4-8321-16DBD1689094_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746248690327"
+        },
+        {
+            "alt": "575AA79A-8465-44D3-9240-1242098B4F36_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746250406295"
+        },
+        {
+            "alt": "D599EEC1-4E6D-461F-85DA-9BAA59EBB8AB_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/10746302254871"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "id": 18316499892375,
+    "title": "Adding Multiple Signatures for MMRs",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/18316499892375.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/18316499892375-Adding-Multiple-Signatures-for-MMRs",
+        "author_id": 7501352909335,
+        "created_at": "2023-10-16T21:44:16Z",
+        "updated_at": "2024-03-07T18:39:55Z"
+    },
+    "body": "For multiple warehouses, you can create a Vehicle Group for each warehouse to which you will then add vehicles belonging to a particular warehouse.  When you create a Vehicle Group, you can then add a signature for the individual who signs the MMR reports for a particular warehouse.  To create a Vehicle Group and add vehicles to that group, follow the instructions below. From the Dispatch Console: CREATE VEHICLE GROUP 1.  Click Assets > Vehicle Groups.  2.  Click “Add Vehicle Group” and fill in the required information (Name, Fedex Entity ID, ISPA, CSA, and Signatory).  Create a signature to upload. (You may take a photo with your phone or create a digital signature.). Click “Add Vehicle Group.”      ADD VEHICLES TO GROUP 1.  Click Assets > Vehicles.  2.  Select the vehicles to add to a group by clicking on the row to highlight.  3.  Click “Modify Vehicle.”  4.  Select the vehicle group from the dropdown menu and click “Save.”   5.  The vehicles will now indicate their assigned warehouse and group.",
+    "images": [
+        {
+            "alt": "9D592C64-A9C1-487F-88EB-FA645B27889D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891572187927"
+        },
+        {
+            "alt": "500839F3-6E00-4342-9CAF-3F7BAE6C68F2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316522651799"
+        },
+        {
+            "alt": "D2833C8A-94FE-4A31-817E-1FAF8A90810B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316514920599"
+        },
+        {
+            "alt": "1A4A8454-61C1-41C2-AAE9-EAAAA4225A93_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316529460375"
+        },
+        {
+            "alt": "08DE91FF-AB95-4C37-AECD-DA5B460B2B90_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21891598738839"
+        },
+        {
+            "alt": "B518A3CF-2BAB-4D41-8539-9AAD1B1947CF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316514924567"
+        },
+        {
+            "alt": "BBF734A5-1D88-4E38-B9A7-79AF579B753E_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316529470999"
+        },
+        {
+            "alt": "EE14536C-056E-4CAF-B5B2-F92C4C4E7268_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316499883159"
+        },
+        {
+            "alt": "17407E38-FC9E-4225-8C78-66393DB9E6AC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316514928663"
+        },
+        {
+            "alt": "E0294A3F-599E-4D1A-BCC9-961AC365C373_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18316529477655"
+        }
+    ]
+}

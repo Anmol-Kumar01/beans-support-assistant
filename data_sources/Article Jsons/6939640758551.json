@@ -1,0 +1,42 @@
+{
+    "id": 6939640758551,
+    "title": "Managers: Display Preference - Set Warehouse Filter",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/6939640758551.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/6939640758551-Managers-Display-Preference-Set-Warehouse-Filter",
+        "author_id": 417316688474,
+        "created_at": "2022-06-21T23:04:50Z",
+        "updated_at": "2022-07-12T18:59:41Z"
+    },
+    "body": "If you operate from more than one warehouse, you can set a filter to show you all of your routes or from a single warehouse.  If all of your routes are not shown on the routes page, check your filter first following the steps below.   From the Dispatch Console: 1.  In the Dispatch Console: Settings > Preferences.    2.  Choose \"Display Preference.\"    3.  From the dropdown list choose “All” or a single warehouse to display on the routes page.  Click \"Save.\"    From the Mobile App: 1.  Click the Dispatch tab.  Click the Menu Bars on the top right of the screen.    2,  Click Settings > Preferences    3.  Choose Display Preference    4.  From the dropdown list choose “All” or a single warehouse to display on the routes page.  Click \"Save.\"  Video:  Display Preference - Set Warehouse Filter",
+    "images": [
+        {
+            "alt": "6AEF02F5-C7E5-4A71-808C-D1C7422197DF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939567787799/6AEF02F5-C7E5-4A71-808C-D1C7422197DF_1_201_a.jpeg"
+        },
+        {
+            "alt": "0419CF17-D742-4F70-9BFD-6F726802932F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939636235415/0419CF17-D742-4F70-9BFD-6F726802932F_1_201_a.jpeg"
+        },
+        {
+            "alt": "3B1F44EC-9DEA-45E9-BC88-92E570F4A563_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939637580055/3B1F44EC-9DEA-45E9-BC88-92E570F4A563_1_201_a.jpeg"
+        },
+        {
+            "alt": "25A3E9AB-2A43-426B-B213-6F92345AF0E7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939445436439/25A3E9AB-2A43-426B-B213-6F92345AF0E7_1_201_a.jpeg"
+        },
+        {
+            "alt": "7C2E44A2-5760-4742-9491-3E3161061085_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939448515223/7C2E44A2-5760-4742-9491-3E3161061085_1_201_a.jpeg"
+        },
+        {
+            "alt": "4C604B2E-B7E0-4544-846A-A5EA362859A2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939518014359/4C604B2E-B7E0-4544-846A-A5EA362859A2_1_201_a.jpeg"
+        },
+        {
+            "alt": "96F87311-6157-42C4-9163-DCD64F32DD48_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6939537196695/96F87311-6157-42C4-9163-DCD64F32DD48_1_201_a.jpeg"
+        }
+    ]
+}

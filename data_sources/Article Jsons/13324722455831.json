@@ -1,0 +1,50 @@
+{
+    "id": 13324722455831,
+    "title": "Managers: Warehouses",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13324722455831.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13324722455831-Managers-Warehouses",
+        "author_id": 7501352909335,
+        "created_at": "2023-03-23T21:19:01Z",
+        "updated_at": "2023-10-24T21:22:09Z"
+    },
+    "body": "Beans Route will create a warehouse location for your terminal(s) based on synced routes.  You can then add a warehouse name and domicile information.  You can also create additional warehouses as needed. From the Dispatch Console: 1.  Go to Settings > Warehouses   To add a name and domicile to existing warehouse: 1.  Click on the row to highlight it.  Click “Modify Warehouse.” 2.  Type in the name and domicile information and click “Save.”   To add a new warehouse: 1.  Click “Add Warehouse.”  2.  Type in the name and domicile information.  As you start to type the address, the location pin should populate with the address info.  Click on the address pin. 3.  Click “Save.”",
+    "images": [
+        {
+            "alt": "4F4D81EE-717F-42A9-9931-1AF54AB01EA0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324509259031"
+        },
+        {
+            "alt": "F1978B56-4737-4B57-9B1C-DD2FE039EAC3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324544303511"
+        },
+        {
+            "alt": "5FC0C3D2-E58E-4342-B4D9-A32788C30660_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324511927703"
+        },
+        {
+            "alt": "202F475E-047E-4C70-979A-B88F3265B102_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324585873047"
+        },
+        {
+            "alt": "EFB527C0-4EF9-4BCE-8232-8BBAA11BA18A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324718565143"
+        },
+        {
+            "alt": "38798D9A-6C61-46C9-A428-44904962DC0D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324588646295"
+        },
+        {
+            "alt": "C46FEC77-AF52-4893-AED4-42B13D13F382_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324608049943"
+        },
+        {
+            "alt": "497D1EDD-2906-4389-B097-39DDD250CA95_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324614378519"
+        },
+        {
+            "alt": "B60D9003-FEFF-4DE1-8223-082EA8F228A2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13324615773335"
+        }
+    ]
+}

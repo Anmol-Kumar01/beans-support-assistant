@@ -1,0 +1,13 @@
+{
+  "id": "generate-pod-report",
+  "title": "How to generate reports - POD",
+  "summary": "Generate Proof of Delivery (POD) reports in BeansRoute. Navigate to the Reporting section, access the Archive tab, search for archived stops by date range, select specific routes, and download POD reports in PDF format. Retrieve delivery confirmation reports for compliance and customer service purposes.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/99MmG6jOkLPRG47i59tWKw/embed",
+  "display_option_tags": "regionals",
+  "category": "Dispatch Tutorials",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

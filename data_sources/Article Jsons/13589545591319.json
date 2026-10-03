@@ -1,0 +1,46 @@
+{
+    "id": 13589545591319,
+    "title": "Managers: Create a Beans Route account (FXG)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13589545591319.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13589545591319-Managers-Create-a-Beans-Route-account-FXG",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-03T19:10:57Z",
+        "updated_at": "2023-04-03T19:11:50Z"
+    },
+    "body": "1. Go to beansroute.ai and click the “create account” link.  2.  Enter your email address and create a password.  Click the “create account” button. (HINT: be sure to record the created password).  3.  Select your business type from the dropdown list and click “next.”  4.  Click “select” to choose your plan and then click “next.”  5.  Enter your business details and click “next.”  6.  Enter your credit card information and click “next.”  7.  Read and accept the terms and conditions.  Click “subscribe.”  8.  Click “Launch Dispatch Manager” to open your Beans Route account.",
+    "images": [
+        {
+            "alt": "55FD7F5B-4320-47A1-8977-F36CE6A6F09B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589137073815"
+        },
+        {
+            "alt": "67088E45-2813-4F5E-A305-15DBEF68A2C0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589347075607"
+        },
+        {
+            "alt": "A658A667-A37D-46C3-A74E-194A9F17A878_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589359588247"
+        },
+        {
+            "alt": "CE4B7665-D23E-4928-9CCF-A6EA48D1A201_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589396098967"
+        },
+        {
+            "alt": "F7762AB5-B0EF-40A3-BFAD-AB2E6A005A1A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589399494551"
+        },
+        {
+            "alt": "876E08B9-4B19-4892-9B1F-3C15295CCB20_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589458478743"
+        },
+        {
+            "alt": "3B85EA07-1AB1-44FD-8CEB-F9F44C5BD0EB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589496253719"
+        },
+        {
+            "alt": "ED280749-9418-43C1-9DAE-B8ED5AC854CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13589499149463"
+        }
+    ]
+}

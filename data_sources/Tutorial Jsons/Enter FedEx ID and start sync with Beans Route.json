@@ -1,0 +1,13 @@
+{
+  "id": "enter-fedex-id-sync-beansroute",
+  "title": "Enter FedEx ID and start sync with Beans Route",
+  "summary": "This tutorial shows you how to enter your FedEx ID and start the sync process with BeansRoute. Learn how to navigate to the FedEx Integration settings, enter your FedEx ID, verify the ID, confirm the connection, and initiate the manifest sync. This guide helps you establish the connection between your FedEx account and BeansRoute for seamless data integration.",
+  "platform": "Dispatch",
+  "description": "",
+  "trainn_url": "https://beans-ai.portal.trainn.co/share/Y8oTVtLFqmhYhuCxUJr5Lw/embed",
+  "display_option_tags": "fedex",
+  "category": "Onboarding",
+  "account_buids": "",
+  "date_str": "2025-05-22",
+  "timestamp": 1747958400
+}

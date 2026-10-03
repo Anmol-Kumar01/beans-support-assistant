@@ -1,0 +1,30 @@
+{
+    "id": 18148707055895,
+    "title": "Managers: Reorder Stops in a Route (Optimize)",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/18148707055895.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/18148707055895-Managers-Reorder-Stops-in-a-Route-Optimize",
+        "author_id": 7501352909335,
+        "created_at": "2023-10-09T21:12:42Z",
+        "updated_at": "2024-01-12T17:32:36Z"
+    },
+    "body": "In addition to optimizing your entire route or optimizing specific areas, managers can also order the stops in a route one by one to create a custom optimization. From the Dispatch Console: 1.  From the Routes page, click on the route number to be adjusted to open the detailed view of the route.  2.  Above the address list, click the “order stops” icon (bulleted list).  3.  Using your mouse, select the address card to move and drag it to the desired spot in the list (up or down).  Repeat for each address card you wish to move.  4.  Click the “X” above the list to return to the list view.",
+    "images": [
+        {
+            "alt": "B8E26D0D-FBBE-41D0-9F5F-200780F3BE01_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18148685586839"
+        },
+        {
+            "alt": "FC768182-C98D-41A7-BF8E-38A8CB84DE64_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18148712782103"
+        },
+        {
+            "alt": "EE31C229-C422-4257-8906-28FF07F8D82D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18148728317207"
+        },
+        {
+            "alt": "187CF762-0360-4690-8F61-072E088EB338_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/18148685600151"
+        }
+    ]
+}

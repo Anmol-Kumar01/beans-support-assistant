@@ -1,0 +1,62 @@
+{
+    "id": 7831874525847,
+    "title": "How to Optimize: Choosing First Stop",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/7831874525847.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/7831874525847-How-to-Optimize-Choosing-First-Stop",
+        "author_id": 417316688474,
+        "created_at": "2022-07-30T18:59:42Z",
+        "updated_at": "2024-07-24T20:27:04Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the Routes page, click on the desired route number to open the detailed view of the route.  2.  Identify the desired first stop and then click the “Optimize Route” button.  3.  Use the “Start” dropdown menu, choose “Custom”, and type in the address of the first stop.  The address pin will generate; click on the pin to select.   Click \"Optimize.\"    From the Mobile App: 1.  Click the Dispatch tab, click on the desired route number to open the detailed view of the route. .      2.  Identify the desired first top and then click the blue circle with the lightning bolt icon.  Use the “Start” dropdown menu, choose “Custom”, and type in the address of the first stop.  Click the “Optimize” button.",
+    "images": [
+        {
+            "alt": "A3B42AB1-7E46-4195-BD35-E0DCFABC02DC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143879685271"
+        },
+        {
+            "alt": "A3EC7B1B-D990-4A5D-B4DA-EF7D6DBA7AA0_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143879691543"
+        },
+        {
+            "alt": "409B8462-32FE-493D-932B-D999FD794A54_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143879695255"
+        },
+        {
+            "alt": "9FF50F43-D856-40F9-8100-CD27A9AE3EA9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143872418071"
+        },
+        {
+            "alt": "4D9CFD27-D42E-4941-B81E-9084FF18534B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143872420887"
+        },
+        {
+            "alt": "6F79A62F-3B38-45C9-9C9A-A346AEFBE0BC_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143872422679"
+        },
+        {
+            "alt": "8CB811FE-19DE-4C6E-B5CB-A4144F1B8790_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/25143872424215"
+        },
+        {
+            "alt": "CA36FC9E-0937-49A5-86D1-18B260C08CC3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7831849508887"
+        },
+        {
+            "alt": "FEBEE20C-4F18-4ECC-986D-34966A74B916_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7831851773463"
+        },
+        {
+            "alt": "99ED84FC-F719-4729-93D3-C27BA831B5CA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7831853688727"
+        },
+        {
+            "alt": "2D53B2A7-E94B-4149-B34B-FD1486B62D41_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7831854650647"
+        },
+        {
+            "alt": "8187896C-2A66-44F3-9C63-6E286B6111B4_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7831884365591"
+        }
+    ]
+}

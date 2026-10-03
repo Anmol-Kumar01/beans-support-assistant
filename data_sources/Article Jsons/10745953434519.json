@@ -1,0 +1,134 @@
+{
+    "id": 10745953434519,
+    "title": "FedEx Outage Workaround",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/10745953434519.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/10745953434519-FedEx-Outage-Workaround",
+        "author_id": 391868266073,
+        "created_at": "2022-12-06T05:52:31Z",
+        "updated_at": "2022-12-13T16:41:28Z"
+    },
+    "body": "Create & Assign a Driver to a Route:   From the Dispatch Console: 1.  On the routes page, click on the row of the route you want to assign (row will be highlighted in grey).  Under \"Thing That You Can Do,\" click \"Modify Route.\"  2.  Select the driver from the dropdown list.  3.  Click “Save.”    From the Mobile App: 1.  Click the “Dispatch” tab. 2.  Click on the row of the route you want to assign (row will be highlighted in grey).  Click on the blue circle with the pencil icon. .         3.  Select the driver from the dropdown list. .        4.  Click “Save.”   Scan a Package: How to scan a package From the Mobile App: 1.  Click on the deliver tab.            2.  Click the black pin with the plus sign in the lower left hand corner. 3.  Choose “Scan Label” which will open the camera on your phone.  4.  Scan the barcode on the package and wait for the confirmation that the stop has been successfully added.  Click the black circle with the X to return to the deliver tab. .             5.  If scanning the label does not work, you can manually add the stop by choosing “Enter Address”. Type in the address and tracking number and click \"done\". .        .         Video: How to scan a package - iOSHow to Optimize your Route: With Beans Route you can customize your delivery route by optimizing multiple areas, and you can choose the number of stops to be included in each area.  From the Mobile App: 1.  In the Deliver tab, expand or contract the map so the pins are clearly visible. Click on the black circle with the hand icon and use your finger to draw a circle around the stops you want to optimize.                2.  Choose a final stop and click the “Optimize” button.                          3.  Repeat the process for each area. The numbers will generate sequentially.              Video:  How to Use Lasso+/Multi Lasso How to Use Digital Handsheets: From the Mobile App: 1.  Click the Settings tab .         2.  Change the POD setting from “If Needed” to “Full.”  Go back to the Deliver tab. 3.  Now when you click on a stop to mark it as delivered, the app will open the “Complete Stop” window which is preloaded with all the FedEx Reason Codes.  If a signature is required, the customer can sign on your phone.            4.  At the end of the day, your BC can generate a digital “green/hand sheet” of your deliveries in the Dispatch Console. NOTE: To turn off POD follow the steps above and change POD to \"if needed.\"How to Generate a Digital Handsheet: From the Dispatch Console: 1.  On the Routes page, click on the box with desired route number to open the detail page for the route. 2.  Under “Things That You Can Do,” click “Generate Report.”  3.  The app will then create a digital proof of delivery report for the route and download the report in three formats: PDF, CSV, XLS.  You can download the report for printing or email.",
+    "images": [
+        {
+            "alt": "1D984216-CDCE-4977-AAA9-F790674F5438_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908521334423/1D984216-CDCE-4977-AAA9-F790674F5438_1_201_a.jpeg"
+        },
+        {
+            "alt": "7ADBF5EE-BEF1-4037-9C3F-D0AC5502F9EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908572395543/7ADBF5EE-BEF1-4037-9C3F-D0AC5502F9EE_1_201_a.jpeg"
+        },
+        {
+            "alt": "DDF18752-0A90-47A8-A530-AA7FC16565AB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908580035991/DDF18752-0A90-47A8-A530-AA7FC16565AB_1_201_a.jpeg"
+        },
+        {
+            "alt": "C76AD3D5-E4AE-4589-8709-FE5C52DA70F2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908993988375/C76AD3D5-E4AE-4589-8709-FE5C52DA70F2_1_201_a.jpeg"
+        },
+        {
+            "alt": "C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4908914116503/C1F21F0F-F298-4D4F-BE2B-EA2BDC6084F6_1_201_a.jpeg"
+        },
+        {
+            "alt": "E7FA5272-A439-4260-BFCA-4356DB84C6FB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4909030534679/E7FA5272-A439-4260-BFCA-4356DB84C6FB_1_201_a.jpeg"
+        },
+        {
+            "alt": "AE95A849-4290-4048-B0B8-E650A78DBCCD_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4909056262935/AE95A849-4290-4048-B0B8-E650A78DBCCD_1_201_a.jpeg"
+        },
+        {
+            "alt": "DD6CD57F-8805-4AC1-AE01-7651A26B2E72_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376574841623/DD6CD57F-8805-4AC1-AE01-7651A26B2E72_1_201_a.jpeg"
+        },
+        {
+            "alt": "CDA49477-5835-42F7-BD73-571A6100735A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376508437911/CDA49477-5835-42F7-BD73-571A6100735A_1_201_a.jpeg"
+        },
+        {
+            "alt": "58B035F8-0C9E-4DE8-851E-0921D689B580_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376543114391/58B035F8-0C9E-4DE8-851E-0921D689B580_1_201_a.jpeg"
+        },
+        {
+            "alt": "31A1ED73-8EB5-4A58-A25B-7C1E44ABAF85_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376595448599/31A1ED73-8EB5-4A58-A25B-7C1E44ABAF85_1_101_o.jpeg"
+        },
+        {
+            "alt": "40259B0B-4881-416C-9DFF-B669088817CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376729127959/40259B0B-4881-416C-9DFF-B669088817CB_1_201_a.jpeg"
+        },
+        {
+            "alt": "2590F218-3DB8-403B-99BB-372838AFB0CB_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376747598871/2590F218-3DB8-403B-99BB-372838AFB0CB_1_201_a.jpeg"
+        },
+        {
+            "alt": "D05923CB-45E3-447F-BEA4-AEDE302E31DC_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376758426775/D05923CB-45E3-447F-BEA4-AEDE302E31DC_1_101_o.jpeg"
+        },
+        {
+            "alt": "995E9A40-1296-435D-A51B-A07714638D1F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6376641483927/995E9A40-1296-435D-A51B-A07714638D1F_1_201_a.jpeg"
+        },
+        {
+            "alt": "A5A3D010-917F-4D29-BFBD-9A6942BEC1DF_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406843637655/A5A3D010-917F-4D29-BFBD-9A6942BEC1DF_1_201_a.jpeg"
+        },
+        {
+            "alt": "9E09297F-85CB-4F4E-9A0A-887DC60753EE_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406882181655/9E09297F-85CB-4F4E-9A0A-887DC60753EE_1_201_a.jpeg"
+        },
+        {
+            "alt": "C6631ED6-AEC5-4EE3-8A04-D8B27DFDDC91_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406886752279/C6631ED6-AEC5-4EE3-8A04-D8B27DFDDC91_1_201_a.jpeg"
+        },
+        {
+            "alt": "F871AD66-6B93-4B4A-9C46-F7AA89D53523_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406941164695/F871AD66-6B93-4B4A-9C46-F7AA89D53523_1_101_o.jpeg"
+        },
+        {
+            "alt": "98D2F57E-E0FA-42CB-9EF0-F9130E7C107A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7406949308951/98D2F57E-E0FA-42CB-9EF0-F9130E7C107A_1_201_a.jpeg"
+        },
+        {
+            "alt": "31B18D19-5801-41D8-BB70-7648BE990FC3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7407111826071/31B18D19-5801-41D8-BB70-7648BE990FC3_1_201_a.jpeg"
+        },
+        {
+            "alt": "2A5C3FD1-51C3-4B96-A8F4-D9F1A82B61D6_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/7407175910551/2A5C3FD1-51C3-4B96-A8F4-D9F1A82B61D6_1_201_a.jpeg"
+        },
+        {
+            "alt": "40D7EB0F-544E-4B8F-A4AA-2A13E6DEA03B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058159826839/40D7EB0F-544E-4B8F-A4AA-2A13E6DEA03B_1_201_a.jpeg"
+        },
+        {
+            "alt": "8C0200AB-73AB-4AF5-95F9-039F834DBDB7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058160961047/8C0200AB-73AB-4AF5-95F9-039F834DBDB7_1_201_a.jpeg"
+        },
+        {
+            "alt": "5105EAA7-266B-4104-9E37-1A530DFA41F4_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058190084631/5105EAA7-266B-4104-9E37-1A530DFA41F4_1_101_o.jpeg"
+        },
+        {
+            "alt": "E5F47291-36B7-4DE4-8321-16DBD1689094_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058198518039/E5F47291-36B7-4DE4-8321-16DBD1689094_1_101_o.jpeg"
+        },
+        {
+            "alt": "D599EEC1-4E6D-461F-85DA-9BAA59EBB8AB_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058185179543/D599EEC1-4E6D-461F-85DA-9BAA59EBB8AB_1_101_o.jpeg"
+        },
+        {
+            "alt": "040C0C8E-3459-4283-98BA-C5D583146C5C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058273015831/040C0C8E-3459-4283-98BA-C5D583146C5C_1_201_a.jpeg"
+        },
+        {
+            "alt": "54F28B15-4993-4FCE-8930-6DB0BE63282B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058274473111/54F28B15-4993-4FCE-8930-6DB0BE63282B_1_201_a.jpeg"
+        },
+        {
+            "alt": "9525F7FB-F93D-44A7-911F-1997C6C8D117_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/5058276896535/9525F7FB-F93D-44A7-911F-1997C6C8D117_1_201_a.jpeg"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": 4946918940567,
+    "title": "Drivers: How to use Beans Route Lasso Transfer - iOS",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4946918940567.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4946918940567-Drivers-How-to-use-Beans-Route-Lasso-Transfer-iOS",
+        "author_id": 417316688474,
+        "created_at": "2022-03-22T22:32:37Z",
+        "updated_at": "2023-09-14T16:23:48Z"
+    },
+    "body": "From the Mobile App: In the driver app click on the deliver tab to see a map of the stops.  Click on the black circle with the hand icon.  2.  Using your finger, draw a circle around the stops to be transferred. .       3.  Click the Transfer button.  4.  Review the generated manifest to be sure the list of stops to be transferred is correct.  If necessary, remove any stops incorrectly chosen by clicking on “remove from transfer.”  Click \"Transfer.\"  5.  The app will generate a QR code and a six digit pin number.  6.  The driver receiving the transfer must scan the QR code or enter the six digit pin number within 10 minutes.",
+    "images": [
+        {
+            "alt": "55222D14-C0C0-47A1-B948-1A29FC491864_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946684822167"
+        },
+        {
+            "alt": "C0146D99-E8C3-4107-91B2-F1C25A9C85FB_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946763758615"
+        },
+        {
+            "alt": "42EB2D05-A156-49AF-8BC9-48A294D9F54A_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946776502807"
+        },
+        {
+            "alt": "42EB2D05-A156-49AF-8BC9-48A294D9F54A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946810295575"
+        },
+        {
+            "alt": "1F212401-2AD9-4086-8CD3-4C0AF61446E1_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946770110743"
+        },
+        {
+            "alt": "6E9B2934-826D-47E6-A439-760891889DC2_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4946865598743"
+        }
+    ]
+}

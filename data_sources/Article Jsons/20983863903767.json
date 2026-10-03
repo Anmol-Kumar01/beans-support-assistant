@@ -1,0 +1,62 @@
+{
+    "id": 20983863903767,
+    "title": "Timesheets: Update/Adjust Driver Shift",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/20983863903767.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/20983863903767-Timesheets-Update-Adjust-Driver-Shift",
+        "author_id": 7501352909335,
+        "created_at": "2024-01-30T18:22:15Z",
+        "updated_at": "2024-03-07T17:52:37Z"
+    },
+    "body": "From the Dispatch Manager: TO UPDATE A SHIFT 1.  Click Assets > Timesheets > Driver View.       2.  Locate the driver name in the list and click on the bubble for the date you want to update.    3.  Using the dropdown menu select the route. 4.  Click the \"clock\" icon to enter clock in and clock out times.   5.  Select the clock in time and click \"ok.\"  Repeat for clock out time.    TO ADJUST A SHIFT 1.  Click on the bubble for the date/shift you want to adjust, and then click the \"clock\" icon.  2.  Click the \"Reset Time\" button and confirm you wish to reset time by clicking \"yes.\"   3.  Follow steps 4 and 5 above to enter the adjusted times for the shift.",
+    "images": [
+        {
+            "alt": "BC391C89-DCE9-4529-BDC2-EF5B9B26E25C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21890029647767"
+        },
+        {
+            "alt": "DFD7688E-3027-43F1-B891-BAD51692108B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863819159"
+        },
+        {
+            "alt": "439DB7A5-676D-4786-8B7B-76B14BF55825_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863821335"
+        },
+        {
+            "alt": "83D78BBA-3756-470A-9FED-DDFD8DECA963_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983856317079"
+        },
+        {
+            "alt": "6F9A7D84-297A-4A3C-B834-CC1B751C8E5D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863834519"
+        },
+        {
+            "alt": "AF70286F-C7BE-4C8F-961F-08426D8DEAC7_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863837463"
+        },
+        {
+            "alt": "71F60C0C-6F3F-46D8-91A4-ADDEEE928011_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863839767"
+        },
+        {
+            "alt": "B6487C0F-1650-48F4-A6AD-5E1A6CD55372_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983856336791"
+        },
+        {
+            "alt": "D487F8A1-3A82-4C9D-B262-F5414B0EA94F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983856345879"
+        },
+        {
+            "alt": "562E29A7-75D3-4457-9CA2-F935CD642F91_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863853335"
+        },
+        {
+            "alt": "FD9E278B-4208-4514-BDA5-516451C5E4F8_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863889047"
+        },
+        {
+            "alt": "6FDEE61C-BFF7-49D0-B1D5-9160CF699D28_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/20983863892503"
+        }
+    ]
+}

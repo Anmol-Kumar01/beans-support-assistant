@@ -1,0 +1,34 @@
+{
+    "id": 4945322734231,
+    "title": "Drivers: How to sign in using a Beans Route invite code/text on IOS",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4945322734231.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4945322734231-Drivers-How-to-sign-in-using-a-Beans-Route-invite-code-text-on-IOS",
+        "author_id": 417316688474,
+        "created_at": "2022-03-22T21:16:45Z",
+        "updated_at": "2022-06-09T20:54:10Z"
+    },
+    "body": "From the Mobile App: Please make sure the text was sent to you, as each invite code is unique to each user.  Using someone else’s code will not work. 1.  Open the text message sent to you.  2.  Click the link in the text message to get the app for the appropriate device.  Download the Beans Route app.  2.  Click the red “Sign in with email” button.  Make sure to sign in with the same email address your AO or BC used to create your profile.  Your password is your email address, unless you previously changed your password.  Passwords are case-sensitive. .",
+    "images": [
+        {
+            "alt": "E448003D-397D-4C46-B43E-548661FB574F_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4945495876119/E448003D-397D-4C46-B43E-548661FB574F_1_201_a.jpeg"
+        },
+        {
+            "alt": "844196F3-64E9-4464-B4A9-7C50F294C080_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4944463948951/844196F3-64E9-4464-B4A9-7C50F294C080_1_201_a.jpeg"
+        },
+        {
+            "alt": "A7ACA3DC-5CB0-4469-85AE-A30A327EDEB9_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4945221071127/A7ACA3DC-5CB0-4469-85AE-A30A327EDEB9_1_101_o.jpeg"
+        },
+        {
+            "alt": "E75CF3EA-60A4-49DD-80E3-2A453922B53C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4945271607703/E75CF3EA-60A4-49DD-80E3-2A453922B53C_1_201_a.jpeg"
+        },
+        {
+            "alt": "5B73C822-74C9-4949-A6E5-D499D6452D82_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4945223578519/5B73C822-74C9-4949-A6E5-D499D6452D82_1_101_o.jpeg"
+        }
+    ]
+}

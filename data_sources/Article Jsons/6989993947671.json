@@ -1,0 +1,38 @@
+{
+    "id": 6989993947671,
+    "title": "Managers: Assign a Secondary Driver/Helper to a Route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/6989993947671.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/6989993947671-Managers-Assign-a-Secondary-Driver-Helper-to-a-Route",
+        "author_id": 417316688474,
+        "created_at": "2022-06-23T20:54:14Z",
+        "updated_at": "2023-05-26T07:48:53Z"
+    },
+    "body": "From the Dispatch Console: 1.  On the routes page, choose the route and click on the “pad & pencil” icon next to the primary driver’s name.    2.  Change Driver Type to “Secondary Drivers & Helpers” and select the secondary driver from the dropdown list.  Click “Save.”     From the Mobile App: 1.  Click the “Dispatch” tab.  Choose the route and click on the “pad & pencil” icon next to the primary driver’s name.    2.  Change Driver Type to “Secondary Drivers & Helpers” and select the secondary driver from the dropdown list.  Click “Save.” .         Video:  Assign a Secondary Driver/Helper to a Route",
+    "images": [
+        {
+            "alt": "602C35F3-ECF2-49B0-B5E5-8D28BCA9663D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989892962967/602C35F3-ECF2-49B0-B5E5-8D28BCA9663D_1_201_a.jpeg"
+        },
+        {
+            "alt": "18F3687A-AC44-47B6-A284-98EAACF1E5F2_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989895970327/18F3687A-AC44-47B6-A284-98EAACF1E5F2_1_201_a.jpeg"
+        },
+        {
+            "alt": "C4132C67-8773-4D9C-AE10-691FEF4B4A39_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989917446807/C4132C67-8773-4D9C-AE10-691FEF4B4A39_1_201_a.jpeg"
+        },
+        {
+            "alt": "0432664F-B6D8-4DD7-A2BE-D8FCA319C75D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989920359703/0432664F-B6D8-4DD7-A2BE-D8FCA319C75D_1_201_a.jpeg"
+        },
+        {
+            "alt": "44D6F5AA-ED78-43CE-A379-FAB60FACE54A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989939881495/44D6F5AA-ED78-43CE-A379-FAB60FACE54A_1_201_a.jpeg"
+        },
+        {
+            "alt": "4381A5EB-F283-4735-9530-65AB83FAA3B9_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/6989941344279/4381A5EB-F283-4735-9530-65AB83FAA3B9_1_201_a.jpeg"
+        }
+    ]
+}

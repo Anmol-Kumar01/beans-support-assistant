@@ -1,0 +1,26 @@
+{
+    "id": 9250932597015,
+    "title": "Managers: How to Update Your Payment Method",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/9250932597015.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/9250932597015-Managers-How-to-Update-Your-Payment-Method",
+        "author_id": 7501352909335,
+        "created_at": "2022-09-30T19:41:01Z",
+        "updated_at": "2023-03-23T17:06:49Z"
+    },
+    "body": "1.  Go to beansroute.ai and sign into your account.  2.  Beneath the \"Launch Dispatch Manager\" button is the credit card on file for your account (last 4 digits)  3.  Click the link “Update payment method.”  4.  Enter your credit card information. 5.  Select “Save Payment.” 6.  Confirm the last four digits of the new credit card are displayed as “Current Card on payment profile.”",
+    "images": [
+        {
+            "alt": "58590C64-1927-4F72-8BCB-28DA30ACF7ED_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13316666875671"
+        },
+        {
+            "alt": "94BEC7CA-1161-490E-A253-D0396EE7129A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13316892244631"
+        },
+        {
+            "alt": "D4030971-286A-4741-91A1-E238C8C469CC_4_5005_c.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13316894996759"
+        }
+    ]
+}

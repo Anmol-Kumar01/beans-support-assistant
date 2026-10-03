@@ -1,0 +1,46 @@
+{
+    "id": 11470853429911,
+    "title": "Drivers:  Work Schedule and Time Off Requests",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/11470853429911.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/11470853429911-Drivers-Work-Schedule-and-Time-Off-Requests",
+        "author_id": 7501352909335,
+        "created_at": "2023-01-05T22:17:28Z",
+        "updated_at": "2023-05-15T05:52:00Z"
+    },
+    "body": "If your company uses Beans Route timesheets to create driver schedules, you can see the days you are scheduled to work and your assigned routes. To see your work schedule: 1.  In your app, click on the Hub.    2.  Click on the Calendar tab which will display the current month.   Days you are scheduled to work will have blue box with your assigned route number. Days you are not scheduled to work will have a yellow box with \"TBD.” If you have requested a day off, there will be a grey box with “LR” which stands for \"leave request.\"  Once the request is approved by your manager, the box will be green with “LR.”  If your company allows drivers to request time off using Beans, you can do so via the app. To request a day off: 1.  In your app, click on the Hub and then click on the Calendar tab.  2.  Use the arrow button to move the calendar to the correct month.  3.  Choose the day(s) for your request by clicking on the date(s) and confirm the leave request.  4.  Your manager will receive an in-app notification and an email with your leave request \"LR.\"  Once the request is approved the grey box with “LR” with change to a green box with “LR.”  If your request is denied, you will see a red box with \"LR.\"",
+    "images": [
+        {
+            "alt": "18EA7832-73E1-4242-A3FD-391606DC08A3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470155805207"
+        },
+        {
+            "alt": "2E073BFA-C626-4871-B1AD-5A563C6E0422_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470304426263"
+        },
+        {
+            "alt": "18EA7832-73E1-4242-A3FD-391606DC08A3_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470155805207"
+        },
+        {
+            "alt": "E52A7A6C-A811-4B25-BE58-39F27C7D4A7B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470747357975"
+        },
+        {
+            "alt": "CB2CFA25-A287-4324-B85B-8FF2500BCE3D_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470750304791"
+        },
+        {
+            "alt": "AC596D27-BD8D-442E-B535-B6F944C12B47_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470805357207"
+        },
+        {
+            "alt": "8C43B578-4CF5-487B-AF1C-F1A3573B24BC_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11470807674007"
+        },
+        {
+            "alt": "8B46A1EA-A284-4367-B237-B041CB3C4415_1_101_o.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/11471095225751"
+        }
+    ]
+}

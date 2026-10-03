@@ -1,0 +1,38 @@
+{
+    "id": 4836320625047,
+    "title": "Drivers:  Add Custom Marker Pins in Beans Route",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/4836320625047.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/4836320625047-Drivers-Add-Custom-Marker-Pins-in-Beans-Route",
+        "author_id": 417316688474,
+        "created_at": "2022-03-17T21:01:02Z",
+        "updated_at": "2024-03-06T22:19:51Z"
+    },
+    "body": "1.  In the driver app from the deliver tab, hard press where you want to drop a custom marker.         2.  Choose the type marker from the dropdown list and enter your notes or code. .    .     3.  To view notes or codes for a custom marker, hard press on the marker and click the red pen icon. .",
+    "images": [
+        {
+            "alt": "IMG_1679.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836137821335/IMG_1679.PNG"
+        },
+        {
+            "alt": "IMG_1680.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836205506455/IMG_1680.PNG"
+        },
+        {
+            "alt": "IMG_1681.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836214102935/IMG_1681.PNG"
+        },
+        {
+            "alt": "IMG_1682.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836224408855/IMG_1682.PNG"
+        },
+        {
+            "alt": "IMG_1683.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836286726167/IMG_1683.PNG"
+        },
+        {
+            "alt": "IMG_1684.PNG",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/4836273586967/IMG_1684.PNG"
+        }
+    ]
+}

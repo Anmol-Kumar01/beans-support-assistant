@@ -1,0 +1,82 @@
+{
+    "id": 13631018041623,
+    "title": "Beans DRO: Route Planner Quickstart Guide",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13631018041623.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13631018041623-Beans-DRO-Route-Planner-Quickstart-Guide",
+        "author_id": 417316688474,
+        "created_at": "2023-04-05T07:55:16Z",
+        "updated_at": "2023-06-08T20:40:27Z"
+    },
+    "body": "On average, each route you run as a contractor can cost between $50,000 to $90,000 per year, and decreasing margins is making this overhead more painful for contractors across the board. Coupled with the rising cost of fuel and other consumables such as tires, and the rising cost of labor, what can you do to claw back these expenses and boost profitability?Beans Route Planner is a tool that leverages real-time data from your FedEx Ground operation and enables you to virtually reconfigure and test new ways of running your routes, allocating drivers, and finding your perfect balance of operational efficiency and profitability using AI that accounts for your unique business needs,  and suggests alternative configurations that can improve your bottom line.For Example, you can use the Route Planner to take existing stops across your operation, specify driver parcel capacities and shift lengths to tweak your operation accordingly by redrawing your Anchor Areas in RouteSmart, enabling you to drop routes and save tens of thousands of dollars per year per route in overhead costs. 1. Open the Route Planner by going to Settings and selecting Route Planner.      2. In the Route Planner, select the route(s) you want to optimize, and select Next.    3. If this is your first time using the Route Planner, or if you are optimizing a new set of stops, select New Configuration, then select Next. You should then see the stops appear on the screen.         4. Select your drivers.  Here, you may either select existing drivers from your Beans account, OR, you can create Floating Drivers. Floating Drivers represent a Driver Type whose parameters you can adjust.  You can create different types of Floating Drivers by selecting the Add More option below.  For example, one type of floating driver can have a total Count of 5 (5 drivers of this type), and a Capacity of 100 (100 package/piece limit per driver).   Next, define the Shift Length and Shift Start times.        5. Flex Start and Flex End    Flex Start/End  allows the driver to start or end from anywhere on the map. If your drivers are starting and ending at the warehouse, leave these Off.       Use the Algorithm Controls to account for traffic, or bias the algorithm to reduce routes and balance the parcel volume between drivers. Once you have found a configuration that you like, you can save it for future use and apply it to different routes on different days, which you can leverage to modify your weekly plans in FedEx DRO.  6. Optimization Parameters  Route Planner allows you to optimize for Time, Distance, and Cost.  For FedEx Ground Contractors, start by enabling Time Windows.  This will have the system account for pickup and drop off Time Constraints while optimizing. The routes or manifests must have Time Windows specified within the file for this to work.    Use the Sliders to adjust for Traffic Speed, Load Balancing, and Route Reduction.  Traffic Speed will increase the amount of time per stop, which will reduce the amount of stops the driver can do in the given Shift Length. Balance Factor will force the system to create routes with a more even distribution of pieces, at the expense of overall optimization. Reduce Routes will force the system to optimize the stops to the fewest number of routes possible.   Stop Penalty  Stop Time refers to the amount of time in seconds that the driver will spend at each stop. This Dwell Time is factored into the optimization.  Algorithm allows you control how long and how many times the system will take to come to the most optimal solution to the specified parameters.   Timeout Seconds controls how long in seconds the system will run solutions.   For example, a limit of 100 seconds will give the system a maximum time of 100 seconds to process the request. It may take less than 100 seconds, but never more than 100 seconds.   Solution Count refers to the maximum number of different solutions the system will process within the given timeout limit.     7. Cost Parameters   You can optimize for cost efficiency using the Route Planner.  Select Cost, and define your cost parameters for your operation.     8. Running DRO  Once you have set your desired parameters, Select Run DRO. You will see the result on the map, and the breakdown of routes, time, distance, and cost on the right side of the map.     9. Re-Running DRO and Changing Parameters   After running DRO, you can edit your parameters and re-run the DRO to find different solutions.  In the example below, we increased the Capacity of the driver to 100 pieces, therefore the total number of routes has decreased.         Selecting Show stop numbers in the map will display sequence numbers on all stop pins in the optimized area.           Selecting Show driver assignment will display the driver assigned to each route. If none are assigned, you can use the dropdown menu to select and assign drivers. If you are a FedEx Ground contractor, this is not necessary and should be avoided if you are running DRO on active routes.        Now more than ever, finding ways to reduce running costs and support your bottom line is crucial. Reducing your route count is an important step towards profitability given rising costs of fuel, consumable goods, and labor. Reach out to our team today to learn how our cutting edge AI powered Route Planner with its tunable algorithm and custom Work Areas can take your operation’s real time data and show you how to drop routes and save!",
+    "images": [
+        {
+            "alt": "Screen",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/15169080952215"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.46.43_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236745879"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.50.18_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236538775"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.50.34_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236525847"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.50.27_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252805783"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.50.50_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252765463"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_11.49.45_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630535147799"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.51.31_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236509463"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.51.42_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252746903"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.52.03_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236494871"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.52.22_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252702487"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.53.17_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236474519"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.53.56_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252680471"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.54.03_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630236385047"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.54.08_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252643607"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-04_at_10.54.18_PM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13630252628631"
+        },
+        {
+            "alt": "Screen_Shot_2023-04-05_at_12.52.26_AM.png",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/13631015477271"
+        }
+    ]
+}

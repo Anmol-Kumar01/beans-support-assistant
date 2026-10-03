@@ -1,0 +1,50 @@
+{
+    "id": 13793555417111,
+    "title": "Managers: Archive – Generate a POD Report",
+    "metadata": {
+        "url": "https://beansai.zendesk.com/api/v2/help_center/en-us/articles/13793555417111.json",
+        "html_url": "https://beansai.zendesk.com/hc/en-us/articles/13793555417111-Managers-Archive-Generate-a-POD-Report",
+        "author_id": 7501352909335,
+        "created_at": "2023-04-12T20:13:01Z",
+        "updated_at": "2024-03-07T17:43:25Z"
+    },
+    "body": "Beans Route Archive gives you access to the last six weeks of route data.  You can use archive to move location pins, reopen a closed route, verify deliveries, and generate POD reports for specific routes.  To generate a POD report, follow the instructions below. Note: you must run reports on the computer; reports are not available on the mobile app. From the Dispatch Console: 1.  Click Reporting > Archive.  2.  Use the calendar to select the desired date and if needed add other search options (route, address, tracking number, etc.).  Click \"Search.\"    3.  A list of your routes from the selected date will populate.  Choose the desired route by clicking on the route number.  4.  Click “Generate Report.”   The report is available in three file formats: PDF, CSV, and XLS.  Click the link for the file type you want to download.",
+    "images": [
+        {
+            "alt": "358E2DA0-AD20-4567-A0D4-62325A38A6BA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21889739510551"
+        },
+        {
+            "alt": "49A26C1B-FC43-4CD1-9EE5-823DE719B2CA_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737517975"
+        },
+        {
+            "alt": "D5C0087D-4BD0-433F-A34B-896D8504C980_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737528855"
+        },
+        {
+            "alt": "A2BC94EE-B4CF-4F73-8242-5043CEB3A26A_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254719086103"
+        },
+        {
+            "alt": "F363CF27-440C-4F0A-80CF-39E7A612CB0B_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737546903"
+        },
+        {
+            "alt": "F93CD1A6-652E-4423-8FE5-07292F4D9E42_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254719102359"
+        },
+        {
+            "alt": "7D935A92-A9B2-49E6-B122-F26D1B106B6C_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737576983"
+        },
+        {
+            "alt": "CCFB0A7A-43F6-48A8-AF99-321CF71947D5_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737584663"
+        },
+        {
+            "alt": "9A5B83B8-92D0-43BD-9539-70A0CD5BAC71_1_201_a.jpeg",
+            "src": "https://beansai.zendesk.com/hc/article_attachments/21254737592599"
+        }
+    ]
+}
