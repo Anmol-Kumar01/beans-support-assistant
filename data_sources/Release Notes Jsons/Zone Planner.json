@@ -1,0 +1,19 @@
+{
+    "id": "zone-planner",
+    "title": "Zone Planner",
+    "summary": "We've added the ability for users to prioritize certain geographical areas while optimizing the route. Users can now create zones in an order of priority they want the drivers to follow while completing the stops. Every zone plan is tied to a specific route, and is completely configurable.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/ZO5HIav0iqnCgraMD235PQ/embed?mode=interactive",
+        "display_option_tags": "fedex",
+        "account_buids": "",
+        "date_str": "2024-07-25",
+        "timestamp": 1722554110
+    },
+    "body": "Click on the 'Zone Planner' option in the navigation bar. To add a zone, select the route which you want to create a Zone Plan for from the list of routes, then click on the 'Plus' icon and draw a zone on the map by clicking and dragging the cursor. Click 'Edit' on the dialog box and set the priorities of each of the zones that were drawn Finally, enter the route name that you want to save these zones for and hit Save. Please note that the route name should match exactly for the zones to take effect.",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_c4023a99-2d8c-4f72-8054-4d61e0803cef.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_70ad24ef-e1d3-405f-bed9-200bfa2e7039.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_3f2cb5fb-4a1d-4664-b26c-b89db72e093b.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_d6c68d49-af15-4d0c-adc0-320fe39029ae.png"
+    ]
+}

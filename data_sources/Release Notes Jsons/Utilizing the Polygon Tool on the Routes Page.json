@@ -1,0 +1,17 @@
+{
+    "id": "polygon-tool-routes-page",
+    "title": "Utilizing the Polygon Tool on the Routes Page",
+    "summary": "We are excited to introduce a new feature that enhances the functionality of our routes page: the Polygon Tool. This tool will streamline your route management process by allowing you to easily select and modify stops directly on the map.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/Ru155yIlZo9QUmsWL7Ulhg/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2024-08-17",
+        "timestamp": 1723888800
+    },
+    "body": "Key Features: Easy Access to Polygon Tool:The Polygon Tool can be accessed by clicking the polygon icon located at the top of the map on the routes page. Intuitive Polygon Drawing:Draw a polygon by clicking on the map to outline the area. Each click represents a corner of the polygon, allowing you to customize the selection area based on your needs.Selecting Stops within the Polygon:After drawing your polygon, click the ‘SELECT STOPS’ button at the bottom of the map. This will automatically select all stops that fall within the boundaries of your polygon. Excluding Stops from Selection:To refine your selection, use the Hand icon on the map to click on individual stops that you want to exclude. Once you’ve made your adjustments, remember to click the ‘SELECT STOPS’ button again to update your selection. Modifying Stops:With your stops selected, you can easily move them to a different route by clicking the ‘Modify Stop’ option. This feature provides a quick and efficient way to reorganize stops and optimize route planning. Benefits:Enhanced Control: The Polygon Tool provides a more precise method for selecting stops, giving you greater control over route management.Improved Efficiency: By allowing quick selection and modification of stops, this tool helps to streamline operations and reduce the time spent on route planning.Flexibility: Easily exclude specific stops from your selection without redrawing the entire polygon, offering flexibility in managing exceptions.",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-09-02/2024-09-02_cfa14c41-70f2-46de-9e96-bdffa701302e.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-09-02/2024-09-02_4340fcb4-c129-4f84-8977-6e7821d5ecb1.png"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "id": "moving-location-pins",
+    "title": "Moving Location Pins",
+    "summary": "To fix any locations on a particular route, you can just drag the pin to the correct location and save it. That will be the new location for that address in the future, across all routes.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/XkJ923N7h7o1sk8mP42dew/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2023-12-11",
+        "timestamp": 1718697600
+    },
+    "body": "Step 1: On the map, zoom in to the location of the pin you want to move.  Step 2: Click on the pin until the address information appears, that you would like to move.  Step 3: Move the pin to the desired location. Click “Save.”.",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-07-31/2024-07-31_d53cd050-0987-4c38-9649-b2e23fa6a521.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-01/2024-08-01_28947960-dd54-44aa-b3f1-386a20ae26b0.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-07-31/2024-07-31_456a9e22-61f7-49bd-8bb8-5b89adb6cdde.jpeg"
+    ]
+}

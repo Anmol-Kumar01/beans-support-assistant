@@ -1,0 +1,26 @@
+{
+    "id": "how-to-generate-reports-timesheets",
+    "title": "Timesheets Reports",
+    "summary": "We recommend using the STD version of the timesheet report which gives you clock in, clock out, and total hours for each driver. The PDF, CSV, and XLS reports give only the total hours. You choose the time period for the report.  *To deduct breaks from daily hours follow instructions below (steps 7 - 9) before generating the report.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/MkKCwYIl3T7uZlpRwD6ijw/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2023-12-1",
+        "timestamp": 1718697600
+    },
+    "body": "Step 1: Click Assets > Timesheets. Step 2: Click the box for \"Driver View.\" Step 3: Click the \"Generate Report\" button. Step 4: Choose the date range for your report; click on the date line to open the calendar. Optional: you may click the box for \"use default route length to estimate when clock in or clock out times are missing.\" Step 5: Click \"Generate Report.\" Step 6: Click the link for the report you wish to download. Deduct Breaks from Daily HoursStep 7: Click Settings > Preferences. Step 8: Click \"Timesheets\" Step 9: Turn on the option \"Subtract break hours from paid hours in reports\" and click \"save\" Understanding the STD Timesheet ReportClock in and clock out times are calculated in minutes using military time.  Using line #2 as an example on 5/28/22:  Xavian Washburn clocked in at 7:22 a.m. or 38 minutes before 8:00 a.m.  He clocked out at 17:10 p.m. or 10 minutes after 5:00 p.m.:8:00 a.m. to 5:00 p.m. = 9 hours38 minutes before 8:00 a.m. + 10 minutes after 5:00 p.m. = 48 minutesTherefore: Xavian Washburn worked a total of 9 hours and 48 minutes.The total hours and paid hours are calculated in 1/10 of an hour.  A tenth of an hour is 6 minutes.  Using the example of Xavian Washburn, his total hours of 9.8 = 9 hours and 8/10 of an hour (8 x 6= 48).",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_fb4ad974-7b0d-4355-92de-5e17c49cf73c.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_0cc9dac9-0815-482c-aba7-c9fea4b228f7.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_b06e3843-24db-4851-a687-1904cecf846f.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_ab2456f6-e1f4-49bc-98f7-b5142c021e46.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_05937775-0e7b-4f62-9899-7046eb630c96.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_f875918f-1df2-4819-924c-a6f4593dc77a.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_c88f9ae0-7e76-44f8-8e4b-3a51b256e639.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_f039cc3c-ae58-41b3-8890-5629f14e1692.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_522249d6-7d4e-4a7f-96a5-6fd231fe1c85.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_bcfd2fba-e230-4b2b-ab91-95f5c9a232a7.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8974256c-d03a-44ef-bf7b-ad98c7f2ea52.jpeg"
+    ]
+}

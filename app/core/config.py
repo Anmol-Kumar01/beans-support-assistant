@@ -37,7 +37,7 @@ class AppSettings(BaseSettings):
     legacy_base_url: str = "http://localhost:3000"
     legacy_timeout_s: float = 90.0
     # Source JSON folders, used to turn the bot's links into numbered source cards.
-    legacy_sources_dir: Path = Path("../beans-support-bot")
+    legacy_sources_dir: Path = Path("data_sources")
     # Replies containing one of these are reported as evidence_status = "not_found".
     not_found_phrases: list[str] = [
         "i couldn't find this in the beans documentation",
@@ -56,8 +56,8 @@ class AppSettings(BaseSettings):
     # --- Answer pipeline (app/rag, ingestion in app/ingest) ---
     # "rag" answers from the knowledge base in PostgreSQL; "legacy" proxies the old Node bot.
     chat_backend: Literal["rag", "legacy"] = "rag"
-    # Training-video transcripts (the old bot's Video Jsons folder). Empty = no videos.
-    video_sources_dir: Path | None = Path("../beans-support-bot/Video Jsons")
+    # Training-video transcripts. Empty = no videos.
+    video_sources_dir: Path | None = Path("data_sources/Video Jsons")
     rag_dense_k: int = 30          # Section 8: dense candidates
     rag_lexical_k: int = 30        # Section 8: full-text candidates
     rag_rrf_k: int = 60            # Reciprocal Rank Fusion constant

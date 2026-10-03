@@ -42,7 +42,7 @@ class EvalSettings(BaseSettings):
     legacy_timeout_s: float = 90.0
     # Folder holding the legacy source JSONs (Article/Video/Release Notes/Tutorial Jsons).
     # Used to map cited links back to document IDs and to load cited text for grounding.
-    legacy_sources_dir: Path = Path("../beans-support-bot")
+    legacy_sources_dir: Path = Path("data_sources")
 
     # --- New bot (Phase 2). The SSE contract is defined in evals/targets/new_bot.py ---
     new_bot_base_url: str = "http://localhost:8000"

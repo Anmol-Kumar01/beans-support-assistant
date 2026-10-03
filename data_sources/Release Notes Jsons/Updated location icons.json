@@ -1,0 +1,18 @@
+{
+    "id": "updated-location-icons-dispatch",
+    "title": "Updated location icons",
+    "summary": "We've added the ability for users to select location icons based on the type of the stop. This will allow users to visually better differentiate between different types of stops. The current version is available for the dispatch console and the plan is to bring this to the app in the next 3-4 weeks.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/Vim0gcu3FR3dDli4FrgzXg/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2024-07-11",
+        "timestamp": 1718697600
+    },
+    "body": "DetailsWe're currently supporting four variationsResidential Non-residential (aka Businesses)Time CommitsHigh priority Users can go to preferences and navigate to 'User Interface' to select the icon pack as well as the individual icon for each type of stop We currently have two icon packs and may potentially add/edit a few more icons Once an icon is selected for a type of stop, the dispatch console is automatically updated.",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_fc6eb5f2-0d44-418c-8718-71f4c987c5d7.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_5df77c04-4a28-4285-a8f6-6c9b42d1a4dc.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-07-11/2024-07-11_941ebad6-9837-4b50-88a5-c97d13a2c376.png"
+    ]
+}

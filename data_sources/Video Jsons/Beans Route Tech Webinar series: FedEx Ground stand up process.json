@@ -1,0 +1,2958 @@
+{
+    "id": "ESWM6gCEjzQ",
+    "title": "Beans Route Tech Webinar series: FedEx Ground stand up process",
+    "transcript": [
+        {
+            "text": "hi everybody welcome to the beans route",
+            "duration": 3.841,
+            "offset": 4.319,
+            "lang": "en"
+        },
+        {
+            "text": "webinar series",
+            "duration": 3.68,
+            "offset": 6.72,
+            "lang": "en"
+        },
+        {
+            "text": "i&amp;#39;m pam from beansprout and today&amp;#39;s",
+            "duration": 4.72,
+            "offset": 8.16,
+            "lang": "en"
+        },
+        {
+            "text": "webinar is on fedex ground stand up",
+            "duration": 5.279,
+            "offset": 10.4,
+            "lang": "en"
+        },
+        {
+            "text": "process and how beans route technology",
+            "duration": 4.319,
+            "offset": 12.88,
+            "lang": "en"
+        },
+        {
+            "text": "can partner with you in your new",
+            "duration": 2.961,
+            "offset": 15.679,
+            "lang": "en"
+        },
+        {
+            "text": "business venture",
+            "duration": 3.361,
+            "offset": 17.199,
+            "lang": "en"
+        },
+        {
+            "text": "i need to let you know i am not an",
+            "duration": 4.08,
+            "offset": 18.64,
+            "lang": "en"
+        },
+        {
+            "text": "employee of fedex ground nor do i",
+            "duration": 4.08,
+            "offset": 20.56,
+            "lang": "en"
+        },
+        {
+            "text": "represent fedex",
+            "duration": 4.559,
+            "offset": 22.72,
+            "lang": "en"
+        },
+        {
+            "text": "however before i came to beans route i",
+            "duration": 5.6,
+            "offset": 24.64,
+            "lang": "en"
+        },
+        {
+            "text": "spent 30 plus years at fedex i was a",
+            "duration": 5.681,
+            "offset": 27.279,
+            "lang": "en"
+        },
+        {
+            "text": "service agent a driver a business",
+            "duration": 5.44,
+            "offset": 30.24,
+            "lang": "en"
+        },
+        {
+            "text": "contact a general manager and a",
+            "duration": 5.119,
+            "offset": 32.96,
+            "lang": "en"
+        },
+        {
+            "text": "contracted service provider so i&amp;#39;ve been",
+            "duration": 4.08,
+            "offset": 35.68,
+            "lang": "en"
+        },
+        {
+            "text": "where you are",
+            "duration": 3.521,
+            "offset": 38.079,
+            "lang": "en"
+        },
+        {
+            "text": "when i was the general manager for the",
+            "duration": 4.72,
+            "offset": 39.76,
+            "lang": "en"
+        },
+        {
+            "text": "largest contractor in north carolina i",
+            "duration": 6.479,
+            "offset": 41.6,
+            "lang": "en"
+        },
+        {
+            "text": "had 100 drivers and over 80 vehicles",
+            "duration": 6.559,
+            "offset": 44.48,
+            "lang": "en"
+        },
+        {
+            "text": "we used beans route technology and i can",
+            "duration": 6.48,
+            "offset": 48.079,
+            "lang": "en"
+        },
+        {
+            "text": "tell you firsthand it was a game changer",
+            "duration": 5.601,
+            "offset": 51.039,
+            "lang": "en"
+        },
+        {
+            "text": "not only did my drivers use it on a",
+            "duration": 5.601,
+            "offset": 54.559,
+            "lang": "en"
+        },
+        {
+            "text": "daily basis for route optimization lasso",
+            "duration": 6.559,
+            "offset": 56.64,
+            "lang": "en"
+        },
+        {
+            "text": "transfers of stops and navigation",
+            "duration": 5.84,
+            "offset": 60.16,
+            "lang": "en"
+        },
+        {
+            "text": "my managers used it as a scheduling tool",
+            "duration": 4.801,
+            "offset": 63.199,
+            "lang": "en"
+        },
+        {
+            "text": "and i used it for my monthly maintenance",
+            "duration": 3.6,
+            "offset": 66,
+            "lang": "en"
+        },
+        {
+            "text": "reports",
+            "duration": 3.28,
+            "offset": 68,
+            "lang": "en"
+        },
+        {
+            "text": "excuse me to assist in the payroll",
+            "duration": 5.04,
+            "offset": 69.6,
+            "lang": "en"
+        },
+        {
+            "text": "process time keeping and also to ensure",
+            "duration": 5.199,
+            "offset": 71.28,
+            "lang": "en"
+        },
+        {
+            "text": "that my drivers were consistent in their",
+            "duration": 3.519,
+            "offset": 74.64,
+            "lang": "en"
+        },
+        {
+            "text": "safety training",
+            "duration": 4.721,
+            "offset": 76.479,
+            "lang": "en"
+        },
+        {
+            "text": "beans route offers 24 7 us-based",
+            "duration": 5.921,
+            "offset": 78.159,
+            "lang": "en"
+        },
+        {
+            "text": "customer support and is truly a valuable",
+            "duration": 4.32,
+            "offset": 81.2,
+            "lang": "en"
+        },
+        {
+            "text": "partner in running your day-to-day",
+            "duration": 3.44,
+            "offset": 84.08,
+            "lang": "en"
+        },
+        {
+            "text": "operation",
+            "duration": 3.599,
+            "offset": 85.52,
+            "lang": "en"
+        },
+        {
+            "text": "well now that i&amp;#39;ve told you some of the",
+            "duration": 3.52,
+            "offset": 87.52,
+            "lang": "en"
+        },
+        {
+            "text": "ways that beans route technology can",
+            "duration": 4.401,
+            "offset": 89.119,
+            "lang": "en"
+        },
+        {
+            "text": "help you run a successful business",
+            "duration": 4,
+            "offset": 91.04,
+            "lang": "en"
+        },
+        {
+            "text": "let&amp;#39;s talk about your entry into the",
+            "duration": 4.08,
+            "offset": 93.52,
+            "lang": "en"
+        },
+        {
+            "text": "world of fedex",
+            "duration": 4.399,
+            "offset": 95.04,
+            "lang": "en"
+        },
+        {
+            "text": "i would like to extend a sincere",
+            "duration": 4.4,
+            "offset": 97.6,
+            "lang": "en"
+        },
+        {
+            "text": "congratulations to you on becoming a",
+            "duration": 5.68,
+            "offset": 99.439,
+            "lang": "en"
+        },
+        {
+            "text": "fedex ground contracted service provider",
+            "duration": 6.24,
+            "offset": 102,
+            "lang": "en"
+        },
+        {
+            "text": "also referred to as a csp",
+            "duration": 4.881,
+            "offset": 105.119,
+            "lang": "en"
+        },
+        {
+            "text": "whether you are brand new to fedex",
+            "duration": 4.48,
+            "offset": 108.24,
+            "lang": "en"
+        },
+        {
+            "text": "ground or expanding an existing",
+            "duration": 5.439,
+            "offset": 110,
+            "lang": "en"
+        },
+        {
+            "text": "contracted service area i&amp;#39;m glad that",
+            "duration": 5.039,
+            "offset": 112.72,
+            "lang": "en"
+        },
+        {
+            "text": "you&amp;#39;re here and today i&amp;#39;m going to go",
+            "duration": 4.401,
+            "offset": 115.439,
+            "lang": "en"
+        },
+        {
+            "text": "over some steps that can help you have a",
+            "duration": 5.36,
+            "offset": 117.759,
+            "lang": "en"
+        },
+        {
+            "text": "smooth stress-free stand up day",
+            "duration": 4.959,
+            "offset": 119.84,
+            "lang": "en"
+        },
+        {
+            "text": "if you have any questions during the",
+            "duration": 3.921,
+            "offset": 123.119,
+            "lang": "en"
+        },
+        {
+            "text": "webinar",
+            "duration": 3.841,
+            "offset": 124.799,
+            "lang": "en"
+        },
+        {
+            "text": "please feel free to type them in the",
+            "duration": 3.999,
+            "offset": 127.04,
+            "lang": "en"
+        },
+        {
+            "text": "chat and at the end i have a special",
+            "duration": 4.4,
+            "offset": 128.64,
+            "lang": "en"
+        },
+        {
+            "text": "guest who will help me answer all of",
+            "duration": 3.441,
+            "offset": 131.039,
+            "lang": "en"
+        },
+        {
+            "text": "your questions",
+            "duration": 3.68,
+            "offset": 133.04,
+            "lang": "en"
+        },
+        {
+            "text": "even if you don&amp;#39;t have any questions in",
+            "duration": 4.8,
+            "offset": 134.48,
+            "lang": "en"
+        },
+        {
+            "text": "the chat please introduce yourself tell",
+            "duration": 4.4,
+            "offset": 136.72,
+            "lang": "en"
+        },
+        {
+            "text": "us where you&amp;#39;re from and tell us what",
+            "duration": 4.959,
+            "offset": 139.28,
+            "lang": "en"
+        },
+        {
+            "text": "food your area is famous for",
+            "duration": 4.56,
+            "offset": 141.12,
+            "lang": "en"
+        },
+        {
+            "text": "i&amp;#39;m a foodie",
+            "duration": 4,
+            "offset": 144.239,
+            "lang": "en"
+        },
+        {
+            "text": "so if something sounds really good i may",
+            "duration": 5.68,
+            "offset": 145.68,
+            "lang": "en"
+        },
+        {
+            "text": "have to pay you a visit",
+            "duration": 3.121,
+            "offset": 148.239,
+            "lang": "en"
+        },
+        {
+            "text": "by now you should have already had your",
+            "duration": 3.92,
+            "offset": 151.44,
+            "lang": "en"
+        },
+        {
+            "text": "initial meeting with the terminal",
+            "duration": 2.72,
+            "offset": 153.92,
+            "lang": "en"
+        },
+        {
+            "text": "management",
+            "duration": 3.84,
+            "offset": 155.36,
+            "lang": "en"
+        },
+        {
+            "text": "reviewed your contracted service area",
+            "duration": 5.2,
+            "offset": 156.64,
+            "lang": "en"
+        },
+        {
+            "text": "also referred to as a csa",
+            "duration": 4.48,
+            "offset": 159.2,
+            "lang": "en"
+        },
+        {
+            "text": "had the chance to inspect your fleet of",
+            "duration": 2.88,
+            "offset": 161.84,
+            "lang": "en"
+        },
+        {
+            "text": "vehicles",
+            "duration": 3.12,
+            "offset": 163.68,
+            "lang": "en"
+        },
+        {
+            "text": "and met with your business contact who",
+            "duration": 3.36,
+            "offset": 164.72,
+            "lang": "en"
+        },
+        {
+            "text": "will be running your day-to-day",
+            "duration": 2.56,
+            "offset": 166.8,
+            "lang": "en"
+        },
+        {
+            "text": "operation",
+            "duration": 3.92,
+            "offset": 168.08,
+            "lang": "en"
+        },
+        {
+            "text": "if not i strongly suggest that you reach",
+            "duration": 5.44,
+            "offset": 169.36,
+            "lang": "en"
+        },
+        {
+            "text": "out to the seller and or the terminal as",
+            "duration": 4.56,
+            "offset": 172,
+            "lang": "en"
+        },
+        {
+            "text": "soon as possible to complete these",
+            "duration": 4.079,
+            "offset": 174.8,
+            "lang": "en"
+        },
+        {
+            "text": "important steps",
+            "duration": 4.959,
+            "offset": 176.56,
+            "lang": "en"
+        },
+        {
+            "text": "it is going to take you time to learn",
+            "duration": 5.201,
+            "offset": 178.879,
+            "lang": "en"
+        },
+        {
+            "text": "your csa to get to know your new",
+            "duration": 4.64,
+            "offset": 181.519,
+            "lang": "en"
+        },
+        {
+            "text": "employees learn the rhythm of the",
+            "duration": 4.56,
+            "offset": 184.08,
+            "lang": "en"
+        },
+        {
+            "text": "terminal and the fedex processes in",
+            "duration": 3.521,
+            "offset": 186.159,
+            "lang": "en"
+        },
+        {
+            "text": "lingo",
+            "duration": 4.319,
+            "offset": 188.64,
+            "lang": "en"
+        },
+        {
+            "text": "be patient with your employees and",
+            "duration": 6.8,
+            "offset": 189.68,
+            "lang": "en"
+        },
+        {
+            "text": "the road to success takes time",
+            "duration": 5.841,
+            "offset": 192.959,
+            "lang": "en"
+        },
+        {
+            "text": "there are a lot of things to do prior to",
+            "duration": 3.759,
+            "offset": 196.48,
+            "lang": "en"
+        },
+        {
+            "text": "your stand up day",
+            "duration": 3.92,
+            "offset": 198.8,
+            "lang": "en"
+        },
+        {
+            "text": "some things can be done weeks ahead so",
+            "duration": 4.321,
+            "offset": 200.239,
+            "lang": "en"
+        },
+        {
+            "text": "let&amp;#39;s make sure that you have everything",
+            "duration": 2.96,
+            "offset": 202.72,
+            "lang": "en"
+        },
+        {
+            "text": "covered",
+            "duration": 2.72,
+            "offset": 204.56,
+            "lang": "en"
+        },
+        {
+            "text": "let&amp;#39;s start with the things that can be",
+            "duration": 4.88,
+            "offset": 205.68,
+            "lang": "en"
+        },
+        {
+            "text": "done prior to stand up",
+            "duration": 3.28,
+            "offset": 207.28,
+            "lang": "en"
+        },
+        {
+            "text": "having gas cards on day one now this may",
+            "duration": 4.959,
+            "offset": 211.2,
+            "lang": "en"
+        },
+        {
+            "text": "seem like a no-brainer but you can&amp;#39;t",
+            "duration": 4,
+            "offset": 214.239,
+            "lang": "en"
+        },
+        {
+            "text": "deliver the packages if the truck is on",
+            "duration": 3.201,
+            "offset": 216.159,
+            "lang": "en"
+        },
+        {
+            "text": "e",
+            "duration": 3.201,
+            "offset": 218.239,
+            "lang": "en"
+        },
+        {
+            "text": "do not assume that the seller made sure",
+            "duration": 4.64,
+            "offset": 219.36,
+            "lang": "en"
+        },
+        {
+            "text": "that all the trucks were full for you",
+            "duration": 4.879,
+            "offset": 221.44,
+            "lang": "en"
+        },
+        {
+            "text": "depending on the vendor that you choose",
+            "duration": 4.64,
+            "offset": 224,
+            "lang": "en"
+        },
+        {
+            "text": "gas cards may take up to two weeks to be",
+            "duration": 3.441,
+            "offset": 226.319,
+            "lang": "en"
+        },
+        {
+            "text": "delivered",
+            "duration": 3.28,
+            "offset": 228.64,
+            "lang": "en"
+        },
+        {
+            "text": "make sure that you set up your account",
+            "duration": 4.32,
+            "offset": 229.76,
+            "lang": "en"
+        },
+        {
+            "text": "and decide what your fueling processes",
+            "duration": 5.039,
+            "offset": 231.92,
+            "lang": "en"
+        },
+        {
+            "text": "will be prior to your stand-up day",
+            "duration": 5.439,
+            "offset": 234.08,
+            "lang": "en"
+        },
+        {
+            "text": "for example you can have one gas card",
+            "duration": 4.48,
+            "offset": 236.959,
+            "lang": "en"
+        },
+        {
+            "text": "for your bc who would then be",
+            "duration": 3.761,
+            "offset": 239.519,
+            "lang": "en"
+        },
+        {
+            "text": "responsible for fueling all of the",
+            "duration": 2.88,
+            "offset": 241.439,
+            "lang": "en"
+        },
+        {
+            "text": "vehicles",
+            "duration": 3.28,
+            "offset": 243.28,
+            "lang": "en"
+        },
+        {
+            "text": "or you could have a gas card assigned",
+            "duration": 4.881,
+            "offset": 244.319,
+            "lang": "en"
+        },
+        {
+            "text": "for each vehicle and create individual",
+            "duration": 4.56,
+            "offset": 246.56,
+            "lang": "en"
+        },
+        {
+            "text": "pins for the drivers",
+            "duration": 3.759,
+            "offset": 249.2,
+            "lang": "en"
+        },
+        {
+            "text": "i would avoid issuing cards with the",
+            "duration": 4.56,
+            "offset": 251.12,
+            "lang": "en"
+        },
+        {
+            "text": "driver&amp;#39;s names this can cause problems",
+            "duration": 5.201,
+            "offset": 252.959,
+            "lang": "en"
+        },
+        {
+            "text": "if the driver quit or is fired",
+            "duration": 6.72,
+            "offset": 255.68,
+            "lang": "en"
+        },
+        {
+            "text": "and be sure to order extra fuel cards",
+            "duration": 4.24,
+            "offset": 258.16,
+            "lang": "en"
+        },
+        {
+            "text": "the two fedex ground approved vendors",
+            "duration": 5.119,
+            "offset": 262.8,
+            "lang": "en"
+        },
+        {
+            "text": "for star 5 scanners are peak tech and",
+            "duration": 4.32,
+            "offset": 264.96,
+            "lang": "en"
+        },
+        {
+            "text": "velositer",
+            "duration": 3.761,
+            "offset": 267.919,
+            "lang": "en"
+        },
+        {
+            "text": "as with any technology there has been a",
+            "duration": 5.12,
+            "offset": 269.28,
+            "lang": "en"
+        },
+        {
+            "text": "delay in the supply chain so i suggest",
+            "duration": 4.64,
+            "offset": 271.68,
+            "lang": "en"
+        },
+        {
+            "text": "that you order scanners as soon as",
+            "duration": 2.96,
+            "offset": 274.4,
+            "lang": "en"
+        },
+        {
+            "text": "possible",
+            "duration": 2.72,
+            "offset": 276.32,
+            "lang": "en"
+        },
+        {
+            "text": "you will need to order a charging box",
+            "duration": 3.48,
+            "offset": 277.36,
+            "lang": "en"
+        },
+        {
+            "text": "for overnight storage",
+            "duration": 4.719,
+            "offset": 279.04,
+            "lang": "en"
+        },
+        {
+            "text": "also once you receive the scanners it&amp;#39;s",
+            "duration": 5,
+            "offset": 280.84,
+            "lang": "en"
+        },
+        {
+            "text": "a good idea to mark them and the",
+            "duration": 4.401,
+            "offset": 283.759,
+            "lang": "en"
+        },
+        {
+            "text": "batteries with your company&amp;#39;s name",
+            "duration": 4.56,
+            "offset": 285.84,
+            "lang": "en"
+        },
+        {
+            "text": "both of these items are very expensive",
+            "duration": 4.72,
+            "offset": 288.16,
+            "lang": "en"
+        },
+        {
+            "text": "and tend to walk",
+            "duration": 4.72,
+            "offset": 290.4,
+            "lang": "en"
+        },
+        {
+            "text": "beans route partners with peak tech and",
+            "duration": 4.16,
+            "offset": 292.88,
+            "lang": "en"
+        },
+        {
+            "text": "our driver app is available on the",
+            "duration": 3.76,
+            "offset": 295.12,
+            "lang": "en"
+        },
+        {
+            "text": "scanner home page",
+            "duration": 4.08,
+            "offset": 297.04,
+            "lang": "en"
+        },
+        {
+            "text": "with this option drivers won&amp;#39;t have to",
+            "duration": 4.48,
+            "offset": 298.88,
+            "lang": "en"
+        },
+        {
+            "text": "use their personal phones or devices for",
+            "duration": 3.84,
+            "offset": 301.12,
+            "lang": "en"
+        },
+        {
+            "text": "navigation",
+            "duration": 4,
+            "offset": 303.36,
+            "lang": "en"
+        },
+        {
+            "text": "if you choose peak tech they also have a",
+            "duration": 5.84,
+            "offset": 304.96,
+            "lang": "en"
+        },
+        {
+            "text": "program called peak mobile insights pmi",
+            "duration": 5.279,
+            "offset": 307.36,
+            "lang": "en"
+        },
+        {
+            "text": "which lets the contractor assign",
+            "duration": 4.32,
+            "offset": 310.8,
+            "lang": "en"
+        },
+        {
+            "text": "scanners by serial number to the driver",
+            "duration": 4.881,
+            "offset": 312.639,
+            "lang": "en"
+        },
+        {
+            "text": "you can track the scanner&amp;#39;s location you",
+            "duration": 4.32,
+            "offset": 315.12,
+            "lang": "en"
+        },
+        {
+            "text": "can see how many times the scanner has",
+            "duration": 4.56,
+            "offset": 317.52,
+            "lang": "en"
+        },
+        {
+            "text": "been dropped or mishandled and you can",
+            "duration": 5.84,
+            "offset": 319.44,
+            "lang": "en"
+        },
+        {
+            "text": "also view the life cycle of the battery",
+            "duration": 4.88,
+            "offset": 322.08,
+            "lang": "en"
+        },
+        {
+            "text": "if you&amp;#39;re purchasing the scanners from",
+            "duration": 4.32,
+            "offset": 325.28,
+            "lang": "en"
+        },
+        {
+            "text": "an existing contractor make sure that",
+            "duration": 5.12,
+            "offset": 326.96,
+            "lang": "en"
+        },
+        {
+            "text": "the seller contacts the vendor and has",
+            "duration": 4.64,
+            "offset": 329.6,
+            "lang": "en"
+        },
+        {
+            "text": "the contract changed to your company&amp;#39;s",
+            "duration": 3.28,
+            "offset": 332.08,
+            "lang": "en"
+        },
+        {
+            "text": "name",
+            "duration": 3.6,
+            "offset": 334.24,
+            "lang": "en"
+        },
+        {
+            "text": "you also have to contact advantix to",
+            "duration": 5.04,
+            "offset": 335.36,
+            "lang": "en"
+        },
+        {
+            "text": "order sim cards or have them switched",
+            "duration": 5.28,
+            "offset": 337.84,
+            "lang": "en"
+        },
+        {
+            "text": "over to your company&amp;#39;s name as well",
+            "duration": 4.32,
+            "offset": 340.4,
+            "lang": "en"
+        },
+        {
+            "text": "you do not want to have a bunch of",
+            "duration": 3.919,
+            "offset": 343.12,
+            "lang": "en"
+        },
+        {
+            "text": "scanners that have no service on your",
+            "duration": 4.88,
+            "offset": 344.72,
+            "lang": "en"
+        },
+        {
+            "text": "first day",
+            "duration": 2.561,
+            "offset": 347.039,
+            "lang": "en"
+        },
+        {
+            "text": "eft or electronic fund transfer should",
+            "duration": 5.52,
+            "offset": 350.08,
+            "lang": "en"
+        },
+        {
+            "text": "be set up prior to your first day",
+            "duration": 4.319,
+            "offset": 352.88,
+            "lang": "en"
+        },
+        {
+            "text": "this will be the bank account where your",
+            "duration": 3.28,
+            "offset": 355.6,
+            "lang": "en"
+        },
+        {
+            "text": "weekly settlements from fedex are",
+            "duration": 3.201,
+            "offset": 357.199,
+            "lang": "en"
+        },
+        {
+            "text": "deposited",
+            "duration": 3.759,
+            "offset": 358.88,
+            "lang": "en"
+        },
+        {
+            "text": "you will need to add your banking info",
+            "duration": 5.28,
+            "offset": 360.4,
+            "lang": "en"
+        },
+        {
+            "text": "into your service provider profile which",
+            "duration": 5.28,
+            "offset": 362.639,
+            "lang": "en"
+        },
+        {
+            "text": "is found in my ground biz",
+            "duration": 4.56,
+            "offset": 365.68,
+            "lang": "en"
+        },
+        {
+            "text": "the fedex pay schedule is from saturday",
+            "duration": 4.881,
+            "offset": 367.919,
+            "lang": "en"
+        },
+        {
+            "text": "to friday and the deposits are usually",
+            "duration": 7.2,
+            "offset": 370.24,
+            "lang": "en"
+        },
+        {
+            "text": "made late tuesday early wednesday",
+            "duration": 4.64,
+            "offset": 372.8,
+            "lang": "en"
+        },
+        {
+            "text": "all vehicles must be equipped with",
+            "duration": 4.881,
+            "offset": 377.919,
+            "lang": "en"
+        },
+        {
+            "text": "vehicle event data recorders also known",
+            "duration": 4.56,
+            "offset": 380.16,
+            "lang": "en"
+        },
+        {
+            "text": "as better",
+            "duration": 3.839,
+            "offset": 382.8,
+            "lang": "en"
+        },
+        {
+            "text": "make sure to set up your account with a",
+            "duration": 4.479,
+            "offset": 384.72,
+            "lang": "en"
+        },
+        {
+            "text": "vendor prior to your stand-up in order",
+            "duration": 4.081,
+            "offset": 386.639,
+            "lang": "en"
+        },
+        {
+            "text": "to ensure that your vehicles are",
+            "duration": 4.161,
+            "offset": 389.199,
+            "lang": "en"
+        },
+        {
+            "text": "compliant and road ready",
+            "duration": 4.479,
+            "offset": 390.72,
+            "lang": "en"
+        },
+        {
+            "text": "having the vetter operational on your",
+            "duration": 4.72,
+            "offset": 393.36,
+            "lang": "en"
+        },
+        {
+            "text": "first day is extremely important because",
+            "duration": 5.12,
+            "offset": 395.199,
+            "lang": "en"
+        },
+        {
+            "text": "at fedex safety is the number one",
+            "duration": 3.52,
+            "offset": 398.08,
+            "lang": "en"
+        },
+        {
+            "text": "priority",
+            "duration": 3.281,
+            "offset": 400.319,
+            "lang": "en"
+        },
+        {
+            "text": "anytime your drivers are involved in an",
+            "duration": 4.48,
+            "offset": 401.6,
+            "lang": "en"
+        },
+        {
+            "text": "incident fedex requires that you submit",
+            "duration": 3.92,
+            "offset": 403.6,
+            "lang": "en"
+        },
+        {
+            "text": "the better footage",
+            "duration": 3.28,
+            "offset": 406.08,
+            "lang": "en"
+        },
+        {
+            "text": "your fleet should already be equipped",
+            "duration": 3.36,
+            "offset": 407.52,
+            "lang": "en"
+        },
+        {
+            "text": "with better cameras",
+            "duration": 2.88,
+            "offset": 409.36,
+            "lang": "en"
+        },
+        {
+            "text": "and you will need to ensure that the",
+            "duration": 3.439,
+            "offset": 410.88,
+            "lang": "en"
+        },
+        {
+            "text": "cameras are registered to your account",
+            "duration": 5.04,
+            "offset": 412.24,
+            "lang": "en"
+        },
+        {
+            "text": "and no longer associated with the seller",
+            "duration": 5.201,
+            "offset": 414.319,
+            "lang": "en"
+        },
+        {
+            "text": "if you&amp;#39;re purchasing new vehicles you",
+            "duration": 4.08,
+            "offset": 417.28,
+            "lang": "en"
+        },
+        {
+            "text": "will need to have the better cameras",
+            "duration": 4.56,
+            "offset": 419.52,
+            "lang": "en"
+        },
+        {
+            "text": "installed and activated prior to stand",
+            "duration": 4,
+            "offset": 421.36,
+            "lang": "en"
+        },
+        {
+            "text": "up",
+            "duration": 4.16,
+            "offset": 424.08,
+            "lang": "en"
+        },
+        {
+            "text": "lytics is a fedex approved better vendor",
+            "duration": 4.88,
+            "offset": 425.36,
+            "lang": "en"
+        },
+        {
+            "text": "and a beans route partner",
+            "duration": 4.16,
+            "offset": 428.24,
+            "lang": "en"
+        },
+        {
+            "text": "you can view any triggered events right",
+            "duration": 4.16,
+            "offset": 430.24,
+            "lang": "en"
+        },
+        {
+            "text": "from your beansprout app",
+            "duration": 4.32,
+            "offset": 432.4,
+            "lang": "en"
+        },
+        {
+            "text": "if you choose not to use lytics there is",
+            "duration": 4.799,
+            "offset": 434.4,
+            "lang": "en"
+        },
+        {
+            "text": "a list of approved better vendors on my",
+            "duration": 4.319,
+            "offset": 436.72,
+            "lang": "en"
+        },
+        {
+            "text": "ground biz",
+            "duration": 4.161,
+            "offset": 439.199,
+            "lang": "en"
+        },
+        {
+            "text": "covid has been making electronics harder",
+            "duration": 4.481,
+            "offset": 441.039,
+            "lang": "en"
+        },
+        {
+            "text": "to come by so if you have to order",
+            "duration": 5.119,
+            "offset": 443.36,
+            "lang": "en"
+        },
+        {
+            "text": "cameras it&amp;#39;s a good idea to get an eta",
+            "duration": 4.799,
+            "offset": 445.52,
+            "lang": "en"
+        },
+        {
+            "text": "from the vendor and keep the terminal",
+            "duration": 5.601,
+            "offset": 448.479,
+            "lang": "en"
+        },
+        {
+            "text": "informed if there&amp;#39;s going to be a delay",
+            "duration": 3.761,
+            "offset": 450.319,
+            "lang": "en"
+        },
+        {
+            "text": "csps are contractually required to",
+            "duration": 5.36,
+            "offset": 454.88,
+            "lang": "en"
+        },
+        {
+            "text": "provide a safety and compliance program",
+            "duration": 4.72,
+            "offset": 457.52,
+            "lang": "en"
+        },
+        {
+            "text": "for all of their drivers",
+            "duration": 4.399,
+            "offset": 460.24,
+            "lang": "en"
+        },
+        {
+            "text": "as a beans route customer you have the",
+            "duration": 4.32,
+            "offset": 462.24,
+            "lang": "en"
+        },
+        {
+            "text": "option to enroll your drivers in our",
+            "duration": 4.081,
+            "offset": 464.639,
+            "lang": "en"
+        },
+        {
+            "text": "safety program which is provided by",
+            "duration": 3.84,
+            "offset": 466.56,
+            "lang": "en"
+        },
+        {
+            "text": "fleet response",
+            "duration": 3.68,
+            "offset": 468.72,
+            "lang": "en"
+        },
+        {
+            "text": "from the beans route console",
+            "duration": 4.16,
+            "offset": 470.4,
+            "lang": "en"
+        },
+        {
+            "text": "you can see which drivers are passing or",
+            "duration": 3.6,
+            "offset": 472.4,
+            "lang": "en"
+        },
+        {
+            "text": "failing safety",
+            "duration": 3.52,
+            "offset": 474.56,
+            "lang": "en"
+        },
+        {
+            "text": "you can also notify drivers who are",
+            "duration": 3.84,
+            "offset": 476,
+            "lang": "en"
+        },
+        {
+            "text": "failing safety right from the beans",
+            "duration": 3.119,
+            "offset": 478.08,
+            "lang": "en"
+        },
+        {
+            "text": "route app",
+            "duration": 3.44,
+            "offset": 479.84,
+            "lang": "en"
+        },
+        {
+            "text": "if you choose not to enroll in safety",
+            "duration": 3.921,
+            "offset": 481.199,
+            "lang": "en"
+        },
+        {
+            "text": "through beans route there is a list of",
+            "duration": 4.319,
+            "offset": 483.28,
+            "lang": "en"
+        },
+        {
+            "text": "approved vendors on my ground biz",
+            "duration": 4.32,
+            "offset": 485.12,
+            "lang": "en"
+        },
+        {
+            "text": "but why would you want to have to log",
+            "duration": 4,
+            "offset": 487.599,
+            "lang": "en"
+        },
+        {
+            "text": "into yet another website to check on the",
+            "duration": 4.879,
+            "offset": 489.44,
+            "lang": "en"
+        },
+        {
+            "text": "driver safety status when our technology",
+            "duration": 4.72,
+            "offset": 491.599,
+            "lang": "en"
+        },
+        {
+            "text": "provides that information all on one",
+            "duration": 4.481,
+            "offset": 494.319,
+            "lang": "en"
+        },
+        {
+            "text": "platform",
+            "duration": 2.481,
+            "offset": 496.319,
+            "lang": "en"
+        },
+        {
+            "text": "there are numerous payroll options",
+            "duration": 4.241,
+            "offset": 499.599,
+            "lang": "en"
+        },
+        {
+            "text": "available from doing it yourself to",
+            "duration": 4.479,
+            "offset": 501.44,
+            "lang": "en"
+        },
+        {
+            "text": "hiring a payroll company such as",
+            "duration": 6.32,
+            "offset": 503.84,
+            "lang": "en"
+        },
+        {
+            "text": "paychecks on pay gusto or adp",
+            "duration": 6.721,
+            "offset": 505.919,
+            "lang": "en"
+        },
+        {
+            "text": "most contractors do pay weekly because",
+            "duration": 4.879,
+            "offset": 510.16,
+            "lang": "en"
+        },
+        {
+            "text": "that&amp;#39;s how you&amp;#39;ll be paid by fedex",
+            "duration": 4.56,
+            "offset": 512.64,
+            "lang": "en"
+        },
+        {
+            "text": "to keep things running smoothly i would",
+            "duration": 4.961,
+            "offset": 515.039,
+            "lang": "en"
+        },
+        {
+            "text": "strongly suggest avoiding avoiding",
+            "duration": 5.44,
+            "offset": 517.2,
+            "lang": "en"
+        },
+        {
+            "text": "issuing paper checks and opt for direct",
+            "duration": 3.839,
+            "offset": 520,
+            "lang": "en"
+        },
+        {
+            "text": "deposit",
+            "duration": 2.96,
+            "offset": 522.64,
+            "lang": "en"
+        },
+        {
+            "text": "i have seen drivers waiting in the",
+            "duration": 4.961,
+            "offset": 523.839,
+            "lang": "en"
+        },
+        {
+            "text": "terminal as late as noon for their ao to",
+            "duration": 4.64,
+            "offset": 525.6,
+            "lang": "en"
+        },
+        {
+            "text": "bring the checks",
+            "duration": 3.12,
+            "offset": 528.8,
+            "lang": "en"
+        },
+        {
+            "text": "because they wanted to write paper",
+            "duration": 2.56,
+            "offset": 530.24,
+            "lang": "en"
+        },
+        {
+            "text": "checks",
+            "duration": 2.4,
+            "offset": 531.92,
+            "lang": "en"
+        },
+        {
+            "text": "choose the method that works best for",
+            "duration": 3.92,
+            "offset": 532.8,
+            "lang": "en"
+        },
+        {
+            "text": "you but trust me don&amp;#39;t mess with their",
+            "duration": 4.72,
+            "offset": 534.32,
+            "lang": "en"
+        },
+        {
+            "text": "money",
+            "duration": 2.32,
+            "offset": 536.72,
+            "lang": "en"
+        },
+        {
+            "text": "now is a good time for you to create a",
+            "duration": 3.92,
+            "offset": 539.68,
+            "lang": "en"
+        },
+        {
+            "text": "checklist and make sure that all of the",
+            "duration": 4.161,
+            "offset": 541.519,
+            "lang": "en"
+        },
+        {
+            "text": "important things have already been taken",
+            "duration": 3.12,
+            "offset": 543.6,
+            "lang": "en"
+        },
+        {
+            "text": "care of",
+            "duration": 3.04,
+            "offset": 545.68,
+            "lang": "en"
+        },
+        {
+            "text": "try to get a good night&amp;#39;s sleep because",
+            "duration": 4.64,
+            "offset": 546.72,
+            "lang": "en"
+        },
+        {
+            "text": "the day of stand up will be very busy",
+            "duration": 4.32,
+            "offset": 548.72,
+            "lang": "en"
+        },
+        {
+            "text": "you&amp;#39;re almost there but there are still",
+            "duration": 5.36,
+            "offset": 551.36,
+            "lang": "en"
+        },
+        {
+            "text": "a few more important things to do",
+            "duration": 3.68,
+            "offset": 553.04,
+            "lang": "en"
+        },
+        {
+            "text": "your beans route onboarding specialist",
+            "duration": 4.159,
+            "offset": 557.36,
+            "lang": "en"
+        },
+        {
+            "text": "will need your drivers list which must",
+            "duration": 4.481,
+            "offset": 559.279,
+            "lang": "en"
+        },
+        {
+            "text": "include the driver&amp;#39;s full name phone",
+            "duration": 4.961,
+            "offset": 561.519,
+            "lang": "en"
+        },
+        {
+            "text": "number email address and their fedex",
+            "duration": 4.88,
+            "offset": 563.76,
+            "lang": "en"
+        },
+        {
+            "text": "employee number which is also referred",
+            "duration": 5.039,
+            "offset": 566.48,
+            "lang": "en"
+        },
+        {
+            "text": "to as their cdas number",
+            "duration": 5.04,
+            "offset": 568.64,
+            "lang": "en"
+        },
+        {
+            "text": "if the seller is a current means route",
+            "duration": 4.481,
+            "offset": 571.519,
+            "lang": "en"
+        },
+        {
+            "text": "customer the driver information can",
+            "duration": 4.56,
+            "offset": 573.68,
+            "lang": "en"
+        },
+        {
+            "text": "easily be imported into your beans route",
+            "duration": 3.279,
+            "offset": 576,
+            "lang": "en"
+        },
+        {
+            "text": "account",
+            "duration": 2.8,
+            "offset": 578.24,
+            "lang": "en"
+        },
+        {
+            "text": "your onboarding specialist will take",
+            "duration": 3.601,
+            "offset": 579.279,
+            "lang": "en"
+        },
+        {
+            "text": "care of entering your drivers into our",
+            "duration": 3.84,
+            "offset": 581.04,
+            "lang": "en"
+        },
+        {
+            "text": "system so they are ready to go on the",
+            "duration": 3.92,
+            "offset": 582.88,
+            "lang": "en"
+        },
+        {
+            "text": "day of stand up",
+            "duration": 3.76,
+            "offset": 584.88,
+            "lang": "en"
+        },
+        {
+            "text": "please make sure that the driver&amp;#39;s",
+            "duration": 4.56,
+            "offset": 586.8,
+            "lang": "en"
+        },
+        {
+            "text": "employee number and email are correct",
+            "duration": 4.72,
+            "offset": 588.64,
+            "lang": "en"
+        },
+        {
+            "text": "if you choose to use fleet response for",
+            "duration": 5.2,
+            "offset": 591.36,
+            "lang": "en"
+        },
+        {
+            "text": "safety training incorrect info",
+            "duration": 5.76,
+            "offset": 593.36,
+            "lang": "en"
+        },
+        {
+            "text": "either email or id number will prevent",
+            "duration": 4.56,
+            "offset": 596.56,
+            "lang": "en"
+        },
+        {
+            "text": "your drivers from receiving the safety",
+            "duration": 5.8,
+            "offset": 599.12,
+            "lang": "en"
+        },
+        {
+            "text": "emails from fleet response",
+            "duration": 3.8,
+            "offset": 601.12,
+            "lang": "en"
+        },
+        {
+            "text": "this sequence manifest is a very",
+            "duration": 4.56,
+            "offset": 605.2,
+            "lang": "en"
+        },
+        {
+            "text": "important step because if you forget to",
+            "duration": 4.56,
+            "offset": 607.279,
+            "lang": "en"
+        },
+        {
+            "text": "subscribe your first day will be a",
+            "duration": 3.28,
+            "offset": 609.76,
+            "lang": "en"
+        },
+        {
+            "text": "nightmare",
+            "duration": 3.041,
+            "offset": 611.839,
+            "lang": "en"
+        },
+        {
+            "text": "the manifest for every route that you",
+            "duration": 4.32,
+            "offset": 613.04,
+            "lang": "en"
+        },
+        {
+            "text": "dispatch will be unsequenced so please",
+            "duration": 5.199,
+            "offset": 614.88,
+            "lang": "en"
+        },
+        {
+            "text": "do not forget this step",
+            "duration": 4.88,
+            "offset": 617.36,
+            "lang": "en"
+        },
+        {
+            "text": "log into my ground biz",
+            "duration": 4.641,
+            "offset": 620.079,
+            "lang": "en"
+        },
+        {
+            "text": "and in the enterprise menu section click",
+            "duration": 4.719,
+            "offset": 622.24,
+            "lang": "en"
+        },
+        {
+            "text": "on subscription",
+            "duration": 4.799,
+            "offset": 624.72,
+            "lang": "en"
+        },
+        {
+            "text": "then click on sequence manifest drop",
+            "duration": 4.241,
+            "offset": 626.959,
+            "lang": "en"
+        },
+        {
+            "text": "opt-in excuse me",
+            "duration": 3.601,
+            "offset": 629.519,
+            "lang": "en"
+        },
+        {
+            "text": "click on enroll all",
+            "duration": 4.48,
+            "offset": 631.2,
+            "lang": "en"
+        },
+        {
+            "text": "agree to the terms and conditions then",
+            "duration": 6.24,
+            "offset": 633.12,
+            "lang": "en"
+        },
+        {
+            "text": "click complete that&amp;#39;s it",
+            "duration": 3.68,
+            "offset": 635.68,
+            "lang": "en"
+        },
+        {
+            "text": "now the size of your business and how",
+            "duration": 3.84,
+            "offset": 639.92,
+            "lang": "en"
+        },
+        {
+            "text": "involved you plan on being in the daily",
+            "duration": 4.401,
+            "offset": 641.839,
+            "lang": "en"
+        },
+        {
+            "text": "operation will dictate how many bc&amp;#39;s you",
+            "duration": 4.4,
+            "offset": 643.76,
+            "lang": "en"
+        },
+        {
+            "text": "actually need",
+            "duration": 5.12,
+            "offset": 646.24,
+            "lang": "en"
+        },
+        {
+            "text": "to assign a bc go to my ground biz and",
+            "duration": 5.52,
+            "offset": 648.16,
+            "lang": "en"
+        },
+        {
+            "text": "under the enterprise menu section you&amp;#39;ll",
+            "duration": 5.12,
+            "offset": 651.36,
+            "lang": "en"
+        },
+        {
+            "text": "select service provider profile",
+            "duration": 4.8,
+            "offset": 653.68,
+            "lang": "en"
+        },
+        {
+            "text": "scroll down to the business contact",
+            "duration": 4.96,
+            "offset": 656.48,
+            "lang": "en"
+        },
+        {
+            "text": "information assign business contact",
+            "duration": 4.56,
+            "offset": 658.48,
+            "lang": "en"
+        },
+        {
+            "text": "you will need the driver&amp;#39;s employee",
+            "duration": 4.639,
+            "offset": 661.44,
+            "lang": "en"
+        },
+        {
+            "text": "number or cds number email address and",
+            "duration": 4.239,
+            "offset": 663.04,
+            "lang": "en"
+        },
+        {
+            "text": "phone number",
+            "duration": 4.241,
+            "offset": 666.079,
+            "lang": "en"
+        },
+        {
+            "text": "make sure to save all changes",
+            "duration": 6.161,
+            "offset": 667.279,
+            "lang": "en"
+        },
+        {
+            "text": "once the driver is added as a bc go back",
+            "duration": 5.36,
+            "offset": 670.32,
+            "lang": "en"
+        },
+        {
+            "text": "to the enterprise menu and select",
+            "duration": 4.72,
+            "offset": 673.44,
+            "lang": "en"
+        },
+        {
+            "text": "workforce information",
+            "duration": 6.32,
+            "offset": 675.68,
+            "lang": "en"
+        },
+        {
+            "text": "choose delegate task to business contact",
+            "duration": 6.16,
+            "offset": 678.16,
+            "lang": "en"
+        },
+        {
+            "text": "then select your company and then select",
+            "duration": 5.36,
+            "offset": 682,
+            "lang": "en"
+        },
+        {
+            "text": "the driver and click on assign task",
+            "duration": 4.88,
+            "offset": 684.32,
+            "lang": "en"
+        },
+        {
+            "text": "on this",
+            "duration": 4.08,
+            "offset": 687.36,
+            "lang": "en"
+        },
+        {
+            "text": "screen it says update task because these",
+            "duration": 4.319,
+            "offset": 689.2,
+            "lang": "en"
+        },
+        {
+            "text": "drivers have already been assigned but",
+            "duration": 4.399,
+            "offset": 691.44,
+            "lang": "en"
+        },
+        {
+            "text": "yours will say assign tasks not update",
+            "duration": 3.361,
+            "offset": 693.519,
+            "lang": "en"
+        },
+        {
+            "text": "task",
+            "duration": 4.081,
+            "offset": 695.839,
+            "lang": "en"
+        },
+        {
+            "text": "most bc&amp;#39;s only need to access my ground",
+            "duration": 7.12,
+            "offset": 696.88,
+            "lang": "en"
+        },
+        {
+            "text": "biz fcc and report access for the daily",
+            "duration": 6.88,
+            "offset": 699.92,
+            "lang": "en"
+        },
+        {
+            "text": "operation however the amount of access",
+            "duration": 4.8,
+            "offset": 704,
+            "lang": "en"
+        },
+        {
+            "text": "you want them to have into your business",
+            "duration": 5.039,
+            "offset": 706.8,
+            "lang": "en"
+        },
+        {
+            "text": "is a personal choice",
+            "duration": 3.039,
+            "offset": 708.8,
+            "lang": "en"
+        },
+        {
+            "text": "all contracted vehicles must be added to",
+            "duration": 5.361,
+            "offset": 712.639,
+            "lang": "en"
+        },
+        {
+            "text": "the vehicle management system or vms and",
+            "duration": 4.401,
+            "offset": 714.959,
+            "lang": "en"
+        },
+        {
+            "text": "schedule b",
+            "duration": 3.92,
+            "offset": 718,
+            "lang": "en"
+        },
+        {
+            "text": "this is a very tedious process so make",
+            "duration": 4.479,
+            "offset": 719.36,
+            "lang": "en"
+        },
+        {
+            "text": "sure you have a glass of wine or",
+            "duration": 4.64,
+            "offset": 721.92,
+            "lang": "en"
+        },
+        {
+            "text": "something stronger while you&amp;#39;re doing it",
+            "duration": 4.721,
+            "offset": 723.839,
+            "lang": "en"
+        },
+        {
+            "text": "it would also be a good idea for you to",
+            "duration": 4.48,
+            "offset": 726.56,
+            "lang": "en"
+        },
+        {
+            "text": "reach out to your p d manager and make",
+            "duration": 4.16,
+            "offset": 728.56,
+            "lang": "en"
+        },
+        {
+            "text": "sure that they&amp;#39;re available while you&amp;#39;re",
+            "duration": 3.76,
+            "offset": 731.04,
+            "lang": "en"
+        },
+        {
+            "text": "doing this because they&amp;#39;re needed to",
+            "duration": 4.64,
+            "offset": 732.72,
+            "lang": "en"
+        },
+        {
+            "text": "assist with this process",
+            "duration": 5.279,
+            "offset": 734.8,
+            "lang": "en"
+        },
+        {
+            "text": "on my ground biz under enterprise menu",
+            "duration": 5.36,
+            "offset": 737.36,
+            "lang": "en"
+        },
+        {
+            "text": "select vehicle information",
+            "duration": 5.921,
+            "offset": 740.079,
+            "lang": "en"
+        },
+        {
+            "text": "then select add delete modify",
+            "duration": 5.76,
+            "offset": 742.72,
+            "lang": "en"
+        },
+        {
+            "text": "you will add all vehicle numbers and let",
+            "duration": 4.56,
+            "offset": 746,
+            "lang": "en"
+        },
+        {
+            "text": "the terminal know when that&amp;#39;s completed",
+            "duration": 5.599,
+            "offset": 748.48,
+            "lang": "en"
+        },
+        {
+            "text": "the terminal has to approve your entries",
+            "duration": 5.519,
+            "offset": 750.56,
+            "lang": "en"
+        },
+        {
+            "text": "the trucks will populate automatically",
+            "duration": 4.641,
+            "offset": 754.079,
+            "lang": "en"
+        },
+        {
+            "text": "into schedule b and you have to go back",
+            "duration": 4.961,
+            "offset": 756.079,
+            "lang": "en"
+        },
+        {
+            "text": "into my ground biz under vehicle",
+            "duration": 3.919,
+            "offset": 758.72,
+            "lang": "en"
+        },
+        {
+            "text": "information",
+            "duration": 4.16,
+            "offset": 761.04,
+            "lang": "en"
+        },
+        {
+            "text": "select update vehicle on schedule and",
+            "duration": 6.561,
+            "offset": 762.639,
+            "lang": "en"
+        },
+        {
+            "text": "select add delete vehicle to schedule",
+            "duration": 6,
+            "offset": 765.2,
+            "lang": "en"
+        },
+        {
+            "text": "select your company",
+            "duration": 3.759,
+            "offset": 769.2,
+            "lang": "en"
+        },
+        {
+            "text": "and contract",
+            "duration": 3.84,
+            "offset": 771.2,
+            "lang": "en"
+        },
+        {
+            "text": "your schedule b will come up and you",
+            "duration": 4,
+            "offset": 772.959,
+            "lang": "en"
+        },
+        {
+            "text": "should have a purple button with add",
+            "duration": 4.799,
+            "offset": 775.04,
+            "lang": "en"
+        },
+        {
+            "text": "slash delete next to each truck number",
+            "duration": 5.44,
+            "offset": 776.959,
+            "lang": "en"
+        },
+        {
+            "text": "select add for each vehicle and make",
+            "duration": 5.44,
+            "offset": 779.839,
+            "lang": "en"
+        },
+        {
+            "text": "sure that you save all the information",
+            "duration": 5.201,
+            "offset": 782.399,
+            "lang": "en"
+        },
+        {
+            "text": "the terminal must be notified after",
+            "duration": 4.56,
+            "offset": 785.279,
+            "lang": "en"
+        },
+        {
+            "text": "excuse me after you add because they",
+            "duration": 3.679,
+            "offset": 787.6,
+            "lang": "en"
+        },
+        {
+            "text": "have to approve the additions to",
+            "duration": 3.041,
+            "offset": 789.839,
+            "lang": "en"
+        },
+        {
+            "text": "schedule b",
+            "duration": 3.12,
+            "offset": 791.279,
+            "lang": "en"
+        },
+        {
+            "text": "once the terminal has approved the",
+            "duration": 3.68,
+            "offset": 792.88,
+            "lang": "en"
+        },
+        {
+            "text": "addition of your vehicles you have to do",
+            "duration": 4.481,
+            "offset": 794.399,
+            "lang": "en"
+        },
+        {
+            "text": "one final ad vehicle",
+            "duration": 4.8,
+            "offset": 796.56,
+            "lang": "en"
+        },
+        {
+            "text": "log back into my ground biz and on the",
+            "duration": 5.36,
+            "offset": 798.88,
+            "lang": "en"
+        },
+        {
+            "text": "home page under pending actions you will",
+            "duration": 5.599,
+            "offset": 801.36,
+            "lang": "en"
+        },
+        {
+            "text": "have a schedule b notification",
+            "duration": 5.52,
+            "offset": 804.24,
+            "lang": "en"
+        },
+        {
+            "text": "click on that and then affirm each truck",
+            "duration": 4.801,
+            "offset": 806.959,
+            "lang": "en"
+        },
+        {
+            "text": "save and that&amp;#39;s it",
+            "duration": 4.319,
+            "offset": 809.76,
+            "lang": "en"
+        },
+        {
+            "text": "this process must be completed prior to",
+            "duration": 4.639,
+            "offset": 811.76,
+            "lang": "en"
+        },
+        {
+            "text": "stand up or the drivers will be unable",
+            "duration": 4.241,
+            "offset": 814.079,
+            "lang": "en"
+        },
+        {
+            "text": "to log into the bar code that&amp;#39;s assigned",
+            "duration": 3.841,
+            "offset": 816.399,
+            "lang": "en"
+        },
+        {
+            "text": "to their vehicle",
+            "duration": 4.24,
+            "offset": 818.32,
+            "lang": "en"
+        },
+        {
+            "text": "once your schedule b is updated please",
+            "duration": 4.159,
+            "offset": 820.24,
+            "lang": "en"
+        },
+        {
+            "text": "send a copy to your beans route",
+            "duration": 4.24,
+            "offset": 822.56,
+            "lang": "en"
+        },
+        {
+            "text": "onboarding specialist they will add that",
+            "duration": 4.56,
+            "offset": 824.399,
+            "lang": "en"
+        },
+        {
+            "text": "information to your account so that you",
+            "duration": 4.08,
+            "offset": 826.8,
+            "lang": "en"
+        },
+        {
+            "text": "can do your monthly maintenance reports",
+            "duration": 4.24,
+            "offset": 828.959,
+            "lang": "en"
+        },
+        {
+            "text": "also",
+            "duration": 2.319,
+            "offset": 830.88,
+            "lang": "en"
+        },
+        {
+            "text": "beans route app",
+            "duration": 2.88,
+            "offset": 833.6,
+            "lang": "en"
+        },
+        {
+            "text": "this is really important to turn on fcc",
+            "duration": 5.76,
+            "offset": 837.36,
+            "lang": "en"
+        },
+        {
+            "text": "and to turn on all your data sharing",
+            "duration": 5.52,
+            "offset": 840.48,
+            "lang": "en"
+        },
+        {
+            "text": "in my ground biz you will go to fcc",
+            "duration": 6.159,
+            "offset": 843.12,
+            "lang": "en"
+        },
+        {
+            "text": "which is the fedex customer connection",
+            "duration": 5.279,
+            "offset": 846,
+            "lang": "en"
+        },
+        {
+            "text": "click on the gear wheel in the upper",
+            "duration": 3.521,
+            "offset": 849.279,
+            "lang": "en"
+        },
+        {
+            "text": "right corner",
+            "duration": 3.761,
+            "offset": 851.279,
+            "lang": "en"
+        },
+        {
+            "text": "you will want to activate messaging",
+            "duration": 5.44,
+            "offset": 852.8,
+            "lang": "en"
+        },
+        {
+            "text": "reminders data subscription and pickup",
+            "duration": 5.039,
+            "offset": 855.04,
+            "lang": "en"
+        },
+        {
+            "text": "transfers",
+            "duration": 4.8,
+            "offset": 858.24,
+            "lang": "en"
+        },
+        {
+            "text": "messaging allows you to send and receive",
+            "duration": 6.081,
+            "offset": 860.079,
+            "lang": "en"
+        },
+        {
+            "text": "messages to all drivers through fcc and",
+            "duration": 5.359,
+            "offset": 863.04,
+            "lang": "en"
+        },
+        {
+            "text": "will also enable you to receive alerts",
+            "duration": 4.799,
+            "offset": 866.16,
+            "lang": "en"
+        },
+        {
+            "text": "from customer pickup coordination also",
+            "duration": 4.721,
+            "offset": 868.399,
+            "lang": "en"
+        },
+        {
+            "text": "referred to as cpc",
+            "duration": 3.601,
+            "offset": 870.959,
+            "lang": "en"
+        },
+        {
+            "text": "when entering your phone number in",
+            "duration": 3.76,
+            "offset": 873.12,
+            "lang": "en"
+        },
+        {
+            "text": "messaging you have to have the number",
+            "duration": 4.079,
+            "offset": 874.56,
+            "lang": "en"
+        },
+        {
+            "text": "one in front of your 10 digit phone",
+            "duration": 5.36,
+            "offset": 876.88,
+            "lang": "en"
+        },
+        {
+            "text": "number no dashes and no spaces",
+            "duration": 5.76,
+            "offset": 878.639,
+            "lang": "en"
+        },
+        {
+            "text": "reminders this will send alerts to",
+            "duration": 4.08,
+            "offset": 882.24,
+            "lang": "en"
+        },
+        {
+            "text": "drivers 30 minutes before a pickup",
+            "duration": 4.56,
+            "offset": 884.399,
+            "lang": "en"
+        },
+        {
+            "text": "window closes or if a pickup has been",
+            "duration": 3.759,
+            "offset": 886.32,
+            "lang": "en"
+        },
+        {
+            "text": "canceled",
+            "duration": 3.201,
+            "offset": 888.959,
+            "lang": "en"
+        },
+        {
+            "text": "reminders will also send an alert to the",
+            "duration": 6.641,
+            "offset": 890.079,
+            "lang": "en"
+        },
+        {
+            "text": "aonbc if a driver scans a pickup early",
+            "duration": 6.88,
+            "offset": 892.16,
+            "lang": "en"
+        },
+        {
+            "text": "data subscriptions must be turned on in",
+            "duration": 4.239,
+            "offset": 896.72,
+            "lang": "en"
+        },
+        {
+            "text": "order for your routes to populate into",
+            "duration": 5.039,
+            "offset": 899.04,
+            "lang": "en"
+        },
+        {
+            "text": "the beans route app",
+            "duration": 6.081,
+            "offset": 900.959,
+            "lang": "en"
+        },
+        {
+            "text": "pickup transfers allows for drivers or",
+            "duration": 6,
+            "offset": 904.079,
+            "lang": "en"
+        },
+        {
+            "text": "any csp personnel to transfer a pickup",
+            "duration": 5.359,
+            "offset": 907.04,
+            "lang": "en"
+        },
+        {
+            "text": "to another work area through the star 5",
+            "duration": 4.721,
+            "offset": 910.079,
+            "lang": "en"
+        },
+        {
+            "text": "scanner",
+            "duration": 2.401,
+            "offset": 912.399,
+            "lang": "en"
+        },
+        {
+            "text": "dro or dynamic route optimization is the",
+            "duration": 5.12,
+            "offset": 916.079,
+            "lang": "en"
+        },
+        {
+            "text": "plan for your routes that must be",
+            "duration": 4.481,
+            "offset": 919.519,
+            "lang": "en"
+        },
+        {
+            "text": "submitted each night after 8 pm for the",
+            "duration": 5.361,
+            "offset": 921.199,
+            "lang": "en"
+        },
+        {
+            "text": "next day&amp;#39;s operation",
+            "duration": 4.32,
+            "offset": 924,
+            "lang": "en"
+        },
+        {
+            "text": "the initial setup is something that you",
+            "duration": 3.44,
+            "offset": 926.56,
+            "lang": "en"
+        },
+        {
+            "text": "will need to work on with your pnd",
+            "duration": 3.84,
+            "offset": 928.32,
+            "lang": "en"
+        },
+        {
+            "text": "manager in the terminal prior to stand",
+            "duration": 5.279,
+            "offset": 930,
+            "lang": "en"
+        },
+        {
+            "text": "up they refer to this as the sandbox",
+            "duration": 5.84,
+            "offset": 932.16,
+            "lang": "en"
+        },
+        {
+            "text": "after the initial setup your bc normally",
+            "duration": 6.56,
+            "offset": 935.279,
+            "lang": "en"
+        },
+        {
+            "text": "submits the daily dro plan",
+            "duration": 3.839,
+            "offset": 938,
+            "lang": "en"
+        },
+        {
+            "text": "take a deep breath and try to relax the",
+            "duration": 4.64,
+            "offset": 942.48,
+            "lang": "en"
+        },
+        {
+            "text": "terminal can be overwhelming during the",
+            "duration": 3.44,
+            "offset": 945.12,
+            "lang": "en"
+        },
+        {
+            "text": "morning sort",
+            "duration": 3.44,
+            "offset": 947.12,
+            "lang": "en"
+        },
+        {
+            "text": "take this time to familiarize yourself",
+            "duration": 4.16,
+            "offset": 948.56,
+            "lang": "en"
+        },
+        {
+            "text": "with the layout of the terminal find",
+            "duration": 4.16,
+            "offset": 950.56,
+            "lang": "en"
+        },
+        {
+            "text": "where your trucks are located and meet",
+            "duration": 4.16,
+            "offset": 952.72,
+            "lang": "en"
+        },
+        {
+            "text": "some of the terminal staff",
+            "duration": 4.32,
+            "offset": 954.72,
+            "lang": "en"
+        },
+        {
+            "text": "i suggest coming in early so that you",
+            "duration": 3.84,
+            "offset": 956.88,
+            "lang": "en"
+        },
+        {
+            "text": "can be there to greet the drivers when",
+            "duration": 4.4,
+            "offset": 959.04,
+            "lang": "en"
+        },
+        {
+            "text": "they arrive this is a big day for you",
+            "duration": 5.28,
+            "offset": 960.72,
+            "lang": "en"
+        },
+        {
+            "text": "but it&amp;#39;s also a really big day for them",
+            "duration": 4.48,
+            "offset": 963.44,
+            "lang": "en"
+        },
+        {
+            "text": "they may know about the sale and the",
+            "duration": 3.839,
+            "offset": 966,
+            "lang": "en"
+        },
+        {
+            "text": "transaction but some of them may not",
+            "duration": 2.88,
+            "offset": 967.92,
+            "lang": "en"
+        },
+        {
+            "text": "know",
+            "duration": 3.36,
+            "offset": 969.839,
+            "lang": "en"
+        },
+        {
+            "text": "things may not change right away but you",
+            "duration": 4.719,
+            "offset": 970.8,
+            "lang": "en"
+        },
+        {
+            "text": "will make changes to this business",
+            "duration": 4.401,
+            "offset": 973.199,
+            "lang": "en"
+        },
+        {
+            "text": "having your drivers fully invested in",
+            "duration": 3.68,
+            "offset": 975.519,
+            "lang": "en"
+        },
+        {
+            "text": "the business and asking for their",
+            "duration": 4.32,
+            "offset": 977.6,
+            "lang": "en"
+        },
+        {
+            "text": "feedback and opinions is a vital part of",
+            "duration": 4.721,
+            "offset": 979.199,
+            "lang": "en"
+        },
+        {
+            "text": "your business&amp;#39;s success",
+            "duration": 4.719,
+            "offset": 981.92,
+            "lang": "en"
+        },
+        {
+            "text": "the drivers want and need to feel valued",
+            "duration": 4.56,
+            "offset": 983.92,
+            "lang": "en"
+        },
+        {
+            "text": "and they&amp;#39;re the most valuable part of",
+            "duration": 4.64,
+            "offset": 986.639,
+            "lang": "en"
+        },
+        {
+            "text": "your success i&amp;#39;d also suggest bringing",
+            "duration": 4,
+            "offset": 988.48,
+            "lang": "en"
+        },
+        {
+            "text": "breakfast",
+            "duration": 3.92,
+            "offset": 991.279,
+            "lang": "en"
+        },
+        {
+            "text": "that&amp;#39;s always a good thing",
+            "duration": 5.2,
+            "offset": 992.48,
+            "lang": "en"
+        },
+        {
+            "text": "all existing excuse me all existing",
+            "duration": 5.041,
+            "offset": 995.199,
+            "lang": "en"
+        },
+        {
+            "text": "drivers will need to log into my ground",
+            "duration": 4.8,
+            "offset": 997.68,
+            "lang": "en"
+        },
+        {
+            "text": "biz and request to be associated with",
+            "duration": 4,
+            "offset": 1000.24,
+            "lang": "en"
+        },
+        {
+            "text": "your business name",
+            "duration": 3.919,
+            "offset": 1002.48,
+            "lang": "en"
+        },
+        {
+            "text": "they will they&amp;#39;ll log into my ground biz",
+            "duration": 4.599,
+            "offset": 1004.24,
+            "lang": "en"
+        },
+        {
+            "text": "and they will select request new",
+            "duration": 4.88,
+            "offset": 1006.399,
+            "lang": "en"
+        },
+        {
+            "text": "association and choose your company&amp;#39;s",
+            "duration": 3.56,
+            "offset": 1008.839,
+            "lang": "en"
+        },
+        {
+            "text": "name",
+            "duration": 3.201,
+            "offset": 1011.279,
+            "lang": "en"
+        },
+        {
+            "text": "once they make the request you will need",
+            "duration": 4.321,
+            "offset": 1012.399,
+            "lang": "en"
+        },
+        {
+            "text": "to accept their association",
+            "duration": 4.159,
+            "offset": 1014.48,
+            "lang": "en"
+        },
+        {
+            "text": "in my ground biz you will find this",
+            "duration": 3.84,
+            "offset": 1016.72,
+            "lang": "en"
+        },
+        {
+            "text": "under pending actions",
+            "duration": 4.161,
+            "offset": 1018.639,
+            "lang": "en"
+        },
+        {
+            "text": "click and proceed by affirming each",
+            "duration": 5.519,
+            "offset": 1020.56,
+            "lang": "en"
+        },
+        {
+            "text": "driver that&amp;#39;s it",
+            "duration": 3.279,
+            "offset": 1022.8,
+            "lang": "en"
+        },
+        {
+            "text": "scanners batteries fuel cards chargers",
+            "duration": 5.68,
+            "offset": 1026.48,
+            "lang": "en"
+        },
+        {
+            "text": "hand trucks these are all all equipment",
+            "duration": 4.48,
+            "offset": 1029.439,
+            "lang": "en"
+        },
+        {
+            "text": "that will be needed by your drivers on",
+            "duration": 3.44,
+            "offset": 1032.16,
+            "lang": "en"
+        },
+        {
+            "text": "day one",
+            "duration": 3.601,
+            "offset": 1033.919,
+            "lang": "en"
+        },
+        {
+            "text": "each driver should have a fully charged",
+            "duration": 4.4,
+            "offset": 1035.6,
+            "lang": "en"
+        },
+        {
+            "text": "scanner at the start of their day",
+            "duration": 4.159,
+            "offset": 1037.52,
+            "lang": "en"
+        },
+        {
+            "text": "it would also be a good idea to get",
+            "duration": 3.439,
+            "offset": 1040,
+            "lang": "en"
+        },
+        {
+            "text": "drivers sizes and make sure they have",
+            "duration": 3.36,
+            "offset": 1041.679,
+            "lang": "en"
+        },
+        {
+            "text": "enough uniforms",
+            "duration": 4.24,
+            "offset": 1043.439,
+            "lang": "en"
+        },
+        {
+            "text": "just a heads up vf imagewear has been",
+            "duration": 4.561,
+            "offset": 1045.039,
+            "lang": "en"
+        },
+        {
+            "text": "experiencing delays and fulfilling",
+            "duration": 3.281,
+            "offset": 1047.679,
+            "lang": "en"
+        },
+        {
+            "text": "orders",
+            "duration": 3.439,
+            "offset": 1049.6,
+            "lang": "en"
+        },
+        {
+            "text": "also find out if the driver needs a",
+            "duration": 4.32,
+            "offset": 1050.96,
+            "lang": "en"
+        },
+        {
+            "text": "phone holder or a device mount or any",
+            "duration": 4.321,
+            "offset": 1053.039,
+            "lang": "en"
+        },
+        {
+            "text": "other supplies that will help make their",
+            "duration": 4.72,
+            "offset": 1055.28,
+            "lang": "en"
+        },
+        {
+            "text": "day safer",
+            "duration": 2.64,
+            "offset": 1057.36,
+            "lang": "en"
+        },
+        {
+            "text": "have your new hire paperwork ready for",
+            "duration": 4,
+            "offset": 1060.08,
+            "lang": "en"
+        },
+        {
+            "text": "each driver and ask them to return the",
+            "duration": 4.72,
+            "offset": 1062,
+            "lang": "en"
+        },
+        {
+            "text": "completed documents to you within 24",
+            "duration": 4,
+            "offset": 1064.08,
+            "lang": "en"
+        },
+        {
+            "text": "hours",
+            "duration": 3.6,
+            "offset": 1066.72,
+            "lang": "en"
+        },
+        {
+            "text": "all employees will need to be e-verified",
+            "duration": 4.959,
+            "offset": 1068.08,
+            "lang": "en"
+        },
+        {
+            "text": "and their information entered into your",
+            "duration": 5.04,
+            "offset": 1070.32,
+            "lang": "en"
+        },
+        {
+            "text": "human resources software and forwarded",
+            "duration": 4.401,
+            "offset": 1073.039,
+            "lang": "en"
+        },
+        {
+            "text": "to your payroll company",
+            "duration": 4.24,
+            "offset": 1075.36,
+            "lang": "en"
+        },
+        {
+            "text": "if you don&amp;#39;t have a full new hire packet",
+            "duration": 4.239,
+            "offset": 1077.44,
+            "lang": "en"
+        },
+        {
+            "text": "ready on the day of stand up you can",
+            "duration": 4.8,
+            "offset": 1079.6,
+            "lang": "en"
+        },
+        {
+            "text": "have each driver fill out an i-9 form",
+            "duration": 4.481,
+            "offset": 1081.679,
+            "lang": "en"
+        },
+        {
+            "text": "which will give you all the info you",
+            "duration": 4.56,
+            "offset": 1084.4,
+            "lang": "en"
+        },
+        {
+            "text": "need to e-verify each driver",
+            "duration": 4.16,
+            "offset": 1086.16,
+            "lang": "en"
+        },
+        {
+            "text": "or employee",
+            "duration": 3.92,
+            "offset": 1088.96,
+            "lang": "en"
+        },
+        {
+            "text": "speaking from personal experience it&amp;#39;s a",
+            "duration": 4.239,
+            "offset": 1090.32,
+            "lang": "en"
+        },
+        {
+            "text": "good idea to keep a copy of your",
+            "duration": 4.159,
+            "offset": 1092.88,
+            "lang": "en"
+        },
+        {
+            "text": "employee&amp;#39;s driver&amp;#39;s license and dot med",
+            "duration": 4.24,
+            "offset": 1094.559,
+            "lang": "en"
+        },
+        {
+            "text": "card just to keep track of the",
+            "duration": 3.76,
+            "offset": 1097.039,
+            "lang": "en"
+        },
+        {
+            "text": "expiration dates",
+            "duration": 4.24,
+            "offset": 1098.799,
+            "lang": "en"
+        },
+        {
+            "text": "the terminals do periodic gait checks",
+            "duration": 5.361,
+            "offset": 1100.799,
+            "lang": "en"
+        },
+        {
+            "text": "for licenses and dot med cards and you&amp;#39;d",
+            "duration": 5.201,
+            "offset": 1103.039,
+            "lang": "en"
+        },
+        {
+            "text": "be surprised how many drivers either",
+            "duration": 4.399,
+            "offset": 1106.16,
+            "lang": "en"
+        },
+        {
+            "text": "don&amp;#39;t have the documents or they&amp;#39;re",
+            "duration": 3.52,
+            "offset": 1108.24,
+            "lang": "en"
+        },
+        {
+            "text": "expired",
+            "duration": 3.281,
+            "offset": 1110.559,
+            "lang": "en"
+        },
+        {
+            "text": "drivers do not have to carry the actual",
+            "duration": 4.08,
+            "offset": 1111.76,
+            "lang": "en"
+        },
+        {
+            "text": "document a picture on their phone is",
+            "duration": 4.24,
+            "offset": 1113.84,
+            "lang": "en"
+        },
+        {
+            "text": "sufficient proof",
+            "duration": 3.76,
+            "offset": 1115.84,
+            "lang": "en"
+        },
+        {
+            "text": "well good luck",
+            "duration": 3.44,
+            "offset": 1118.08,
+            "lang": "en"
+        },
+        {
+            "text": "beans is here to support you any way",
+            "duration": 4.24,
+            "offset": 1119.6,
+            "lang": "en"
+        },
+        {
+            "text": "that we can please don&amp;#39;t hesitate to",
+            "duration": 6.92,
+            "offset": 1121.52,
+            "lang": "en"
+        },
+        {
+            "text": "contact us if you have any questions",
+            "duration": 4.6,
+            "offset": 1123.84,
+            "lang": "en"
+        },
+        {
+            "text": "you",
+            "duration": 2.08,
+            "offset": 1143.12,
+            "lang": "en"
+        }
+    ]
+}

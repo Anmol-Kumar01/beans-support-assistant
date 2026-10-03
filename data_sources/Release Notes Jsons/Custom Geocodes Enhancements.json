@@ -1,0 +1,18 @@
+{
+    "id": "custom-geocodes-enhancement",
+    "title": "Custom Geocodes Enhancements",
+    "summary": "The above enhancements will allow users to further optimize their dispatch and delivery operations based on the types of addresses they are delivering to.",
+    "metadata": {
+        "thumbnail_url": "https://storage.googleapis.com/beans-images/production/original/2024-06-20/2024-06-20_79d574b1-50b4-4c95-94b1-664e4125cb5f.png",
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/Vim0gcu3FR3dDli4FrgzXg/embed?mode=interactive",
+        "video_url": "",
+        "video_player": "HTML",
+        "realm": "production",
+        "display_option_tags": "",
+        "timestamp": 1718629290
+    },
+    "body": "Summary We've further enhanced the ability to add and improve custom location data. The key enhancements include:Attaching address types to an address so that users can better differentiate between residential, office complexes, commercial, and other address types. Supporting business hours associated with each address type The above enhancements will allow users to further optimize their dispatch and delivery operations based on the types of addresses they are delivering to.  DetailsAdding address types can be done by selecting an address and clicking  'Modify Geocode'Business hours for an individual address can be added by clicking the edit icon, adding the hours and clicking \"Update\"Once the data is saved, the stop card will reflect the type of the stop. Future enhancements will include business hours in notes as well as being factored into optimization as well.",
+    "images": [
+        "https://ckbox.cloud/4d15627a732929726c85/assets/v2BRs9i57nAK/images/3014.png"
+    ]
+}

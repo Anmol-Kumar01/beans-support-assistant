@@ -1,0 +1,31 @@
+{
+    "id": "how-to-generate-mmr",
+    "title": "MMRs Reports",
+    "summary": "Beans Route makes generating MMR reports simple. Upload a digital signature in your account preferences to have the signature generate on the report. If you have vehicles in multiple warehouses, create vehicle groups so each warehouse can prepare their own MMRs. Best practices include entering maintenance records as you receive them throughout the month and when entering records selecting the actual date of service.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/UXYNMdUU7c9wRrdvq8wYyQ/embed?mode=interactive",
+        "display_option_tags": "fedex",
+        "account_buids": "",
+        "date_str": "2023-12-1",
+        "timestamp": 1718697600
+    },
+    "body": "ADD MAINTENANCE RECORDSStep 1: Click Assets > Vehicles. Click on the vehicle number to open the records. Step 2: Click the \"Add Vehicle Record\" button. Step 3: Select the date of maintenance by clicking on the date line and using the calendar.NOTE: the date automatically defaults to the current date.  You must select the actual date of maintenance for the MMRs to generate properly. Step 4: On the \"Detail\" line fill in the maintenance details. Click \"Add Vehicle Record\" to save.  Repeat the steps to enter all maintenance records.NOTE: You can attach maintenance invoices to each record by using the \"Attach Files\" button. ADD MILEAGE RECORS (ODOMETER)Step 1: Click on the vehicle number to open the records.  Click the \"Add Vehicle Record\" button.Step 2: For \"Type\" use the dropdown menu to select \"Odometer.\" Step 3: For \"Date\" use the calendar to change the date to the last day of the previous month.NOTE: the date automatically defaults to the current date.  You must change the date for odometer readings to the last day of the previous month for the MMRs to generate properly. Step 4: Enter the mileage on the \"Details\" line.  Click \"Add Vehicle Record\" to save.  Repeat the steps to enter all mileage records. OUT OF SERVICEStep 1: If you have a vehicle which is out of service, click on the vehicle number to open the records.Step 2: Click the \"Modify Vehicle\" button. Step 3: Change the \"Status\" from \"active\" to \"out of service\" and click save. GENERATE MMR REPORTSStep 1: Select the vehicles you wish to generate MMRs reports for by clicking on the row to highlight; to select all vehicles, click the \"select all\" icon above the list (circle with a checkmark). NOTE: If the \"Active\" filter is on, any vehicles marked \"out of service\" will not show in the list.  To see all vehicles, including those out of service, simply click the \"x\" on the \"Active filter.\"  MMRs will not be generated for vehicles marked \"out of service.\" Step 2: Click the \"Generate Report\" button. Step 3: Select the dates for the report.NOTE: The month automatically defaults to the previous month.  If you need to generate MMR reports for past months, simply click on the month line and select the appropriate month.  The report date automatically defaults to the current date; you can adjust the date by clicking on the report date line and using the calendar to select the desired date. Step 4: Click the \"Generate Report\" button. Step 5: The MMRs will be generated in PDF format.  Click the link to view the MMRs to print or to download and email to your terminal.",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_c2fbb91b-83a8-4b02-8dcd-ff9375fe4761.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_9e6f7632-fc60-4ddf-b39d-c9420e9ba507.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_5b0e5a15-b254-4dea-9c6b-eb3abc2d4f79.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_db70a7b4-b5b6-455e-8159-764f46db4d0a.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_1e2a7fa8-b81a-4579-a6a5-7ead7703fb6b.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_d9c5bc4f-0511-4306-96bc-80245477ca6e.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_3feb3867-2100-4049-ac81-24b97f17daa3.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-03/2024-08-03_77ff8107-1477-41e9-9ecc-43fdd4719216.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_89db277c-7a3b-445c-bc0c-d364b22afcad.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_4165519c-db40-4f74-890c-877db74b0e68.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_167fbad0-9f22-4ebe-80d7-f5bd089389e9.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_32280288-ba81-4568-bd08-804f8c2fd875.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_83adf0e4-2773-4896-9b38-f60c6af1faeb.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_e042c21a-78c7-4c49-af54-cdc6b7ccba72.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_2826bd19-6af2-4cd2-8e2d-d04a38c72d50.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8b086c69-5e84-428f-bed1-6937bdd5d078.jpeg"
+    ]
+}

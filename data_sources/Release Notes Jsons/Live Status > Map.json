@@ -1,0 +1,16 @@
+{
+    "id": "live-status-map",
+    "title": "Live Status > Map",
+    "summary": "We've updated the functionality of the Map (aka All Stops) view under live status. This will allow users to filter and identify operationally relevant stops faster. The feature applies to all account types but may be most useful for ISPs with Express stops. This will be in production starting 5/24",
+    "metadata": {
+        "thumbnail_url": "https://storage.googleapis.com/beans-images/production/original/2024-06-20/2024-06-20_6179491f-3259-4b00-b6e1-77392b3b83d3.png",
+        "video_url": "https://storage.googleapis.com/beans-images/51167403b3d74194a1cddf7d83d00719.mov",
+        "video_player": "HTML",
+        "realm": "production",
+        "display_option_tags": "",
+        "date_str": "2024-05-25",
+        "timestamp": 1718886258
+    },
+    "body": "SummaryWe've updated the functionality of the Map (aka All Stops) view under live status. This will allow users to filter and identify operationally relevant stops faster. The feature applies to all account types but may be most useful for ISPs with Express stops. This will be in production starting 5/24DetailsThe key changes areA toggle switch to view/hide stops has been added to the map view (similar to driver and route)Hovering over the driver's location will show the driver's name and routeQuick Access filters allow you to filter through drivers, routes, and stops. Specifically useful for ISPs with Express StopsClicking on Exceptions and Warnings in route metrics summary will take users to the all stops page with the respective stops filtered.",
+    "images": []
+}

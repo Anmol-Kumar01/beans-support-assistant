@@ -1,0 +1,456 @@
+{
+    "id": "MxzwLNG2ujM",
+    "title": "Understanding the Routes Page on Beans Route",
+    "transcript": [
+        {
+            "text": "in this video we will guide you through",
+            "duration": 3.2,
+            "offset": 0.16,
+            "lang": "en"
+        },
+        {
+            "text": "reading and understanding the routes",
+            "duration": 3.24,
+            "offset": 1.76,
+            "lang": "en"
+        },
+        {
+            "text": "page and",
+            "duration": 4.079,
+            "offset": 3.36,
+            "lang": "en"
+        },
+        {
+            "text": "beans at the top of the page you will",
+            "duration": 3.88,
+            "offset": 5,
+            "lang": "en"
+        },
+        {
+            "text": "see a summary of all your live",
+            "duration": 4.16,
+            "offset": 7.439,
+            "lang": "en"
+        },
+        {
+            "text": "information for the day from left to",
+            "duration": 5.24,
+            "offset": 8.88,
+            "lang": "en"
+        },
+        {
+            "text": "right it will display the following live",
+            "duration": 5.121,
+            "offset": 11.599,
+            "lang": "en"
+        },
+        {
+            "text": "information first on the leftand side",
+            "duration": 4.12,
+            "offset": 14.12,
+            "lang": "en"
+        },
+        {
+            "text": "you&amp;#39;ll see the number of routes for the",
+            "duration": 4.84,
+            "offset": 16.72,
+            "lang": "en"
+        },
+        {
+            "text": "day including any manually added routes",
+            "duration": 5.119,
+            "offset": 18.24,
+            "lang": "en"
+        },
+        {
+            "text": "next to that you&amp;#39;ll see your combined",
+            "duration": 4.639,
+            "offset": 21.56,
+            "lang": "en"
+        },
+        {
+            "text": "company service score any exception",
+            "duration": 4.481,
+            "offset": 23.359,
+            "lang": "en"
+        },
+        {
+            "text": "codes received during the day will",
+            "duration": 4.601,
+            "offset": 26.199,
+            "lang": "en"
+        },
+        {
+            "text": "impact your service level add Al beans",
+            "duration": 4.52,
+            "offset": 27.84,
+            "lang": "en"
+        },
+        {
+            "text": "will display the number of warnings",
+            "duration": 4.48,
+            "offset": 30.8,
+            "lang": "en"
+        },
+        {
+            "text": "recorded for the day now to the right",
+            "duration": 4.44,
+            "offset": 32.36,
+            "lang": "en"
+        },
+        {
+            "text": "we&amp;#39;re going to see the total number of",
+            "duration": 2.88,
+            "offset": 35.28,
+            "lang": "en"
+        },
+        {
+            "text": "deliveries for our",
+            "duration": 3.8,
+            "offset": 36.8,
+            "lang": "en"
+        },
+        {
+            "text": "organization in this example we can see",
+            "duration": 5.48,
+            "offset": 38.16,
+            "lang": "en"
+        },
+        {
+            "text": "that we have 251 deliveries and",
+            "duration": 5.4,
+            "offset": 40.6,
+            "lang": "en"
+        },
+        {
+            "text": "1,285 of those stops have been delivered",
+            "duration": 5,
+            "offset": 43.64,
+            "lang": "en"
+        },
+        {
+            "text": "so far alongside the delivery",
+            "duration": 5.28,
+            "offset": 46,
+            "lang": "en"
+        },
+        {
+            "text": "information similar pickup details are",
+            "duration": 5.399,
+            "offset": 48.64,
+            "lang": "en"
+        },
+        {
+            "text": "shown on the far right we will indicate",
+            "duration": 4.56,
+            "offset": 51.28,
+            "lang": "en"
+        },
+        {
+            "text": "the total number of packages handled",
+            "duration": 4.48,
+            "offset": 54.039,
+            "lang": "en"
+        },
+        {
+            "text": "throughout the day this total includes",
+            "duration": 4.399,
+            "offset": 55.84,
+            "lang": "en"
+        },
+        {
+            "text": "all packages from the delivery and",
+            "duration": 2.801,
+            "offset": 58.519,
+            "lang": "en"
+        },
+        {
+            "text": "pickup",
+            "duration": 3.361,
+            "offset": 60.239,
+            "lang": "en"
+        },
+        {
+            "text": "categories Above This section two",
+            "duration": 4.72,
+            "offset": 61.32,
+            "lang": "en"
+        },
+        {
+            "text": "different filters are available the",
+            "duration": 5.44,
+            "offset": 63.6,
+            "lang": "en"
+        },
+        {
+            "text": "select warehouse and select company",
+            "duration": 5.52,
+            "offset": 66.04,
+            "lang": "en"
+        },
+        {
+            "text": "filters selecting the desired Warehouse",
+            "duration": 4.64,
+            "offset": 69.04,
+            "lang": "en"
+        },
+        {
+            "text": "or contract from the drop- down menu and",
+            "duration": 3.44,
+            "offset": 71.56,
+            "lang": "en"
+        },
+        {
+            "text": "then clicking the check mark to the",
+            "duration": 3.079,
+            "offset": 73.68,
+            "lang": "en"
+        },
+        {
+            "text": "right will filter the routes page to",
+            "duration": 4.079,
+            "offset": 75,
+            "lang": "en"
+        },
+        {
+            "text": "display only the selected",
+            "duration": 4.441,
+            "offset": 76.759,
+            "lang": "en"
+        },
+        {
+            "text": "information beneath the summary of your",
+            "duration": 3.881,
+            "offset": 79.079,
+            "lang": "en"
+        },
+        {
+            "text": "information you&amp;#39;ll find a few extra",
+            "duration": 3.52,
+            "offset": 81.2,
+            "lang": "en"
+        },
+        {
+            "text": "tools that enable you to condense your",
+            "duration": 3.76,
+            "offset": 82.96,
+            "lang": "en"
+        },
+        {
+            "text": "data or alter how your individual route",
+            "duration": 5.759,
+            "offset": 84.72,
+            "lang": "en"
+        },
+        {
+            "text": "information is displayed",
+            "duration": 3.759,
+            "offset": 86.72,
+            "lang": "en"
+        },
+        {
+            "text": "now let&amp;#39;s focus on one of our particular",
+            "duration": 4.28,
+            "offset": 92.72,
+            "lang": "en"
+        },
+        {
+            "text": "routes we&amp;#39;re going to take a look at our",
+            "duration": 4.84,
+            "offset": 94.84,
+            "lang": "en"
+        },
+        {
+            "text": "top route which is",
+            "duration": 5.479,
+            "offset": 97,
+            "lang": "en"
+        },
+        {
+            "text": "9916 on the far left hand side we can",
+            "duration": 5.079,
+            "offset": 99.68,
+            "lang": "en"
+        },
+        {
+            "text": "see the route number the truck assigned",
+            "duration": 4.841,
+            "offset": 102.479,
+            "lang": "en"
+        },
+        {
+            "text": "to the route and the designated",
+            "duration": 4.96,
+            "offset": 104.759,
+            "lang": "en"
+        },
+        {
+            "text": "Warehouse next you will find the name of",
+            "duration": 4.839,
+            "offset": 107.32,
+            "lang": "en"
+        },
+        {
+            "text": "the driver assigned to the route the",
+            "duration": 4.521,
+            "offset": 109.719,
+            "lang": "en"
+        },
+        {
+            "text": "paper and pencil icon indicates that an",
+            "duration": 4.96,
+            "offset": 112.159,
+            "lang": "en"
+        },
+        {
+            "text": "active beans profile has been assigned",
+            "duration": 5.04,
+            "offset": 114.24,
+            "lang": "en"
+        },
+        {
+            "text": "if there is no paper and pencil icon a",
+            "duration": 3.92,
+            "offset": 117.119,
+            "lang": "en"
+        },
+        {
+            "text": "driver needs to be assigned to the route",
+            "duration": 4.199,
+            "offset": 119.28,
+            "lang": "en"
+        },
+        {
+            "text": "in order to see their information in the",
+            "duration": 5.12,
+            "offset": 121.039,
+            "lang": "en"
+        },
+        {
+            "text": "app additionally beans will display the",
+            "duration": 5.64,
+            "offset": 123.479,
+            "lang": "en"
+        },
+        {
+            "text": "first and last delivery times the last",
+            "duration": 4.72,
+            "offset": 126.159,
+            "lang": "en"
+        },
+        {
+            "text": "delivery time will be displayed after",
+            "duration": 3.76,
+            "offset": 129.119,
+            "lang": "en"
+        },
+        {
+            "text": "the driver completes their",
+            "duration": 4.72,
+            "offset": 130.879,
+            "lang": "en"
+        },
+        {
+            "text": "route below this beans will display the",
+            "duration": 5,
+            "offset": 132.879,
+            "lang": "en"
+        },
+        {
+            "text": "driver stops per",
+            "duration": 4.64,
+            "offset": 135.599,
+            "lang": "en"
+        },
+        {
+            "text": "hour to the right you&amp;#39;ll find the",
+            "duration": 4.481,
+            "offset": 137.879,
+            "lang": "en"
+        },
+        {
+            "text": "individual routes service score and any",
+            "duration": 3.801,
+            "offset": 140.239,
+            "lang": "en"
+        },
+        {
+            "text": "exception codes or Warnings that are",
+            "duration": 4.2,
+            "offset": 142.36,
+            "lang": "en"
+        },
+        {
+            "text": "affecting it finally we can see the",
+            "duration": 5.279,
+            "offset": 144.04,
+            "lang": "en"
+        },
+        {
+            "text": "route&amp;#39;s total volume for the day the",
+            "duration": 5.16,
+            "offset": 146.56,
+            "lang": "en"
+        },
+        {
+            "text": "delivery pickup and package categories",
+            "duration": 4.2,
+            "offset": 149.319,
+            "lang": "en"
+        },
+        {
+            "text": "will break down information similar to",
+            "duration": 3.72,
+            "offset": 151.72,
+            "lang": "en"
+        },
+        {
+            "text": "the live summary at the",
+            "duration": 4.041,
+            "offset": 153.519,
+            "lang": "en"
+        },
+        {
+            "text": "top and that&amp;#39;s everything you need to",
+            "duration": 3.879,
+            "offset": 155.44,
+            "lang": "en"
+        },
+        {
+            "text": "know in order to read and interpret the",
+            "duration": 3,
+            "offset": 157.56,
+            "lang": "en"
+        },
+        {
+            "text": "routes page",
+            "duration": 3.521,
+            "offset": 159.319,
+            "lang": "en"
+        },
+        {
+            "text": "effectively if you have any questions or",
+            "duration": 4.2,
+            "offset": 160.56,
+            "lang": "en"
+        },
+        {
+            "text": "need further clarification don&amp;#39;t",
+            "duration": 4.56,
+            "offset": 162.84,
+            "lang": "en"
+        },
+        {
+            "text": "hesitate to reach out thanks for",
+            "duration": 5.64,
+            "offset": 164.76,
+            "lang": "en"
+        },
+        {
+            "text": "watching",
+            "duration": 3,
+            "offset": 167.4,
+            "lang": "en"
+        }
+    ]
+}

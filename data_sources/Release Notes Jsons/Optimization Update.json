@@ -1,0 +1,21 @@
+{
+    "id": "how-to-optimize-a-route",
+    "title": "Optimization Update",
+    "summary": "The tutorial guides you through the process of optimizing a route by selecting the first stop.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/kTXAAiygS9aughaFVrnhpg/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2024-1-1",
+        "timestamp": 1718697600
+    },
+    "body": "Step 1: On the Routes page, click on the desired route number to open the detailed view of the route. Step 2: Identify the desired first stop and then click the \"Optimize Route\" button. Step 3: Use the “Start” dropdown menu, choose \"Custom\", and type in the address of the first stop.  The address pin will generate; click on the pin to select. Step 4: Click \"Optimize.\" Step 5: You can also select the optimization algorithm from Preferences by choosing 'Use more intuitive ordering'.\"",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_8540c38d-3264-4278-ac03-2ddceba8020c.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_293ff863-8c20-4b8c-bf4b-1f328f358f1c.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_27352865-607e-4da4-b6f8-267615c427d5.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_1a39d17e-091a-41fb-8d06-8dc2282636b3.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-03/2024-08-03_cd9d1836-60fa-4459-a151-32e72e064a5d.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_45d7e7cb-b176-4e72-b8ce-acd6d54c6239.png"
+    ]
+}

@@ -1,0 +1,402 @@
+{
+    "id": "9nyrXs6u90M",
+    "title": "Modify User Profiles in Beans Route",
+    "transcript": [
+        {
+            "text": "in this video let&amp;#39;s see how to modify",
+            "duration": 4.32,
+            "offset": 0.16,
+            "lang": "en"
+        },
+        {
+            "text": "user profiles in beans",
+            "duration": 5.12,
+            "offset": 2.48,
+            "lang": "en"
+        },
+        {
+            "text": "route in drivers and dispatchers beans",
+            "duration": 5.4,
+            "offset": 4.48,
+            "lang": "en"
+        },
+        {
+            "text": "route has several roles for",
+            "duration": 5.64,
+            "offset": 7.6,
+            "lang": "en"
+        },
+        {
+            "text": "users admin is the account",
+            "duration": 6.44,
+            "offset": 9.88,
+            "lang": "en"
+        },
+        {
+            "text": "owner managers could be general managers",
+            "duration": 5,
+            "offset": 13.24,
+            "lang": "en"
+        },
+        {
+            "text": "accountants",
+            "duration": 5.119,
+            "offset": 16.32,
+            "lang": "en"
+        },
+        {
+            "text": "etc for FedEx accounts the dispatcher is",
+            "duration": 5.119,
+            "offset": 18.24,
+            "lang": "en"
+        },
+        {
+            "text": "your",
+            "duration": 4.721,
+            "offset": 21.439,
+            "lang": "en"
+        },
+        {
+            "text": "BC for other types of accounts the",
+            "duration": 4.68,
+            "offset": 23.359,
+            "lang": "en"
+        },
+        {
+            "text": "dispatcher would be the person assigning",
+            "duration": 5.439,
+            "offset": 26.16,
+            "lang": "en"
+        },
+        {
+            "text": "daily routes to drivers admins managers",
+            "duration": 5.401,
+            "offset": 28.039,
+            "lang": "en"
+        },
+        {
+            "text": "and dispatchers have the same access",
+            "duration": 4.001,
+            "offset": 31.599,
+            "lang": "en"
+        },
+        {
+            "text": "within the bean Rod account but only",
+            "duration": 4.279,
+            "offset": 33.44,
+            "lang": "en"
+        },
+        {
+            "text": "admins are able to modify or disable a",
+            "duration": 5,
+            "offset": 35.6,
+            "lang": "en"
+        },
+        {
+            "text": "manager&amp;#39;s user",
+            "duration": 2.881,
+            "offset": 37.719,
+            "lang": "en"
+        },
+        {
+            "text": "profile the last role is",
+            "duration": 5.399,
+            "offset": 41.64,
+            "lang": "en"
+        },
+        {
+            "text": "driver there is an existing tutorial",
+            "duration": 4.081,
+            "offset": 44.399,
+            "lang": "en"
+        },
+        {
+            "text": "which walks you through the process of",
+            "duration": 4.04,
+            "offset": 47.039,
+            "lang": "en"
+        },
+        {
+            "text": "adding a driver to your bean route",
+            "duration": 5.12,
+            "offset": 48.48,
+            "lang": "en"
+        },
+        {
+            "text": "account adding a manager or dispatcher",
+            "duration": 4.521,
+            "offset": 51.079,
+            "lang": "en"
+        },
+        {
+            "text": "follows the same process as adding a",
+            "duration": 3.88,
+            "offset": 53.6,
+            "lang": "en"
+        },
+        {
+            "text": "driver and the only difference is the",
+            "duration": 6,
+            "offset": 55.6,
+            "lang": "en"
+        },
+        {
+            "text": "role you select for the user profile",
+            "duration": 6.56,
+            "offset": 57.48,
+            "lang": "en"
+        },
+        {
+            "text": "once a user profile is created you can",
+            "duration": 5.44,
+            "offset": 61.6,
+            "lang": "en"
+        },
+        {
+            "text": "modify the profile as",
+            "duration": 5.6,
+            "offset": 64.04,
+            "lang": "en"
+        },
+        {
+            "text": "necessary for example You may wish to",
+            "duration": 4.84,
+            "offset": 67.04,
+            "lang": "en"
+        },
+        {
+            "text": "promote a driver to a dispatcher or if",
+            "duration": 4.119,
+            "offset": 69.64,
+            "lang": "en"
+        },
+        {
+            "text": "an employee leaves you will want to",
+            "duration": 4.32,
+            "offset": 71.88,
+            "lang": "en"
+        },
+        {
+            "text": "disable that user",
+            "duration": 6.161,
+            "offset": 73.759,
+            "lang": "en"
+        },
+        {
+            "text": "profile to modify disable or reactivate",
+            "duration": 6.04,
+            "offset": 76.2,
+            "lang": "en"
+        },
+        {
+            "text": "a disabled user profile from the main",
+            "duration": 4.559,
+            "offset": 79.92,
+            "lang": "en"
+        },
+        {
+            "text": "dispatch",
+            "duration": 5.04,
+            "offset": 82.24,
+            "lang": "en"
+        },
+        {
+            "text": "page click assets drivers and",
+            "duration": 4.441,
+            "offset": 84.479,
+            "lang": "en"
+        },
+        {
+            "text": "dispatchers where you will see a list of",
+            "duration": 4.72,
+            "offset": 87.28,
+            "lang": "en"
+        },
+        {
+            "text": "all active users for your",
+            "duration": 6.28,
+            "offset": 88.92,
+            "lang": "en"
+        },
+        {
+            "text": "account to modify a profile click on the",
+            "duration": 6.84,
+            "offset": 92,
+            "lang": "en"
+        },
+        {
+            "text": "row of the user to highlight it in",
+            "duration": 3.64,
+            "offset": 95.2,
+            "lang": "en"
+        },
+        {
+            "text": "Gray on the modifi driver menu to The",
+            "duration": 4.919,
+            "offset": 101.84,
+            "lang": "en"
+        },
+        {
+            "text": "Right Use the dropdown menu to change",
+            "duration": 4.76,
+            "offset": 104.6,
+            "lang": "en"
+        },
+        {
+            "text": "the rooll for example making a driver a",
+            "duration": 6.121,
+            "offset": 106.759,
+            "lang": "en"
+        },
+        {
+            "text": "dispatcher and then click",
+            "duration": 3.52,
+            "offset": 109.36,
+            "lang": "en"
+        },
+        {
+            "text": "save admins can also downgrade a manag",
+            "duration": 5.8,
+            "offset": 117.2,
+            "lang": "en"
+        },
+        {
+            "text": "to a dispatcher or driver to disable a",
+            "duration": 5.119,
+            "offset": 120,
+            "lang": "en"
+        },
+        {
+            "text": "profile you will follow the same steps",
+            "duration": 4.6,
+            "offset": 123,
+            "lang": "en"
+        },
+        {
+            "text": "used to modify except on the modifi",
+            "duration": 4.84,
+            "offset": 125.119,
+            "lang": "en"
+        },
+        {
+            "text": "driver",
+            "duration": 4.719,
+            "offset": 127.6,
+            "lang": "en"
+        },
+        {
+            "text": "menu you&amp;#39;re going to change the status",
+            "duration": 4.401,
+            "offset": 129.959,
+            "lang": "en"
+        },
+        {
+            "text": "from active to",
+            "duration": 5.761,
+            "offset": 132.319,
+            "lang": "en"
+        },
+        {
+            "text": "disabled and then click",
+            "duration": 3.72,
+            "offset": 134.36,
+            "lang": "en"
+        },
+        {
+            "text": "save to reactivate a disabled user",
+            "duration": 4.96,
+            "offset": 143.76,
+            "lang": "en"
+        },
+        {
+            "text": "profile navigate to drivers and",
+            "duration": 4.471,
+            "offset": 146.599,
+            "lang": "en"
+        },
+        {
+            "text": "dispatchers",
+            "duration": 3.68,
+            "offset": 148.72,
+            "lang": "en"
+        },
+        {
+            "text": "[Music]",
+            "duration": 3.33,
+            "offset": 151.07,
+            "lang": "en"
+        },
+        {
+            "text": "above the list of drivers you will see",
+            "duration": 6.16,
+            "offset": 152.4,
+            "lang": "en"
+        },
+        {
+            "text": "two filter boxes active and sign",
+            "duration": 7.479,
+            "offset": 154.4,
+            "lang": "en"
+        },
+        {
+            "text": "in close both filters by clicking the X",
+            "duration": 4.959,
+            "offset": 158.56,
+            "lang": "en"
+        },
+        {
+            "text": "and you will then see all users for your",
+            "duration": 4.891,
+            "offset": 161.879,
+            "lang": "en"
+        },
+        {
+            "text": "account both active and",
+            "duration": 4.44,
+            "offset": 163.519,
+            "lang": "en"
+        },
+        {
+            "text": "[Music]",
+            "duration": 3.749,
+            "offset": 166.77,
+            "lang": "en"
+        },
+        {
+            "text": "disabled locate the disabled driver in",
+            "duration": 4.321,
+            "offset": 167.959,
+            "lang": "en"
+        },
+        {
+            "text": "the list and click on the row to",
+            "duration": 4.321,
+            "offset": 170.519,
+            "lang": "en"
+        },
+        {
+            "text": "highlight it in Gray use the modified",
+            "duration": 4.48,
+            "offset": 172.28,
+            "lang": "en"
+        },
+        {
+            "text": "driver menu and change the status from",
+            "duration": 6.679,
+            "offset": 174.84,
+            "lang": "en"
+        },
+        {
+            "text": "disable to active and click save",
+            "duration": 4.759,
+            "offset": 176.76,
+            "lang": "en"
+        },
+        {
+            "text": "[Music]",
+            "duration": 3.12,
+            "offset": 198.17,
+            "lang": "en"
+        }
+    ]
+}

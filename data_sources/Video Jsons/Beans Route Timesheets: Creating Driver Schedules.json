@@ -1,0 +1,594 @@
+{
+    "id": "7TBFnI0IJZE",
+    "title": "Beans Route Timesheets: Creating Driver Schedules",
+    "transcript": [
+        {
+            "text": "in this video we&amp;#39;ll explore how to",
+            "duration": 4,
+            "offset": 0.16,
+            "lang": "en"
+        },
+        {
+            "text": "effectively create and manage driver",
+            "duration": 4.96,
+            "offset": 2.399,
+            "lang": "en"
+        },
+        {
+            "text": "schedules using beans routes time sheets",
+            "duration": 5.08,
+            "offset": 4.16,
+            "lang": "en"
+        },
+        {
+            "text": "beans routes time sheets allows you to",
+            "duration": 3.721,
+            "offset": 7.359,
+            "lang": "en"
+        },
+        {
+            "text": "create schedules for your drivers up to",
+            "duration": 4.439,
+            "offset": 9.24,
+            "lang": "en"
+        },
+        {
+            "text": "6 weeks in advance you can create a",
+            "duration": 4.599,
+            "offset": 11.08,
+            "lang": "en"
+        },
+        {
+            "text": "schedule based on assigned routes or one",
+            "duration": 4.44,
+            "offset": 13.679,
+            "lang": "en"
+        },
+        {
+            "text": "based on driver",
+            "duration": 4.801,
+            "offset": 15.679,
+            "lang": "en"
+        },
+        {
+            "text": "availability if your drivers run regular",
+            "duration": 4.561,
+            "offset": 18.119,
+            "lang": "en"
+        },
+        {
+            "text": "routes with little variability create a",
+            "duration": 5.199,
+            "offset": 20.48,
+            "lang": "en"
+        },
+        {
+            "text": "schedule based on assigned",
+            "duration": 5.24,
+            "offset": 22.68,
+            "lang": "en"
+        },
+        {
+            "text": "routes if you assign routes to your",
+            "duration": 3.92,
+            "offset": 25.679,
+            "lang": "en"
+        },
+        {
+            "text": "drivers daily and the assignments tend",
+            "duration": 2.56,
+            "offset": 27.92,
+            "lang": "en"
+        },
+        {
+            "text": "to vary",
+            "duration": 2.48,
+            "offset": 29.599,
+            "lang": "en"
+        },
+        {
+            "text": "you may prefer to create a schedule",
+            "duration": 3.8,
+            "offset": 30.48,
+            "lang": "en"
+        },
+        {
+            "text": "based on driver",
+            "duration": 4.521,
+            "offset": 32.079,
+            "lang": "en"
+        },
+        {
+            "text": "availability to create a schedule based",
+            "duration": 4.08,
+            "offset": 34.28,
+            "lang": "en"
+        },
+        {
+            "text": "on assigned routes from the main",
+            "duration": 6.36,
+            "offset": 36.6,
+            "lang": "en"
+        },
+        {
+            "text": "dispatch page click assets time",
+            "duration": 4.6,
+            "offset": 38.36,
+            "lang": "en"
+        },
+        {
+            "text": "sheets the default time sheet is Route",
+            "duration": 4.401,
+            "offset": 43.039,
+            "lang": "en"
+        },
+        {
+            "text": "view which is where you will create a",
+            "duration": 3.8,
+            "offset": 45.68,
+            "lang": "en"
+        },
+        {
+            "text": "schedule based on assigned",
+            "duration": 5.04,
+            "offset": 47.44,
+            "lang": "en"
+        },
+        {
+            "text": "routes at the top of the page select the",
+            "duration": 6.16,
+            "offset": 49.48,
+            "lang": "en"
+        },
+        {
+            "text": "day of the week to start your",
+            "duration": 3.16,
+            "offset": 52.48,
+            "lang": "en"
+        },
+        {
+            "text": "[Music]",
+            "duration": 3.669,
+            "offset": 56.89,
+            "lang": "en"
+        },
+        {
+            "text": "schedule in the table the days of the",
+            "duration": 4.96,
+            "offset": 58,
+            "lang": "en"
+        },
+        {
+            "text": "week are listed across the top row and",
+            "duration": 3.801,
+            "offset": 60.559,
+            "lang": "en"
+        },
+        {
+            "text": "the route numbers are listed in the",
+            "duration": 4.6,
+            "offset": 62.96,
+            "lang": "en"
+        },
+        {
+            "text": "First Column to the left to schedule a",
+            "duration": 5.16,
+            "offset": 64.36,
+            "lang": "en"
+        },
+        {
+            "text": "driver click on the bubble for the day",
+            "duration": 3.96,
+            "offset": 67.56,
+            "lang": "en"
+        },
+        {
+            "text": "and the route you wish to assign and",
+            "duration": 6.12,
+            "offset": 69.52,
+            "lang": "en"
+        },
+        {
+            "text": "using the drop- down menu select your",
+            "duration": 4.12,
+            "offset": 71.52,
+            "lang": "en"
+        },
+        {
+            "text": "[Music]",
+            "duration": 3.1,
+            "offset": 80.44,
+            "lang": "en"
+        },
+        {
+            "text": "driver repeat this process until you",
+            "duration": 3.88,
+            "offset": 86.72,
+            "lang": "en"
+        },
+        {
+            "text": "have completed your schedule for the",
+            "duration": 3.721,
+            "offset": 89.119,
+            "lang": "en"
+        },
+        {
+            "text": "week if your schedule is static with the",
+            "duration": 4.08,
+            "offset": 90.6,
+            "lang": "en"
+        },
+        {
+            "text": "same drivers assigned to the same routes",
+            "duration": 3.88,
+            "offset": 92.84,
+            "lang": "en"
+        },
+        {
+            "text": "each week once you complete the schedule",
+            "duration": 4.24,
+            "offset": 94.68,
+            "lang": "en"
+        },
+        {
+            "text": "for one week you can copy and paste it",
+            "duration": 4.759,
+            "offset": 96.72,
+            "lang": "en"
+        },
+        {
+            "text": "into future",
+            "duration": 2.559,
+            "offset": 98.92,
+            "lang": "en"
+        },
+        {
+            "text": "weeks to copy and paste the schedule",
+            "duration": 5.681,
+            "offset": 102.159,
+            "lang": "en"
+        },
+        {
+            "text": "click on the copy icon the two boxes",
+            "duration": 4.401,
+            "offset": 105.119,
+            "lang": "en"
+        },
+        {
+            "text": "above the",
+            "duration": 6.599,
+            "offset": 107.84,
+            "lang": "en"
+        },
+        {
+            "text": "table in the confirmation message click",
+            "duration": 4.919,
+            "offset": 109.52,
+            "lang": "en"
+        },
+        {
+            "text": "now then use the arrow above the route",
+            "duration": 6.481,
+            "offset": 116.719,
+            "lang": "en"
+        },
+        {
+            "text": "column to move the calendar to the next",
+            "duration": 3.88,
+            "offset": 119.32,
+            "lang": "en"
+        },
+        {
+            "text": "week click the copy icon",
+            "duration": 7.359,
+            "offset": 125.52,
+            "lang": "en"
+        },
+        {
+            "text": "again click yes in the confirmation",
+            "duration": 4.519,
+            "offset": 128.36,
+            "lang": "en"
+        },
+        {
+            "text": "message and the same schedule you just",
+            "duration": 5.28,
+            "offset": 134.239,
+            "lang": "en"
+        },
+        {
+            "text": "created will now populate you can copy",
+            "duration": 7.52,
+            "offset": 136.64,
+            "lang": "en"
+        },
+        {
+            "text": "this schedule out for the next 6 weeks",
+            "duration": 4.641,
+            "offset": 139.519,
+            "lang": "en"
+        },
+        {
+            "text": "if you assign drivers to routes each",
+            "duration": 3.48,
+            "offset": 151.2,
+            "lang": "en"
+        },
+        {
+            "text": "morning or if you frequently move",
+            "duration": 4.119,
+            "offset": 152.84,
+            "lang": "en"
+        },
+        {
+            "text": "drivers between routes You may wish to",
+            "duration": 5.36,
+            "offset": 154.68,
+            "lang": "en"
+        },
+        {
+            "text": "create a schedule based on driver",
+            "duration": 5.401,
+            "offset": 156.959,
+            "lang": "en"
+        },
+        {
+            "text": "availability to create a schedule based",
+            "duration": 4.52,
+            "offset": 160.04,
+            "lang": "en"
+        },
+        {
+            "text": "on driver availability from the main",
+            "duration": 5.44,
+            "offset": 162.36,
+            "lang": "en"
+        },
+        {
+            "text": "dispatch page click assets time sheet",
+            "duration": 6,
+            "offset": 164.56,
+            "lang": "en"
+        },
+        {
+            "text": "and then driver",
+            "duration": 2.76,
+            "offset": 167.8,
+            "lang": "en"
+        },
+        {
+            "text": "view at the top of the page select the",
+            "duration": 4.52,
+            "offset": 171.4,
+            "lang": "en"
+        },
+        {
+            "text": "day of the week you wish to start your",
+            "duration": 4.56,
+            "offset": 174.36,
+            "lang": "en"
+        },
+        {
+            "text": "schedule",
+            "duration": 3,
+            "offset": 175.92,
+            "lang": "en"
+        },
+        {
+            "text": "in the table the days of the week are",
+            "duration": 4.08,
+            "offset": 182.84,
+            "lang": "en"
+        },
+        {
+            "text": "listed across the top row and your",
+            "duration": 4,
+            "offset": 184.72,
+            "lang": "en"
+        },
+        {
+            "text": "drivers are listed alphabetically in the",
+            "duration": 4.679,
+            "offset": 186.92,
+            "lang": "en"
+        },
+        {
+            "text": "First Column to the left the tan bubble",
+            "duration": 4.879,
+            "offset": 188.72,
+            "lang": "en"
+        },
+        {
+            "text": "under each day indicates a driver is",
+            "duration": 4.601,
+            "offset": 191.599,
+            "lang": "en"
+        },
+        {
+            "text": "available to",
+            "duration": 2.601,
+            "offset": 193.599,
+            "lang": "en"
+        },
+        {
+            "text": "work if a driver is not working on a",
+            "duration": 5.28,
+            "offset": 196.36,
+            "lang": "en"
+        },
+        {
+            "text": "certain day to remove the shift click on",
+            "duration": 4.44,
+            "offset": 198.92,
+            "lang": "en"
+        },
+        {
+            "text": "the bubble for the selected day to open",
+            "duration": 3.959,
+            "offset": 201.64,
+            "lang": "en"
+        },
+        {
+            "text": "the menu and then click the X to delete",
+            "duration": 5.4,
+            "offset": 203.36,
+            "lang": "en"
+        },
+        {
+            "text": "the shift",
+            "duration": 3.161,
+            "offset": 205.599,
+            "lang": "en"
+        },
+        {
+            "text": "click yes to confirm you wish to delete",
+            "duration": 4.079,
+            "offset": 212.36,
+            "lang": "en"
+        },
+        {
+            "text": "the",
+            "duration": 4.439,
+            "offset": 214.36,
+            "lang": "en"
+        },
+        {
+            "text": "shift the selected shift has been",
+            "duration": 4.641,
+            "offset": 216.439,
+            "lang": "en"
+        },
+        {
+            "text": "deleted for that driver the bubble for",
+            "duration": 5.481,
+            "offset": 218.799,
+            "lang": "en"
+        },
+        {
+            "text": "that shift is now grayed",
+            "duration": 6.28,
+            "offset": 221.08,
+            "lang": "en"
+        },
+        {
+            "text": "out if you accidentally deleted a shift",
+            "duration": 4.8,
+            "offset": 224.28,
+            "lang": "en"
+        },
+        {
+            "text": "you can restore it by just clicking the",
+            "duration": 4,
+            "offset": 227.36,
+            "lang": "en"
+        },
+        {
+            "text": "plus",
+            "duration": 2.28,
+            "offset": 229.08,
+            "lang": "en"
+        },
+        {
+            "text": "sign if a driver is UN leave or taking a",
+            "duration": 4.6,
+            "offset": 232.68,
+            "lang": "en"
+        },
+        {
+            "text": "scheduled day off you can click the",
+            "duration": 4.041,
+            "offset": 235.319,
+            "lang": "en"
+        },
+        {
+            "text": "calendar icon and mark the driver is",
+            "duration": 6.48,
+            "offset": 237.28,
+            "lang": "en"
+        },
+        {
+            "text": "scheduled for PTO or pay time",
+            "duration": 4.4,
+            "offset": 239.36,
+            "lang": "en"
+        },
+        {
+            "text": "off click the yes in the confirmation",
+            "duration": 4.44,
+            "offset": 244.56,
+            "lang": "en"
+        },
+        {
+            "text": "message to confirm and that date will",
+            "duration": 3.759,
+            "offset": 247.04,
+            "lang": "en"
+        },
+        {
+            "text": "now show that the driver has a scheduled",
+            "duration": 4.079,
+            "offset": 249,
+            "lang": "en"
+        },
+        {
+            "text": "day",
+            "duration": 2.28,
+            "offset": 250.799,
+            "lang": "en"
+        },
+        {
+            "text": "off unless you remove a shift or Market",
+            "duration": 5.359,
+            "offset": 256.56,
+            "lang": "en"
+        },
+        {
+            "text": "as PTO the driver&amp;#39;s work calendars will",
+            "duration": 5.24,
+            "offset": 259.239,
+            "lang": "en"
+        },
+        {
+            "text": "show them as",
+            "duration": 2.56,
+            "offset": 261.919,
+            "lang": "en"
+        },
+        {
+            "text": "available if you don&amp;#39;t run on Sundays",
+            "duration": 4.12,
+            "offset": 265.4,
+            "lang": "en"
+        },
+        {
+            "text": "you will want to delete the Sunday shift",
+            "duration": 3.401,
+            "offset": 267.919,
+            "lang": "en"
+        },
+        {
+            "text": "for for all",
+            "duration": 4,
+            "offset": 269.52,
+            "lang": "en"
+        },
+        {
+            "text": "drivers please note the schedule for",
+            "duration": 4.2,
+            "offset": 271.32,
+            "lang": "en"
+        },
+        {
+            "text": "driver availability is not able to be",
+            "duration": 5.92,
+            "offset": 273.52,
+            "lang": "en"
+        },
+        {
+            "text": "copied into future weeks",
+            "duration": 3.92,
+            "offset": 275.52,
+            "lang": "en"
+        }
+    ]
+}

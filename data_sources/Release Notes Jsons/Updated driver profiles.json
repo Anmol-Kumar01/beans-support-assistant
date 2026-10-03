@@ -1,0 +1,18 @@
+{
+    "id": "updated-driver-profile",
+    "title": "Updated driver profiles",
+    "summary": "We are excited to announce significant enhancements to the Driver Profile feature, designed to provide comprehensive insights into driver details, performance metrics, and safety records. These improvements aim to optimize fleet management and enhance overall operational efficiency.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/mojSI313ImBHXffVNzKwdw/embed?mode=interactive",
+        "display_option_tags": "",
+        "account_buids": "",
+        "date_str": "2024-04-11",
+        "timestamp": 1718697600
+    },
+    "body": "Step 1: Click on 'Assets > Drivers and Dispatchers' to navigate to drivers.  Step 2: To add details such as Driver's License expiry, notes, and other qualifications click on 'Modify Driver'  Step 3: To see driver performance and safety status, click on the corresponding sections in the .",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_fd156619-9d1d-4b92-976a-0b80ad06b324.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_c8af0149-67b8-49ee-a556-dd9a9431f769.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-06/2024-08-06_4e6ba5d7-af9d-41a3-9e26-0147e18c229c.png"
+    ]
+}

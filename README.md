@@ -53,17 +53,11 @@ Run every command from the project folder unless a step says otherwise. Altogeth
 ### 1. Get the code
 
 ```bash
-git clone <this-repo-url> beans-in-out-bot
-cd beans-in-out-bot
+git clone https://github.com/Anmol-Kumar01/beans-support-assistant.git
+cd beans-support-assistant
 ```
 
-*Optional:* the training-video transcripts and the eval tools read the old bot's repo. To include them, clone it **next to** this folder:
-
-```bash
-git clone https://github.com/beansai/beans-support-bot.git ../beans-support-bot
-```
-
-Without it everything else works, but the assistant won't search the training videos. If you keep it somewhere else, set `BOT_VIDEO_SOURCES_DIR` in `.env`.
+All content, including the training-video transcripts (`data_sources/Video Jsons`), is in `data_sources/`.
 
 ### 2. Install the Python backend
 
@@ -260,7 +254,7 @@ For `--target new`, start the server first and set `EVAL_NEW_BOT_BASE_URL=http:/
 | Startup check: `model … not found (HTTP 404)` | The provider retired that model. Pick one of the close matches shown and update `.env`. |
 | `UI not built` at http://localhost:8001 | Run `npm run build` in `frontend/`. |
 | `npm run build` fails | Node is too old: `nvm use 22`. |
-| Answers don't mention training videos | `../beans-support-bot` isn't cloned (step 1), so no transcripts were loaded. |
+| Answers don't mention training videos | `BOT_VIDEO_SOURCES_DIR` in `.env` points somewhere other than `data_sources/Video Jsons`. Fix it and rerun `python -m app.ingest`. |
 
 ## Current limitations
 

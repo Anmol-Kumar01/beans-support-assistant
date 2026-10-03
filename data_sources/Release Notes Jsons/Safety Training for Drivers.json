@@ -1,0 +1,23 @@
+{
+    "id": "turn-on-safety-for-drivers",
+    "title": "Safety Training for Drivers",
+    "summary": "The tutorial guides you through the process of enrolling drivers in safety training within the Dispatch Console.",
+    "metadata": {
+        "tutorial_url": "https://beans-ai.portal.trainn.co/share/ib6DEx4beohOB0EJxS7JAg/embed?mode=interactive",
+        "display_option_tags": "fedex",
+        "account_buids": "",
+        "date_str": "2023-12-1",
+        "timestamp": 1718697600
+    },
+    "body": "Step 1: In the Dispatch Console: Settings > Preferences. Step 2: Choose \"Safety.\"  Click \"Turn on safety training.\" Step 3: Click Assets > Drivers and Dispatchers. Step 4: Click the circle with the checkmark icon to highlight the entire list of drivers; if an employee does not need the safety training, click on the row of that employee to unhighlight the individual (e.g., a manager who doesn’t deliver). Step 5: Click \"Modify Driver.\" Step 6: Check the box \"Enroll in Safety Training.\"  Click \"Save.\" Step 7: Drivers will be enrolled in safety and you will see a notification under each driver which says \"Safety Training is turned on.\"",
+    "images": [
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_93d0af82-0727-4a26-8c6d-08ceecb5ba45.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-02/2024-08-02_8d4e65e0-672d-428e-816d-fcacb05864db.jpeg",
+        "https://storage.googleapis.com/beans-images/production/original/2024-08-02/2024-08-02_58695d06-f4f3-4aa0-9515-dae46e26faa0.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_66c2da89-4650-4c7a-b91e-653f5da5c050.png",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_d8c4b2fb-d1c3-4d58-a238-a562fd5c0a63.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_123a6f2e-bfec-4d9f-a98b-b04d5da79afc.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_b78737c2-3780-45aa-b092-2d28a8138ce9.jpeg",
+        "https://storage.googleapis.com/beans-images/production/large/2024-08-02/2024-08-02_b5e3ba99-ac90-492d-9760-f86ed139988a.jpeg"
+    ]
+}
